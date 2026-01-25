@@ -1,0 +1,102 @@
+---
+{"dg-publish":true,"permalink":"/stats/eigenvalues-and-eigenvectors/","tags":["Math","Linear-Algebra","Dimensionality-Reduction"]}
+---
+
+
+# Eigenvalues & Eigenvectors
+
+## Definition
+
+> [!abstract] Core Statement
+> For a square matrix $A$, an **Eigenvector** ($v$) is a non-zero vector that, when multiplied by $A$, does not change direction, only magnitude. The **Eigenvalue** ($\lambda$) is the scalar factor by which it stretches or shrinks.
+> 
+> $$ Av = \lambda v $$
+
+---
+
+## Purpose
+
+1.  **Principal Component Analysis (PCA):** The eigenvectors of the covariance matrix are the "Principal Components" (directions of max variance). The eigenvalues represent the *amount* of variance explained.
+2.  **Google PageRank:** The dominant eigenvector of the web graph matrix determines page importance.
+3.  **Stability Analysis:** Determining if a system (physics, economics) will explode or settle down.
+
+---
+
+## Intuition
+
+Imagine a transformation matrix $A$ acts like stretching a piece of fabric.
+-   Most vectors (threads) get rotated and stretched.
+-   **Eigenvectors** are the specific threads that **stay pointing in the same line**.
+-   **Eigenvalues** tell you how much that specific thread was stretched (2x? 0.5x? -1x?).
+
+---
+
+## Worked Example: PCA Context
+
+> [!example] Variance of Data
+> You have a dataset with Covariance Matrix $\Sigma$:
+> $$ \Sigma = \begin{bmatrix} 4 & 2 \\ 2 & 3 \end{bmatrix} $$
+> 
+> You calculate eigenvalues and eigenvectors.
+> 
+> **Result:**
+> 1.  $\lambda_1 = 5.56$, $v_1 = [0.79, 0.61]$
+> 2.  $\lambda_2 = 1.44$, $v_2 = [-0.61, 0.79]$
+> 
+> **Interpretation:**
+> -   **Direction:** The data varies most along the direction $[0.79, 0.61]$. This is **PC1**.
+> -   **Magnitude:** The variance along this axis is 5.56.
+> -   **Proportion Explained:** $\frac{5.56}{5.56 + 1.44} = \frac{5.56}{7} \approx 79.4\%$.
+> -   PC1 captures 79.4% of the information.
+
+---
+
+## Assumptions
+
+- [ ] **Square Matrix:** Eigenvalues exist for $n \times n$ matrices.
+- [ ] **Decomposition:** Not all matrices are diagonalizable (defective matrices), though symmetric matrices (like Covariance) always are.
+
+---
+
+## Properties
+
+| Property | Description |
+|----------|-------------|
+| **Trace** | Sum of eigenvalues = Sum of diagonal elements (Trace of A). |
+| **Determinant** | Product of eigenvalues = Determinant of A. |
+| **Symmetric Matrix** | Eigenvalues are Real numbers; Eigenvectors are Orthogonal (perpendicular). |
+| **Covariance Matrix** | Always Symmetric Positive Semi-Definite ($\lambda \ge 0$). |
+
+---
+
+## Python Implementation
+
+```python
+import numpy as np
+
+# 2x2 Covariance Matrix
+A = np.array([[4, 2], 
+              [2, 3]])
+
+# Calculate Eig
+eigenvalues, eigenvectors = np.linalg.eig(A)
+
+print("Eigenvalues:", eigenvalues)
+print("Eigenvectors:\n", eigenvectors)
+
+# Check Av = lambda v
+v1 = eigenvectors[:, 0]
+lam1 = eigenvalues[0]
+
+print("Av:", A @ v1)
+print("lambda*v:", lam1 * v1)
+```
+
+---
+
+## Related Concepts
+
+- [[stats/Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] - Main application in stats.
+- [[stats/Matrix Multiplication\|Matrix Multiplication]] - The operation $Av$.
+- [[Covariance Matrix\|Covariance Matrix]] - The input matrix often used.
+- [[Singular Value Decomposition (SVD)\|Singular Value Decomposition (SVD)]] - Generalization for non-square matrices (used in calculating PCA in practice).

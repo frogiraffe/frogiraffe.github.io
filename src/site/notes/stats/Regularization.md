@@ -1,0 +1,65 @@
+---
+{"dg-publish":true,"permalink":"/stats/regularization/","tags":["Statistics","Machine-Learning","Model-Validation","Overfitting"]}
+---
+
+
+# Regularization
+
+## Definition
+
+> [!abstract] Core Statement
+> **Regularization** is a technique used to **prevent overfitting** by adding a **penalty term** to the model's loss function. This penalty discourages complex models (large coefficients), biasedly "shrinking" estimates towards zero to reduce Variance.
+
+$$ \text{Loss} = \text{Data Fit Error} + \lambda \times \text{Complexity Penalty} $$
+
+---
+
+## Purpose
+
+1.  **Bias-Variance Trade-off:** Intentionally introduce a small amount of **Bias** to achieve a large reduction in **Variance**.
+2.  **Generalization:** Helps the model perform better on unseen data.
+3.  **Ill-Posed Problems:** Solves problems where there are more features than observations ($p > n$).
+
+---
+
+## Key Methods
+
+| Method | Penalty | Effect | Usage |
+|--------|---------|--------|-------|
+| **[[stats/Ridge Regression\|Ridge Regression]]** | L2 ($\sum \beta^2$) | Shrinks all coeffs; none to zero. | Multicollinearity, Dense data. |
+| **[[stats/Lasso Regression\|Lasso Regression]]** | L1 ($\sum |\beta|$) | Shrinks some to **exactly zero**. | Feature Selection, Sparse data. |
+| **[[Elastic Net\|Elastic Net]]** | L1 + L2 | Best of both worlds. | Correlated features, Feature selection. |
+
+---
+
+## Conceptual Example: Polynomial Fitting
+
+> [!example] Fitting a Line to Noisy Data
+> Data: 10 points that roughly follow a line, but with noise.
+> 
+> 1.  **Linear Model:** Underfits slightly.
+> 2.  **10th Degree Polynomial:** Hits every single point perfectly. $R^2 = 1.0$.
+>     -   *Problem:* The curve goes wild between points. Huge variance.
+>     -   Coefficients: $\beta_{10} = 5,000,000$.
+> 
+> 3.  **Regularized Polynomial:** Fits the curve, but penalty prevents $\beta = 5,000,000$.
+>     -   Coefficients kept small. Curve is smooth.
+>     -   Result: Good fit ($R^2=0.9$) and stable predictions.
+
+---
+
+## When to Use
+
+> [!success] Always Consider Regularization When...
+> - Model is **Overfitting** (Train score >> Test score).
+> - Sample size is small relative to number of features.
+> - Collinearity is high.
+> - You want a robust deployment model.
+
+---
+
+## Related Concepts
+
+- [[stats/Bias-Variance Trade-off\|Bias-Variance Trade-off]]
+- [[Overfitting\|Overfitting]]
+- [[stats/Cross-Validation\|Cross-Validation]] - Essential for choosing $\lambda$ (strength of penalty).
