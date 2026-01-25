@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/02-hypothesis-testing/tukey-s-hsd/","tags":["Hypothesis-Testing","Post-Hoc","ANOVA","Multiple-Comparisons"]}
 ---
 
-
-# Tukey's HSD (Honestly Significant Difference)
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -161,4 +158,4 @@ plot(tukey_result)
 - [[stats/02_Hypothesis_Testing/One-Way ANOVA\|One-Way ANOVA]]
 - [[stats/02_Hypothesis_Testing/Bonferroni Correction\|Bonferroni Correction]] - More conservative alternative.
 - [[stats/02_Hypothesis_Testing/Kruskal-Wallis Test\|Kruskal-Wallis Test]] - Non-parametric ANOVA.
-- [[Multiple Comparisons Problem\|Multiple Comparisons Problem]]
+- [[stats/01_Foundations/Multiple Comparisons Problem\|Multiple Comparisons Problem]]

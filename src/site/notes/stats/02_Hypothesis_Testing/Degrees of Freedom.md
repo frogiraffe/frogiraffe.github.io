@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/02-hypothesis-testing/degrees-of-freedom/","tags":["Foundations","Inference","Model-Complexity"]}
 ---
 
-
-# Degrees of Freedom
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -129,5 +126,5 @@ cat("Total df:", n - 1, "\n")
 - [[stats/01_Foundations/T-Distribution\|T-Distribution]] - Shape determined by df.
 - [[stats/01_Foundations/Chi-Square Distribution\|Chi-Square Distribution]]
 - [[stats/01_Foundations/F-Distribution\|F-Distribution]]
-- [[Sample Variance\|Sample Variance]] - Uses $n-1$ due to df.
-- [[Overfitting\|Overfitting]] - Using too many parameters relative to df.
+- [[stats/01_Foundations/Sample Variance\|Sample Variance]] - Uses $n-1$ due to df.
+- [[stats/04_Machine_Learning/Overfitting\|Overfitting]] - Using too many parameters relative to df.

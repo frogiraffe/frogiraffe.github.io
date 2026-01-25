@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/01-foundations/beta-distribution/","tags":["Probability-Theory","Distributions","Continuous","Bayesian"]}
 ---
 
-
-# Beta Distribution
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -95,5 +92,5 @@ plt.show()
 
 - [[stats/01_Foundations/Bernoulli Distribution\|Bernoulli Distribution]] - Beta is derived from it.
 - [[stats/01_Foundations/Bayesian Statistics\|Bayesian Statistics]] - Heavy user of Beta.
-- [[Conjugate Prior\|Conjugate Prior]] - Mathematical property making Beta useful.
-- [[Dirichlet Distribution\|Dirichlet Distribution]] - Multivariate generalization (Beta for >2 categories).
+- [[stats/01_Foundations/Conjugate Prior\|Conjugate Prior]] - Mathematical property making Beta useful.
+- [[stats/01_Foundations/Dirichlet Distribution\|Dirichlet Distribution]] - Multivariate generalization (Beta for >2 categories).

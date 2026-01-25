@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/02-hypothesis-testing/chi-square-test-of-independence/","tags":["Hypothesis-Testing","Categorical-Data","Non-Parametric"]}
 ---
 
-
-# Chi-Square Test of Independence
-
 ## Definition
 
 > [!abstract] Core Statement

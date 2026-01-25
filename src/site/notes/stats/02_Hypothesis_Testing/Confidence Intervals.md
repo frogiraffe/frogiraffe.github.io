@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/02-hypothesis-testing/confidence-intervals/","tags":["Foundations","Inference","Estimation"]}
 ---
 
-
-# Confidence Intervals
-
 ## Definition
 
 > [!abstract] Core Statement

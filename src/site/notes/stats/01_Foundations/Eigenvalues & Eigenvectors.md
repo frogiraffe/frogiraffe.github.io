@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/01-foundations/eigenvalues-and-eigenvectors/","tags":["Math","Linear-Algebra","Dimensionality-Reduction"]}
 ---
 
-
-# Eigenvalues & Eigenvectors
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -98,5 +95,5 @@ print("lambda*v:", lam1 * v1)
 
 - [[stats/04_Machine_Learning/Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] - Main application in stats.
 - [[stats/01_Foundations/Matrix Multiplication\|Matrix Multiplication]] - The operation $Av$.
-- [[Covariance Matrix\|Covariance Matrix]] - The input matrix often used.
-- [[Singular Value Decomposition (SVD)\|Singular Value Decomposition (SVD)]] - Generalization for non-square matrices (used in calculating PCA in practice).
+- [[stats/01_Foundations/Covariance Matrix\|Covariance Matrix]] - The input matrix often used.
+- [[stats/01_Foundations/Singular Value Decomposition (SVD)\|Singular Value Decomposition (SVD)]] - Generalization for non-square matrices (used in calculating PCA in practice).

@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/02-hypothesis-testing/mixed-anova-between-within/","tags":["Hypothesis-Testing","ANOVA","Mixed-Design","Within-Between"]}
 ---
 
-
-# Mixed ANOVA (Between-Within)
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -68,7 +65,7 @@ $$
 
 - [ ] **Between-subjects assumptions:** Independence, normality, homogeneity of variance.
 - [ ] **Within-subjects assumptions:** Sphericity for repeated measures (test with Mauchly's).
-- [ ] **Complete data** (or use [[Linear Mixed Models (LMM)\|Linear Mixed Models (LMM)]] for missing data).
+- [ ] **Complete data** (or use [[stats/03_Regression_Analysis/Linear Mixed Models (LMM)\|Linear Mixed Models (LMM)]] for missing data).
 
 ---
 
@@ -155,5 +152,5 @@ print(result)
 
 - [[stats/02_Hypothesis_Testing/Two-Way ANOVA\|Two-Way ANOVA]] - Both factors between-subjects.
 - [[stats/02_Hypothesis_Testing/Repeated Measures ANOVA\|Repeated Measures ANOVA]] - Within-subjects only.
-- [[Linear Mixed Models (LMM)\|Linear Mixed Models (LMM)]] - More flexible alternative.
-- [[Interaction Effects\|Interaction Effects]]
+- [[stats/03_Regression_Analysis/Linear Mixed Models (LMM)\|Linear Mixed Models (LMM)]] - More flexible alternative.
+- [[stats/03_Regression_Analysis/Interaction Effects\|Interaction Effects]]

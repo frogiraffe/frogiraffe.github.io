@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/03-regression-analysis/regularization/","tags":["Machine-Learning","Model-Validation","Overfitting"]}
 ---
 
-
-# Regularization
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -28,7 +25,7 @@ $$ \text{Loss} = \text{Data Fit Error} + \lambda \times \text{Complexity Penalty
 |--------|---------|--------|-------|
 | **[[stats/03_Regression_Analysis/Ridge Regression\|Ridge Regression]]** | L2 ($\sum \beta^2$) | Shrinks all coeffs; none to zero. | Multicollinearity, Dense data. |
 | **[[stats/03_Regression_Analysis/Lasso Regression\|Lasso Regression]]** | L1 ($\sum |\beta|$) | Shrinks some to **exactly zero**. | Feature Selection, Sparse data. |
-| **[[Elastic Net\|Elastic Net]]** | L1 + L2 | Best of both worlds. | Correlated features, Feature selection. |
+| **[[stats/01_Foundations/Elastic Net\|Elastic Net]]** | L1 + L2 | Best of both worlds. | Correlated features, Feature selection. |
 
 ---
 
@@ -61,5 +58,5 @@ $$ \text{Loss} = \text{Data Fit Error} + \lambda \times \text{Complexity Penalty
 ## Related Concepts
 
 - [[stats/01_Foundations/Bias-Variance Trade-off\|Bias-Variance Trade-off]]
-- [[Overfitting\|Overfitting]]
+- [[stats/04_Machine_Learning/Overfitting\|Overfitting]]
 - [[stats/04_Machine_Learning/Cross-Validation\|Cross-Validation]] - Essential for choosing $\lambda$ (strength of penalty).

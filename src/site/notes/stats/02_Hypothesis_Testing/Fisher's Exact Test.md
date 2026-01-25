@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/02-hypothesis-testing/fisher-s-exact-test/","tags":["Hypothesis-Testing","Categorical-Data","Non-Parametric"]}
 ---
 
-
-# Fisher's Exact Test
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -152,5 +149,5 @@ print(result)
 ## Related Concepts
 
 - [[stats/02_Hypothesis_Testing/Chi-Square Test of Independence\|Chi-Square Test of Independence]] - For larger samples.
-- [[Odds Ratio\|Odds Ratio]] - Measure of effect.
+- [[stats/01_Foundations/Odds Ratio\|Odds Ratio]] - Measure of effect.
 - [[stats/02_Hypothesis_Testing/Effect Size Measures\|Effect Size Measures]]

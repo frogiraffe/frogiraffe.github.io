@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/01-foundations/normal-distribution/","tags":["Probability-Theory","Distributions","Foundations"]}
 ---
 
-
-# Normal Distribution
-
 ## Definition
 
 > [!abstract] Core Statement

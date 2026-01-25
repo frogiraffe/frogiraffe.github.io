@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/02-hypothesis-testing/welch-s-t-test/","tags":["Hypothesis-Testing","Parametric-Tests","Mean-Comparison"]}
 ---
 
-
-# Welch's T-Test
-
 ## Definition
 
 > [!abstract] Core Statement

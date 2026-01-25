@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/02-hypothesis-testing/two-way-anova/","tags":["Hypothesis-Testing","ANOVA","Factorial-Design","Parametric-Tests"]}
 ---
 
-
-# Two-Way ANOVA
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -166,5 +163,5 @@ TukeyHSD(model)
 
 - [[stats/02_Hypothesis_Testing/One-Way ANOVA\|One-Way ANOVA]] - Single factor.
 - [[stats/02_Hypothesis_Testing/Mixed ANOVA (Between-Within)\|Mixed ANOVA (Between-Within)]] - Combines between and within factors.
-- [[Interaction Effects\|Interaction Effects]] - The key addition in Two-Way ANOVA.
+- [[stats/03_Regression_Analysis/Interaction Effects\|Interaction Effects]] - The key addition in Two-Way ANOVA.
 - [[stats/02_Hypothesis_Testing/Tukey's HSD\|Tukey's HSD]] - Post-hoc comparisons.

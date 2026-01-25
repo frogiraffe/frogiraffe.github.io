@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/03-regression-analysis/breusch-pagan-test/","tags":["Diagnostics","Regression","Heteroscedasticity"]}
 ---
 
-
-# Breusch-Pagan Test
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -117,4 +114,4 @@ coeftest(model, vcov = vcovHC(model, type = "HC3"))
 
 - [[stats/03_Regression_Analysis/White Test\|White Test]] - More general heteroscedasticity test.
 - [[stats/03_Regression_Analysis/Weighted Least Squares (WLS)\|Weighted Least Squares (WLS)]] - Correction method.
-- [[Robust Standard Errors\|Robust Standard Errors]] - Alternative correction.
+- [[stats/01_Foundations/Robust Standard Errors\|Robust Standard Errors]] - Alternative correction.

@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/04-machine-learning/naive-bayes/","tags":["Machine-Learning","Supervised-Learning","Classification","Bayesian"]}
 ---
 
-
-# Naive Bayes
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -101,5 +98,5 @@ print(f"Prediction: {clf.predict(test_vec)[0]}")
 
 - [[stats/01_Foundations/Bayes' Theorem\|Bayes' Theorem]] - The math.
 - [[stats/03_Regression_Analysis/Logistic Regression\|Logistic Regression]] - Discriminative counterpart (often better if enough data).
-- [[Bag of Words\|Bag of Words]] - The text representation used.
-- [[Smoothing\|Smoothing]] - Handling zeros.
+- [[stats/01_Foundations/Bag of Words\|Bag of Words]] - The text representation used.
+- [[stats/05_Time_Series/Smoothing\|Smoothing]] - Handling zeros.

@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/03-regression-analysis/regression-discontinuity-design-rdd/","tags":["Causal-Inference","Econometrics"]}
 ---
 
-
-# Regression Discontinuity Design (RDD)
-
 ## Overview
 
 > [!abstract] Definition
@@ -70,5 +67,5 @@ rdplot(y = df$outcome, x = df$score, c = 3.5,
 ## 5. Related Concepts
 
 - [[stats/06_Causal_Inference/Instrumental Variables (IV)\|Instrumental Variables (IV)]] - Used for Fuzzy RDD.
-- [[Causal Inference\|Causal Inference]]
-- [[Local Linear Regression\|Local Linear Regression]]
+- [[stats/06_Causal_Inference/Causal Inference\|Causal Inference]]
+- [[stats/03_Regression_Analysis/Local Linear Regression\|Local Linear Regression]]

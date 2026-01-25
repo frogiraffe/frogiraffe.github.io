@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/03-regression-analysis/multiple-linear-regression/","tags":["Regression","Linear-Models","OLS","Multiple-Predictors"]}
 ---
 
-
-# Multiple Linear Regression
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -197,4 +194,4 @@ anova(model_reduced, model)
 - [[stats/03_Regression_Analysis/VIF (Variance Inflation Factor)\|VIF (Variance Inflation Factor)]] - Multicollinearity diagnostic.
 - [[stats/03_Regression_Analysis/Ridge Regression\|Ridge Regression]] - Regularization to handle multicollinearity.
 - [[stats/03_Regression_Analysis/Lasso Regression\|Lasso Regression]] - Feature selection via L1 penalty.
-- [[Adjusted R-squared\|Adjusted R-squared]]
+- [[stats/01_Foundations/Adjusted R-squared\|Adjusted R-squared]]

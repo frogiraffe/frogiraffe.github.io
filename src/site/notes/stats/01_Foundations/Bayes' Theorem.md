@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/01-foundations/bayes-theorem/","tags":["Probability-Theory","Bayesian","Foundations"]}
 ---
 
-
-# Bayes' Theorem
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -166,6 +163,6 @@ cat("P(Disease | Positive Test):", round(P_disease_given_pos, 3), "\n")
 ## Related Concepts
 
 - [[stats/01_Foundations/Bayesian Statistics\|Bayesian Statistics]] - Statistical framework built on Bayes' Theorem.
-- [[Conditional Probability\|Conditional Probability]]
-- [[Law of Total Probability\|Law of Total Probability]]
-- [[Sensitivity and Specificity\|Sensitivity and Specificity]]
+- [[stats/01_Foundations/Conditional Probability\|Conditional Probability]]
+- [[stats/01_Foundations/Law of Total Probability\|Law of Total Probability]]
+- [[stats/06_Causal_Inference/Sensitivity and Specificity\|Sensitivity and Specificity]]

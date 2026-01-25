@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/03-regression-analysis/zero-inflated-models/","tags":["Regression","GLM","Count-Data","Zero-Inflation"]}
 ---
 
-
-# Zero-Inflated Models
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -131,4 +128,4 @@ vuong(model_zip, model_zinb)
 
 - [[stats/03_Regression_Analysis/Poisson Regression\|Poisson Regression]]
 - [[stats/03_Regression_Analysis/Negative Binomial Regression\|Negative Binomial Regression]]
-- [[Hurdle Models\|Hurdle Models]] - Alternative for excess zeros.
+- [[stats/01_Foundations/Hurdle Models\|Hurdle Models]] - Alternative for excess zeros.

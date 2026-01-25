@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/01-foundations/t-distribution/","tags":["Probability-Theory","Distributions","Foundations"]}
 ---
 
-
-# T-Distribution
-
 ## Definition
 
 > [!abstract] Core Statement

@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/02-hypothesis-testing/levene-s-test/","tags":["Diagnostics","Assumptions"]}
 ---
 
-
-# Levene's Test
-
 ## Overview
 
 > [!abstract] Definition

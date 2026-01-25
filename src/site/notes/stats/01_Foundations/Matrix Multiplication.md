@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/01-foundations/matrix-multiplication/","tags":["Math","Linear-Algebra","Foundations"]}
 ---
 
-
-# Matrix Multiplication
-
 ## Definition
 
 > [!abstract] Core Statement

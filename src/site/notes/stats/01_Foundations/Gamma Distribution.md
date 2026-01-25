@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/01-foundations/gamma-distribution/","tags":["Probability-Theory","Distributions","Continuous","Reliability"]}
 ---
 
-
-# Gamma Distribution
-
 ## Definition
 
 > [!abstract] Core Statement

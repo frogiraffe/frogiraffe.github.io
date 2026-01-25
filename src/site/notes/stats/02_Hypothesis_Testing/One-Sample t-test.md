@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/02-hypothesis-testing/one-sample-t-test/","tags":["Hypothesis-Testing","Parametric-Tests","T-Test"]}
 ---
 
-
-# One-Sample t-test
-
 ## Definition
 
 > [!abstract] Core Statement

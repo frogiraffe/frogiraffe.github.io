@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/02-hypothesis-testing/student-s-t-test/","tags":["Hypothesis-Testing","Parametric-Tests","Mean-Comparison"]}
 ---
 
-
-# Student's T-Test
-
 ## Definition
 
 > [!abstract] Core Statement

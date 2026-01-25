@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/03-regression-analysis/cook-s-distance/","tags":["Diagnostics","Regression","Outliers","Influential-Points"]}
 ---
 
-
-# Cook's Distance
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -152,7 +149,7 @@ which(cooks > 4/nrow(houses))
 
 ## Related Concepts
 
-- [[Residual Analysis\|Residual Analysis]]
+- [[stats/03_Regression_Analysis/Residual Analysis\|Residual Analysis]]
 - [[stats/03_Regression_Analysis/Leverage (Hat Matrix)\|Leverage (Hat Matrix)]] - Potential for influence.
-- [[Robust Regression\|Robust Regression]] - Alternative that downweights outliers (e.g., RANSAC, Huber).
+- [[stats/03_Regression_Analysis/Robust Regression\|Robust Regression]] - Alternative that downweights outliers (e.g., RANSAC, Huber).
 - [[stats/03_Regression_Analysis/VIF (Variance Inflation Factor)\|VIF (Variance Inflation Factor)]]

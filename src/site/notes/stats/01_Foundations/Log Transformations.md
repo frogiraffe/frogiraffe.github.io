@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/01-foundations/log-transformations/","tags":["Data-Preprocessing","Transformations"]}
 ---
 
-
-# Log Transformations
-
 ## Overview
 
 > [!abstract] Definition

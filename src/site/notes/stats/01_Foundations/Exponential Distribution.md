@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/01-foundations/exponential-distribution/","tags":["Probability-Theory","Distributions","Continuous","Survival-Analysis"]}
 ---
 
-
-# Exponential Distribution
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -198,6 +195,6 @@ rexp(10, rate = lambda_param)
 ## Related Concepts
 
 - [[stats/01_Foundations/Poisson Distribution\|Poisson Distribution]] - Number of events in fixed time.
-- [[Geometric Distribution\|Geometric Distribution]] - Discrete memoryless distribution.
-- [[Weibull Distribution\|Weibull Distribution]] - Generalizes exponential; allows aging.
-- [[Survival Analysis\|Survival Analysis]]
+- [[stats/01_Foundations/Geometric Distribution\|Geometric Distribution]] - Discrete memoryless distribution.
+- [[stats/01_Foundations/Weibull Distribution\|Weibull Distribution]] - Generalizes exponential; allows aging.
+- [[stats/06_Causal_Inference/Survival Analysis\|Survival Analysis]]

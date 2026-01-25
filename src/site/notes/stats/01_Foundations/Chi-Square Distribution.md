@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/01-foundations/chi-square-distribution/","tags":["Probability-Theory","Distributions","Hypothesis-Testing"]}
 ---
 
-
-# Chi-Square Distribution
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -188,4 +185,4 @@ legend("topright", legend = c("df=1", "df=3", "df=5", "df=10"),
 - [[stats/01_Foundations/Normal Distribution\|Normal Distribution]] - $\chi^2$ is the sum of squared normals.
 - [[stats/01_Foundations/F-Distribution\|F-Distribution]] - Ratio of two chi-squares.
 - [[stats/02_Hypothesis_Testing/Degrees of Freedom\|Degrees of Freedom]]
-- [[Goodness-of-Fit Test\|Goodness-of-Fit Test]]
+- [[stats/02_Hypothesis_Testing/Goodness-of-Fit Test\|Goodness-of-Fit Test]]

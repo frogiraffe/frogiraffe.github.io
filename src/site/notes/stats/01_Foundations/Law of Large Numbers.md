@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/01-foundations/law-of-large-numbers/","tags":["Probability-Theory","Foundations","Convergence"]}
 ---
 
-
-# Law of Large Numbers
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -129,6 +126,6 @@ legend("topright", legend = "True Mean = 3.5", col = "red", lty = 2)
 ## Related Concepts
 
 - [[stats/01_Foundations/Central Limit Theorem (CLT)\|Central Limit Theorem (CLT)]] - Distribution shape.
-- [[Monte Carlo Simulation\|Monte Carlo Simulation]]
-- [[Sample Size Calculation\|Sample Size Calculation]]
-- [[Convergence\|Convergence]]
+- [[stats/01_Foundations/Monte Carlo Simulation\|Monte Carlo Simulation]]
+- [[stats/02_Hypothesis_Testing/Sample Size Calculation\|Sample Size Calculation]]
+- [[stats/01_Foundations/Convergence\|Convergence]]

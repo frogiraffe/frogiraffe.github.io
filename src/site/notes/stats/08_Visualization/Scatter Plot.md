@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/08-visualization/scatter-plot/","tags":["Visualization","EDA","Bivariate"]}
 ---
 
-
-# Scatter Plot
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -100,5 +97,5 @@ plt.show()
 
 - [[stats/02_Hypothesis_Testing/Pearson Correlation\|Pearson Correlation]] - The number summarizing the plot.
 - [[stats/03_Regression_Analysis/Simple Linear Regression\|Simple Linear Regression]] - Fitting a line to the plot.
-- [[Heteroscedasticity\|Heteroscedasticity]] - Fan shape pattern.
-- [[Residual Plot\|Residual Plot]] - Scatter plot of Errors vs X.
+- [[stats/03_Regression_Analysis/Heteroscedasticity\|Heteroscedasticity]] - Fan shape pattern.
+- [[stats/03_Regression_Analysis/Residual Plot\|Residual Plot]] - Scatter plot of Errors vs X.

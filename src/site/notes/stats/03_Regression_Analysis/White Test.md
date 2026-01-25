@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/03-regression-analysis/white-test/","tags":["Diagnostics","Regression","Heteroscedasticity"]}
 ---
 
-
-# White Test
-
 ## Overview
 
 > [!abstract] Definition

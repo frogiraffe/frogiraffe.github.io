@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/08-visualization/boxplot/","tags":["Visualization","EDA","Outliers"]}
 ---
 
-
-# Boxplot
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -114,6 +111,6 @@ outliers = df[(df['Salary'] < Q1 - 1.5 * IQR) | (df['Salary'] > Q3 + 1.5 * IQR)]
 ## Related Concepts
 
 - [[stats/01_Foundations/Normal Distribution\|Normal Distribution]] - Reference shape.
-- [[Violin Plot\|Violin Plot]] - Boxplot + Density (Best of both worlds).
+- [[stats/08_Visualization/Violin Plot\|Violin Plot]] - Boxplot + Density (Best of both worlds).
 - [[stats/08_Visualization/Histogram\|Histogram]] - Binned view of distribution.
 - [[stats/03_Regression_Analysis/Outlier Analysis (Standardized Residuals)\|Outlier Analysis (Standardized Residuals)]]

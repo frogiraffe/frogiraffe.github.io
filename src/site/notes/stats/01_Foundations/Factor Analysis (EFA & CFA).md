@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/01-foundations/factor-analysis-efa-and-cfa/","tags":["Multivariate","Psychometrics"]}
 ---
 
-
-# Factor Analysis (EFA & CFA)
-
 ## Overview
 
 > [!abstract] Definition
@@ -68,5 +65,5 @@ print(loadings)
 ## 4. Related Concepts
 
 - [[stats/04_Machine_Learning/Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] - Often used as a preliminary step.
-- [[Structural Equation Modeling (SEM)\|Structural Equation Modeling (SEM)]] - Extension of CFA.
+- [[stats/01_Foundations/Structural Equation Modeling (SEM)\|Structural Equation Modeling (SEM)]] - Extension of CFA.
 - [[Cronbach's Alpha\|Cronbach's Alpha]] - Reliability metric often paired with FA.

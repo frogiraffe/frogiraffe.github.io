@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/01-foundations/descriptive-statistics/","tags":["Foundations","EDA",{"Summaryaliases":null},"Mean","Median","Mode","Variance","Standard Deviation","Kurtosis","Skewness"]}
 ---
 
-
-# Descriptive Statistics
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -116,4 +113,4 @@ print(f"Skew: {skew:.2f} (High positive skew)")
 - [[stats/01_Foundations/Normal Distribution\|Normal Distribution]] - Reference for skew/kurtosis.
 - [[stats/08_Visualization/Boxplot\|Boxplot]] - Visualizing the 5-number summary.
 - [[stats/03_Regression_Analysis/Outlier Analysis (Standardized Residuals)\|Outlier Analysis (Standardized Residuals)]]
-- [[Coefficient of Variation\|Coefficient of Variation]]
+- [[stats/01_Foundations/Coefficient of Variation\|Coefficient of Variation]]

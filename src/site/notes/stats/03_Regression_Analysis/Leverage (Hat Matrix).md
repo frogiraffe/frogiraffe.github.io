@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/03-regression-analysis/leverage-hat-matrix/","tags":["Diagnostics","Regression","Influential-Points"]}
 ---
 
-
-# Leverage (Hat Matrix)
-
 ## Overview
 
 > [!abstract] Definition

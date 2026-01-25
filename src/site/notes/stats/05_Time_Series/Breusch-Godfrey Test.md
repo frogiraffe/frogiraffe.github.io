@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/05-time-series/breusch-godfrey-test/","tags":["Diagnostics","Time-Series","Regression"]}
 ---
 
-
-# Breusch-Godfrey Test
-
 ## Overview
 
 > [!abstract] Definition

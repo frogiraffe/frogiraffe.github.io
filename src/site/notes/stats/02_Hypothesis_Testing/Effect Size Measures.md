@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/02-hypothesis-testing/effect-size-measures/","tags":["Effect-Size","Hypothesis-Testing","Power"]}
 ---
 
-
-# Effect Size Measures
-
 ## Overview
 
 > [!abstract] Definition

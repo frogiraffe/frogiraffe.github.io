@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/03-regression-analysis/simple-linear-regression/","tags":["Regression","Linear-Models","OLS","Prediction"]}
 ---
 
-
-# Simple Linear Regression
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -203,5 +200,5 @@ predict(model, newdata = new_data, interval = "confidence")
 
 - [[stats/03_Regression_Analysis/Multiple Linear Regression\|Multiple Linear Regression]] - More than one predictor.
 - [[stats/02_Hypothesis_Testing/Pearson Correlation\|Pearson Correlation]] - Related but different (Correlation $\neq$ Slope).
-- [[Residual Analysis\|Residual Analysis]] - Checking assumptions.
+- [[stats/03_Regression_Analysis/Residual Analysis\|Residual Analysis]] - Checking assumptions.
 - [[stats/03_Regression_Analysis/Cook's Distance\|Cook's Distance]] - Identifying influential observations.

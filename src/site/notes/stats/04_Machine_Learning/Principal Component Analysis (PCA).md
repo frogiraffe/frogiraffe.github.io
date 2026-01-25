@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/04-machine-learning/principal-component-analysis-pca/","tags":["Multivariate","Dimensionality-Reduction","Unsupervised-Learning"]}
 ---
 
-
-# Principal Component Analysis (PCA)
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -182,4 +179,4 @@ pca_result$rotation
 
 - [[stats/01_Foundations/Factor Analysis (EFA & CFA)\|Factor Analysis (EFA & CFA)]] - Similar but for latent constructs.
 - [[stats/03_Regression_Analysis/VIF (Variance Inflation Factor)\|VIF (Variance Inflation Factor)]] - PCA fixes multicollinearity.
-- [[t-SNE\|t-SNE]] - Non-linear visualization.
+- [[stats/01_Foundations/t-SNE\|t-SNE]] - Non-linear visualization.

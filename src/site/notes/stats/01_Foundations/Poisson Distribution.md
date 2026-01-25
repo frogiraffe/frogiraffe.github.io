@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/01-foundations/poisson-distribution/","tags":["Probability-Theory","Distributions","Discrete"]}
 ---
 
-
-# Poisson Distribution
-
 ## Definition
 
 > [!abstract] Core Statement

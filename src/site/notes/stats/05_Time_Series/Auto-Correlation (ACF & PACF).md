@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/05-time-series/auto-correlation-acf-and-pacf/","tags":["Time-Series","Diagnostics","Visualization"]}
 ---
 
-
-# Auto-Correlation (ACF & PACF)
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -99,4 +96,4 @@ plt.show()
 
 - [[stats/05_Time_Series/ARIMA Models\|ARIMA Models]] - The model built using these tools.
 - [[stats/05_Time_Series/Stationarity (ADF & KPSS)\|Stationarity (ADF & KPSS)]] - Prerequisite.
-- [[Ljung-Box Test\|Ljung-Box Test]] - Statistical test for "White Noise" (checking group of lags).
+- [[stats/02_Hypothesis_Testing/Ljung-Box Test\|Ljung-Box Test]] - Statistical test for "White Noise" (checking group of lags).

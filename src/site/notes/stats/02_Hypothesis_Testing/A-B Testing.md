@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/02-hypothesis-testing/a-b-testing/","tags":["Experimental-Design","Hypothesis-Testing","Business"]}
 ---
 
-
-# A/B Testing
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -35,7 +32,7 @@ It is the industry application of the **Two-Sample Hypothesis Test**.
 ## Statistical Backend
 
 Usually depends on the metric:
--   **Conversion Rate (Probability):** [[stats/02_Hypothesis_Testing/Z-Test\|Z-Test]] (Two-Proportion) or [[Chi-Square Test\|Chi-Square Test]].
+-   **Conversion Rate (Probability):** [[stats/02_Hypothesis_Testing/Z-Test\|Z-Test]] (Two-Proportion) or [[stats/02_Hypothesis_Testing/Chi-Square Test\|Chi-Square Test]].
 -   **Revenue Per User (Mean):** [[stats/02_Hypothesis_Testing/Student's T-Test\|Student's T-Test]].
 
 ---
@@ -43,7 +40,7 @@ Usually depends on the metric:
 ## Limitations & Pitfalls
 
 > [!warning] Pitfalls
-> 1.  **Peeking (P-Hacking):** Checking p-value every day and stopping when significant. **Solution:** Fix sample size in advance or use [[Sequential Testing\|Sequential Testing]].
+> 1.  **Peeking (P-Hacking):** Checking p-value every day and stopping when significant. **Solution:** Fix sample size in advance or use [[stats/02_Hypothesis_Testing/Sequential Testing\|Sequential Testing]].
 > 2.  **Novelty Effect:** Users click the new button just because it's new. Effect fades over time.
 > 3.  **Interference (SUTVA violation):** In social networks, treating User A might affect User B (their friend). Standard A/B test fails here.
 > 4.  **SRM (Sample Ratio Mismatch):** If you planned 50/50 split but got 48/52, your randomization is broken. Abort test.
@@ -75,5 +72,5 @@ else:
 
 - [[stats/02_Hypothesis_Testing/Z-Test\|Z-Test]] - The math engine.
 - [[stats/02_Hypothesis_Testing/Power Analysis\|Power Analysis]] - How many users do I need?
-- [[Sample Ratio Mismatch (SRM)\|Sample Ratio Mismatch (SRM)]] - Diagnostic check.
-- [[Multi-Armed Bandit\|Multi-Armed Bandit]] - Alternative to A/B testing (Optimization > Learning).
+- [[stats/01_Foundations/Sample Ratio Mismatch (SRM)\|Sample Ratio Mismatch (SRM)]] - Diagnostic check.
+- [[stats/01_Foundations/Multi-Armed Bandit\|Multi-Armed Bandit]] - Alternative to A/B testing (Optimization > Learning).

@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/03-regression-analysis/quantile-regression/","tags":["Regression","Robust  - Advanced"]}
 ---
 
-
-# Quantile Regression
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -104,5 +101,5 @@ print(f"90th %ile Coeff: {model_90.params['Education']:.2f}")
 
 - [[stats/03_Regression_Analysis/Simple Linear Regression\|Simple Linear Regression]] - The baseline (Mean).
 - [[stats/01_Foundations/Descriptive Statistics\|Descriptive Statistics]] - Median vs Mean.
-- [[Heteroscedasticity\|Heteroscedasticity]] - The problem QR solves.
-- [[Loss Function\|Loss Function]] - L1 (Absolute) vs L2 (Squared).
+- [[stats/03_Regression_Analysis/Heteroscedasticity\|Heteroscedasticity]] - The problem QR solves.
+- [[stats/01_Foundations/Loss Function\|Loss Function]] - L1 (Absolute) vs L2 (Squared).

@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/02-hypothesis-testing/welch-s-anova/","tags":["Hypothesis-Testing","ANOVA"]}
 ---
 
-
-# Welch's ANOVA
-
 ## Overview
 
 > [!abstract] Definition

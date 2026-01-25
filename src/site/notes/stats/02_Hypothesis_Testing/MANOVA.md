@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/02-hypothesis-testing/manova/","tags":["Multivariate","Hypothesis-Testing","ANOVA"]}
 ---
 
-
-# MANOVA
-
 ## Overview
 
 > [!abstract] Definition

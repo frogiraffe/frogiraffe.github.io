@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/05-time-series/vector-autoregression-var/","tags":["Time-Series","Multivariate"]}
 ---
 
-
-# Vector Autoregression (VAR)
-
 ## Overview
 
 > [!abstract] Definition

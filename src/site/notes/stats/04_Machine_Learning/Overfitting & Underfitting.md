@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/04-machine-learning/overfitting-and-underfitting/","tags":["Machine-Learning","Model-Validation","Diagnostics"]}
 ---
 
-
-# Overfitting & Underfitting
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -188,4 +185,4 @@ for (name in c("Underfit", "Good", "Overfit")) {
 - [[stats/01_Foundations/Bias-Variance Trade-off\|Bias-Variance Trade-off]] - Theoretical foundation.
 - [[stats/04_Machine_Learning/Cross-Validation\|Cross-Validation]] - Detection method.
 - [[stats/03_Regression_Analysis/Ridge Regression\|Ridge Regression]] / [[stats/03_Regression_Analysis/Lasso Regression\|Lasso Regression]] - Prevention via regularization.
-- [[Model Selection\|Model Selection]]
+- [[stats/01_Foundations/Model Selection\|Model Selection]]

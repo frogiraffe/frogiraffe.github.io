@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/06-causal-inference/propensity-score-matching-psm/","tags":["Causal-Inference","Econometrics","Observational-Studies"]}
 ---
 
-
-# Propensity Score Matching (PSM)
-
 ## Definition
 
 > [!abstract] Core Statement

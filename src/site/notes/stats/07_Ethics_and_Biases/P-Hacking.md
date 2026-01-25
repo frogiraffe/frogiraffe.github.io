@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/07-ethics-and-biases/p-hacking/","tags":["Critical-Thinking","Ethics","Hypothesis-Testing"]}
 ---
 
-
-# P-Hacking
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -87,4 +84,4 @@ print(f"False Positives: {significant_count} / 1000 ({significant_count/10}%)")
 - [[stats/02_Hypothesis_Testing/Hypothesis Testing (P-Value & CI)\|Hypothesis Testing (P-Value & CI)]]
 - [[stats/02_Hypothesis_Testing/Bonferroni Correction\|Bonferroni Correction]]
 - [[stats/02_Hypothesis_Testing/Type I & Type II Errors\|Type I & Type II Errors]]
-- [[Reproducibility Crisis\|Reproducibility Crisis]]
+- [[stats/01_Foundations/Reproducibility Crisis\|Reproducibility Crisis]]

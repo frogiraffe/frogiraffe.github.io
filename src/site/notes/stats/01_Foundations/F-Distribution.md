@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/01-foundations/f-distribution/","tags":["Probability-Theory","Distributions","ANOVA","Hypothesis-Testing"]}
 ---
 
-
-# F-Distribution
-
 ## Definition
 
 > [!abstract] Core Statement

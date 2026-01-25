@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/02-hypothesis-testing/shapiro-wilk-test/","tags":["Diagnostics","Normality","Assumptions"]}
 ---
 
-
-# Shapiro-Wilk Test
-
 ## Overview
 
 > [!abstract] Definition

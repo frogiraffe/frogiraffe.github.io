@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/04-machine-learning/gradient-descent/","tags":["Math","Calculus","Machine-Learning","Optimization"]}
 ---
 
-
-# Gradient Descent
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -101,7 +98,7 @@ plt.show()
 
 ## Related Concepts
 
-- [[Backpropagation\|Backpropagation]] - Using chain rule to calculate gradients in Neural Nets.
-- [[Loss Function\|Loss Function]] - The function $J(\theta)$ we are minimizing.
-- [[Neural Networks\|Neural Networks]] - Heavy users of GD.
-- [[Feature Scaling\|Feature Scaling]] - Critical pre-requisite.
+- [[stats/01_Foundations/Backpropagation\|Backpropagation]] - Using chain rule to calculate gradients in Neural Nets.
+- [[stats/01_Foundations/Loss Function\|Loss Function]] - The function $J(\theta)$ we are minimizing.
+- [[stats/04_Machine_Learning/Neural Networks\|Neural Networks]] - Heavy users of GD.
+- [[stats/01_Foundations/Feature Scaling\|Feature Scaling]] - Critical pre-requisite.

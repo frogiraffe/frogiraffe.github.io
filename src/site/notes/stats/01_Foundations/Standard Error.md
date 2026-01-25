@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/01-foundations/standard-error/","tags":["Foundations","Inference","Sampling"]}
 ---
 
-
-# Standard Error
-
 ## Definition
 
 > [!abstract] Core Statement

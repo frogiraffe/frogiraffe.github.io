@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/02-hypothesis-testing/repeated-measures-anova/","tags":["Hypothesis-Testing","ANOVA","Within-Subjects","Parametric-Tests"]}
 ---
 
-
-# Repeated Measures ANOVA
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -30,7 +27,7 @@
 > [!failure] Alternatives
 > - **Two time points only:** Use paired [[stats/02_Hypothesis_Testing/Student's T-Test\|Student's T-Test]].
 > - **Sphericity violated:** Use **Greenhouse-Geisser correction** or **MANOVA**.
-> - **Non-normal data:** Use [[Friedman Test\|Friedman Test]].
+> - **Non-normal data:** Use [[stats/02_Hypothesis_Testing/Friedman Test\|Friedman Test]].
 
 ---
 
@@ -77,7 +74,7 @@ Standard ANOVA assumes **independence**. Repeated measures from the same person 
 
 > [!warning] Pitfalls
 > 1. **Sphericity violations are common.** Always check and apply corrections if needed.
-> 2. **Missing data is problematic.** RM-ANOVA requires complete data for all time points. Use [[Linear Mixed Models (LMM)\|Linear Mixed Models (LMM)]] for flexibility.
+> 2. **Missing data is problematic.** RM-ANOVA requires complete data for all time points. Use [[stats/03_Regression_Analysis/Linear Mixed Models (LMM)\|Linear Mixed Models (LMM)]] for flexibility.
 > 3. **Carryover effects:** If conditions are sequential, earlier conditions may influence later ones.
 
 ---
@@ -148,6 +145,6 @@ ezANOVA(data = df_long, dv = Pain, wid = Subject, within = Time, detailed = TRUE
 
 - [[stats/02_Hypothesis_Testing/One-Way ANOVA\|One-Way ANOVA]] - Between-subjects version.
 - [[stats/02_Hypothesis_Testing/Mixed ANOVA (Between-Within)\|Mixed ANOVA (Between-Within)]] - Combines RM and between factors.
-- [[Friedman Test\|Friedman Test]] - Non-parametric alternative.
-- [[Linear Mixed Models (LMM)\|Linear Mixed Models (LMM)]] - More flexible; handles missing data.
+- [[stats/02_Hypothesis_Testing/Friedman Test\|Friedman Test]] - Non-parametric alternative.
+- [[stats/03_Regression_Analysis/Linear Mixed Models (LMM)\|Linear Mixed Models (LMM)]] - More flexible; handles missing data.
 - [[Mauchly's Test of Sphericity\|Mauchly's Test of Sphericity]]

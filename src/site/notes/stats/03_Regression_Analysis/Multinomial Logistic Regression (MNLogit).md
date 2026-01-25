@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/03-regression-analysis/multinomial-logistic-regression-mn-logit/","tags":["Regression","GLM","Classification","Multiclass"]}
 ---
 
-
-# Multinomial Logistic Regression
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -200,5 +197,5 @@ print(p)
 ## Related Concepts
 
 - [[stats/03_Regression_Analysis/Binary Logistic Regression\|Binary Logistic Regression]]
-- [[Ordinal Logistic Regression\|Ordinal Logistic Regression]] - For ordered outcomes.
-- [[Generalized Linear Models (GLM)\|Generalized Linear Models (GLM)]]
+- [[stats/03_Regression_Analysis/Ordinal Logistic Regression\|Ordinal Logistic Regression]] - For ordered outcomes.
+- [[stats/03_Regression_Analysis/Generalized Linear Models (GLM)\|Generalized Linear Models (GLM)]]

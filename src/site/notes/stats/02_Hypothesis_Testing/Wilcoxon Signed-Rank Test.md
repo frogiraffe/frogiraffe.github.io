@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/02-hypothesis-testing/wilcoxon-signed-rank-test/","tags":["Hypothesis-Testing","Non-Parametric","Paired-Samples"]}
 ---
 
-
-# Wilcoxon Signed-Rank Test
-
 ## Definition
 
 > [!abstract] Core Statement

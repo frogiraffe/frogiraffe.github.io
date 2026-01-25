@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/02-hypothesis-testing/type-i-and-type-ii-errors/","tags":["Foundations","Hypothesis-Testing","Decision-Theory"]}
 ---
 
-
-# Type I & Type II Errors
-
 ## Definition
 
 > [!abstract] Core Statement

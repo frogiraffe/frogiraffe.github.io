@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/05-time-series/garch-models/","tags":["Time-Series","Finance","Volatility"]}
 ---
 
-
-# GARCH Models
-
 ## Overview
 
 > [!abstract] Definition
@@ -117,5 +114,5 @@ print(forecasts.variance[-1:])
 ## 6. Related Concepts
 
 - [[stats/05_Time_Series/ARIMA Models\|ARIMA Models]] - Often combined (ARIMA-GARCH).
-- [[Heteroscedasticity\|Heteroscedasticity]] - The phenomenon being modeled.
+- [[stats/03_Regression_Analysis/Heteroscedasticity\|Heteroscedasticity]] - The phenomenon being modeled.
 - [[stats/05_Time_Series/Stationarity (ADF & KPSS)\|Stationarity (ADF & KPSS)]]

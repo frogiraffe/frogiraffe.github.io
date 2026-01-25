@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/08-visualization/q-q-plot/","tags":["Diagnostics","Normality","Visualization"]}
 ---
 
-
-# Q-Q Plot (Quantile-Quantile)
-
 ## Definition
 
 > [!abstract] Core Statement

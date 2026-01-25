@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/02-hypothesis-testing/kruskal-wallis-test/","tags":["Hypothesis-Testing","Non-Parametric","ANOVA"]}
 ---
 
-
-# Kruskal-Wallis Test
-
 ## Definition
 
 > [!abstract] Core Statement

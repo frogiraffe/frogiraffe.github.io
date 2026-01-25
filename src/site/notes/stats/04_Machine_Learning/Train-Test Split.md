@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/04-machine-learning/train-test-split/","tags":["Machine-Learning","Model-Validation","Data-Splitting"]}
 ---
 
-
-# Train-Test Split
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -152,4 +149,4 @@ confusionMatrix(factor(predicted_class), test_set$y)
 - [[stats/04_Machine_Learning/Overfitting & Underfitting\|Overfitting & Underfitting]]
 - [[stats/01_Foundations/Bias-Variance Trade-off\|Bias-Variance Trade-off]]
 - [[stats/04_Machine_Learning/Model Evaluation Metrics\|Model Evaluation Metrics]]
-- [[Data Leakage\|Data Leakage]]
+- [[stats/01_Foundations/Data Leakage\|Data Leakage]]

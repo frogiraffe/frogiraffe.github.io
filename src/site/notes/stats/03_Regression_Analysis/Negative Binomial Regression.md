@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/03-regression-analysis/negative-binomial-regression/","tags":["Regression","GLM","Count-Data","Overdispersion"]}
 ---
 
-
-# Negative Binomial Regression
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -186,4 +183,4 @@ anova(model_pois, model_nb, test = "LRT")
 
 - [[stats/03_Regression_Analysis/Poisson Regression\|Poisson Regression]] - The baseline count model.
 - [[stats/03_Regression_Analysis/Zero-Inflated Models\|Zero-Inflated Models]] - For excess zeros.
-- [[Overdispersion\|Overdispersion]]
+- [[stats/01_Foundations/Overdispersion\|Overdispersion]]

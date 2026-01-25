@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/04-machine-learning/bayesian-statistics-via-probabilistic-programming/","tags":["Bayesian","Machine-Learning","Applied"]}
 ---
 
-
-# Bayesian Statistics via Probabilistic Programming
-
 ## Overview
 
 > [!abstract] Definition
@@ -116,4 +113,4 @@ with pm.Model() as hierarchical_model:
 
 - [[stats/01_Foundations/Bayesian Statistics\|Bayesian Statistics]] - Theoretical foundations.
 - [[stats/04_Machine_Learning/Probabilistic Programming\|Probabilistic Programming]] - Framework details.
-- [[Likelihood Function\|Likelihood Function]] - Core component.
+- [[stats/01_Foundations/Likelihood Function\|Likelihood Function]] - Core component.

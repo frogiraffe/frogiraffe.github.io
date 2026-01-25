@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/04-machine-learning/bootstrap-methods/","tags":["Resampling","Machine-Learning","Inference","Uncertainty-Quantification"]}
 ---
 
-
-# Bootstrap Methods
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -164,6 +161,6 @@ t.test(data)$conf.int
 
 - [[stats/02_Hypothesis_Testing/Confidence Intervals\|Confidence Intervals]]
 - [[stats/01_Foundations/Standard Error\|Standard Error]]
-- [[Permutation Tests\|Permutation Tests]] - Resampling for hypothesis testing.
+- [[stats/02_Hypothesis_Testing/Permutation Tests\|Permutation Tests]] - Resampling for hypothesis testing.
 - [[stats/04_Machine_Learning/Cross-Validation\|Cross-Validation]] - Resampling for model validation.
-- [[Jackknife\|Jackknife]] - Alternative resampling method (leave-one-out).
+- [[stats/01_Foundations/Jackknife\|Jackknife]] - Alternative resampling method (leave-one-out).

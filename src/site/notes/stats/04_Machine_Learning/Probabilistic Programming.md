@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/04-machine-learning/probabilistic-programming/","tags":["Bayesian","Machine-Learning","Probabilistic-Models"]}
 ---
 
-
-# Probabilistic Programming
-
 ## Overview
 
 > [!abstract] Definition

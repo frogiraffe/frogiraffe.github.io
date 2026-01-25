@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/03-regression-analysis/probit-regression/","tags":["Regression","GLM","Classification"]}
 ---
 
-
-# Probit Regression
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -181,4 +178,4 @@ probitmfx(purchased ~ age + income, data = df, atmean = TRUE)
 
 - [[stats/03_Regression_Analysis/Binary Logistic Regression\|Binary Logistic Regression]] - The more common alternative.
 - [[stats/01_Foundations/Maximum Likelihood Estimation (MLE)\|Maximum Likelihood Estimation (MLE)]]
-- [[Generalized Linear Models (GLM)\|Generalized Linear Models (GLM)]]
+- [[stats/03_Regression_Analysis/Generalized Linear Models (GLM)\|Generalized Linear Models (GLM)]]

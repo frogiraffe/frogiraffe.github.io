@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/02-hypothesis-testing/pearson-correlation/","tags":["Correlation","Parametric-Tests","Association"]}
 ---
 
-
-# Pearson Correlation
-
 ## Definition
 
 > [!abstract] Core Statement

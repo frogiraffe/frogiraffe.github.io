@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/07-ethics-and-biases/survivorship-bias/","tags":["Critical-Thinking","Bias","Sampling"]}
 ---
 
-
-# Survivorship Bias
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -57,6 +54,6 @@
 
 ## Related Concepts
 
-- [[Selection Bias\|Selection Bias]] - The broader category.
-- [[Missing Data\|Missing Data]] - Techniques to handle mechanism of missingness.
-- [[Sampling Bias\|Sampling Bias]]
+- [[stats/01_Foundations/Selection Bias\|Selection Bias]] - The broader category.
+- [[stats/01_Foundations/Missing Data\|Missing Data]] - Techniques to handle mechanism of missingness.
+- [[stats/01_Foundations/Sampling Bias\|Sampling Bias]]

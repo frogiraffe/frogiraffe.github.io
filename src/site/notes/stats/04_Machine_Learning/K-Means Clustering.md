@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/04-machine-learning/k-means-clustering/","tags":["Machine-Learning","Clustering","Unsupervised-Learning"]}
 ---
 
-
-# K-Means Clustering
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -33,7 +30,7 @@
 > - Requires specifying $k$ in advance.
 > - Sensitive to **initialization** (solved by K-Means++).
 > - Sensitive to **outliers**.
-> - Fails on **non-globular clusters** (e.g., rings, crescents). Use [[DBSCAN\|DBSCAN]] instead.
+> - Fails on **non-globular clusters** (e.g., rings, crescents). Use [[stats/01_Foundations/DBSCAN\|DBSCAN]] instead.
 
 ---
 
@@ -146,6 +143,6 @@ print("Centroids (Scaled):", centroids)
 ## Related Concepts
 
 - [[stats/04_Machine_Learning/Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] - Often used before K-means.
-- [[DBSCAN\|DBSCAN]] - Alternative clustering for irregular shapes.
-- [[Hierarchical Clustering\|Hierarchical Clustering]] - Alternative that builds a tree.
-- [[Euclidean Distance\|Euclidean Distance]]
+- [[stats/01_Foundations/DBSCAN\|DBSCAN]] - Alternative clustering for irregular shapes.
+- [[stats/04_Machine_Learning/Hierarchical Clustering\|Hierarchical Clustering]] - Alternative that builds a tree.
+- [[stats/01_Foundations/Euclidean Distance\|Euclidean Distance]]

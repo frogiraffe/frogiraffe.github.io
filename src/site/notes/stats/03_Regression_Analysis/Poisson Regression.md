@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/03-regression-analysis/poisson-regression/","tags":["Regression","Classification","GLM","Count-Data"]}
 ---
 
-
-# Poisson Regression
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -204,5 +201,5 @@ if(dispersion > 1.5) {
 
 - [[stats/03_Regression_Analysis/Negative Binomial Regression\|Negative Binomial Regression]] - Handles overdispersion.
 - [[stats/03_Regression_Analysis/Zero-Inflated Models\|Zero-Inflated Models]] - Handles excess zeros.
-- [[Generalized Linear Models (GLM)\|Generalized Linear Models (GLM)]]
+- [[stats/03_Regression_Analysis/Generalized Linear Models (GLM)\|Generalized Linear Models (GLM)]]
 - [[stats/01_Foundations/Maximum Likelihood Estimation (MLE)\|Maximum Likelihood Estimation (MLE)]]

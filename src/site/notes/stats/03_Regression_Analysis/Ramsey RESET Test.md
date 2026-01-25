@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/03-regression-analysis/ramsey-reset-test/","tags":["Diagnostics","Regression"]}
 ---
 
-
-# Ramsey RESET Test
-
 ## Overview
 
 > [!abstract] Definition

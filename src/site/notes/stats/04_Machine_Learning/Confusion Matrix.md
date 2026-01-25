@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/04-machine-learning/confusion-matrix/","tags":["Classification","Machine-Learning","Model-Evaluation","Metrics"]}
 ---
 
-
-# Confusion Matrix
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -156,4 +153,4 @@ confusionMatrix(data = pred, reference = actual)
 
 - [[stats/04_Machine_Learning/ROC & AUC\|ROC & AUC]] - Threshold-independent performance.
 - [[stats/03_Regression_Analysis/Binary Logistic Regression\|Binary Logistic Regression]] - Typical model producing these outputs.
-- [[Precision-Recall Curve\|Precision-Recall Curve]]
+- [[stats/04_Machine_Learning/Precision-Recall Curve\|Precision-Recall Curve]]

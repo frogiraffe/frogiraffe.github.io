@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/04-machine-learning/roc-and-auc/","tags":["Classification","Machine-Learning","Model-Evaluation","Metrics"]}
 ---
 
-
-# ROC & AUC
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -156,5 +153,5 @@ plot(roc_obj, main = "ROC Curve", print.auc = TRUE)
 ## Related Concepts
 
 - [[stats/04_Machine_Learning/Confusion Matrix\|Confusion Matrix]] - Metrics at a single threshold.
-- [[Precision-Recall Curve\|Precision-Recall Curve]] - Better for imbalanced data.
+- [[stats/04_Machine_Learning/Precision-Recall Curve\|Precision-Recall Curve]] - Better for imbalanced data.
 - [[stats/03_Regression_Analysis/Binary Logistic Regression\|Binary Logistic Regression]]

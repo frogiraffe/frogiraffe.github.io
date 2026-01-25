@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/05-time-series/durbin-watson-test/","tags":["Diagnostics","Time-Series","Regression","Autocorrelation"]}
 ---
 
-
-# Durbin-Watson Test
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -134,6 +131,6 @@ dwtest(model)
 ## Related Concepts
 
 - [[stats/05_Time_Series/Breusch-Godfrey Test\|Breusch-Godfrey Test]] - More general test for AR(p) errors.
-- [[Ljung-Box Test\|Ljung-Box Test]] - Tests white noise in ARIMA residuals.
-- [[Time Series Analysis\|Time Series Analysis]]
+- [[stats/02_Hypothesis_Testing/Ljung-Box Test\|Ljung-Box Test]] - Tests white noise in ARIMA residuals.
+- [[stats/05_Time_Series/Time Series Analysis\|Time Series Analysis]]
 - [[stats/05_Time_Series/Stationarity (ADF & KPSS)\|Stationarity (ADF & KPSS)]]

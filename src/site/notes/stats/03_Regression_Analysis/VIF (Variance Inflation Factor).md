@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/03-regression-analysis/vif-variance-inflation-factor/","tags":["Diagnostics","Regression","Multicollinearity"]}
 ---
 
-
-# VIF (Variance Inflation Factor)
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -130,4 +127,4 @@ vif(model)
 - [[stats/03_Regression_Analysis/Multiple Linear Regression\|Multiple Linear Regression]]
 - [[stats/03_Regression_Analysis/Ridge Regression\|Ridge Regression]] - Handles multicollinearity.
 - [[stats/04_Machine_Learning/Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] - Dimension reduction.
-- [[Correlation Matrix\|Correlation Matrix]]
+- [[stats/01_Foundations/Correlation Matrix\|Correlation Matrix]]

@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/05-time-series/stationarity-adf-and-kpss/","tags":["Time-Series","Diagnostics","Stationarity"]}
 ---
 
-
-# Stationarity (ADF & KPSS Tests)
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -158,5 +155,5 @@ kpss.test(series, null = "Level")
 ## Related Concepts
 
 - [[stats/05_Time_Series/ARIMA Models\|ARIMA Models]] - Requires stationarity.
-- [[Differencing\|Differencing]] - Transformation to achieve stationarity.
+- [[stats/01_Foundations/Differencing\|Differencing]] - Transformation to achieve stationarity.
 - [[stats/05_Time_Series/GARCH Models\|GARCH Models]] - For non-constant variance.

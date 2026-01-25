@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/02-hypothesis-testing/bonferroni-correction/","tags":["Hypothesis-Testing","Multiple-Comparisons","FWER"]}
 ---
 
-
-# Bonferroni Correction
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -156,7 +153,7 @@ print(adjusted < 0.05)
 
 ## Related Concepts
 
-- [[Multiple Comparisons Problem\|Multiple Comparisons Problem]]
+- [[stats/01_Foundations/Multiple Comparisons Problem\|Multiple Comparisons Problem]]
 - [[stats/02_Hypothesis_Testing/Tukey's HSD\|Tukey's HSD]] - Alternative for all pairwise comparisons.
-- [[False Discovery Rate (FDR)\|False Discovery Rate (FDR)]] - Less conservative alternative.
+- [[stats/01_Foundations/False Discovery Rate (FDR)\|False Discovery Rate (FDR)]] - Less conservative alternative.
 - [[stats/02_Hypothesis_Testing/One-Way ANOVA\|One-Way ANOVA]]

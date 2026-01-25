@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/08-visualization/heatmap/","tags":["Visualization","EDA","High-Dimensional"]}
 ---
 
-
-# Heatmap
-
 ## Definition
 
 > [!abstract] Core Statement

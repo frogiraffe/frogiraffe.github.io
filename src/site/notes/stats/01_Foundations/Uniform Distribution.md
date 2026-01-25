@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/01-foundations/uniform-distribution/","tags":["Probability-Theory","Distributions","Continuous","Foundations"]}
 ---
 
-
-# Uniform Distribution
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -199,5 +196,5 @@ runif(10, min = a, max = b)
 
 - [[stats/01_Foundations/Normal Distribution\|Normal Distribution]] - Uniform is the opposite (flat vs bell).
 - [[stats/01_Foundations/Bayesian Statistics\|Bayesian Statistics]] - Uniform used as non-informative prior.
-- [[Monte Carlo Simulation\|Monte Carlo Simulation]] - Random number generation.
-- [[Discrete Uniform Distribution\|Discrete Uniform Distribution]] - For discrete outcomes (e.g., dice).
+- [[stats/01_Foundations/Monte Carlo Simulation\|Monte Carlo Simulation]] - Random number generation.
+- [[stats/01_Foundations/Discrete Uniform Distribution\|Discrete Uniform Distribution]] - For discrete outcomes (e.g., dice).

@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/02-hypothesis-testing/spearman-s-rank-correlation/","tags":["Correlation","Non-Parametric","Association"]}
 ---
 
-
-# Spearman's Rank Correlation
-
 ## Definition
 
 > [!abstract] Core Statement

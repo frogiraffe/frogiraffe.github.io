@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/05-time-series/granger-causality/","tags":["Time-Series","Causal-Inference"]}
 ---
 
-
-# Granger Causality
-
 ## Overview
 
 > [!abstract] Definition
@@ -40,4 +37,4 @@ grangertest(Y ~ X, order = 4, data = df)
 ## 3. Related Concepts
 
 - [[stats/05_Time_Series/Vector Autoregression (VAR)\|Vector Autoregression (VAR)]]
-- [[Time Series Analysis\|Time Series Analysis]]
+- [[stats/05_Time_Series/Time Series Analysis\|Time Series Analysis]]

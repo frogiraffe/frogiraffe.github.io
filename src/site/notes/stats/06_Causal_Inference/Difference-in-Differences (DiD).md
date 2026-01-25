@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/06-causal-inference/difference-in-differences-di-d/","tags":["Causal-Inference","Econometrics","Policy-Evaluation"]}
 ---
 
-
-# Difference-in-Differences (DiD)
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -136,4 +133,4 @@ ggplot(df, aes(x = Time, y = Outcome, color = factor(Treat))) +
 - [[stats/06_Causal_Inference/Propensity Score Matching (PSM)\|Propensity Score Matching (PSM)]]
 - [[stats/06_Causal_Inference/Instrumental Variables (IV)\|Instrumental Variables (IV)]]
 - [[stats/03_Regression_Analysis/Regression Discontinuity Design (RDD)\|Regression Discontinuity Design (RDD)]]
-- [[Synthetic Control Method\|Synthetic Control Method]]
+- [[stats/01_Foundations/Synthetic Control Method\|Synthetic Control Method]]

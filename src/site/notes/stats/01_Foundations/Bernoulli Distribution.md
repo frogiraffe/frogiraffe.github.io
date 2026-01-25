@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/01-foundations/bernoulli-distribution/","tags":["Probability-Theory","Distributions","Discrete"]}
 ---
 
-
-# Bernoulli Distribution
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -18,7 +15,7 @@ $$ P(X=k) = p^k (1-p)^{1-k} \quad \text{for } k \in \{0, 1\} $$
 
 1.  **Building Block:** It is the fundamental atom of probability.
     -   $n$ Bernoulli trials $\to$ **[[stats/01_Foundations/Binomial Distribution\|Binomial Distribution]]**.
-    -   Trials until success $\to$ **[[Geometric Distribution\|Geometric Distribution]]**.
+    -   Trials until success $\to$ **[[stats/01_Foundations/Geometric Distribution\|Geometric Distribution]]**.
 2.  **Binary Classification:** Modeling Yes/No outcomes (Logistic Regression).
 
 ---
@@ -76,4 +73,4 @@ print(f"Prob of Failure: {rv.pmf(0)}")
 
 - [[stats/01_Foundations/Binomial Distribution\|Binomial Distribution]] - Sum of $n$ Bernoullis.
 - [[stats/03_Regression_Analysis/Logistic Regression\|Logistic Regression]] - Modeling outcomes using Bernoulli likelihood.
-- [[Categorical Distribution\|Categorical Distribution]] - Generalization to >2 outcomes (Dice role).
+- [[stats/01_Foundations/Categorical Distribution\|Categorical Distribution]] - Generalization to >2 outcomes (Dice role).

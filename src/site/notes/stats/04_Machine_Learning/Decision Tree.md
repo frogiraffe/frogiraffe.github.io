@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/04-machine-learning/decision-tree/","tags":["Machine-Learning","Supervised-Learning","Classification","Regression"]}
 ---
 
-
-# Decision Tree
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -90,4 +87,4 @@ print(clf.feature_importances_)
 
 - [[stats/04_Machine_Learning/Random Forest\|Random Forest]] - Many trees (Bagging).
 - [[stats/04_Machine_Learning/Gradient Boosting (XGBoost)\|Gradient Boosting (XGBoost)]] - Sequential trees (Boosting).
-- [[Overfitting\|Overfitting]] - The main weakness.
+- [[stats/04_Machine_Learning/Overfitting\|Overfitting]] - The main weakness.

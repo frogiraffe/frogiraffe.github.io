@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/02-hypothesis-testing/z-test/","tags":["Hypothesis-Testing","Parametric-Tests","Foundations"]}
 ---
 
-
-# Z-Test
-
 ## Definition
 
 > [!abstract] Core Statement

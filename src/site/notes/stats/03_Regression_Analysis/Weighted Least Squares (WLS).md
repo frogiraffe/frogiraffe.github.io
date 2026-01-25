@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/03-regression-analysis/weighted-least-squares-wls/","tags":["Regression","Linear-Models","Heteroscedasticity"]}
 ---
 
-
-# Weighted Least Squares (WLS)
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -187,4 +184,4 @@ coeftest(model_ols, vcov = vcovHC(model_ols, type = "HC3"))
 - [[stats/03_Regression_Analysis/Breusch-Pagan Test\|Breusch-Pagan Test]] - Diagnoses heteroscedasticity.
 - [[stats/03_Regression_Analysis/White Test\|White Test]] - General heteroscedasticity test.
 - [[stats/03_Regression_Analysis/Simple Linear Regression\|Simple Linear Regression]] - The unweighted baseline.
-- [[Robust Standard Errors\|Robust Standard Errors]] - Simpler alternative for inference.
+- [[stats/01_Foundations/Robust Standard Errors\|Robust Standard Errors]] - Simpler alternative for inference.

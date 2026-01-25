@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/01-foundations/correlation-vs-causation/","tags":["Foundations","Causal-Inference","Critical-Thinking"]}
 ---
 
-
-# Correlation vs Causation
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -164,5 +161,5 @@ plot(ice_cream, drowning, main = "Spurious Correlation",
 - [[stats/06_Causal_Inference/Instrumental Variables (IV)\|Instrumental Variables (IV)]] - Causal inference method.
 - [[stats/06_Causal_Inference/Propensity Score Matching (PSM)\|Propensity Score Matching (PSM)]]
 - [[stats/06_Causal_Inference/Difference-in-Differences (DiD)\|Difference-in-Differences (DiD)]]
-- [[Confounding Variables\|Confounding Variables]]
-- [[Randomized Controlled Trials\|Randomized Controlled Trials]]
+- [[stats/01_Foundations/Confounding Variables\|Confounding Variables]]
+- [[stats/01_Foundations/Randomized Controlled Trials\|Randomized Controlled Trials]]

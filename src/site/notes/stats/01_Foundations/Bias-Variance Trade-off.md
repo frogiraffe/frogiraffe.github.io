@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/01-foundations/bias-variance-trade-off/","tags":["Machine-Learning","Model-Selection","Foundations"]}
 ---
 
-
-# Bias-Variance Trade-off
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -182,4 +179,4 @@ for (degree in c(1, 3, 15)) {
 - [[stats/04_Machine_Learning/Overfitting & Underfitting\|Overfitting & Underfitting]]
 - [[stats/04_Machine_Learning/Cross-Validation\|Cross-Validation]] - Detects overfitting.
 - [[stats/03_Regression_Analysis/Ridge Regression\|Ridge Regression]] / [[stats/03_Regression_Analysis/Lasso Regression\|Lasso Regression]] - Reduce variance.
-- [[Model Selection\|Model Selection]]
+- [[stats/01_Foundations/Model Selection\|Model Selection]]

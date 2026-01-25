@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/03-regression-analysis/binary-logistic-regression/","tags":["Regression","Classification","GLM","Binary-Outcome"]}
 ---
 
-
-# Binary Logistic Regression
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -28,7 +25,7 @@
 > - You need interpretable effects in terms of **Odds Ratios**.
 
 > [!failure] Do NOT Use When...
-> - Outcome has more than 2 categories (use [[stats/03_Regression_Analysis/Multinomial Logistic Regression (MNLogit)\|Multinomial Logistic Regression (MNLogit)]] or [[Ordinal Logistic Regression\|Ordinal Logistic Regression]]).
+> - Outcome has more than 2 categories (use [[stats/03_Regression_Analysis/Multinomial Logistic Regression (MNLogit)\|Multinomial Logistic Regression (MNLogit)]] or [[stats/03_Regression_Analysis/Ordinal Logistic Regression\|Ordinal Logistic Regression]]).
 > - Outcome is a count (use [[stats/03_Regression_Analysis/Poisson Regression\|Poisson Regression]]).
 
 ---

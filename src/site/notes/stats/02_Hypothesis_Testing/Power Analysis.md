@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/02-hypothesis-testing/power-analysis/","tags":["Foundations","Study-Design","Sample-Size"]}
 ---
 
-
-# Power Analysis
-
 ## Definition
 
 > [!abstract] Core Statement

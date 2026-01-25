@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/01-foundations/binomial-distribution/","tags":["Probability-Theory","Distributions","Discrete"]}
 ---
 
-
-# Binomial Distribution
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -195,5 +192,5 @@ points(x, dbinom(x, size = n, prob = p), pch = 16, col = "blue")
 
 - [[stats/01_Foundations/Normal Distribution\|Normal Distribution]] - Approximation for large $n$.
 - [[stats/01_Foundations/Poisson Distribution\|Poisson Distribution]] - Approximation for rare events.
-- [[Hypergeometric Distribution\|Hypergeometric Distribution]] - For sampling without replacement.
+- [[stats/01_Foundations/Hypergeometric Distribution\|Hypergeometric Distribution]] - For sampling without replacement.
 - [[stats/01_Foundations/Bernoulli Distribution\|Bernoulli Distribution]] - Special case with $n=1$.

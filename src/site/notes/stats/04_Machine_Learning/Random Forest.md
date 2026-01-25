@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/04-machine-learning/random-forest/","tags":["Machine-Learning","Supervised-Learning","Ensemble-Methods"]}
 ---
 
-
-# Random Forest
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -78,4 +75,4 @@ importance.sort_values(ascending=False).plot(kind='barh')
 - [[stats/04_Machine_Learning/Decision Tree\|Decision Tree]] - The building block.
 - [[stats/04_Machine_Learning/Gradient Boosting (XGBoost)\|Gradient Boosting (XGBoost)]] - The sequential alternative (often slightly more accurate but harder to tune).
 - [[stats/04_Machine_Learning/Bootstrap Methods\|Bootstrap Methods]] - The sampling technique used.
-- [[Ensemble Methods\|Ensemble Methods]]
+- [[stats/04_Machine_Learning/Ensemble Methods\|Ensemble Methods]]

@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/01-foundations/standard-deviation/","tags":["Foundations","Variability",{"Descriptivealiases":null},"SD","Sample Variance"]}
 ---
 
-
-# Standard Deviation
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -128,6 +125,6 @@ sqrt(sum((data - mean(data))^2) / length(data))
 
 - [[stats/01_Foundations/Standard Error\|Standard Error]] - SD of a sampling distribution.
 - [[stats/01_Foundations/Normal Distribution\|Normal Distribution]] - 68-95-99.7 rule uses SD.
-- [[Variance\|Variance]]
-- [[Coefficient of Variation\|Coefficient of Variation]]
-- [[Z-Scores\|Z-Scores]]
+- [[stats/01_Foundations/Variance\|Variance]]
+- [[stats/01_Foundations/Coefficient of Variation\|Coefficient of Variation]]
+- [[stats/01_Foundations/Z-Scores\|Z-Scores]]

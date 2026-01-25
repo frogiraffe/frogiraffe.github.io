@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/01-foundations/bayesian-statistics/","tags":["Bayesian","Inference","Probabilistic-Thinking"]}
 ---
 
-
-# Bayesian Statistics
-
 ## Definition
 
 > [!abstract] Core Statement

@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/02-hypothesis-testing/factorial-design-2k/","tags":["Experimental-Design","DOE","ANOVA"]}
 ---
 
-
-# Factorial Design ($2^k$)
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -120,4 +117,4 @@ print(model.summary())
 - [[stats/02_Hypothesis_Testing/One-Way ANOVA\|One-Way ANOVA]] - Investigating single factor.
 - [[stats/02_Hypothesis_Testing/Two-Way ANOVA\|Two-Way ANOVA]] - The statistical test for this design.
 - [[A/B Testing\|A/B Testing]] - Usually a 1-factor design.
-- [[Response Surface Methodology\|Response Surface Methodology]] - For optimizing continuous factors.
+- [[stats/01_Foundations/Response Surface Methodology\|Response Surface Methodology]] - For optimizing continuous factors.

@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/01-foundations/maximum-likelihood-estimation-mle/","tags":["Estimation-Theory"]}
 ---
 
-
-# Maximum Likelihood Estimation (MLE)
-
 ## Overview
 
 > [!abstract] Definition

@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/08-visualization/histogram/","tags":["Visualization","EDA","Distributions"]}
 ---
 
-
-# Histogram
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -117,5 +114,5 @@ plt.show()
 
 - [[stats/08_Visualization/Boxplot\|Boxplot]] - Summarizes the histogram (ignores shape details).
 - [[stats/01_Foundations/Normal Distribution\|Normal Distribution]] - The ideal shape.
-- [[Log Transformation\|Log Transformation]] - Technique to fix skew.
-- [[Violin Plot\|Violin Plot]] - Histogram + Boxplot.
+- [[stats/01_Foundations/Log Transformation\|Log Transformation]] - Technique to fix skew.
+- [[stats/08_Visualization/Violin Plot\|Violin Plot]] - Histogram + Boxplot.

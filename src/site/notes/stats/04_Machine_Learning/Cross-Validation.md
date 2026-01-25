@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/04-machine-learning/cross-validation/","tags":["Machine-Learning","Model-Validation","Overfitting"]}
 ---
 
-
-# Cross-Validation
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -144,4 +141,4 @@ print(model)
 
 - [[stats/01_Foundations/Bias-Variance Trade-off\|Bias-Variance Trade-off]]
 - [[stats/03_Regression_Analysis/Ridge Regression\|Ridge Regression]] / [[stats/03_Regression_Analysis/Lasso Regression\|Lasso Regression]] - Use CV to tune $\lambda$.
-- [[Overfitting\|Overfitting]]
+- [[stats/04_Machine_Learning/Overfitting\|Overfitting]]

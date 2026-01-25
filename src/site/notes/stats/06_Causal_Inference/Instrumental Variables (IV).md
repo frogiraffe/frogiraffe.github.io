@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/06-causal-inference/instrumental-variables-iv/","tags":["Causal-Inference","Econometrics","Endogeneity"]}
 ---
 
-
-# Instrumental Variables (IV)
-
 ## Definition
 
 > [!abstract] Core Statement

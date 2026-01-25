@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/02-hypothesis-testing/mc-nemar-s-test/","tags":["Hypothesis-Testing","Non-Parametric","Paired-Data","Categorical-Data"]}
 ---
 
-
-# McNemar's Test
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -29,7 +26,7 @@
 
 > [!failure] Do Not Use When...
 > - Samples are independent (Use [[stats/02_Hypothesis_Testing/Chi-Square Test of Independence\|Chi-Square Test of Independence]] or [[stats/02_Hypothesis_Testing/Fisher's Exact Test\|Fisher's Exact Test]]).
-> - Outcome is continuous (Use [[Paired T-Test\|Paired T-Test]]).
+> - Outcome is continuous (Use [[stats/02_Hypothesis_Testing/Paired T-Test\|Paired T-Test]]).
 
 ---
 
@@ -118,6 +115,6 @@ if result.pvalue < 0.05:
 
 ## Related Concepts
 
-- [[Paired T-Test\|Paired T-Test]] - Continuous equivalent.
+- [[stats/02_Hypothesis_Testing/Paired T-Test\|Paired T-Test]] - Continuous equivalent.
 - [[stats/02_Hypothesis_Testing/Chi-Square Test of Independence\|Chi-Square Test of Independence]] - Unpaired equivalent.
 - [[stats/02_Hypothesis_Testing/Wilcoxon Signed-Rank Test\|Wilcoxon Signed-Rank Test]] - Paired ordinal equivalent.

@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/03-regression-analysis/outlier-analysis-standardized-residuals/","tags":["Diagnostics","Outliers"]}
 ---
 
-
-# Outlier Analysis (Standardized Residuals)
-
 ## Overview
 
 > [!abstract] Definition

@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/01-foundations/derivatives-and-gradients/","tags":["Math","Calculus","Optimization"]}
 ---
 
-
-# Derivatives & Gradients
-
 ## Definition
 
 > [!abstract] Core Statement
@@ -101,6 +98,6 @@ print(f"Critical Point at w = {roots[0]}")
 ## Related Concepts
 
 - [[stats/04_Machine_Learning/Gradient Descent\|Gradient Descent]] - Using derivates iteratively.
-- [[Optimization\|Optimization]] - The broader field.
-- [[Neural Networks\|Neural Networks]] - Use partial derivatives (weights).
-- [[Taylor Series\|Taylor Series]] - Approximating functions using derivatives.
+- [[stats/01_Foundations/Optimization\|Optimization]] - The broader field.
+- [[stats/04_Machine_Learning/Neural Networks\|Neural Networks]] - Use partial derivatives (weights).
+- [[stats/05_Time_Series/Taylor Series\|Taylor Series]] - Approximating functions using derivatives.

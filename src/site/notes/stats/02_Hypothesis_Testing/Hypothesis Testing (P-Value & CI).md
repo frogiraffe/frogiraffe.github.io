@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/02-hypothesis-testing/hypothesis-testing-p-value-and-ci/","tags":["Foundations","Hypothesis-Testing","Inference"]}
 ---
 
-
-# Hypothesis Testing (P-Value & CI)
-
 ## Definition
 
 > [!abstract] Core Statement

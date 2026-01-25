@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/02-hypothesis-testing/one-way-anova/","tags":["Hypothesis-Testing","Parametric-Tests","Mean-Comparison","ANOVA"]}
 ---
 
-
-# One-Way ANOVA
-
 ## Definition
 
 > [!abstract] Core Statement

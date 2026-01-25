@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/03-regression-analysis/hosmer-lemeshow-test/","tags":["Diagnostics","Regression","Calibration"]}
 ---
 
-
-# Hosmer-Lemeshow Test
-
 ## Overview
 
 > [!abstract] Definition

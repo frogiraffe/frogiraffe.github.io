@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/stats/05-time-series/arima-models/","tags":["Time-Series","Forecasting","Econometrics"]}
 ---
 
-
-# ARIMA Models
-
 ## Definition
 
 > [!abstract] Core Statement
