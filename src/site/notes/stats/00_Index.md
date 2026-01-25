@@ -2,10 +2,7 @@
 {"dg-publish":true,"permalink":"/stats/00-index/","tags":["Statistics","Map-of-Content","Index","gardenEntry"]}
 ---
 
-# Statistical Brain
-
-> [!tip] Automatic Navigation
-> This page aggregates all notes within the database dynamically. If you have the **Dataview** plugin installed, the lists below will update automatically.
+# Chiki Stats
 
 ---
 
