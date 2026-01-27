@@ -7,6 +7,8 @@
 > [!abstract] Core Statement
 > The **Law of Large Numbers (LLN)** states that as the sample size increases, the ==sample mean converges to the population mean==. In simpler terms: **the average of many observations approaches the true expected value**.
 
+![Law of Large Numbers: Die roll average converging to 3.5](https://commons.wikimedia.org/wiki/Special:FilePath/Lawoflargenumbers.svg)
+
 ---
 
 > [!tip] Intuition (ELI5): The Casino's Secret

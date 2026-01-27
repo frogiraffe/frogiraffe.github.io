@@ -10,6 +10,8 @@
 > $$L(\theta | x) = P(x | \theta)$$
 > It answers: "How likely would we see this data if θ were true?"
 
+![Likelihood Function for a Binomial parameter p](https://commons.wikimedia.org/wiki/Special:FilePath/MLfunction.svg)
+
 **Key Distinction:** Probability fixes θ and asks about data. Likelihood fixes data and asks about θ.
 
 ---

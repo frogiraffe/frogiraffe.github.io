@@ -8,6 +8,8 @@
 > [!abstract] Core Statement
 > **Backpropagation** computes ==gradients of the loss function with respect to all weights== by applying the chain rule backwards through the network.
 
+![Backpropagation Derivative Flow Diagram](https://commons.wikimedia.org/wiki/Special:FilePath/Back_Propagation_Example.svg)
+
 ---
 
 ## Chain Rule

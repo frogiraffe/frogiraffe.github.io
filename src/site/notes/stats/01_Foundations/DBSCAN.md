@@ -8,6 +8,8 @@
 > [!abstract] Core Statement
 > **DBSCAN** (Density-Based Spatial Clustering of Applications with Noise) groups ==dense regions== of points separated by sparse regions, and identifies outliers as noise.
 
+![DBSCAN Clustering on Density-Based Data](https://commons.wikimedia.org/wiki/Special:FilePath/DBSCAN-density-data.svg)
+
 ---
 
 ## Parameters

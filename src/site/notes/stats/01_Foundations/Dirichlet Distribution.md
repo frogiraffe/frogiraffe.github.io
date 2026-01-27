@@ -8,6 +8,8 @@
 > [!abstract] Core Statement
 > The **Dirichlet Distribution** is a ==multivariate generalization of the Beta distribution==, used as a prior for categorical probability vectors.
 
+![Dirichlet Distribution: Probability density on a 2-simplex (triangle)](https://upload.wikimedia.org/wikipedia/commons/5/54/Dirichlet_distributions.png)
+
 $$\text{Dir}(\alpha_1, \dots, \alpha_K): \quad p(\theta) \propto \prod_{k=1}^{K} \theta_k^{\alpha_k - 1}$$
 
 Where $\sum_{k=1}^{K} \theta_k = 1$ and $\theta_k \geq 0$.

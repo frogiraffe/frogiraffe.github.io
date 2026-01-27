@@ -8,6 +8,8 @@
 > [!abstract] Core Statement
 > The **Odds Ratio (OR)** is a measure of association that quantifies the ==strength of relationship== between an exposure and an outcome. It compares the odds of an event occurring in one group to the odds of it occurring in another group.
 
+![Relationship between Odds and Probability](https://commons.wikimedia.org/wiki/Special:FilePath/Odds_as_function_of_probability.svg)
+
 **Intuition (ELI5):** If you're betting on a horse race, "odds" tell you how likely the horse is to win vs. lose. The Odds Ratio compares betting odds between two horses—if Horse A has OR = 3 compared to Horse B, Horse A is "3 times more likely" to win (in odds terms, not probability!).
 
 ---

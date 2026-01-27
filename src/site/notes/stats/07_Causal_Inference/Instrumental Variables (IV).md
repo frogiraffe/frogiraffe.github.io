@@ -7,6 +7,8 @@
 > [!abstract] Core Statement
 > **Instrumental Variables (IV)** is a method to estimate **causal effects** when there is ==endogeneity== (correlation between a predictor and the error term) due to omitted variables, measurement error, or simultaneity. It uses a **third variable (instrument)** that affects the outcome ==only through== the endogenous predictor.
 
+![Instrumental Variable DAG: I -> X -> Y with confounder Z](https://commons.wikimedia.org/wiki/Special:FilePath/Instrumental_variables_-_Zmienne_instrumentalne.svg)
+
 ---
 
 > [!tip] Intuition (ELI5): The "Clean Middleman"

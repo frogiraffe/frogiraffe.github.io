@@ -8,6 +8,8 @@
 > [!abstract] Core Statement
 > The **Multiple Comparisons Problem** occurs when performing many hypothesis tests ==inflates the Type I error rate== beyond the nominal α level.
 
+![Quantile-Quantile plot illustrating Multiple Comparisons behavior](https://commons.wikimedia.org/wiki/Special:FilePath/Quantile_meta_test.svg)
+
 With m tests at α = 0.05:
 $$P(\text{at least 1 false positive}) = 1 - (1 - \alpha)^m$$
 

@@ -8,6 +8,8 @@
 > [!abstract] Core Statement
 > **Support Vector Machines (SVM)** find the **hyperplane** that maximizes the **margin** between two classes. Points closest to the hyperplane are called **support vectors** — they alone determine the decision boundary.
 
+![SVM: Finding the Maximum Margin Hyperplane](https://commons.wikimedia.org/wiki/Special:FilePath/Svm_separating_hyperplanes_(SVG).svg)
+
 **Intuition (ELI5):** Imagine separating red and blue marbles on a table with a stick. SVM finds the stick position that leaves the biggest gap on both sides. Only the marbles touching the gap matter — move the others, the stick stays the same.
 
 **Key Concepts:**

@@ -7,6 +7,8 @@
 > [!abstract] Core Statement
 > **Multiple Linear Regression (MLR)** extends simple linear regression to model the relationship between a single ==continuous dependent variable ($Y$)== and ==two or more independent variables ($X_1, X_2, \dots, X_k$)==. It determines the unique contribution of each predictor while **controlling for** the others.
 
+![Multiple Linear Regression: 3D regression plane fitting data points](https://commons.wikimedia.org/wiki/Special:FilePath/Regression_plane_avec_R.svg)
+
 ---
 
 > [!tip] Intuition (ELI5): The Pizza Predictor

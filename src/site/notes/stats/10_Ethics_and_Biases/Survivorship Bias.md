@@ -6,6 +6,8 @@
 
 > [!abstract] **Survivorship Bias** is the logical error of focusing on the people or things that "survived" some process and ignoring those that did not because of lack of visibility. This leads to **false conclusions** because the sample is not representative of the whole population.
 
+![Wald's World War II Plane: Bullet holes on returning planes indicate where they *could* be hit and survive.](https://commons.wikimedia.org/wiki/Special:FilePath/Survivorship-bias.svg)
+
 ---
 
 > [!tip] Intuition (ELI5): The Strong Man Fallacy

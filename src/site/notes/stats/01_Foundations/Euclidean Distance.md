@@ -8,6 +8,8 @@
 > [!abstract] Core Statement
 > **Euclidean Distance** is the ==straight-line distance== between two points in n-dimensional space.
 
+![Euclidean Distance in 2D Space](https://commons.wikimedia.org/wiki/Special:FilePath/Euclidean_distance_2d.svg)
+
 $$d(\mathbf{x}, \mathbf{y}) = \sqrt{\sum_{i=1}^{n} (x_i - y_i)^2} = \|\mathbf{x} - \mathbf{y}\|_2$$
 
 ---

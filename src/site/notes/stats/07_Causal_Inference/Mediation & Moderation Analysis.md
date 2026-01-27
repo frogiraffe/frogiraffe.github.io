@@ -43,14 +43,20 @@ Moderation asks: **Does the relationship between X and Y change depending on Z?*
 ## Path Diagrams (DAGs)
 
 ### Mediation
-`X -> M -> Y`
-`(and X -> Y)`
+```mermaid
+graph LR
+    X((X)) --> M((M))
+    M --> Y((Y))
+    X -- Direct Effect --> Y
+```
 
 ### Moderation
-`X -> Y`
-`^`
-`|`
-`Z`
+```mermaid
+graph TD
+    X((X)) --> Y((Y))
+    Z((Z)) -. Moderates .-> XY(Relationship)
+    style XY fill:none,stroke:none
+```
 
 ---
 

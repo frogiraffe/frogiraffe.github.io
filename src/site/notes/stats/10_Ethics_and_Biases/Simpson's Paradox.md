@@ -7,6 +7,8 @@
 > [!abstract] Core Statement
 > **Simpson's Paradox** is a phenomenon in probability and statistics where a trend appears in ==several groups of data== but disappears or reverses when these groups are combined. It often occurs when a hidden **confounding variable** interacts with the relationships being studied.
 
+![Simpson's Paradox: Positive trends within groups vs. negative overall trend](https://commons.wikimedia.org/wiki/Special:FilePath/Simpson's_paradox_continuous.svg)
+
 ---
 
 > [!tip] Intuition (ELI5): The Sports Mystery

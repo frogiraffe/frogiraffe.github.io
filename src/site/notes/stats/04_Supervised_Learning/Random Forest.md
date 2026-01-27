@@ -5,7 +5,9 @@
 ## Definition
 
 > [!abstract] Core Statement
-> **Random Forest** is an ensemble learning method that operates by constructing a multitude of **[[stats/04_Supervised_Learning/Decision Tree\|Decision Tree]]s** at training time. For classification, it outputs the **mode** (majority vote) of the classes; for regression, the **mean** prediction.
+> **Random Forest** is an ensemble learning method that operates by constructing a multitude of **[[stats/04_Supervised_Learning/Decision Tree\|Decision Tree]]s** at training time. For classification, it outputs the **mode** (majority vote) of the classes; for regression, it is the **mean** prediction.
+
+![Prediction with Random Forest: Multiple trees voting for a final result](https://commons.wikimedia.org/wiki/Special:FilePath/Randomforestprediction.svg)
 
 ---
 

@@ -12,6 +12,8 @@ $$
 P(A | B) = \frac{P(A \cap B)}{P(B)} \quad \text{where } P(B) > 0
 $$
 
+![Venn Diagram representing Conditional Probability](https://commons.wikimedia.org/wiki/Special:FilePath/Conditional_probability_venn_12345.svg)
+
 **Intuition:** If you know it's raining (B), how likely are you to see an umbrella (A)?
 
 ---

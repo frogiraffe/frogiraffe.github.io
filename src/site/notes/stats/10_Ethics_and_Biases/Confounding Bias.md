@@ -7,6 +7,8 @@
 > [!abstract] Core Statement
 > **Confounding Bias** occurs when an unobserved or uncorrected variable (a **confounder**) is associated with both the independent variable (exposure) and the dependent variable (outcome). This creates a "spurious" correlation, making it seem like $X \to Y$ when actually $Z \to X$ and $Z \to Y$.
 
+![The Confounding Triangle: Z influences both X and Y](https://commons.wikimedia.org/wiki/Special:FilePath/Confounding.svg)
+
 ---
 
 > [!tip] Intuition (ELI5): The "Lighter" Mystery

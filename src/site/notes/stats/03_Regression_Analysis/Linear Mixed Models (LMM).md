@@ -8,6 +8,8 @@
 > [!abstract] Core Statement
 > **Linear Mixed Models (LMM)** are regression models that include both ==fixed effects== (population-level parameters) and ==random effects== (group-level variation). They handle **hierarchical/clustered data** where observations are not independent—such as students within schools, repeated measurements within subjects, or patients within hospitals.
 
+![Hierarchical Data Structure: Units nested within groups](https://commons.wikimedia.org/wiki/Special:FilePath/Hierarchical_Model.svg)
+
 **Intuition (ELI5):** Imagine measuring student test scores. Each school has different baseline performance (some are "better" schools). A regular regression ignores this—treating all students as independent. LMM says: "Hey, students in the same school are similar. Let me account for that by giving each school its own baseline."
 
 ---

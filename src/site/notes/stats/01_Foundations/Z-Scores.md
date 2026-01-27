@@ -8,6 +8,8 @@
 > [!abstract] Core Statement
 > A **Z-Score** measures how many **standard deviations** a data point is from the mean. It standardizes values from any normal distribution to the **standard normal distribution** (μ=0, σ=1).
 
+![Normal Distribution with Z-Scores, Percentiles, and Standard Deviations](https://commons.wikimedia.org/wiki/Special:FilePath/The_Normal_Distribution.svg)
+
 $$
 z = \frac{x - \mu}{\sigma}
 $$

@@ -8,6 +8,8 @@
 > [!abstract] Core Statement
 > **Neural Networks** are computational models inspired by biological neurons. They consist of layers of interconnected **nodes (neurons)** that learn to transform inputs into outputs through **weighted connections** and **activation functions**.
 
+![Simple Neural Network Architecture: Input, Hidden, and Output Layers](https://commons.wikimedia.org/wiki/Special:FilePath/Neural_network_example.svg)
+
 **Intuition (ELI5):** Imagine a factory assembly line. Raw materials enter, pass through multiple processing stations (layers), each doing a simple transformation, and a finished product emerges. Neural networks work similarly — data enters, gets transformed layer by layer, and a prediction comes out. Training is like adjusting each station until the factory produces what we want.
 
 **Key Components:**

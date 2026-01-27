@@ -7,6 +7,8 @@
 > [!abstract] Core Statement
 > **Matrix Multiplication** is a binary operation that takes a pair of matrices and produces another matrix. If $A$ is an $m \times n$ matrix and $B$ is an $n \times p$ matrix, their product $C = AB$ is an $m \times p$ matrix where each element $c_{ij}$ is the **dot product** of the $i$-th row of $A$ and the $j$-th column of $B$.
 
+![Matrix Multiplication Diagram (AB = C)](https://commons.wikimedia.org/wiki/Special:FilePath/Matrix_multiplication_diagram_2.svg)
+
 ---
 
 ## Purpose

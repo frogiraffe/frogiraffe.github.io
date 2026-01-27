@@ -8,6 +8,8 @@
 > [!abstract] Core Statement
 > The **Hypergeometric Distribution** models the number of ==successes in n draws without replacement== from a finite population.
 
+![Hypergeometric Distribution PMF Examples](https://commons.wikimedia.org/wiki/Special:FilePath/Hypergeometric_distribution_examples.svg)
+
 $$P(X = k) = \frac{\binom{K}{k}\binom{N-K}{n-k}}{\binom{N}{n}}$$
 
 Where: N = population, K = success states, n = draws, k = observed successes.

@@ -10,6 +10,8 @@
 > $$A = U \Sigma V^T$$
 > where U, V are orthogonal and Σ is diagonal with singular values.
 
+![Singular Value Decomposition Visualization (2x2 Matrix)](https://commons.wikimedia.org/wiki/Special:FilePath/Singular-Value-Decomposition.svg)
+
 ---
 
 ## Components

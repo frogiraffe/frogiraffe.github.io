@@ -9,6 +9,8 @@
 > The **Geometric Distribution** models the number of ==Bernoulli trials needed to get the first success==. If p is the success probability:
 > $$P(X = k) = (1-p)^{k-1} p$$
 
+![Geometric Distribution PMF for different success probabilities](https://commons.wikimedia.org/wiki/Special:FilePath/Geometric_pmf.svg)
+
 **Alternative:** Some texts define X as number of *failures* before first success.
 
 ---

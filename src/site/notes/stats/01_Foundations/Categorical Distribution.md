@@ -8,6 +8,8 @@
 > [!abstract] Core Statement
 > The **Categorical Distribution** models a ==single trial with K possible outcomes==, each with probability $p_k$.
 
+![Categorical Distribution: Discrete probabilities for different outcomes](https://upload.wikimedia.org/wikipedia/commons/b/b1/Categorical_distribution_example.png)
+
 $$P(X = k) = p_k \quad \text{where } \sum_{k=1}^{K} p_k = 1$$
 
 ---

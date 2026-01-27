@@ -7,6 +7,8 @@
 > [!abstract] Core Statement
 > **Regularization** is a technique used to **prevent overfitting** by adding a **penalty term** to the model's loss function. This penalty discourages complex models (large coefficients), biasedly "shrinking" estimates towards zero to reduce Variance.
 
+![Geometry of L1 (Diamond) vs L2 (Circle) Regularization](https://commons.wikimedia.org/wiki/Special:FilePath/L1_and_L2_balls.svg)
+
 $$ \text{Loss} = \text{Data Fit Error} + \lambda \times \text{Complexity Penalty} $$
 
 ---

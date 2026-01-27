@@ -7,6 +7,8 @@
 > [!abstract] Core Statement
 > A **Confidence Interval (CI)** is a range of values, derived from sample data, that is likely to contain the ==true population parameter== with a specified level of confidence (e.g., 95%). It quantifies the **uncertainty** in an estimate.
 
+![95% Confidence Interval visualization](https://commons.wikimedia.org/wiki/Special:FilePath/95%25_confidence_interval.svg)
+
 ---
 
 > [!tip] Intuition (ELI5): The "Safety Zone"
