@@ -7,6 +7,13 @@
 > [!abstract] Core Statement
 > The **Binomial Distribution** models the number of ==successes in a fixed number of independent trials==, where each trial has the same probability of success. It answers: "If I flip a coin 10 times, what's the probability of getting exactly 6 heads?"
 
+![Binomial Distribution PMF](https://upload.wikimedia.org/wikipedia/commons/7/75/Binomial_distribution_pmf.svg)
+
+---
+
+> [!tip] Intuition (ELI5): The "Scoreboard"
+> Imagine you are playing a game where you get 10 attempts to score. Each attempt is independent (like a coin flip). The Binomial Distribution is the scoreboard that tells you the probability of finishing with exactly 0, 1, 2... or 10 points. 
+
 ---
 
 ## Purpose

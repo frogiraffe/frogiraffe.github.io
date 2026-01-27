@@ -9,6 +9,23 @@
 
 ---
 
+## Intuition (ELI5)
+
+Imagine you have a bag of **M&Ms** and you want to know if the **Color** of the candy is related to the **Flavor** (even though we know it's not!).
+If they are independent, you'd expect 20% of the red ones to be cherry, 20% of the blue ones to be cherry, etc. 
+The Chi-Square test compares what you **actually see** in the bag to what you **expected to see** if color and flavor had nothing to do with each other. If the difference is huge, you conclude they are "dependent".
+
+---
+
+## Real-Life Example: Smoking and Lung Disease
+
+A researcher wants to know if **Smoking Status** (Smoker / Non-Smoker) is related to **Health Outcome** (Has Disease / No Disease).
+- Since both variables are categories (Yes/No), they use a Chi-Square Test.
+- They count how many people fall into each of the 4 buckets.
+- If the test is significant, it means knowing if someone smokes gives you information about their likelihood of having the disease.
+
+---
+
 ## Purpose
 
 1.  Test if two categorical variables are related (e.g., Gender and Product Preference).

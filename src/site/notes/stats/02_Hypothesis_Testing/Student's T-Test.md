@@ -7,6 +7,16 @@
 > [!abstract] Core Statement
 > **Student's T-Test** (Independent Samples) compares the ==means of two independent groups== to determine if they are significantly different. It assumes that both groups are drawn from normally distributed populations with ==equal variances==.
 
+![T-Test Rejection Region](https://upload.wikimedia.org/wikipedia/commons/1/1a/One_sample_t-test.png)
+
+---
+
+> [!tip] Intuition (ELI5): The "Luck Detector"
+> Imagine you want to know if **red apples** are heavier than **green ones**. You weigh 20 of each. The red ones are slightly heavier. But is that because they are *really* heavier, or did you just get lucky? The T-test looks at the "noise" (how much weights vary) and tells you if the "signal" is big enough to ignore luck.
+
+> [!example] Real-Life Example: A/B Testing
+> An e-commerce site shows a **Green Button** to half its users and a **Red Button** to the other half. They use a T-test to compare the average clicks. If the p-value is small, they conclude the color actually changed behavior and wasn't just a random coincidence.
+
 ---
 
 ## Purpose

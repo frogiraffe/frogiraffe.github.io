@@ -10,6 +10,23 @@
 
 ---
 
+## Intuition (ELI5)
+
+Imagine you want to see if a **new flashlight** is brighter than an old one.
+- If the new one is *way* brighter (huge effect), you only need to try it a few times to be sure.
+- If the new one is only *slightly* brighter (small effect), you need to try it hundreds of times in various dark rooms to make sure your eyes aren't playing tricks on you.
+Sample size is the math that tells you: "How many tries do I need before I can stop guessing and trust the result?"
+
+---
+
+## Real-Life Example: Drug Safety Trials
+
+Before a new medicine is approved, scientists calculate how many patients they need to test.
+- If they expect the medicine to lower blood pressure by 10 points ($d=0.5$), the math might say they need **200 people**.
+- If they only tested **10 people**, even if those 10 got better, it could just be a coincidence. The sample size calculation ensures the study has enough "power" to prove the medicine actually works.
+
+---
+
 ## Key Parameters
 
 | Parameter | Description | Typical Value |

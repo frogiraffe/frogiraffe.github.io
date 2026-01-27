@@ -42,10 +42,14 @@ These metrics describe how spread out or dispersed the data is.
 
 ## 3. Measures of Shape
 
+![Skewness Visualization](https://upload.wikimedia.org/wikipedia/commons/c/cc/Negative_and_positive_skew_diagrams_%28English%29.svg)
+
 | Measure | Description | Interpretation |
 |---------|-------------|----------------|
 | **Skewness** | Asymmetry. | **0:** Symmetric. <br> **>0:** Right skew (Tail right). <br> **<0:** Left skew (Tail left). |
 | **Kurtosis** | "Tailedness" (Peakedness). | **3 (approx):** Normal. <br> **High (Leptokurtic):** Heavy tails (Outlier prone). <br> **Low (Platykurtic):** Light tails (Flat). |
+
+![Kurtosis Visualization](https://upload.wikimedia.org/wikipedia/commons/e/e6/Kurtosis_merged.svg)
 
 ---
 

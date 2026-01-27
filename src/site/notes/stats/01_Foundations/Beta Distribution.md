@@ -7,6 +7,8 @@
 > [!abstract] Core Statement
 > The **Beta Distribution** is a continuous distribution defined on the interval **[0, 1]**. It is parametrized by two shape parameters, $\alpha$ (Alpha) and $\beta$ (Beta). It is widely used to model **probabilities** or proportions, and serves as the **conjugate prior** for the Bernoulli, Binomial, and Geometric distributions.
 
+![Beta Distribution PDF](https://upload.wikimedia.org/wikipedia/commons/f/f3/Beta_distribution_pdf.svg)
+
 ---
 
 ## Purpose

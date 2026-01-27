@@ -12,7 +12,10 @@ $$
 z = \frac{x - \mu}{\sigma}
 $$
 
-**Intuition (ELI5):** Imagine test scores from two classes — one averages 70 (SD=10), the other 85 (SD=5). If you scored 80 in the first class (z=+1) and 90 in the second (z=+1), you performed equally well relative to each class, even though the raw scores differ.
+---
+
+> [!tip] Intuition (ELI5): The Universal Ruler
+> Imagine test scores from two classes—one averages 70, the other 85. If you scored 80 in the first class ($z=+1$) and 90 in the second ($z=+1$), you performed equally well relative to your peers, even though the raw scores differ. The Z-Score is the "Universal Ruler" that lets you compare apples to oranges.
 
 **Key Properties:**
 - Z-score = 0 → Value equals the mean

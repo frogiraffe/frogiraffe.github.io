@@ -10,6 +10,8 @@
 > - **Sensitivity (True Positive Rate):** Proportion of actual positives correctly identified.
 > - **Specificity (True Negative Rate):** Proportion of actual negatives correctly identified.
 
+![Sensitivity and Specificity Visualization](https://upload.wikimedia.org/wikipedia/commons/5/5a/Sensitivity_and_specificity.svg)
+
 **Intuition (ELI5):** 
 - **Sensitivity:** "If you're sick, will the test catch it?" (Don't miss the sick people!)
 - **Specificity:** "If you're healthy, will the test say you're healthy?" (Don't scare healthy people!)

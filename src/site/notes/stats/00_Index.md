@@ -238,7 +238,15 @@
 
 ## Ethics and Biases
 
+- [[stats/07_Ethics_and_Biases/Algorithmic Bias\|Algorithmic Bias]]
+- [[stats/07_Ethics_and_Biases/Confounding Bias\|Confounding Bias]]
+- [[stats/07_Ethics_and_Biases/Differential Privacy\|Differential Privacy]]
+- [[stats/07_Ethics_and_Biases/Feedback Loops\|Feedback Loops]]
 - [[stats/07_Ethics_and_Biases/P-Hacking\|P-Hacking]]
+- [[stats/07_Ethics_and_Biases/Publication Bias\|Publication Bias]]
+- [[stats/07_Ethics_and_Biases/Recall Bias\|Recall Bias]]
+- [[stats/07_Ethics_and_Biases/Selection Bias\|Selection Bias]]
+- [[stats/07_Ethics_and_Biases/Simpson's Paradox\|Simpson's Paradox]]
 - [[stats/07_Ethics_and_Biases/Survivorship Bias\|Survivorship Bias]]
 
 { .block-language-dataview}

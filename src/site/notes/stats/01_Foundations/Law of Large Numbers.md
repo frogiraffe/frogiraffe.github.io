@@ -9,6 +9,11 @@
 
 ---
 
+> [!tip] Intuition (ELI5): The Casino's Secret
+> Individual gamblers might win big or lose big tonight (luck). but over a million bets, the luck "evens out." The total average result will get closer and closer to the exact "expected profit" the casino builders calculated. This is why the house always wins in the long run.
+
+---
+
 ## Purpose
 
 1. Justify the use of sample statistics to estimate population parameters.

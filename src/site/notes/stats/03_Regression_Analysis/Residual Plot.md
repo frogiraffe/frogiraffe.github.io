@@ -8,6 +8,8 @@
 > [!abstract] Core Statement
 > A **Residual Plot** displays ==residuals versus fitted values or predictors== to assess regression assumptions: linearity, homoscedasticity, and independence.
 
+![Residual Plot Visualization](https://upload.wikimedia.org/wikipedia/commons/e/e3/Residuals_for_Linear_Regression_Fit.png)
+
 ---
 
 ## Patterns to Look For

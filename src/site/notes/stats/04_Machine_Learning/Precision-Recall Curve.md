@@ -8,6 +8,8 @@
 > [!abstract] Core Statement
 > The **Precision-Recall Curve** plots **Precision** (y-axis) against **Recall** (x-axis) at various classification thresholds. It is the **gold standard** for evaluating classifiers on **imbalanced datasets** where the positive class is rare.
 
+![Precision-Recall Curve Visualization](https://upload.wikimedia.org/wikipedia/commons/2/26/Precisionrecall.svg)
+
 $$
 \text{Precision} = \frac{TP}{TP + FP} \quad \text{Recall} = \frac{TP}{TP + FN}
 $$

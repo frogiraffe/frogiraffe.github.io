@@ -8,6 +8,8 @@
 > [!abstract] Core Statement
 > **Causal Inference** is the science of drawing conclusions about **cause-and-effect relationships** from data. Unlike correlation ("X and Y move together"), causal inference asks: "Does X **cause** Y?" and "What would Y be if we changed X?"
 
+![Causal DAG (Confounder, Mediator, Collider)](https://upload.wikimedia.org/wikipedia/commons/5/52/Confounder_mediator_collider.svg)
+
 **Intuition (ELI5):** You notice that people who carry umbrellas are often wet. Do umbrellas cause wetness? No — rain causes both. Causal inference is the toolkit for distinguishing "X causes Y" from "X and Y share a common cause."
 
 **The Fundamental Question:**
@@ -345,7 +347,7 @@ plot(sens)
 **Prerequisites:**
 - [[stats/01_Foundations/Confounding Variables\|Confounding Variables]] — Why naive comparisons fail
 - [[stats/01_Foundations/Correlation vs Causation\|Correlation vs Causation]] — The core distinction
-- [[Simpson's Paradox\|Simpson's Paradox]] — When aggregation reverses effects
+- [[stats/07_Ethics_and_Biases/Simpson's Paradox\|Simpson's Paradox]] — When aggregation reverses effects
 
 **Core Methods:**
 - [[stats/06_Causal_Inference/Propensity Score Matching (PSM)\|Propensity Score Matching (PSM)]]

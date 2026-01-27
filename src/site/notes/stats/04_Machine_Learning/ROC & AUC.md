@@ -7,6 +7,13 @@
 > [!abstract] Core Statement
 > **ROC (Receiver Operating Characteristic) Curve** plots the **True Positive Rate (Recall)** against the **False Positive Rate** at all possible classification thresholds. **AUC (Area Under the Curve)** summarizes the ROC into a single number representing the model's ability to ==discriminate between classes==.
 
+![ROC Curve Example](https://upload.wikimedia.org/wikipedia/commons/3/36/ROC_Curve.svg)
+
+---
+
+> [!tip] Intuition (ELI5): The "Sensitivity Knob"
+> Imagine a metal detector. You can turn the sensitivity up (you find more gold, but your machine beeps at every old nail) or turn it down (no false beeps, but you miss some gold). ROC/AUC is the score that tells you how good the metal detector is *overall*, no matter where you set the knob.
+
 ---
 
 ## Purpose

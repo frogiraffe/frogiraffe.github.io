@@ -7,6 +7,16 @@
 > [!abstract] Core Statement
 > The **Bias-Variance Trade-off** describes the ==fundamental tension== in predictive modeling: **simple models have high bias** (systematic error), while **complex models have high variance** (sensitivity to noise). The goal is to find the sweet spot that minimizes **total error**.
 
+![Bias-Variance Tradeoff Visualization](https://upload.wikimedia.org/wikipedia/commons/9/9f/Bias_and_variance_contributing_to_total_error.svg)
+
+---
+
+> [!tip] Intuition (ELI5): The Archer
+> Imagine an archer shooting at a target.
+> - **High Bias** is like having your sight misaligned—you consistently hit the upper left, no matter how steady your hand is (underfitting).
+> - **High Variance** is like having a shaky hand—you know where the center is, but your arrows land all over the place because you're over-reacting to every little breeze (overfitting).
+> A perfect model needs both a steady hand and a correctly aligned sight.
+
 ---
 
 ## Purpose

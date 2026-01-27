@@ -7,6 +7,8 @@
 > [!abstract] Core Statement
 > The **Chi-Square Distribution ($\chi^2$)** is a continuous probability distribution defined as the sum of ==squared independent standard normal variables==. It is characterized by its **degrees of freedom** and is used extensively in hypothesis testing for variance and categorical data.
 
+![Chi-Square Distribution PDF](https://upload.wikimedia.org/wikipedia/commons/3/35/Chi-square_pdf.svg)
+
 ---
 
 ## Purpose

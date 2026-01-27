@@ -7,6 +7,13 @@
 > [!abstract] Core Statement
 > A **Boxplot** (or Box-and-Whisker Plot) is a standardized way of displaying the distribution of data based on a **five-number summary**: Minimum, First Quartile (Q1), Median (Q2), Third Quartile (Q3), and Maximum. It is the primary tool for identifying **outliers** and visualizing **skewness**.
 
+![Elements of a Boxplot](https://upload.wikimedia.org/wikipedia/commons/b/b1/Elements_of_a_boxplot.svg)
+
+---
+
+> [!tip] Intuition (ELI5): The 5-Finger Summary
+> A boxplot is like a 5-digit password for your data. instead of looking at 1,000 numbers, you just look at the middle point (median), the main group (the box), and the weird "outsiders" (the dots) who are too far away from everyone else.
+
 ---
 
 ## Purpose

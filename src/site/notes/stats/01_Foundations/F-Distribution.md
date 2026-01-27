@@ -7,6 +7,8 @@
 > [!abstract] Core Statement
 > The **F-Distribution** is a continuous probability distribution that arises as the ==ratio of two chi-square distributions== divided by their respective degrees of freedom. It is the foundation for **ANOVA**, **regression F-tests**, and **variance ratio tests**.
 
+![F-Distribution PDF](https://upload.wikimedia.org/wikipedia/commons/7/74/F-distribution_pdf.svg)
+
 ---
 
 ## Purpose

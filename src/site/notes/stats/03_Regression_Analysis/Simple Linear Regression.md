@@ -7,6 +7,16 @@
 > [!abstract] Core Statement
 > **Simple Linear Regression (SLR)** models the linear relationship between a single ==continuous independent variable ($X$)== and a ==continuous dependent variable ($Y$)==. It fits a straight line that minimizes the sum of squared residuals (Ordinary Least Squares - OLS).
 
+![Simple Linear Regression Visualization](https://upload.wikimedia.org/wikipedia/commons/3/3a/Linear_regression.svg)
+
+---
+
+> [!tip] Intuition (ELI5): The Sunflower Test
+> You want to predict how **tall a sunflower** will grow based on **water**. You draw a straight line: more water ($X$) means more height ($Y$). "Simple" means you only look at one thing (water); "Linear" means every cup of water adds the same extra height.
+
+> [!example] Real-Life Example: Student Attendance
+> A school tests if **attending classes** ($X$) leads to **higher scores** ($Y$). They find that for every 1 class attended, the score goes up by 0.5 points. This allows a prediction: "A student attending 20 classes should get +10 points."
+
 ---
 
 ## Purpose

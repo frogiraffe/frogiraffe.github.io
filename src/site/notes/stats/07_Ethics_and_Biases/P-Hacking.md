@@ -9,6 +9,14 @@
 
 ---
 
+> [!tip] Intuition (ELI5): The Psychic Trick
+> Imagine you try to guess a coin flip 10 times and fail. You hide that video. You try again 100 times until, by pure luck, you get 10 heads in a row! You post *only* that video and say, "I'm a psychic!" You are "hacking" the result by hiding the failures and only showing the lucky win.
+
+> [!example] Real-Life Example: The "Chocolate for Weight Loss" Hoax
+> A journalist once measured 18 different metrics (weight, cholesterol, etc.) for people eating chocolate. By pure chance, "weight loss" appeared significant. He published it, and the news shouted: "Chocolate Helps You Lose Weight!" It was a false positive created by testing too many things until one "worked."
+
+---
+
 ## Purpose
 
 1.  **Awareness:** Understand why many published scientific results ("The Reproducibility Crisis") are false.

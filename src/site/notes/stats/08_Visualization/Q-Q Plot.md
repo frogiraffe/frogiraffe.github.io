@@ -7,6 +7,13 @@
 > [!abstract] Core Statement
 > A **Q-Q Plot (Quantile-Quantile Plot)** is a graphical tool to compare the distribution of a sample against a theoretical distribution (usually the [[stats/01_Foundations/Normal Distribution\|Normal Distribution]]). It plots ==sample quantiles against theoretical quantiles==. If the data follows the theoretical distribution, points will fall on a straight diagonal line.
 
+![Q-Q Plot Visualization](https://upload.wikimedia.org/wikipedia/commons/c/c6/Normal_normal_qq.svg)
+
+---
+
+> [!tip] Intuition (ELI5): The Mirror Mirror
+> A Q-Q plot is like a mirror for data. It asks: "Does this messy group of numbers look like the perfect Bell Curve?" If they match, they'll hold hands along a perfectly straight diagonal line. If they curve away, it shows you exactly how the data is "bent" compared to a normal distribution.
+
 ---
 
 ## Purpose

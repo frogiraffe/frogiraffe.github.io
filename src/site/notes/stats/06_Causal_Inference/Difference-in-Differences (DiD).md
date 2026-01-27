@@ -7,6 +7,13 @@
 > [!abstract] Core Statement
 > **Difference-in-Differences (DiD)** is a quasi-experimental design that estimates causal effects by comparing the ==change in outcomes over time== between a **treatment group** and a **control group**. The key insight is that the control group's change captures the counterfactual trend.
 
+![Difference-in-Differences Visualization](https://upload.wikimedia.org/wikipedia/commons/5/5e/Illustration_of_Difference_in_Differences.png)
+
+---
+
+> [!tip] Intuition (ELI5): The "Parallel Worlds" Test
+> Imagine two identical schools. School A gets new iPads; School B doesn't. DiD doesn't just look at School A's grades. It looks at the *change* in School A's grades compared to the *change* in School B's grades. This cancels out things that affected both schools, like a really hard exam that year or a global pandemic.
+
 ---
 
 ## Purpose

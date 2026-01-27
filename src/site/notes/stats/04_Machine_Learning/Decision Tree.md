@@ -7,6 +7,13 @@
 > [!abstract] Core Statement
 > A **Decision Tree** is a flowchart-like model used for classification and regression. It splits data into smaller subsets based on feature values (e.g., "Is Age > 30?"), creating a tree structure of **nodes** (decisions) and **leaves** (outcomes).
 
+![Decision Tree Model Visualization](https://upload.wikimedia.org/wikipedia/commons/4/4b/Decision_tree_model.png)
+
+---
+
+> [!tip] Intuition (ELI5): Choose Your Own Adventure
+> A Decision Tree is like a "Choose Your Own Adventure" book. You start with one question (e.g., "Is it raining?"). If yes, you turn to page 5. If no, you turn to page 10. By following these simple "Yes/No" rules, you eventually reach an ending (the prediction).
+
 ---
 
 ## Purpose

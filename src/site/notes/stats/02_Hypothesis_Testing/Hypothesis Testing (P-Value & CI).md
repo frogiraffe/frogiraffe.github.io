@@ -9,6 +9,17 @@
 
 ---
 
+> [!tip] Intuition (ELI5): The Superpower Test
+> A friend claims they can **guess jelly bean flavors** just by touching them.
+> 1. **$H_0$:** They are just guessing (Luck).
+> 2. **$H_1$:** They have a superpower.
+> They get 10/10 right. The **P-Value** is the probability a normal person would get 10 right by luck (e.g., 0.001). Since 0.001 is smaller than your threshold (0.05), you say "I don't think it's luck anymore!" and reject the Null.
+
+> [!example] Real-Life Example: New Feature Launch
+> A tech company splits users: half get an old algorithm, half get the new one. They test if the **click-rate** increases. If they see a 2% lift with a p-value of 0.001, they "reject the null" (that the algorithms are the same) and launch the new version.
+
+---
+
 ## Purpose
 
 1.  To determine whether observed data is consistent with a specific claim (e.g., "The drug has no effect").
@@ -46,9 +57,13 @@
 > The **p-value** is the probability of obtaining a test statistic ==at least as extreme== as the one observed, **assuming $H_0$ is true**.
 > $$ P\text{-value} = P(\text{Observed Data or More Extreme} | H_0 \text{ is True}) $$
 
+![P-value Visualization](https://upload.wikimedia.org/wikipedia/commons/0/07/P-value_in_statistical_significance_testing.svg)
+
 **Interpretation:**
-- **Small p-value ($< \alpha$):** The observed data is unlikely under $H_0$. This is surprising. Reject $H_0$.
-- **Large p-value ($\ge \alpha$):** The observed data is consistent with $H_0$. Not surprising. Fail to reject $H_0$.
+| P-Value | Evidence | Decision |
+|---------|----------|----------|
+| **Small ($< \alpha$)** | Unlikely under $H_0$. Surprising. | **Reject $H_0$.** |
+| **Large ($\ge \alpha$)** | Consistent with $H_0$. Expected. | **Fail to Reject $H_0$.** |
 
 ### Significance Level ($\alpha$)
 

@@ -9,6 +9,13 @@
 
 ---
 
+> [!tip] Intuition (ELI5): The Detective's Clue
+> Imagine you are a detective. You have a "Prior" guess for who committed the crime (e.g., 50% chance it's the butler). Then you find a "New Evidence" (e.g., a footprint). Bayes' Theorem is the math that tells you how to update your 50% guess to a "Posterior" guess (e.g., 90% chance it's the butler) based on how likely that footprint was to come from him.
+
+![Bayes' Theorem Tree Diagram](https://upload.wikimedia.org/wikipedia/commons/1/18/Bayes_theorem_tree_diagrams.svg)
+
+---
+
 ## Purpose
 
 1. Calculate **conditional probabilities** (reverse probabilities).

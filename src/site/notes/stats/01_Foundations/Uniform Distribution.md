@@ -7,6 +7,8 @@
 > [!abstract] Core Statement
 > The **Uniform Distribution** (Continuous) assigns ==equal probability== to all values in a specified interval $[a, b]$. Every outcome in the range is equally likely. It is the "flat" distribution.
 
+![Uniform Distribution PDF](https://upload.wikimedia.org/wikipedia/commons/9/96/Uniform_Distribution_PDF_SVG.svg)
+
 ---
 
 ## Purpose

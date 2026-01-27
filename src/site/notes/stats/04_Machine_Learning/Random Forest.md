@@ -7,6 +7,11 @@
 > [!abstract] Core Statement
 > **Random Forest** is an ensemble learning method that operates by constructing a multitude of **[[stats/04_Machine_Learning/Decision Tree\|Decision Tree]]s** at training time. For classification, it outputs the **mode** (majority vote) of the classes; for regression, the **mean** prediction.
 
+---
+
+> [!tip] Intuition (ELI5): The Wisdom of the Crowd
+> Instead of asking just one person for directions (who might be wrong), you ask 100 people and take the average of their answers. Even if a few people are confused, the "crowd" as a whole will usually lead you to the right place.
+
 It combines **Bagging** (Bootstrap Aggregation) with **Feature Randomness**.
 
 ---

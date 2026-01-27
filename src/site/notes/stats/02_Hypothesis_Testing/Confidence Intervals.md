@@ -9,6 +9,14 @@
 
 ---
 
+> [!tip] Intuition (ELI5): The "Safety Zone"
+> You have a giant jar of jelly beans. You scoop some and see 10% are red. Instead of saying "Exactly 10% of the whole jar is red," you say: "I'm 95% sure the real number is between **8% and 12%**." That range is your safety zone. The wider it is, the safer you are, but the less specific you are.
+
+> [!example] Real-Life Example: Political Polling
+> A news agency says: "Candidate X has **52% support (±3%)**." This is a CI of [49%, 55%]. Since the interval includes numbers below 50%, it's a "statistical toss-up"—Candidate X might actually be losing, even though the sample average is winning.
+
+---
+
 ## Purpose
 
 1.  Provide a range estimate instead of a single point estimate.

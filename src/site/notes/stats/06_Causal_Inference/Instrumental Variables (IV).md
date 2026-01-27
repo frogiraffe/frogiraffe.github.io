@@ -9,6 +9,11 @@
 
 ---
 
+> [!tip] Intuition (ELI5): The "Clean Middleman"
+> Imagine you want to know if coffee (X) causes heart disease (Y). But genetics (hidden factor) might cause both, which confuses your math. You find an "instrument" like an "Early Bird Discount" at the coffee shop. The discount makes people drink more coffee, but it has nothing to do with their genetics. This "discount" is your clean middleman that lets you isolate the true effect of coffee.
+
+---
+
 ## Purpose
 
 1.  Estimate causal relationships in observational data when experiments are impossible.

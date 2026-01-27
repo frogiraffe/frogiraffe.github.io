@@ -7,6 +7,13 @@
 > [!abstract] Core Statement
 > The **Central Limit Theorem (CLT)** states that the sampling distribution of the sample mean will approximate a **Normal Distribution** as the sample size ($n$) becomes sufficiently large, ==regardless of the shape of the population distribution==.
 
+![Central Limit Theorem Visualization](https://upload.wikimedia.org/wikipedia/commons/7/7b/IllustrationCentralTheorem.png)
+
+---
+
+> [!tip] Intuition (ELI5): The Soup Taster
+> Imagine you made a giant pot of soup. Some parts might be saltier than others (messy distribution). If you take a tiny sip ($n=1$), it might be too salty or too bland. But if you take a large bowl (big $n$), and you do this 100 times, the average saltiness of those bowls will always form a perfect bell curve, centered around the true saltiness of the whole pot.
+
 ---
 
 ## Purpose

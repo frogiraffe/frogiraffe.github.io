@@ -7,6 +7,8 @@
 > [!abstract] Core Statement
 > A **Heatmap** is a 2D data visualization where individual values in a matrix are represented as **colors**. It is the primary tool for visualizing **Correlation Matrices** and finding patterns in high-dimensional or time-series data.
 
+![Heatmap Visualization](https://upload.wikimedia.org/wikipedia/commons/c/c1/Heatmap_birthday_rank_USA.svg)
+
 ---
 
 ## Purpose

@@ -8,11 +8,23 @@
 > [!abstract] Core Statement
 > **Lasso Regression** (Least Absolute Shrinkage and Selection Operator) adds an **L1 penalty** to OLS. This penalty shrinks some coefficients exactly to **zero**, performing **automatic feature selection**.
 
-$$
-\hat{\beta}_{Lasso} = \arg\min_\beta \left\{ \sum_{i=1}^{n}(y_i - \hat{y}_i)^2 + \lambda \sum_{j=1}^{p}|\beta_j| \right\}
-$$
+---
 
-**Intuition (ELI5):** Imagine you have 100 predictors, but only 10 actually matter. OLS will give small (but non-zero) coefficients to all 100. Lasso is like a strict budget: it forces you to pick only the important predictors and completely ignores the rest.
+## Intuition (ELI5)
+
+Imagine you have **100 suspects** for a crime, but you know only about 3 of them actually did it.
+- **Ordinary Regression** is like a detective who says "I think everyone is 1% guilty." It's hard to use that.
+- **Lasso Regression** is like a strict judge who says "If you don't have strong evidence against you, I'm setting your guilt to **zero**."
+Lasso forces you to ignore the noise and focus ONLY on the most important people.
+
+---
+
+## Real-Life Example: DNA Research
+
+Scientists use Lasso to find out which **genes** lead to a disease.
+- There are **20,000+ genes** ($X$) but only a few dozen might be relevant.
+- Lasso looks at the data and sets the contribution of 19,900 genes to **exactly zero**.
+- This leaves the scientists with a small, manageable list of "suspect genes" to study in the lab.
 
 **Key Feature:** Unlike [[stats/03_Regression_Analysis/Ridge Regression\|Ridge Regression]] (L2), Lasso produces **sparse** models — many coefficients become exactly zero.
 

@@ -9,6 +9,14 @@
 
 ---
 
+> [!tip] Intuition (ELI5): The Pizza Predictor
+> You want to predict how **tasty a pizza** is. You can't just look at the **cheese** ($X_1$); you also need the **sauce** ($X_2$) and **crust** ($X_3$). MLR finds out how much *each* ingredient contributes while making sure it doesn't blame the crust for something the cheese did better.
+
+> [!example] Real-Life Example: House Prices
+> Real estate sites predict **Price** ($Y$) using **Square Feet** ($X_1$), **Bedrooms** ($X_2$), and **Location** ($X_3$). The model tells you: "Each extra square foot adds \$200, *even if the number of bedrooms stays the same*."
+
+---
+
 ## Purpose
 
 1.  **Isolate Effects:** Understand the effect of $X_1$ on $Y$, *holding $X_2, X_3, \dots$ constant* (Ceteris Paribus).

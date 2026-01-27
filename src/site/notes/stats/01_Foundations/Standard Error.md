@@ -9,6 +9,14 @@
 
 ---
 
+> [!tip] Intuition (ELI5): The Blur Filter
+> Imagine you are taking a photo (the sample mean) of an object (the population mean).
+> - **Standard Deviation** is how much the background naturally varies.
+> - **Standard Error** is how "blurry" your focus is.
+> The larger your "lens" (sample size), the less blur (Standard Error) you have, and the sharper your estimate of the truth becomes.
+
+---
+
 ## Purpose
 
 1. Quantify **uncertainty** in sample estimates.

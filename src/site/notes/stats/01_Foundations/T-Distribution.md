@@ -7,6 +7,8 @@
 > [!abstract] Core Statement
 > The **Student's t-distribution** is a probability distribution used when estimating the mean of a normally distributed population in situations where the sample size is small ($n < 30$) and the population standard deviation ($\sigma$) is ==unknown==. It has **heavier tails** than the Normal Distribution, reflecting the increased uncertainty.
 
+![T-Distribution vs Normal Distribution](https://upload.wikimedia.org/wikipedia/commons/4/41/Student_t_pdf.svg)
+
 ---
 
 ## Purpose

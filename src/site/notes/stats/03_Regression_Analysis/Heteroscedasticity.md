@@ -8,6 +8,8 @@
 > [!abstract] Core Statement
 > **Heteroscedasticity** occurs when the variance of residuals (errors) is **not constant** across all levels of the independent variable(s). In regression, we assume errors have constant spread (homoscedasticity); when they don't, standard errors become unreliable.
 
+![Heteroscedasticity Visualization](https://upload.wikimedia.org/wikipedia/commons/b/ba/Heteroscedasticity.png)
+
 **Intuition (ELI5):** Imagine predicting income from years of education. For people with 10 years of education, incomes might range from $30K–$50K (tight spread). For PhDs, incomes might range from $50K–$500K (huge spread). This "widening cone" of prediction errors is heteroscedasticity.
 
 **Why It Matters:**

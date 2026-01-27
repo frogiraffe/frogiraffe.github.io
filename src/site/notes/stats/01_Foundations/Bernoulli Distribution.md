@@ -7,6 +7,13 @@
 > [!abstract] Core Statement
 > The **Bernoulli Distribution** is the simplest discrete probability distribution. It models a **single trial** with exactly two possible outcomes: Success ($k=1$) with probability $p$, and Failure ($k=0$) with probability $q = 1-p$.
 
+---
+
+> [!tip] Intuition (ELI5): The Switch
+> The Bernoulli distribution is the simplest "On/Off" switch of probability. It represents exactly one coin flip or one "Yes/No" question. Everything else in probability is just a bunch of these switches connected together.
+
+![Bernoulli Distribution PMF](https://upload.wikimedia.org/wikipedia/commons/f/f4/PMF_and_CDF_of_a_bernouli_distribution.png)
+
 $$ P(X=k) = p^k (1-p)^{1-k} \quad \text{for } k \in \{0, 1\} $$
 
 ---

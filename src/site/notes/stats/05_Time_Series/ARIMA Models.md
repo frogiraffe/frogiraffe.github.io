@@ -12,6 +12,11 @@
 
 ---
 
+> [!tip] Intuition (ELI5): The Predictive Rear-View Mirror
+> ARIMA uses where you've been (past values) and how much you've "swerved" (past errors) to guess where you're going next. It only works if the road is flat and steady—meaning the data doesn't have a trend or changing volatility (Stationarity).
+
+---
+
 ## Purpose
 
 1.  Forecast future values of a time series.

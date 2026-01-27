@@ -4,8 +4,15 @@
 
 ## Definition
 
-> [!abstract] Core Statement
-> **Survivorship Bias** is the logical error of focusing on the people or things that "survived" some process and ignoring those that did not because of lack of visibility. This leads to **false conclusions** because the sample is not representative of the whole population.
+> [!abstract] **Survivorship Bias** is the logical error of focusing on the people or things that "survived" some process and ignoring those that did not because of lack of visibility. This leads to **false conclusions** because the sample is not representative of the whole population.
+
+---
+
+> [!tip] Intuition (ELI5): The Strong Man Fallacy
+> You go to a gym and ask everyone, "Is it easy to get strong?" They all say "Yes!" But you're only talking to the people who didn't quit. Those who found it too hard or got injured are already gone. If you only talk to the "survivors," you get a biased view of how hard the journey actually is.
+
+> [!example] Real-Life Example: Startup Advice
+> We study Apple and Google to see how to succeed, thinking "They took big risks, so I should too." We miss the **"Silent Graveyard"** of thousands of companies that took the same risks but went bankrupt. If you only look at winners, risk-taking looks like a guarantee, not a gamble.
 
 ---
 
@@ -54,7 +61,7 @@
 
 ## Related Concepts
 
-- [[stats/01_Foundations/Selection Bias\|Selection Bias]] - The broader category.
+- [[stats/07_Ethics_and_Biases/Selection Bias\|Selection Bias]] - The broader category.
 - [[stats/01_Foundations/Missing Data\|Missing Data]] - Techniques to handle mechanism of missingness.
 - [[stats/01_Foundations/Sampling Bias\|Sampling Bias]]
 

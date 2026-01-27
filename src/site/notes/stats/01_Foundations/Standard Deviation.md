@@ -7,6 +7,16 @@
 > [!abstract] Core Statement
 > **Standard Deviation (SD or $\sigma$)** quantifies the ==amount of variation or dispersion== in a dataset. It measures how far individual observations typically deviate from the mean. A low SD indicates data points cluster close to the mean; a high SD indicates they are spread out.
 
+![Standard Deviation Empirical Rule (68-95-99.7)](https://upload.wikimedia.org/wikipedia/commons/8/8c/Standard_deviation_diagram.svg)
+
+---
+
+> [!tip] Intuition (ELI5): The Inpatient Roommate
+> Imagine you have two friends who always arrive "around 7 PM."
+> - **Friend A** has a **Low SD**: They always arrive between 6:55 and 7:05.
+> - **Friend B** has a **High SD**: They might arrive at 6:00 or 8:00.
+> The Standard Deviation is the number that tells you how much you can trust them to be "on average."
+
 ---
 
 ## Purpose

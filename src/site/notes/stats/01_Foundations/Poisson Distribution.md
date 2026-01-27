@@ -7,6 +7,13 @@
 > [!abstract] Core Statement
 > The **Poisson Distribution** models the probability of a given number of ==events occurring in a fixed interval== of time or space, assuming these events occur with a known constant mean rate and independently of the time since the last event.
 
+![Poisson Distribution PMF](https://upload.wikimedia.org/wikipedia/commons/1/16/Poisson_pmf.svg)
+
+---
+
+> [!tip] Intuition (ELI5): The Midnight Inbox
+> Imagine you get an average of 3 rare emails per night. Some nights you get 0, some nights you get 7. The Poisson Distribution is the math that predicts how many emails will be in your inbox when you wake up, based on that average rate.
+
 ---
 
 ## Purpose

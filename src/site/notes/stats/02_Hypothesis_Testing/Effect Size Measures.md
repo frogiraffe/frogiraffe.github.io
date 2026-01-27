@@ -50,9 +50,11 @@ Effect size provides a standardized metric to evaluate the strength of the relat
 
 | Measure | Application |
 |---------|-------------|
-| **Odds Ratio (OR)** | Probability of event occurring in one group vs another. |
-| **Relative Risk (RR)** | Ratio of probabilities. |
-| **Cramér's V** | Strength of association for Chi-square tests. |
+| Measure | Application | Interpretation |
+|---------|-------------|----------------|
+| **Odds Ratio (OR)** | Cross-sectional studies. | Odds of event in T vs C. |
+| **Relative Risk (RR)** | Longitudinal/Cohort studies. | Probability ratio. |
+| **Cramér's V** | Nominal variables. | Association strength ($0$ to $1$). |
 
 ---
 

@@ -9,6 +9,11 @@
 
 ---
 
+> [!tip] Intuition (ELI5): The "Best-Fit" Key
+> Imagine you have a locked door (the data you observed) and a bag of 1,000 different keys (possible parameters). MLE is the process of trying every key and picking the one that turns the most easily—the one that makes the "observed fact" that the door opened most likely.
+
+---
+
 ## 1. Concept
 
 **Distinction:**

@@ -9,6 +9,11 @@
 
 ---
 
+> [!tip] Intuition (ELI5): The "Truth Detector"
+> Imagine you are a teacher grading a "Yes/No" test. A Confusion Matrix is a report card that doesn't just say "you got 8 out of 10." It tells you *exactly* which "Yes" answers you missed and which "No" answers you accidentally called "Yes." 
+
+---
+
 ## Purpose
 
 1.  Visualize classification performance.

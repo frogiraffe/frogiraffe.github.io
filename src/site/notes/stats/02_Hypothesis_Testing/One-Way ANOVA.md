@@ -7,6 +7,19 @@
 > [!abstract] Core Statement
 > **One-Way ANOVA (Analysis of Variance)** tests whether the means of ==three or more independent groups== are equal. It is an extension of the t-test for multiple groups, using the F-statistic to compare between-group variance to within-group variance.
 
+![ANOVA F-Test Rejection Region](https://upload.wikimedia.org/wikipedia/commons/e/e0/F-test_plot.svg)
+
+---
+
+> [!tip] Intuition (ELI5): The Teacher Test
+> You want to know if **three different teachers** (A, B, and C) grade differently. ANOVA looks at:
+> 1. How much grades vary **within** each teacher's class.
+> 2. How much the class averages vary **between** the teachers.
+> If the averages are very different compared to the internal "noise," ANOVA says: "At least one teacher is grading differently!"
+
+> [!example] Real-Life Example: Diet Plans
+> A site compares **three diets**: Keto, Low-Fat, and Mediterranean. After 3 months, they measure weight loss. One-Way ANOVA determines if the diet type truly matters, or if the differences are just random variation among individuals.
+
 ---
 
 ## Purpose

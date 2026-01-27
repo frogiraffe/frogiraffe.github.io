@@ -9,6 +9,11 @@
 
 ---
 
+> [!tip] Intuition (ELI5): The "Dress Rehearsal"
+> Imagine you are practicing for a play. If you only practice in one room with the same audience, you might get too comfortable. Cross-Validation is like practicing the play in 5 different theaters with 5 different audiences. If you perform well in all of them, you are truly ready for the opening night.
+
+---
+
 ## Purpose
 
 1.  Estimate model performance on **unseen data**.

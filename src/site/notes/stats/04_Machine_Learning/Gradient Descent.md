@@ -9,6 +9,8 @@
 > 
 > $$ \theta_{new} = \theta_{old} - \alpha \nabla J(\theta) $$
 
+![Gradient Descent Optimization](https://upload.wikimedia.org/wikipedia/commons/f/ff/Gradient_descent.svg)
+
 ---
 
 ## Purpose

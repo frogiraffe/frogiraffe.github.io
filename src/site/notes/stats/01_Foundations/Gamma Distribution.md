@@ -7,6 +7,8 @@
 > [!abstract] Core Statement
 > The **Gamma Distribution** models the time until **$k$ events** occur in a Poisson process. It is a generalization of the [[stats/01_Foundations/Exponential Distribution\|Exponential Distribution]] (which models time until *1* event). It is defined by shape parameter $k$ (or $\alpha$) and scale parameter $\theta$ (or rate $\beta$).
 
+![Gamma Distribution PDF](https://upload.wikimedia.org/wikipedia/commons/e/e6/Gamma_distribution_pdf.svg)
+
 ---
 
 ## Purpose

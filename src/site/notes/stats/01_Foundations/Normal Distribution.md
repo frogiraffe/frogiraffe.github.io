@@ -7,6 +7,13 @@
 > [!abstract] Core Statement
 > The **Normal Distribution** (Gaussian Distribution) is a continuous probability distribution that is ==symmetric about the mean==, with the property that data points near the mean are more frequent than those far from the mean. It is fully characterized by two parameters: **mean ($\mu$)** and **standard deviation ($\sigma$)**.
 
+![Normal Distribution Curve](https://upload.wikimedia.org/wikipedia/commons/7/74/Normal_Distribution_PDF.svg)
+
+---
+
+> [!tip] Intuition (ELI5): The Crowd's Height
+> If you measure the height of 1,000 strangers, most will be "average" (the middle of the bell). A few will be very tall and a few will be very short (the tails). The Normal Distribution is the "default" shape nature often picks for things that vary randomly around an average.
+
 ---
 
 ## Purpose

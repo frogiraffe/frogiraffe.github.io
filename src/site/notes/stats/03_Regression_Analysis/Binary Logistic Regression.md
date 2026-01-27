@@ -9,6 +9,14 @@
 
 ---
 
+> [!tip] Intuition (ELI5): The Rain Chance
+> You want to know: **"Will it rain today?"** (Yes or No). Regular regression predicts a number (like 5 inches). Logistic Regression predicts a **Probability** (like an 80% chance). It takes info like "cloudiness" and squashes it between 0 and 1. If it's $>0.5$, the model says "Yes!"
+
+> [!example] Real-Life Example: Spam Filters
+> Email filters look for features like "unknown sender" or "free money." The model calculates the probability of **Spam**. If that probability is $>0.99$, it moves the email to the Junk folder automatically.
+
+---
+
 ## Purpose
 
 1.  **Predict** the probability of a binary event.

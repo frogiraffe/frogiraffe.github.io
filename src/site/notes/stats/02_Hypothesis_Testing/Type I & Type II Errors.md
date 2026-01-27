@@ -8,6 +8,19 @@
 > **Type I Error ($\alpha$):** Rejecting a true null hypothesis (==False Positive==).
 > **Type II Error ($\beta$):** Failing to reject a false null hypothesis (==False Negative==).
 
+![Type I and II Error Visualization](https://upload.wikimedia.org/wikipedia/commons/2/27/Type_1_error.png)
+
+---
+
+> [!tip] Intuition (ELI5): The Smoke Alarm
+> - **Type I Error (False Positive):** The alarm goes off while you're just cooking toast. No fire! You were "fooled" into thinking something happened.
+> - **Type II Error (False Negative):** There is a real fire, but the alarm stays silent. It "missed" the event! This is usually more dangerous.
+
+> [!example] Real-Life Example: Criminal Justice
+> - **Type I Error:** Sentencing an **innocent person** to jail. (False conviction).
+> - **Type II Error:** Letting a **guilty person** go free. (False acquittal).
+> The legal system tries to minimize Type I errors ("Innocent until proven guilty") even if it means sometimes making a Type II error.
+
 ---
 
 ## Purpose
