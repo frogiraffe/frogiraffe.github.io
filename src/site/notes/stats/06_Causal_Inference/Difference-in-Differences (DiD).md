@@ -134,3 +134,11 @@ ggplot(df, aes(x = Time, y = Outcome, color = factor(Treat))) +
 - [[stats/06_Causal_Inference/Instrumental Variables (IV)\|Instrumental Variables (IV)]]
 - [[stats/03_Regression_Analysis/Regression Discontinuity Design (RDD)\|Regression Discontinuity Design (RDD)]]
 - [[stats/01_Foundations/Synthetic Control Method\|Synthetic Control Method]]
+
+---
+
+## References
+
+- **Historical:** Card, D., & Krueger, A. B. (1994). Minimum wages and employment: A case study of the fast-food industry in New Jersey and Pennsylvania. *American Economic Review*, 84(4), 772-793. [JSTOR](https://www.jstor.org/stable/2118030)
+- **Book:** Angrist, J. D., & Pischke, J. S. (2009). *Mostly Harmless Econometrics*. Princeton University Press. (Chapter 5) [Publisher Link](https://press.princeton.edu/books/paperback/9780691120355/mostly-harmless-econometrics)
+- **Book:** Wooldridge, J. M. (2010). *Econometric Analysis of Cross Section and Panel Data* (2nd ed.). MIT Press. [Publisher Link](https://mitpress.mit.edu/9780262232586/econometric-analysis-of-cross-section-and-panel-data/)

@@ -372,3 +372,11 @@ Is Y binary (0/1)?
 - [[stats/03_Regression_Analysis/Zero-Inflated Models\|Zero-Inflated Models]] — Excess zeros
 - [[stats/03_Regression_Analysis/Linear Mixed Models (LMM)\|Linear Mixed Models (LMM)]] — Random effects
 - [[GAMs\|GAMs]] — Non-linear relationships
+
+---
+
+## References
+
+- **Historical:** Nelder, J. A., & Wedderburn, R. W. M. (1972). Generalized Linear Models. *Journal of the Royal Statistical Society: Series A*, 135(3), 370-384. [DOI Link](https://doi.org/10.2307/2344614)
+- **Book:** McCullagh, P., & Nelder, J. A. (1989). *Generalized Linear Models* (2nd ed.). Chapman and Hall. [DOI Link](https://doi.org/10.1007/978-1-4899-3242-6)
+- **Book:** Dobson, A. J., & Barnett, A. G. (2018). *An Introduction to Generalized Linear Models* (4th ed.). CRC Press. [CRC Press Link](https://www.routledge.com/An-Introduction-to-Generalized-Linear-Models/Dobson-Barnett/p/book/9781138541429)

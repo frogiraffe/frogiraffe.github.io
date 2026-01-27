@@ -344,3 +344,11 @@ cat("Ridge CV RMSE:", sqrt(min(ridge$cvm)), "\n")
 **Diagnostics:**
 - [[stats/01_Foundations/Bias-Variance Trade-off\|Bias-Variance Trade-off]] — Theoretical framework
 - [[Learning Curves\|Learning Curves]] — Visual diagnosis tool
+
+---
+
+## References
+
+- **Book:** Hastie, T., Tibshirani, R., & Friedman, J. (2009). *The Elements of Statistical Learning* (2nd ed.). Springer. [Springer Link](https://link.springer.com/book/10.1007/978-0-387-84858-7) (Chapter 7)
+- **Book:** Goodfellow, I., Bengio, Y., & Courville, A. (2016). *Deep Learning*. MIT Press. [Book Website](https://www.deeplearningbook.org/) (Chapter 5)
+- **Book:** James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). *An Introduction to Statistical Learning* (2nd ed.). Springer. [Book Website](https://www.statlearning.com/) (Chapter 2)

@@ -94,9 +94,40 @@ print(f"Prediction: {clf.predict(test_vec)[0]}")
 
 ---
 
+## R Implementation
+
+```r
+library(e1071)
+
+# Load data
+data(iris)
+train_idx <- sample(1:nrow(iris), 0.8*nrow(iris))
+train <- iris[train_idx, ]
+test <- iris[-train_idx, ]
+
+# Train Naive Bayes
+nb_model <- naiveBayes(Species ~ ., data = train)
+
+# Predict
+preds <- predict(nb_model, test)
+
+# Confusion Matrix
+table(Predicted = preds, Actual = test$Species)
+```
+
+---
+
 ## Related Concepts
 
 - [[stats/01_Foundations/Bayes' Theorem\|Bayes' Theorem]] - The math.
 - [[stats/03_Regression_Analysis/Logistic Regression\|Logistic Regression]] - Discriminative counterpart (often better if enough data).
 - [[stats/01_Foundations/Bag of Words\|Bag of Words]] - The text representation used.
 - [[stats/05_Time_Series/Smoothing\|Smoothing]] - Handling zeros.
+
+---
+
+## References
+
+- **Historical:** Maron, M. E. (1961). Automatic indexing: An experimental inquiry. *Journal of the ACM*, 8(3), 404-417. [ACM Digital Library](https://dl.acm.org/doi/10.1145/321075.321084)
+- **Book:** Manning, C. D., Raghavan, P., & Schütze, H. (2008). *Introduction to Information Retrieval*. Cambridge University Press. [Online Edition](https://nlp.stanford.edu/IR-book/)
+- **Book:** Murphy, K. P. (2012). *Machine Learning: A Probabilistic Perspective*. MIT Press. [Book Website](https://probml.github.io/pml-book/book1.html)

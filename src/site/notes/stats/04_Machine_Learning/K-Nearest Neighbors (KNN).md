@@ -312,3 +312,11 @@ confusionMatrix(final_pred, y_test)
 - [[stats/04_Machine_Learning/Decision Tree\|Decision Tree]] — Interpretable, handles mixed features
 - [[stats/04_Machine_Learning/Naive Bayes\|Naive Bayes]] — Fast, handles high dimensions
 - [[stats/04_Machine_Learning/Support Vector Machines (SVM)\|Support Vector Machines (SVM)]] — Better in high dimensions with kernel trick
+
+---
+
+## References
+
+- **Historical:** Fix, E., & Hodges, J. L. (1951). Discriminatory analysis. [USAF School of Aviation Medicine](https://www.jstor.org/stable/1403797) (Reprinted in *International Statistical Review*)
+- **Historical:** Cover, T., & Hart, P. (1967). Nearest neighbor pattern classification. *IEEE Transactions on Information Theory*, 13(1), 21-27. [IEEE Xplore](https://ieeexplore.ieee.org/document/1053964)
+- **Book:** Bishop, C. M. (2006). *Pattern Recognition and Machine Learning*. Springer. [Official Page](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)

@@ -151,3 +151,11 @@ print(result)
 - [[stats/02_Hypothesis_Testing/Chi-Square Test of Independence\|Chi-Square Test of Independence]] - For larger samples.
 - [[stats/01_Foundations/Odds Ratio\|Odds Ratio]] - Measure of effect.
 - [[stats/02_Hypothesis_Testing/Effect Size Measures\|Effect Size Measures]]
+
+---
+
+## References
+
+- **Historical:** Fisher, R. A. (1922). On the interpretation of χ² from contingency tables, and the calculation of P. *Journal of the Royal Statistical Society*, 85(1), 87-94. [JSTOR Link](http://www.jstor.org/stable/2340521)
+- **Book:** Agresti, A. (2013). *Categorical Data Analysis* (3rd ed.). Wiley. [Wiley Link](https://www.wiley.com/en-us/Categorical+Data+Analysis,+3rd+Edition-p-9780470463635)
+- **Book:** Field, A. (2018). *Discovering Statistics Using IBM SPSS Statistics* (5th ed.). Sage. [Sage Link](https://us.sagepub.com/en-us/nam/discovering-statistics-using-ibm-spss-statistics/book249648)

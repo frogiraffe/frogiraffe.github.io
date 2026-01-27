@@ -336,3 +336,11 @@ cor(dist_matrix, coph)  # Should be > 0.7
 **Extensions:**
 - [[Silhouette Score\|Silhouette Score]] — Cluster quality measure
 - [[stats/04_Machine_Learning/Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] — Dimension reduction before clustering
+
+---
+
+## References
+
+- **Historical:** Ward, J. H. (1963). Hierarchical grouping to optimize an objective function. *JASA*. [JSTOR](https://www.jstor.org/stable/2282960)
+- **Book:** Hastie, T., Tibshirani, R., & Friedman, J. (2009). *The Elements of Statistical Learning* (2nd ed.). Springer. [Springer Link](https://link.springer.com/book/10.1007/978-0-387-84858-7) (Chapter 14)
+- **Book:** Everitt, B. S., Landau, S., Leese, M., & Stahl, D. (2011). *Cluster Analysis*. Wiley. [Wiley Link](https://www.wiley.com/en-us/Cluster+Analysis%2C+5th+Edition-p-9780470747735)

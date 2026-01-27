@@ -201,3 +201,11 @@ $$
 - [[stats/03_Regression_Analysis/Heteroscedasticity\|Heteroscedasticity]] — Variance stabilization
 - [[stats/01_Foundations/Normal Distribution\|Normal Distribution]] — Target for many tests
 - [[Skewness\|Skewness]] — Measure of asymmetry
+
+---
+
+## References
+
+- **Book:** Tukey, J. W. (1977). *Exploratory Data Analysis*. Addison-Wesley. [Pearson Link](https://www.pearson.com/us/higher-education/program/Tukey-Exploratory-Data-Analysis/PGM159512.html)
+- **Book:** Fox, J. (2016). *Applied Regression Analysis and Generalized Linear Models* (3rd ed.). Sage. [SAGE Link](https://us.sagepub.com/en-us/nam/applied-regression-analysis-and-generalized-linear-models/book237254)
+- **Article:** Manning, W. G. (1998). The logged dependent variable, heteroscedasticity, and the retransformation problem. *Journal of Health Economics*, 17(3), 283-295. [ScienceDirect](https://doi.org/10.1016/S0167-6296(98)00025-3)

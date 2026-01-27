@@ -84,3 +84,11 @@ print(model.mv_test())
 - [[stats/02_Hypothesis_Testing/One-Way ANOVA\|One-Way ANOVA]] - Univariate version.
 - [[Hotelling's T-Squared\|Hotelling's T-Squared]] - Two-group multivariate test (Multivariate t-test).
 - [[stats/04_Machine_Learning/Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] - Can be used to reduce DVs before analysis.
+
+---
+
+## References
+
+- **Book:** Tabachnick, B. G., & Fidell, L. S. (2019). *Using Multivariate Statistics* (7th ed.). Pearson. [Pearson Link](https://www.pearson.com/en-us/subject-catalog/p/using-multivariate-statistics/P200000006275/)
+- **Book:** Johnson, R. A., & Wichern, D. W. (2007). *Applied Multivariate Statistical Analysis* (6th ed.). Pearson. [Pearson Link](https://www.pearson.com/en-us/subject-catalog/p/applied-multivariate-statistical-analysis/P200000006276/)
+- **Book:** Hair, J. F., et al. (2018). *Multivariate Data Analysis* (8th ed.). Cengage. [Cengage Link](https://www.cengage.com/c/multivariate-data-analysis-8e-hair/9781473756540/)

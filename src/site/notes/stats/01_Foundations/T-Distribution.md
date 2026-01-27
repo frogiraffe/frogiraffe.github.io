@@ -184,3 +184,11 @@ legend("topright",
 - [[stats/02_Hypothesis_Testing/Confidence Intervals\|Confidence Intervals]] - Calculated using t-scores.
 - [[stats/02_Hypothesis_Testing/Welch's T-Test\|Welch's T-Test]] - Robust version when variances differ.
 - [[stats/02_Hypothesis_Testing/Degrees of Freedom\|Degrees of Freedom]] - The shape parameter.
+
+---
+
+## References
+
+- **Book:** Casella, G., & Berger, R. L. (2002). *Statistical Inference* (2nd ed.). Duxbury. [Cengage](https://www.cengage.com/c/statistical-inference-2e-casella/9780534243128/)
+- **Book:** Rice, J. A. (2007). *Mathematical Statistics and Data Analysis* (3rd ed.). Duxbury. [Cengage](https://www.cengage.com/c/mathematical-statistics-and-data-analysis-3e-rice/9780534399429/)
+- **Historical:** Student (W. S. Gosset). (1908). The probable error of a mean. *Biometrika*, 6(1), 1-25. [JSTOR](http://www.jstor.org/stable/2331554)

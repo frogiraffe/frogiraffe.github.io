@@ -128,3 +128,11 @@ cat("Total df:", n - 1, "\n")
 - [[stats/01_Foundations/F-Distribution\|F-Distribution]]
 - [[stats/01_Foundations/Sample Variance\|Sample Variance]] - Uses $n-1$ due to df.
 - [[stats/04_Machine_Learning/Overfitting\|Overfitting]] - Using too many parameters relative to df.
+
+---
+
+## References
+
+- **Article:** Walker, H. M. (1940). Degrees of freedom. *Journal of Educational Psychology*, 31(4), 253-269. [APA Link](https://psycnet.apa.org/doi/10.1037/h0054588)
+- **Article:** Good, I. J. (1973). What are degrees of freedom? *The American Statistician*, 27(5), 227-228. [JSTOR Link](http://www.jstor.org/stable/2683141)
+- **Book:** Howell, D. C. (2012). *Statistical Methods for Psychology* (8th ed.). Cengage. [Cengage Link](https://www.cengage.com/c/statistical-methods-for-psychology-8e-howell/9781111835484/)

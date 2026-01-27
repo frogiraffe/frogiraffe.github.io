@@ -80,6 +80,21 @@ plt.show()
 
 ---
 
+## R Implementation
+
+```r
+# Generate AR(1) process
+set.seed(42)
+ts_data <- arima.sim(list(order=c(1,0,0), ar=0.7), n=100)
+
+# Plot ACF and PACF
+par(mfrow=c(1,2))
+acf(ts_data, main="ACF Plot")
+pacf(ts_data, main="PACF Plot")
+```
+
+---
+
 ## Common Pitfall
 
 > [!warning] The "Intermediate" Trap
@@ -97,3 +112,11 @@ plt.show()
 - [[stats/05_Time_Series/ARIMA Models\|ARIMA Models]] - The model built using these tools.
 - [[stats/05_Time_Series/Stationarity (ADF & KPSS)\|Stationarity (ADF & KPSS)]] - Prerequisite.
 - [[stats/02_Hypothesis_Testing/Ljung-Box Test\|Ljung-Box Test]] - Statistical test for "White Noise" (checking group of lags).
+
+---
+
+## References
+
+- **Book:** Box, G. E. P., Jenkins, G. M., Reinsel, G. C., & Ljung, G. M. (2015). *Time Series Analysis: Forecasting and Control* (5th ed.). Wiley. [Wiley Link](https://www.wiley.com/en-us/Time+Series+Analysis%3A+Forecasting+and+Control%2C+5th+Edition-p-9781118675021)
+- **Book:** Hyndman, R. J., & Athanasopoulos, G. (2021). *Forecasting: Principles and Practice* (3rd ed.). OTexts. [Free Online Edition](https://otexts.com/fpp3/)
+- **Book:** Hamilton, J. D. (1994). *Time Series Analysis*. Princeton University Press. [Book Info](https://press.princeton.edu/books/hardcover/9780691042893/time-series-analysis)

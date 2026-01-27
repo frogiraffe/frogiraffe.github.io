@@ -115,3 +115,11 @@ coeftest(model, vcov = vcovHC(model, type = "HC3"))
 - [[stats/03_Regression_Analysis/White Test\|White Test]] - More general heteroscedasticity test.
 - [[stats/03_Regression_Analysis/Weighted Least Squares (WLS)\|Weighted Least Squares (WLS)]] - Correction method.
 - [[stats/01_Foundations/Robust Standard Errors\|Robust Standard Errors]] - Alternative correction.
+
+---
+
+## References
+
+- **Historical:** Breusch, T. S., & Pagan, A. R. (1979). A simple test for heteroscedasticity and random coefficient variation. *Econometrica*, 47(5), 1287-1294. [DOI Link](https://doi.org/10.2307/1911995)
+- **Book:** Hayashi, F. (2000). *Econometrics*. Princeton University Press. [Princeton Link](https://press.princeton.edu/books/hardcover/9780691010182/econometrics)
+- **Book:** Wooldridge, J. M. (2015). *Introductory Econometrics: A Modern Approach* (6th ed.). Cengage Learning. [Cengage Link](https://www.cengage.com/c/introductory-econometrics-a-modern-approach-6e-wooldridge/9781305270107/)

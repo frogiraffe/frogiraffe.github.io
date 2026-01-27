@@ -150,3 +150,11 @@ confusionMatrix(factor(predicted_class), test_set$y)
 - [[stats/01_Foundations/Bias-Variance Trade-off\|Bias-Variance Trade-off]]
 - [[stats/04_Machine_Learning/Model Evaluation Metrics\|Model Evaluation Metrics]]
 - [[stats/01_Foundations/Data Leakage\|Data Leakage]]
+
+---
+
+## References
+
+- **Article:** Stone, M. (1974). Cross-validatory choice and assessment of statistical predictions. *JRSS B*. [JSTOR](https://www.jstor.org/stable/2984809)
+- **Book:** Hastie, T., Tibshirani, R., & Friedman, J. (2009). *The Elements of Statistical Learning*. Springer. [Springer Link](https://link.springer.com/book/10.1007/978-0-387-84858-7)
+- **Book:** James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). *An Introduction to Statistical Learning* (2nd ed.). Springer. [Book Website](https://www.statlearning.com/)

@@ -131,3 +131,11 @@ print(f"High Leverage Indices: {high_leverage_points}")
 - [[stats/03_Regression_Analysis/Cook's Distance\|Cook's Distance]] - Measure of influence combining leverage and residuals.
 - [[stats/03_Regression_Analysis/Outlier Analysis (Standardized Residuals)\|Outlier Analysis (Standardized Residuals)]] - Outliers in Y-space.
 - [[stats/03_Regression_Analysis/Multiple Linear Regression\|Multiple Linear Regression]] - Framework.
+
+---
+
+## References
+
+- **Historical:** Hoaglin, D. C., & Welsch, R. E. (1978). The hat matrix in regression and ANOVA. *The American Statistician*. [JSTOR](https://www.jstor.org/stable/2683469)
+- **Book:** Chatterjee, S., & Hadi, A. S. (2015). *Regression Analysis by Example* (5th ed.). Wiley. [Wiley Link](https://www.wiley.com/en-us/Regression+Analysis+by+Example%2C+5th+Edition-p-9780470905845)
+- **Book:** Draper, N. R., & Smith, H. (1998). *Applied Regression Analysis* (3rd ed.). Wiley. [Wiley Link](https://www.wiley.com/en-us/Applied+Regression+Analysis%2C+3rd+Edition-p-9780471170822)

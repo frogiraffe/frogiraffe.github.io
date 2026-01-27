@@ -175,3 +175,11 @@ plot(TukeyHSD(model))
 - [[stats/02_Hypothesis_Testing/Bonferroni Correction\|Bonferroni Correction]] - Alternative multiple comparison adjustment.
 - [[stats/02_Hypothesis_Testing/Kruskal-Wallis Test\|Kruskal-Wallis Test]] - Non-parametric alternative.
 - [[stats/02_Hypothesis_Testing/MANOVA\|MANOVA]] - Multiple dependent variables.
+
+---
+
+## References
+
+- **Book:** Montgomery, D. C. (2017). *Design and Analysis of Experiments* (9th ed.). Wiley. (Chapter 3) [Wiley Link](https://www.wiley.com/en-us/Design+and+Analysis+of+Experiments,+9th+Edition-p-9781119113478)
+- **Book:** Field, A. (2018). *Discovering Statistics Using IBM SPSS Statistics* (5th ed.). Sage. (Chapter 12) [Publisher Link](https://us.sagepub.com/en-us/nam/discovering-statistics-using-ibm-spss-statistics/book257672)
+- **Historical:** Fisher, R. A. (1925). *Statistical Methods for Research Workers*. Oliver & Boyd. (Introduced ANOVA) [Archive.org](https://archive.org/details/statisticalmetho00fish)

@@ -91,9 +91,42 @@ print("lambda*v:", lam1 * v1)
 
 ---
 
+## R Implementation
+
+```r
+# Define Matrix
+A <- matrix(c(4, 1, 2, 3), nrow=2, byrow=TRUE)
+
+# Eigendecomposition
+eigen_res <- eigen(A)
+
+# Values and Vectors
+vals <- eigen_res$values
+vecs <- eigen_res$vectors
+
+print(vals)
+print(vecs)
+
+# Verify A*v = lambda*v
+v1 <- vecs[,1]
+lambda1 <- vals[1]
+print(A %*% v1)
+print(lambda1 * v1)
+```
+
+---
+
 ## Related Concepts
 
 - [[stats/04_Machine_Learning/Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] - Main application in stats.
 - [[stats/01_Foundations/Matrix Multiplication\|Matrix Multiplication]] - The operation $Av$.
 - [[stats/01_Foundations/Covariance Matrix\|Covariance Matrix]] - The input matrix often used.
 - [[stats/01_Foundations/Singular Value Decomposition (SVD)\|Singular Value Decomposition (SVD)]] - Generalization for non-square matrices (used in calculating PCA in practice).
+
+---
+
+## References
+
+- **Book:** Strang, G. (2016). *Introduction to Linear Algebra* (5th ed.). Wellesley-Cambridge Press. [Book Website](https://math.mit.edu/~gs/linearalgebra/)
+- **Book:** Lay, D. C. (2012). *Linear Algebra and Its Applications* (4th ed.). Pearson. [Pearson Link](https://www.pearson.com/en-us/subject-catalog/p/linear-algebra-and-its-applications/P200000006322/)
+- **Book:** Axler, S. (2015). *Linear Algebra Done Right* (3rd ed.). Springer. [Springer Link](https://link.springer.com/book/10.1007/978-3-319-11080-6)

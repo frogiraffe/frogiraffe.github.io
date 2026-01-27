@@ -198,3 +198,10 @@ runif(10, min = a, max = b)
 - [[stats/01_Foundations/Bayesian Statistics\|Bayesian Statistics]] - Uniform used as non-informative prior.
 - [[stats/01_Foundations/Monte Carlo Simulation\|Monte Carlo Simulation]] - Random number generation.
 - [[stats/01_Foundations/Discrete Uniform Distribution\|Discrete Uniform Distribution]] - For discrete outcomes (e.g., dice).
+
+---
+
+## References
+
+- **Book:** Ross, S. M. (2014). *A First Course in Probability* (9th ed.). Pearson. [Pearson Link](https://www.pearson.com/en-us/subject-catalog/p/first-course-in-probability-a/P200000006198/)
+- **Book:** DeGroot, M. H., & Schervish, M. J. (2012). *Probability and Statistics* (4th ed.). Pearson. [Pearson](https://www.pearson.com/en-us/subject-catalog/p/probability-and-statistics/P200000006277/)

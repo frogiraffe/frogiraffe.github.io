@@ -83,8 +83,35 @@ print(clf.feature_importances_)
 
 ---
 
+## R Implementation
+
+```r
+library(rpart)
+library(rpart.plot)
+
+# Train Decision Tree
+fit <- rpart(Species ~ ., data = iris, method = "class")
+
+# Visualize
+rpart.plot(fit, main = "Decision Tree for Iris Data")
+
+# Predict
+preds <- predict(fit, iris, type = "class")
+table(preds, iris$Species)
+```
+
+---
+
 ## Related Concepts
 
 - [[stats/04_Machine_Learning/Random Forest\|Random Forest]] - Many trees (Bagging).
 - [[stats/04_Machine_Learning/Gradient Boosting (XGBoost)\|Gradient Boosting (XGBoost)]] - Sequential trees (Boosting).
 - [[stats/04_Machine_Learning/Overfitting\|Overfitting]] - The main weakness.
+
+---
+
+## References
+
+- **Historical:** Breiman, L., Friedman, J., Stone, C. J., & Olshen, R. A. (1984). *Classification and Regression Trees*. Chapman & Hall. [Routledge Link](https://www.routledge.com/Classification-and-Regression-Trees/Breiman-Friedman-Stone-Olshen/p/book/9780412048418)
+- **Book:** Hastie, T., Tibshirani, R., & Friedman, J. (2009). *The Elements of Statistical Learning* (2nd ed.). Springer. [Springer Link](https://link.springer.com/book/10.1007/978-0-387-84858-7) (Chapter 9)
+- **Book:** James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). *An Introduction to Statistical Learning* (2nd ed.). Springer. [Book Website](https://www.statlearning.com/) (Chapter 8)

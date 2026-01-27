@@ -154,3 +154,11 @@ rpois(10, lambda = lam)
 - [[stats/01_Foundations/Exponential Distribution\|Exponential Distribution]] - Time *between* Poisson events.
 - [[stats/03_Regression_Analysis/Negative Binomial Regression\|Negative Binomial Regression]] - For overdispersed counts.
 - [[stats/01_Foundations/Binomial Distribution\|Binomial Distribution]] - Poisson is limit as $n \to \infty, p \to 0$.
+
+---
+
+## References
+
+- **Book:** Ross, S. M. (2014). *A First Course in Probability* (9th ed.). Pearson. [Pearson Link](https://www.pearson.com/en-us/subject-catalog/p/first-course-in-probability-a/P200000006198/)
+- **Book:** Casella, G., & Berger, R. L. (2002). *Statistical Inference* (2nd ed.). Duxbury. [Cengage](https://www.cengage.com/c/statistical-inference-2e-casella/9780534243128/)
+- **Historical:** Poisson, S. D. (1837). *Recherches sur la Probabilité des Jugements en Matière Criminelle et en Matière Civile*. [Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k1102148)

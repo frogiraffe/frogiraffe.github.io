@@ -57,3 +57,11 @@
 - [[stats/01_Foundations/Selection Bias\|Selection Bias]] - The broader category.
 - [[stats/01_Foundations/Missing Data\|Missing Data]] - Techniques to handle mechanism of missingness.
 - [[stats/01_Foundations/Sampling Bias\|Sampling Bias]]
+
+---
+
+## References
+
+- **Historical:** Wald, A. (1943). *A Method of Estimating Plane Vulnerability Based on Damage of Survivors*. [Reprint PDF](https://apps.dtic.mil/sti/pdfs/ADA091071.pdf)
+- **Article:** Mangel, M., & Samaniego, F. J. (1984). Abraham Wald's work on aircraft survivability. *JASA*. [JSTOR](https://www.jstor.org/stable/2288257)
+- **Book:** Taleb, N. N. (2001). *Fooled by Randomness*. [Random House](https://www.penguinrandomhouse.com/books/176228/fooled-by-randomness-by-nassim-nicholas-taleb/)

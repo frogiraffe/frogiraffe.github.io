@@ -165,3 +165,11 @@ TukeyHSD(model)
 - [[stats/02_Hypothesis_Testing/Mixed ANOVA (Between-Within)\|Mixed ANOVA (Between-Within)]] - Combines between and within factors.
 - [[stats/03_Regression_Analysis/Interaction Effects\|Interaction Effects]] - The key addition in Two-Way ANOVA.
 - [[stats/02_Hypothesis_Testing/Tukey's HSD\|Tukey's HSD]] - Post-hoc comparisons.
+
+---
+
+## References
+
+- **Book:** Montgomery, D. C. (2017). *Design and Analysis of Experiments* (9th ed.). Wiley. [Wiley Link](https://www.wiley.com/en-us/Design+and+Analysis+of+Experiments%2C+9th+Edition-p-9781119113478)
+- **Book:** Field, A. (2018). *Discovering Statistics Using IBM SPSS Statistics* (5th ed.). Sage. [SAGE Link](https://us.sagepub.com/en-us/nam/discovering-statistics-using-ibm-spss-statistics/book249648)
+- **Book:** Maxwell, S. E., & Delaney, H. D. (2004). *Designing Experiments and Analyzing Data* (2nd ed.). Lawrence Erlbaum. [Routledge Link](https://www.routledge.com/Designing-Experiments-and-Analyzing-Data-A-Model-Comparison-Perspective/Maxwell-Delaney-Kelley/p/book/9781138892231)

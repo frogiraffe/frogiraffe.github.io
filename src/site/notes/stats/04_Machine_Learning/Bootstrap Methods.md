@@ -164,3 +164,11 @@ t.test(data)$conf.int
 - [[stats/02_Hypothesis_Testing/Permutation Tests\|Permutation Tests]] - Resampling for hypothesis testing.
 - [[stats/04_Machine_Learning/Cross-Validation\|Cross-Validation]] - Resampling for model validation.
 - [[stats/01_Foundations/Jackknife\|Jackknife]] - Alternative resampling method (leave-one-out).
+
+---
+
+## References
+
+- **Historical:** Efron, B. (1979). Bootstrap methods: Another look at the jackknife. *The Annals of Statistics*, 7(1), 1-26. [JSTOR](https://www.jstor.org/stable/2958830)
+- **Book:** Efron, B., & Tibshirani, R. J. (1993). *An Introduction to the Bootstrap*. Chapman & Hall. [Routledge Link](https://www.routledge.com/An-Introduction-to-the-Bootstrap/Efron-Tibshirani/p/book/9780412042317)
+- **Book:** Davison, A. C., & Hinkley, D. V. (1997). *Bootstrap Methods and Their Application*. Cambridge University Press. [Cambridge Link](https://www.cambridge.org/core/books/bootstrap-methods-and-their-application/2A0D84138090ED60C9225FD45FE55EA6)

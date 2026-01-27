@@ -191,3 +191,12 @@ ggplot(df, aes(x=mean, fill=n)) +
 - [[stats/01_Foundations/Standard Error\|Standard Error]] - Derived directly from CLT.
 - [[stats/01_Foundations/T-Distribution\|T-Distribution]] - Used when $\sigma$ is unknown.
 - [[stats/02_Hypothesis_Testing/Confidence Intervals\|Confidence Intervals]] - Built on CLT logic.
+
+---
+
+## References
+
+- **Book:** Rice, J. A. (2007). *Mathematical Statistics and Data Analysis* (3rd ed.). Duxbury. (Chapter 6) [Publisher Link](https://www.cengage.com/c/mathematical-statistics-and-data-analysis-3e-rice/9780534399429/)
+- **Book:** Casella, G., & Berger, R. L. (2002). *Statistical Inference* (2nd ed.). Duxbury. (Chapter 5) [Publisher Link](https://www.routledge.com/Statistical-Inference/Casella-Berger/p/book/9781032593036)
+- **Book:** Fischer, H. (2011). *A History of the Central Limit Theorem*. Springer. [Springer Link](https://link.springer.com/book/10.1007/978-0-387-87857-7)
+- **Historical:** Laplace, P. S. (1812). *Théorie Analytique des Probabilités*. [Archive.org](https://archive.org/details/thorieanalytiqu01laplgoog)

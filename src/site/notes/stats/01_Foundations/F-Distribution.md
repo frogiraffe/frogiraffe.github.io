@@ -190,3 +190,11 @@ legend("topright",
 - [[stats/01_Foundations/Chi-Square Distribution\|Chi-Square Distribution]] - F is the ratio of two chi-squares.
 - [[stats/01_Foundations/T-Distribution\|T-Distribution]] - Related via $t^2 = F(1, df)$.
 - [[stats/02_Hypothesis_Testing/Levene's Test\|Levene's Test]] - Uses F-like statistic for variance equality.
+
+---
+
+## References
+
+- **Book:** Rice, J. A. (2007). *Mathematical Statistics and Data Analysis* (3rd ed.). Duxbury. (Chapter 9) [Publisher Link](https://www.cengage.com/c/mathematical-statistics-and-data-analysis-3e-rice/9780534399429/)
+- **Book:** Montgomery, D. C. (2017). *Design and Analysis of Experiments* (9th ed.). Wiley. [Wiley Link](https://www.wiley.com/en-us/Design+and+Analysis+of+Experiments%2C+9th+Edition-p-9781119113478)
+- **Historical:** Fisher, R. A. (1925). *Statistical Methods for Research Workers*. Oliver & Boyd. [Archive.org](https://archive.org/details/statisticalmetho0000fish)

@@ -248,3 +248,11 @@ Are features correlated?
 - [[stats/03_Regression_Analysis/Ridge Regression\|Ridge Regression]] — L2 only
 - [[stats/03_Regression_Analysis/Regularization\|Regularization]] — General concept
 - [[stats/04_Machine_Learning/Cross-Validation\|Cross-Validation]] — For hyperparameter tuning
+
+---
+
+## References
+
+- **Historical:** Zou, H., & Hastie, T. (2005). Regularization and variable selection via the elastic net. *Journal of the Royal Statistical Society: Series B*, 67(2), 301-320. [DOI: 10.1111/j.1467-9868.2005.00503.x](https://doi.org/10.1111/j.1467-9868.2005.00503.x)
+- **Book:** Hastie, T., Tibshirani, R., & Friedman, J. (2009). *The Elements of Statistical Learning* (2nd ed.). Springer. [Springer Link](https://link.springer.com/book/10.1007/978-0-387-84858-7) (Chapter 3)
+- **Book:** James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). *An Introduction to Statistical Learning* (2nd ed.). Springer. [Book Website](https://www.statlearning.com/)

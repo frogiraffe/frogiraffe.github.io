@@ -129,3 +129,11 @@ legend("topright", legend = "True Mean = 3.5", col = "red", lty = 2)
 - [[stats/01_Foundations/Monte Carlo Simulation\|Monte Carlo Simulation]]
 - [[stats/02_Hypothesis_Testing/Sample Size Calculation\|Sample Size Calculation]]
 - [[stats/01_Foundations/Convergence\|Convergence]]
+
+---
+
+## References
+
+- **Book:** Billingsley, P. (1995). *Probability and Measure* (3rd ed.). Wiley. [Archive.org](https://archive.org/details/probabilitymeasu0000bill)
+- **Book:** Grimmett, G., & Stirzaker, D. (2001). *Probability and Random Processes* (3rd ed.). Oxford University Press. [Oxford Link](https://global.oup.com/academic/product/probability-and-random-processes-9780198572220)
+- **Historical:** Bernoulli, J. (1713). *Ars Conjectandi*. [Archive.org](https://archive.org/details/arsconjectandiop00bern)

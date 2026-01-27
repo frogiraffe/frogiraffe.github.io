@@ -116,3 +116,11 @@ print(forecasts.variance[-1:])
 - [[stats/05_Time_Series/ARIMA Models\|ARIMA Models]] - Often combined (ARIMA-GARCH).
 - [[stats/03_Regression_Analysis/Heteroscedasticity\|Heteroscedasticity]] - The phenomenon being modeled.
 - [[stats/05_Time_Series/Stationarity (ADF & KPSS)\|Stationarity (ADF & KPSS)]]
+
+---
+
+## References
+
+- **Historical:** Engle, R. F. (1982). Autoregressive conditional heteroscedasticity with estimates of the variance of United Kingdom inflation. *Econometrica*. [JSTOR](https://www.jstor.org/stable/1912771)
+- **Historical:** Bollerslev, T. (1986). Generalized autoregressive conditional heteroskedasticity. *Journal of Econometrics*. [Elsevier](https://doi.org/10.1016/0304-4076(86)90063-1)
+- **Book:** Tsay, R. S. (2010). *Analysis of Financial Time Series* (3rd ed.). Wiley. [Wiley Link](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354)

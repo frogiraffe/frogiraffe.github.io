@@ -243,5 +243,13 @@ Model: $\text{Salary} = 30000 + 1000 \times \text{Exp} + 20000 \times \text{Edu}
 
 - [[stats/03_Regression_Analysis/Multiple Linear Regression\|Multiple Linear Regression]] — Base framework
 - [[Moderation vs Mediation\|Moderation vs Mediation]] — Related concepts
-- [[ANOVA\|ANOVA]] — Factorial interactions
-- [[Multicollinearity\|Multicollinearity]] — Issue with interactions
+- [[stats/02_Hypothesis_Testing/One-Way ANOVA\|ANOVA]] — Factorial interactions
+- [[stats/03_Regression_Analysis/VIF (Variance Inflation Factor)\|Multicollinearity]] — Issue with interactions
+
+---
+
+## References
+
+- **Book:** Aiken, L. S., & West, S. G. (1991). *Multiple Regression: Testing and Interpreting Interactions*. Sage. [Sage Link](https://us.sagepub.com/en-us/nam/multiple-regression/book3578)
+- **Book:** Cohen, J., & Cohen, P. (1983). *Applied Multiple Regression/Correlation Analysis for the Behavioral Sciences*. Erlbaum. [Publisher Link](https://www.routledge.com/Applied-Multiple-RegressionCorrelation-Analysis-for-the-Behavioral-Sciences/Cohen-Cohen-West-Aiken/p/book/9780805822239)
+- **Article:** Brambor, T., Clark, W. R., & Golder, M. (2006). Understanding interaction models: Improving empirical analyses. *Political Analysis*, 14(1), 63-82. [DOI: 10.1093/pan/mpi043](https://doi.org/10.1093/pan/mpi043)

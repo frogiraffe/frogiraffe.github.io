@@ -179,3 +179,11 @@ probitmfx(purchased ~ age + income, data = df, atmean = TRUE)
 - [[stats/03_Regression_Analysis/Binary Logistic Regression\|Binary Logistic Regression]] - The more common alternative.
 - [[stats/01_Foundations/Maximum Likelihood Estimation (MLE)\|Maximum Likelihood Estimation (MLE)]]
 - [[stats/03_Regression_Analysis/Generalized Linear Models (GLM)\|Generalized Linear Models (GLM)]]
+
+---
+
+## References
+
+- **Book:** Greene, W. H. (2018). *Econometric Analysis* (8th ed.). Pearson. [Pearson Link](https://www.pearson.com/en-us/subject-catalog/p/econometric-analysis/P200000003056/9780134461366)
+- **Book:** Wooldridge, J. M. (2010). *Econometric Analysis of Cross Section and Panel Data* (2nd ed.). MIT Press. [MIT Press Link](https://mitpress.mit.edu/books/econometric-analysis-cross-section-and-panel-data-second-edition)
+- **Historical:** Bliss, C. I. (1934). The method of probits. *Science*, 79(2037), 38-39. [DOI: 10.1126/science.79.2037.38](https://doi.org/10.1126/science.79.2037.38)

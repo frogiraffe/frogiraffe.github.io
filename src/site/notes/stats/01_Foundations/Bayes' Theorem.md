@@ -166,3 +166,12 @@ cat("P(Disease | Positive Test):", round(P_disease_given_pos, 3), "\n")
 - [[stats/01_Foundations/Conditional Probability\|Conditional Probability]]
 - [[stats/01_Foundations/Law of Total Probability\|Law of Total Probability]]
 - [[stats/06_Causal_Inference/Sensitivity and Specificity\|Sensitivity and Specificity]]
+
+---
+
+## References
+
+- **Book:** Gelman, A., et al. (2013). *Bayesian Data Analysis* (3rd ed.). CRC Press. (Chapter 1) [Publisher Link](https://www.routledge.com/Bayesian-Data-Analysis/Gelman-Carlin-Stern-Dunson-Vehtari-Rubin/p/book/9781439840955)
+- **Book:** Jaynes, E. T. (2003). *Probability Theory: The Logic of Science*. Cambridge. [Cambridge Link](https://www.cambridge.org/core/books/probability-theory/2B980757753363328E010A6141381F4B)
+- **Historical:** Bayes, T. (1763). An essay towards solving a problem in the doctrine of chances. *Philosophical Transactions*, 53, 370-418. [DOI: 10.1098/rstl.1763.0053](https://doi.org/10.1098/rstl.1763.0053)
+- **Article:** Stigler, S. M. (1983). Who discovered Bayes's theorem? *The American Statistician*, 37(4), 290-296. [DOI: 10.1080/00031305.1983.10483132](https://doi.org/10.1080/00031305.1983.10483132)

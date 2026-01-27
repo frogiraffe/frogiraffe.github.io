@@ -142,3 +142,11 @@ wilcox.test(after - before)
 
 - [[stats/02_Hypothesis_Testing/Student's T-Test\|Student's T-Test]] (Paired) - Parametric alternative.
 - [[stats/02_Hypothesis_Testing/Mann-Whitney U Test\|Mann-Whitney U Test]] - For independent samples.
+
+---
+
+## References
+
+- **Historical:** Wilcoxon, F. (1945). Individual comparisons by ranking methods. *Biometrics Bulletin*, 1(6), 80-83. [JSTOR Link](http://www.jstor.org/stable/3001968)
+- **Book:** Conover, W. J. (1999). *Practical Nonparametric Statistics* (3rd ed.). Wiley. [Wiley Link](https://www.wiley.com/en-us/Practical+Nonparametric+Statistics,+3rd+Edition-p-9780471160687)
+- **Book:** Hollander, M., Wolfe, D. A., & Chicken, E. (2014). *Nonparametric Statistical Methods* (3rd ed.). Wiley. [Wiley Link](https://www.wiley.com/en-us/Nonparametric+Statistical+Methods,+3rd+Edition-p-9780470387372)

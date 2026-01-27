@@ -82,3 +82,11 @@ print(gh_res)
 - [[stats/02_Hypothesis_Testing/Levene's Test\|Levene's Test]] - Diagnostic for variance homogeneity.
 - [[stats/02_Hypothesis_Testing/Welch's T-Test\|Welch's T-Test]] - The two-group equivalent of Welch's ANOVA.
 - [[stats/02_Hypothesis_Testing/Kruskal-Wallis Test\|Kruskal-Wallis Test]] - Non-parametric alternative when normality is also violated.
+
+---
+
+## References
+
+- **Historical:** Welch, B. L. (1951). On the comparison of several mean values: An alternative approach. *Biometrika*, 38(3-4), 330-336. [JSTOR](https://www.jstor.org/stable/2332579)
+- **Book:** Howell, D. C. (2012). *Statistical Methods for Psychology* (8th ed.). Cengage Learning. [Cengage Link](https://www.cengage.com/c/statistical-methods-for-psychology-8e-howell/9781111835484/)
+- **Article:** Tomarken, A. J., & Serlin, R. C. (1986). Comparison of ANOVA alternatives under variance heterogeneity and nonnormality. *Psychological Bulletin*, 99(1), 90. [APA PsycNet](https://doi.org/10.1037/0033-2909.99.1.90)

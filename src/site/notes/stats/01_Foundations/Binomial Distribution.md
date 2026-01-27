@@ -194,3 +194,11 @@ points(x, dbinom(x, size = n, prob = p), pch = 16, col = "blue")
 - [[stats/01_Foundations/Poisson Distribution\|Poisson Distribution]] - Approximation for rare events.
 - [[stats/01_Foundations/Hypergeometric Distribution\|Hypergeometric Distribution]] - For sampling without replacement.
 - [[stats/01_Foundations/Bernoulli Distribution\|Bernoulli Distribution]] - Special case with $n=1$.
+
+---
+
+## References
+
+- **Book:** Ross, S. M. (2014). *A First Course in Probability* (9th ed.). Pearson. (Chapter 4) [Pearson Link](https://www.pearson.com/us/higher-education/program/Ross-A-First-Course-in-Probability-9th-Edition/PGM220165.html)
+- **Book:** DeGroot, M. H., & Schervish, M. J. (2012). *Probability and Statistics* (4th ed.). Pearson. (Chapter 5) [Pearson Link](https://www.pearson.com/en-us/subject-catalog/p/probability-and-statistics/P200000003541/9780137981694)
+- **Book:** Casella, G., & Berger, R. L. (2002). *Statistical Inference* (2nd ed.). Duxbury. (Chapter 3) [Publisher Link](https://www.routledge.com/Statistical-Inference/Casella-Berger/p/book/9781032593036)

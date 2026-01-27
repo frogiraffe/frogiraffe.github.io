@@ -28,7 +28,7 @@ $$
 > - Measuring **spread/dispersion** of data.
 > - Comparing **consistency** between groups.
 > - Calculating [[stats/01_Foundations/Standard Deviation\|Standard Deviation]] ($\sigma = \sqrt{\sigma^2}$).
-> - Building statistical models ([[ANOVA\|ANOVA]], [[Linear Regression\|Linear Regression]]).
+> - Building statistical models ([[stats/02_Hypothesis_Testing/One-Way ANOVA\|ANOVA]], [[stats/03_Regression_Analysis/Multiple Linear Regression\|Linear Regression]]).
 > - Understanding [[stats/01_Foundations/Bias-Variance Trade-off\|Bias-Variance Trade-off]] in ML.
 
 > [!failure] Variance Limitations
@@ -187,6 +187,14 @@ cat("Sample Std Dev (s):", sd_sample, "\n")
 ## Related Concepts
 
 - [[stats/01_Foundations/Standard Deviation\|Standard Deviation]] — Square root of variance
-- [[Covariance\|Covariance]] — Variance between two variables
+- [[stats/01_Foundations/Covariance Matrix\|Covariance]] — Variance between two variables
 - [[stats/01_Foundations/Coefficient of Variation\|Coefficient of Variation]] — Variance relative to mean
 - [[stats/01_Foundations/Bias-Variance Trade-off\|Bias-Variance Trade-off]] — Variance in ML context
+
+---
+
+## References
+
+- **Book:** Wackerly, D., Mendenhall, W., & Scheaffer, R. L. (2008). *Mathematical Statistics with Applications* (7th ed.). Thomson Brooks/Cole. [Cengage](https://www.cengage.com/c/mathematical-statistics-with-applications-7e-wackerly/9780495110811/)
+- **Book:** Freedman, D., Pisani, R., & Purves, R. (2007). *Statistics* (4th ed.). W. W. Norton & Company. [W.W. Norton](https://wwnorton.com/books/9780393929720)
+- **Book:** Casella, G., & Berger, R. L. (2002). *Statistical Inference* (2nd ed.). Duxbury. [Cengage](https://www.cengage.com/c/statistical-inference-2e-casella/9780534243128/)

@@ -184,3 +184,11 @@ anova(model_pois, model_nb, test = "LRT")
 - [[stats/03_Regression_Analysis/Poisson Regression\|Poisson Regression]] - The baseline count model.
 - [[stats/03_Regression_Analysis/Zero-Inflated Models\|Zero-Inflated Models]] - For excess zeros.
 - [[stats/01_Foundations/Overdispersion\|Overdispersion]]
+
+---
+
+## References
+
+- **Book:** Cameron, A. C., & Trivedi, P. K. (2013). *Regression Analysis of Count Data* (2nd ed.). Cambridge University Press. [Cambridge Link](https://www.cambridge.org/core/books/regression-analysis-of-count-data/9781107014169)
+- **Book:** Hilbe, J. M. (2011). *Negative Binomial Regression* (2nd ed.). Cambridge University Press. [Cambridge Link](https://www.cambridge.org/de/universitypress/subjects/statistics-and-probability/econometrics-and-mathematical-methods/negative-binomial-regression-2nd-edition)
+- **Book:** McCullagh, P., & Nelder, J. A. (1989). *Generalized Linear Models* (2nd ed.). Chapman & Hall. [Publisher Link](https://www.routledge.com/Generalized-Linear-Models-Second-Edition/McCullagh-Nelder/p/book/9780412317606)

@@ -88,8 +88,18 @@ Unlike OLS ($R^2$), Logistic Regression uses different metrics:
 |--------|---------|
 | **Pseudo $R^2$ (McFadden's)** | Explained variance analog. 0.2-0.4 is excellent. |
 | **[[stats/04_Machine_Learning/ROC & AUC\|ROC & AUC]]** | Discrimination ability. Area under curve; 0.7-0.8 acceptable, >0.8 excellent. |
-| **[[stats/04_Machine_Learning/Confusion Matrix\|Confusion Matrix]]** | Accuracy, Precision, Recall at a given threshold. |
-| **[[stats/03_Regression_Analysis/Hosmer-Lemeshow Test\|Hosmer-Lemeshow Test]]** | Calibration; do predicted probabilities match observed rates? |
+
+---
+
+## Related Concepts
+
+- [[stats/01_Foundations/Odds Ratio\|Odds Ratio]] - Key interpretation metric.
+- [[stats/04_Machine_Learning/Confusion Matrix\|Confusion Matrix]] - For classification performance.
+- [[stats/03_Regression_Analysis/Generalized Linear Models (GLM)\|Generalized Linear Models (GLM)]] - The parent framework.
+- [[stats/03_Regression_Analysis/Multinomial Logistic Regression (MNLogit)\|Multinomial Logistic Regression (MNLogit)]] - For >2 categories.
+
+---
+
 
 ---
 
@@ -207,3 +217,13 @@ hoslem.test(df$Purchased, fitted(model), g = 10)
 - [[stats/04_Machine_Learning/ROC & AUC\|ROC & AUC]] - Performance metric.
 - [[stats/04_Machine_Learning/Confusion Matrix\|Confusion Matrix]] - Classification metrics.
 - [[stats/03_Regression_Analysis/Probit Regression\|Probit Regression]] - Alternative using normal CDF.
+
+---
+
+## References
+
+- **Book:** Hosmer, D. W., Lemeshow, S., & Sturdivant, R. X. (2013). *Applied Logistic Regression* (3rd ed.). Wiley. [Wiley Link](https://www.wiley.com/en-us/Applied+Logistic+Regression%2C+3rd+Edition-p-9780470582473)
+- **Book:** Agresti, A. (2013). *Categorical Data Analysis* (3rd ed.). Wiley. [Wiley Link](https://www.wiley.com/en-us/Categorical+Data+Analysis%2C+3rd+Edition-p-9780470463635)
+- **Book:** Menard, S. (2002). *Applied Logistic Regression Analysis* (2nd ed.). Sage. [Sage Link](https://doi.org/10.4135/9781412983433)
+- **Book:** James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). *An Introduction to Statistical Learning* (2nd ed.). Springer. [Springer Link](https://link.springer.com/book/10.1007/978-1-0716-1418-1)
+- **Article:** Cox, D. R. (1958). The regression analysis of binary sequences. *Journal of the Royal Statistical Society B*, 20(2), 215-242. [DOI Link](https://doi.org/10.1093/biomet/45.1-2.215)

@@ -154,3 +154,11 @@ confusionMatrix(data = pred, reference = actual)
 - [[stats/04_Machine_Learning/ROC & AUC\|ROC & AUC]] - Threshold-independent performance.
 - [[stats/03_Regression_Analysis/Binary Logistic Regression\|Binary Logistic Regression]] - Typical model producing these outputs.
 - [[stats/04_Machine_Learning/Precision-Recall Curve\|Precision-Recall Curve]]
+
+---
+
+## References
+
+- **Book:** James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). *An Introduction to Statistical Learning* (2nd ed.). Springer. [Book Website](https://www.statlearning.com/)
+- **Article:** Powers, D. M. W. (2011). Evaluation: From precision, recall and F-measure to ROC, informedness, markedness and correlation. *Journal of Machine Learning Technologies*, 2(1), 37-63. [Link](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.214.2210)
+- **Book:** Provost, F., & Fawcett, T. (2013). *Data Science for Business*. O'Reilly Media. [O'Reilly](https://www.oreilly.com/library/view/data-science-for/9781449374273/)

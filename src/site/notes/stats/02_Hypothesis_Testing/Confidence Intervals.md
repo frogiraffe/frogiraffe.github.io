@@ -114,3 +114,11 @@ confint(model)
 - [[stats/01_Foundations/Standard Error\|Standard Error]]
 - [[stats/01_Foundations/T-Distribution\|T-Distribution]]
 - [[stats/01_Foundations/Bayesian Statistics\|Bayesian Statistics]] - Credible Intervals.
+
+---
+
+## References
+
+- **Book:** Wasserman, L. (2004). *All of Statistics*. Springer. [Springer Link](https://link.springer.com/book/10.1007/978-0-387-21736-9)
+- **Book:** Rice, J. A. (2007). *Mathematical Statistics and Data Analysis* (3rd ed.). Duxbury. [Cengage Link](https://www.cengage.com/c/mathematical-statistics-and-data-analysis-3e-rice/9780534399429)
+- **Article:** Cumming, G. (2014). The new statistics: Why and how. *Psychological Science*, 25(1), 7-29. [SAGE Link](https://journals.sagepub.com/doi/full/10.1177/0956797613504966)

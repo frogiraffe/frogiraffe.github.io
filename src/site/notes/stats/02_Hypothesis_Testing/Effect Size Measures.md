@@ -127,3 +127,11 @@ It is standard academic practice to report effect sizes alongside p-values and c
 - [[stats/02_Hypothesis_Testing/One-Way ANOVA\|One-Way ANOVA]] - Associated with $\eta^2$ and $\omega^2$.
 - [[stats/02_Hypothesis_Testing/Pearson Correlation\|Pearson Correlation]] - Associated with $r$ and $r^2$.
 - [[stats/03_Regression_Analysis/Binary Logistic Regression\|Binary Logistic Regression]] - Associated with Odds Ratio.
+
+---
+
+## References
+
+- **Book:** Cohen, J. (1988). *Statistical Power Analysis for the Behavioral Sciences* (2nd ed.). Lawrence Erlbaum Associates. [Routledge](https://www.routledge.com/Statistical-Power-Analysis-for-the-Behavioral-Sciences/Cohen/p/book/9780805802832)
+- **Article:** Fritz, C. O., Morris, P. E., & Richler, J. J. (2012). Effect size estimates: Current use, calculations, and interpretation. *Journal of Experimental Psychology: General*, 141(1), 2-18. [APA Link](https://psycnet.apa.org/doi/10.1037/a0024338)
+- **Book:** Borenstein, M., Hedges, L. V., Higgins, J. P., & Rothstein, H. R. (2009). *Introduction to Meta-Analysis*. Wiley. [Wiley Link](https://www.wiley.com/en-us/Introduction+to+Meta+Analysis-p-9780470057209)

@@ -142,3 +142,11 @@ print(model)
 - [[stats/01_Foundations/Bias-Variance Trade-off\|Bias-Variance Trade-off]]
 - [[stats/03_Regression_Analysis/Ridge Regression\|Ridge Regression]] / [[stats/03_Regression_Analysis/Lasso Regression\|Lasso Regression]] - Use CV to tune $\lambda$.
 - [[stats/04_Machine_Learning/Overfitting\|Overfitting]]
+
+---
+
+## References
+
+- **Historical:** Stone, M. (1974). Cross-validatory choice and assessment of statistical predictions. *Journal of the Royal Statistical Society B*, 36(2), 111-147. [JSTOR](https://www.jstor.org/stable/2984809)
+- **Book:** Hastie, T., Tibshirani, R., & Friedman, J. (2009). *The Elements of Statistical Learning* (2nd ed.). Springer. [Springer Link](https://link.springer.com/book/10.1007/978-0-387-84858-7) (Chapter 7)
+- **Book:** James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). *An Introduction to Statistical Learning* (2nd ed.). Springer. [Book Website](https://www.statlearning.com/) (Chapter 5)

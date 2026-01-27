@@ -38,3 +38,11 @@ grangertest(Y ~ X, order = 4, data = df)
 
 - [[stats/05_Time_Series/Vector Autoregression (VAR)\|Vector Autoregression (VAR)]]
 - [[stats/05_Time_Series/Time Series Analysis\|Time Series Analysis]]
+
+---
+
+## References
+
+- **Historical:** Granger, C. W. J. (1969). Investigating causal relations by econometric models and cross-spectral methods. *Econometrica*. [JSTOR](https://www.jstor.org/stable/1912791)
+- **Book:** Hamilton, J. D. (1994). *Time Series Analysis*. Princeton University Press. [Book Info](https://press.princeton.edu/books/hardcover/9780691042893/time-series-analysis)
+- **Book:** Lütkepohl, H. (2005). *New Introduction to Multiple Time Series Analysis*. Springer. [Springer Link](https://link.springer.com/book/10.1007/978-3-540-27752-1)

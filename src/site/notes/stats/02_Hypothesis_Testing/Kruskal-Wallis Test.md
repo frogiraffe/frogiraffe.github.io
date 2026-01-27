@@ -143,4 +143,12 @@ dunnTest(Value ~ Group, data = df, method = "bonferroni")
 
 - [[stats/02_Hypothesis_Testing/One-Way ANOVA\|One-Way ANOVA]] - Parametric alternative.
 - [[stats/02_Hypothesis_Testing/Mann-Whitney U Test\|Mann-Whitney U Test]] - For 2 groups.
-- [[Dunn's Test\|Dunn's Test]] - Post-hoc pairwise comparison.
+- [[stats/02_Hypothesis_Testing/Kruskal-Wallis Test\|Dunn's Test]] - Post-hoc pairwise comparison.
+
+---
+
+## References
+
+- **Historical:** Kruskal, W. H., & Wallis, W. A. (1952). Use of ranks in one-criterion variance analysis. *Journal of the American Statistical Association*, 47(260), 583-621. [DOI: 10.1080/01621459.1952.10483441](https://doi.org/10.1080/01621459.1952.10483441)
+- **Book:** Conover, W. J. (1999). *Practical Nonparametric Statistics* (3rd ed.). Wiley. [Wiley Link](https://www.wiley.com/en-us/Practical+Nonparametric+Statistics,+3rd+Edition-p-9780471160687)
+- **Book:** Field, A. (2018). *Discovering Statistics Using IBM SPSS Statistics* (5th ed.). Sage. (Chapter 7) [Publisher Link](https://us.sagepub.com/en-us/nam/discovering-statistics-using-ibm-spss-statistics/book257672)

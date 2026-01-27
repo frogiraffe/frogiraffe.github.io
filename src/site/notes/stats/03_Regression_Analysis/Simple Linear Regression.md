@@ -202,3 +202,11 @@ predict(model, newdata = new_data, interval = "confidence")
 - [[stats/02_Hypothesis_Testing/Pearson Correlation\|Pearson Correlation]] - Related but different (Correlation $\neq$ Slope).
 - [[stats/03_Regression_Analysis/Residual Analysis\|Residual Analysis]] - Checking assumptions.
 - [[stats/03_Regression_Analysis/Cook's Distance\|Cook's Distance]] - Identifying influential observations.
+
+---
+
+## References
+
+- **Book:** Draper, N. R., & Smith, H. (1998). *Applied Regression Analysis* (3rd ed.). Wiley. [Wiley Link](https://www.wiley.com/en-us/Applied+Regression+Analysis,+3rd+Edition-p-9780471170822)
+- **Book:** James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). *An Introduction to Statistical Learning* (2nd ed.). Springer. (Chapter 3) [Book Website](https://www.statlearning.com/)
+- **Book:** Faraway, J. J. (2015). *Linear Models with R* (2nd ed.). CRC Press. [Publisher Link](https://www.routledge.com/Linear-Models-with-R/Faraway/p/book/9781439887332)

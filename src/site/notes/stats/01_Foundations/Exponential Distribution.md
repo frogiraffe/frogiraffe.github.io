@@ -198,3 +198,11 @@ rexp(10, rate = lambda_param)
 - [[stats/01_Foundations/Geometric Distribution\|Geometric Distribution]] - Discrete memoryless distribution.
 - [[stats/01_Foundations/Weibull Distribution\|Weibull Distribution]] - Generalizes exponential; allows aging.
 - [[stats/06_Causal_Inference/Survival Analysis\|Survival Analysis]]
+
+---
+
+## References
+
+- **Book:** Ross, S. M. (2014). *A First Course in Probability* (9th ed.). Pearson. (Chapter 5) [Pearson Link](https://www.pearson.com/us/higher-education/program/Ross-A-First-Course-in-Probability-9th-Edition/PGM220165.html)
+- **Book:** Lawless, J. F. (2003). *Statistical Models and Methods for Lifetime Data* (2nd ed.). Wiley. [Wiley Link](https://www.wiley.com/en-us/Statistical+Models+and+Methods+for+Lifetime+Data%2C+2nd+Edition-p-9780471372158)
+- **Book:** Casella, G., & Berger, R. L. (2002). *Statistical Inference* (2nd ed.). Duxbury. (Chapter 3) [Publisher Link](https://www.routledge.com/Statistical-Inference/Casella-Berger/p/book/9781032593036)

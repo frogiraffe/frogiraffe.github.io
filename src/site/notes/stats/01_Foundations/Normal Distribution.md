@@ -181,3 +181,12 @@ qqline(data, col = "red", lwd = 2)
 - [[stats/08_Visualization/Q-Q Plot\|Q-Q Plot]] - Visual diagnostic.
 - [[stats/02_Hypothesis_Testing/Shapiro-Wilk Test\|Shapiro-Wilk Test]] - Statistical diagnostic.
 - [[stats/01_Foundations/Log Transformations\|Log Transformations]] - A cure for non-normality.
+
+---
+
+## References
+
+- **Book:** Rice, J. A. (2007). *Mathematical Statistics and Data Analysis* (3rd ed.). Duxbury. [Cengage](https://www.cengage.com/c/mathematical-statistics-and-data-analysis-3e-rice/9780534399429/)
+- **Book:** DeGroot, M. H., & Schervish, M. J. (2012). *Probability and Statistics* (4th ed.). Pearson. [Pearson](https://www.pearson.com/en-us/subject-catalog/p/probability-and-statistics/P200000006277/)
+- **Book:** Casella, G., & Berger, R. L. (2002). *Statistical Inference* (2nd ed.). Duxbury. [Cengage](https://www.cengage.com/c/statistical-inference-2e-casella/9780534243128/)
+- **Historical:** Gauss, C. F. (1809). *Theoria Motus Corporum Coelestium*. [Google Books](https://books.google.com/books?id=f_8_AAAAYAAJ)

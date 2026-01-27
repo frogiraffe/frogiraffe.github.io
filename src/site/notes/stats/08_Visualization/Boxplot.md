@@ -108,9 +108,35 @@ outliers = df[(df['Salary'] < Q1 - 1.5 * IQR) | (df['Salary'] > Q3 + 1.5 * IQR)]
 
 ---
 
+## R Implementation
+
+```r
+# Load libraries
+library(ggplot2)
+
+# Comparative Boxplot
+ggplot(mtcars, aes(x=factor(cyl), y=mpg, fill=factor(cyl))) +
+  geom_boxplot() +
+  labs(title="MPG Distribution by Cylinder Count", x="Cylinders", y="MPG") +
+  theme_minimal()
+
+# Detect Outliers
+boxplot.stats(mtcars$mpg)$out
+```
+
+---
+
 ## Related Concepts
 
 - [[stats/01_Foundations/Normal Distribution\|Normal Distribution]] - Reference shape.
 - [[stats/08_Visualization/Violin Plot\|Violin Plot]] - Boxplot + Density (Best of both worlds).
 - [[stats/08_Visualization/Histogram\|Histogram]] - Binned view of distribution.
 - [[stats/03_Regression_Analysis/Outlier Analysis (Standardized Residuals)\|Outlier Analysis (Standardized Residuals)]]
+
+---
+
+## References
+
+- **Book:** Tukey, J. W. (1977). *Exploratory Data Analysis*. Addison-Wesley. [Book Info](https://www.pearson.com/en-us/subject-catalog/p/exploratory-data-analysis/P200000003328)
+- **Article:** Wickham, H., & Stryjewski, L. (2011). 40 years of boxplots. [PDF](https://vita.had.co.nz/papers/boxplots.pdf)
+- **Book:** McGill, R., Tukey, J. W., & Larsen, W. A. (1978). Variations of box plots. *The American Statistician*. [JSTOR](https://www.jstor.org/stable/2683468)

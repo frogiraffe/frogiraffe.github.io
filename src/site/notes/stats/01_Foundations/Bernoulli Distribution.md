@@ -69,8 +69,32 @@ print(f"Prob of Failure: {rv.pmf(0)}")
 
 ---
 
+## R Implementation
+
+```r
+# Simulate Bernoulli Trials
+p <- 0.7
+n <- 10
+
+# Generate 10 random variates
+flips <- rbinom(n, size=1, prob=p)
+
+print(flips)
+# [1] 1 1 0 1 1 0 1 1 1 0
+```
+
+---
+
 ## Related Concepts
 
 - [[stats/01_Foundations/Binomial Distribution\|Binomial Distribution]] - Sum of $n$ Bernoullis.
 - [[stats/03_Regression_Analysis/Logistic Regression\|Logistic Regression]] - Modeling outcomes using Bernoulli likelihood.
 - [[stats/01_Foundations/Categorical Distribution\|Categorical Distribution]] - Generalization to >2 outcomes (Dice role).
+
+---
+
+## References
+
+- **Historical:** Bernoulli, J. (1713). *Ars Conjectandi*. [Archive.org](https://archive.org/details/arsconjectandiop00bern)
+- **Book:** Ross, S. M. (2014). *Introduction to Probability Models* (11th ed.). Academic Press. [Elsevier Link](https://www.elsevier.com/books/introduction-to-probability-models/ross/978-0-12-407948-9)
+- **Book:** Wackerly, D., Mendenhall, W., & Scheaffer, R. L. (2008). *Mathematical Statistics with Applications* (7th ed.). Thomson Brooks/Cole. [Cengage Link](https://www.cengage.com/c/mathematical-statistics-with-applications-7e-wackerly/)

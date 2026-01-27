@@ -132,26 +132,16 @@ plot(roc_obj, main = "ROC Curve", print.auc = TRUE)
 
 ---
 
-## Common Pitfall Example
-
-> [!warning] The "AUC Trap" in Imbalanced Data
-> **Scenario:** Fraud Detection (0.1% Fraud).
-> **Model:** 
-> - AUC = 0.90 (Looks good!).
-> - Precision at Recall 50% = 5%.
-> 
-> **The Problem:** 
-> - ROC looks high because True Negatives (non-fraud) flood the calculation.
-> - In reality, to catch 50% of fraud, you flag 20 false start for every 1 real fraud.
-> - The model might be practically useless despite "high" AUC.
-> 
-> **Solution:** Use **Precision-Recall Curve (PR-AUC)**.
-> - It ignores True Negatives and highlights how bad the False Positives are relative to True Positives.
-
----
-
 ## Related Concepts
 
 - [[stats/04_Machine_Learning/Confusion Matrix\|Confusion Matrix]] - Metrics at a single threshold.
 - [[stats/04_Machine_Learning/Precision-Recall Curve\|Precision-Recall Curve]] - Better for imbalanced data.
 - [[stats/03_Regression_Analysis/Binary Logistic Regression\|Binary Logistic Regression]]
+
+---
+
+## References
+
+- **Historical:** Hanley, J. A., & McNeil, B. J. (1982). The meaning and use of the area under a receiver operating characteristic (ROC) curve. *Radiology*. [RSNA](https://doi.org/10.1148/radiology.143.1.7063747)
+- **Article:** Fawcett, T. (2006). An introduction to ROC analysis. *Pattern Recognition Letters*. [ScienceDirect](https://doi.org/10.1016/j.patrec.2005.10.010)
+- **Book:** James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). *An Introduction to Statistical Learning* (2nd ed.). Springer. [Book Website](https://www.statlearning.com/)

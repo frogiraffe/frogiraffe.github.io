@@ -338,3 +338,11 @@ plot(best_model, train, X1 ~ X2,
 **Extensions:**
 - [[SVR (Support Vector Regression)\|SVR (Support Vector Regression)]] — Regression version
 - [[Kernel Methods\|Kernel Methods]] — General framework
+
+---
+
+## References
+
+- **Historical:** Cortes, C., & Vapnik, V. (1995). Support-vector networks. *Machine Learning*. [Springer Link](https://link.springer.com/article/10.1007/BF00994018)
+- **Book:** Schölkopf, B., & Smola, A. J. (2002). *Learning with Kernels*. MIT Press. [MIT Press](https://mitpress.mit.edu/9780262194754/learning-with-kernels/)
+- **Book:** Cristianini, N., & Shawe-Taylor, J. (2000). *An Introduction to Support Vector Machines*. Cambridge. [Cambridge Link](https://www.cambridge.org/core/books/an-introduction-to-support-vector-machines/D5D3A3B0D3B0D3B0D3B0D3B0D3B0D3B0)

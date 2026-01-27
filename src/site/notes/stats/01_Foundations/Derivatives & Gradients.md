@@ -95,9 +95,38 @@ print(f"Critical Point at w = {roots[0]}")
 
 ---
 
+## R Implementation
+
+```r
+# Symbolic Differentiation
+f_sym <- expression(x^2 + 3*x + 5)
+deriv_result <- D(f_sym, "x")
+
+# Evaluate at x = 2
+x <- 2
+eval(deriv_result)
+
+# Numerical Differentiation using numDeriv
+# install.packages("numDeriv")
+library(numDeriv)
+
+f <- function(x) x^2 + 3*x + 5
+grad(f, x=2)
+```
+
+---
+
 ## Related Concepts
 
 - [[stats/04_Machine_Learning/Gradient Descent\|Gradient Descent]] - Using derivates iteratively.
 - [[stats/01_Foundations/Optimization\|Optimization]] - The broader field.
 - [[stats/04_Machine_Learning/Neural Networks\|Neural Networks]] - Use partial derivatives (weights).
 - [[stats/05_Time_Series/Taylor Series\|Taylor Series]] - Approximating functions using derivatives.
+
+---
+
+## References
+
+- **Book:** Stewart, J. (2015). *Calculus: Early Transcendentals* (8th ed.). Cengage Learning. [Cengage Link](https://www.cengage.com/c/calculus-early-transcendentals-8e-stewart/9781285741550/)
+- **Book:** Goodfellow, I., Bengio, Y., & Courville, A. (2016). *Deep Learning*. MIT Press. [Book Website](https://www.deeplearningbook.org/) (Chapter 6)
+- **Book:** Strang, G. (2019). *Linear Algebra and Learning from Data*. Wellesley-Cambridge Press. [Wellesley-Cambridge](https://math.mit.edu/~gs/learningfromdata/)

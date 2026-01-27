@@ -98,6 +98,28 @@ plt.show()
 
 ---
 
+## R Implementation
+
+```r
+library(ggplot2)
+
+# Generate skewed data
+data <- rgamma(1000, shape=2, scale=2)
+df <- data.frame(value=data)
+
+# 1. Base R
+hist(data, breaks=30, main="Base R Histogram", col="lightblue")
+
+# 2. ggplot2 with Density
+ggplot(df, aes(x=value)) + 
+  geom_histogram(aes(y=..density..), bins=30, fill="skyblue", color="black") +
+  geom_density(alpha=.2, fill="#FF6666") +
+  labs(title="Histogram with Density Curve") +
+  theme_minimal()
+```
+
+---
+
 ## Interpretation Guide
 
 | Shape | Meaning |
@@ -116,3 +138,11 @@ plt.show()
 - [[stats/01_Foundations/Normal Distribution\|Normal Distribution]] - The ideal shape.
 - [[stats/01_Foundations/Log Transformation\|Log Transformation]] - Technique to fix skew.
 - [[stats/08_Visualization/Violin Plot\|Violin Plot]] - Histogram + Boxplot.
+
+---
+
+## References
+
+- **Historical:** Pearson, K. (1895). Skew variation in homogeneous material. *Phil. Trans. R. Soc. Lond. A*. [Link](https://royalsocietypublishing.org/doi/10.1098/rsta.1895.0010)
+- **Article:** Scott, D. W. (1979). On optimal and data-based histograms. *Biometrika*. [JSTOR](https://www.jstor.org/stable/2335182)
+- **Book:** Silverman, B. W. (1986). *Density Estimation for Statistics and Data Analysis*. Chapman and Hall. [Link](https://www.routledge.com/Density-Estimation-for-Statistics-and-Data-Analysis/Silverman/p/book/9780412246203)

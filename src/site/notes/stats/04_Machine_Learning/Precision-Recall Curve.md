@@ -358,3 +358,11 @@ ggplot(df, aes(x = recall, y = precision)) +
 **Applications:**
 - [[Imbalanced Data\|Imbalanced Data]] — When PR curve is essential
 - [[Threshold Optimization\|Threshold Optimization]] — Choosing operating point on curve
+
+---
+
+## References
+
+- **Historical:** Davis, J., & Goadrich, M. (2006). The relationship between Precision-Recall and ROC curves. *ICML*. [ACM Digital Library](https://dl.acm.org/doi/10.1145/1143844.1143874)
+- **Article:** Saito, T., & Rehmsmeier, M. (2015). The precision-recall plot is more informative than the ROC plot when evaluating binary classifiers on imbalanced datasets. *PLOS ONE*. [DOI: 10.1371/journal.pone.0118432](https://doi.org/10.1371/journal.pone.0118432)
+- **Book:** James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). *An Introduction to Statistical Learning* (2nd ed.). Springer. [Book Website](https://www.statlearning.com/)

@@ -50,3 +50,11 @@ plot(model, 3) # Scale-Location plot helps see them
 
 - [[stats/03_Regression_Analysis/Cook's Distance\|Cook's Distance]] - Measuring *Influence* (Does the outlier matter?).
 - [[stats/03_Regression_Analysis/Leverage (Hat Matrix)\|Leverage (Hat Matrix)]]
+
+---
+
+## References
+
+- **Book:** Barnett, V., & Lewis, T. (1994). *Outliers in Statistical Data* (3rd ed.). Wiley. [Wiley Link](https://www.wiley.com/en-us/Outliers+in+Statistical+Data%2C+3rd+Edition-p-9780471930945)
+- **Book:** Rousseeuw, P. J., & Leroy, A. M. (2005). *Robust Regression and Outlier Detection*. Wiley. [Wiley Link](https://doi.org/10.1002/0471725382)
+- **Article:** Grubbs, F. E. (1969). Procedures for detecting outlying observations in samples. *Technometrics*, 11(1), 1-21. [DOI Link](https://doi.org/10.1080/00401706.1969.10487810)

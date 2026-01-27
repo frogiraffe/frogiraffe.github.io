@@ -358,3 +358,11 @@ test_scaled <- predict(preproc, test)  # Uses training parameters!
 **Related Preprocessing:**
 - [[stats/01_Foundations/Log Transformations\|Log Transformations]] — For skewed distributions
 - [[Encoding Categorical Variables\|Encoding Categorical Variables]] — For non-numeric features
+
+---
+
+## References
+
+- **Book:** Han, J., Kamber, M., & Pei, J. (2011). *Data Mining: Concepts and Techniques* (3rd ed.). Morgan Kaufmann. [Elsevier](https://www.elsevier.com/books/data-mining-concepts-and-techniques/han/978-0-12-381479-1)
+- **Book:** Zheng, A., & Casari, A. (2018). *Feature Engineering for Machine Learning*. O'Reilly Media. [O'Reilly](https://www.oreilly.com/library/view/feature-engineering-for/9781491953235/)
+- **Book:** Witten, I. H., Frank, E., & Hall, M. A. (2011). *Data Mining: Practical Machine Learning Tools and Techniques* (3rd ed.). Morgan Kaufmann. [Elsevier](https://www.elsevier.com/books/data-mining-practical-machine-learning-tools-and-techniques/witten/978-0-12-374856-0)

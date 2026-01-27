@@ -163,3 +163,11 @@ plot(ice_cream, drowning, main = "Spurious Correlation",
 - [[stats/06_Causal_Inference/Difference-in-Differences (DiD)\|Difference-in-Differences (DiD)]]
 - [[stats/01_Foundations/Confounding Variables\|Confounding Variables]]
 - [[stats/01_Foundations/Randomized Controlled Trials\|Randomized Controlled Trials]]
+
+---
+
+## References
+
+- **Article:** Hill, A. B. (1965). The environment and disease: Association or causation? *Proceedings of the Royal Society of Medicine*, 58(5), 295. [PMC Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1898525/)
+- **Book:** Pearl, J., & Mackenzie, D. (2018). *The Book of Why: The New Science of Cause and Effect*. Basic Books. [Basic Books](https://www.basicbooks.com/titles/judea-pearl/the-book-of-why/9780465097609/)
+- **Book:** Bias, C. (1979). The psychology of causal attribution. *Annual Review of Psychology*, 30(2), 241-267. [Annual Reviews](https://www.annualreviews.org/doi/abs/10.1146/annurev.ps.30.020179.001325)

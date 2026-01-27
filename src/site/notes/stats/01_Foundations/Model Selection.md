@@ -221,3 +221,11 @@ Start with problem type:
 - [[stats/04_Machine_Learning/Overfitting\|Overfitting]] — Why we need validation
 - [[stats/01_Foundations/Bias-Variance Trade-off\|Bias-Variance Trade-off]] — Model complexity
 - [[Hyperparameter Tuning\|Hyperparameter Tuning]] — Optimizing within model
+
+---
+
+## References
+
+- **Book:** Burnham, K. P., & Anderson, D. R. (2002). *Model Selection and Multimodel Inference* (2nd ed.). Springer. [Springer Link](https://link.springer.com/book/10.1007/b97639)
+- **Book:** James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). *An Introduction to Statistical Learning* (2nd ed.). Springer. [ISLR Site](https://www.statlearning.com/)
+- **Historical:** Akaike, H. (1974). A new look at the statistical model identification. *IEEE Transactions on Automatic Control*, 19(6), 716-723. [IEEE Xplore](https://ieeexplore.ieee.org/document/1100705)

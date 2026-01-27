@@ -394,3 +394,11 @@ cat("Stacking Accuracy:", mean(stack_pred == test$y), "\n")
 **Advanced:**
 - [[stats/04_Machine_Learning/Overfitting & Underfitting\|Overfitting & Underfitting]] — What ensembles solve
 - [[Feature Importance\|Feature Importance]] — Interpreting ensemble contributions
+
+---
+
+## References
+
+- **Historical:** Breiman, L. (1996). Bagging predictors. *Machine Learning*, 24(2), 123-140. [Springer Link](https://link.springer.com/article/10.1007/BF00058655)
+- **Historical:** Freund, Y., & Schapire, R. E. (1997). A decision-theoretic generalization of on-line learning and an application to boosting. *Journal of Computer and System Sciences*, 55(1), 119-139. [ScienceDirect](https://doi.org/10.1006/jcss.1997.1504)
+- **Book:** Zhou, Z. H. (2012). *Ensemble Methods: Foundations and Algorithms*. CRC Press. [Link](https://cs.nju.edu.cn/zhouzh/zhouzh.files/publication/ensemble-book.htm)

@@ -93,9 +93,41 @@ plt.show()
 
 ---
 
+## R Implementation
+
+```r
+library(ggplot2)
+
+# Data
+df <- data.frame(
+  x = runif(100),
+  y = 2*runif(100) + rnorm(100, 0, 0.1)
+)
+
+# 1. Base R
+plot(df$x, df$y, main="Basic Scatter", xlab="X", ylab="Y", pch=19, col=rgb(0,0,1,0.5))
+
+# 2. ggplot2 with Regression Line
+ggplot(df, aes(x=x, y=y)) +
+  geom_point(alpha=0.5) + 
+  geom_smooth(method="lm", color="red") +
+  labs(title="Scatter with Regression Line") +
+  theme_minimal()
+```
+
+---
+
 ## Related Concepts
 
 - [[stats/02_Hypothesis_Testing/Pearson Correlation\|Pearson Correlation]] - The number summarizing the plot.
 - [[stats/03_Regression_Analysis/Simple Linear Regression\|Simple Linear Regression]] - Fitting a line to the plot.
 - [[stats/03_Regression_Analysis/Heteroscedasticity\|Heteroscedasticity]] - Fan shape pattern.
 - [[stats/03_Regression_Analysis/Residual Plot\|Residual Plot]] - Scatter plot of Errors vs X.
+
+---
+
+## References
+
+- **Historical:** Friendly, M., & Denis, D. (2005). The early origins and development of the scatterplot. *JHBS*. [Wiley Link](https://doi.org/10.1002/jhbs.20078)
+- **Book:** Cleveland, W. S. (1985). *The Elements of Graphing Data*. Wadsworth. [Link](https://books.google.com.tr/books/about/The_Elements_of_Graphing_Data.html?id=uN9SAAAAMAAJ)
+- **Book:** Tufte, E. R. (2001). *The Visual Display of Quantitative Information*. Graphics Press. [Official Site](https://www.edwardtufte.com/tufte/books_vdqi)

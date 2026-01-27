@@ -80,6 +80,32 @@ sns.clustermap(data.iloc[:20, :], cmap='viridis', standard_scale=1)
 
 ---
 
+## R Implementation
+
+```r
+# Load libraries
+library(ggplot2)
+library(reshape2)
+
+# Create Correlation Matrix
+data(mtcars)
+cormat <- round(cor(mtcars), 2)
+
+# Melt for ggplot
+melted_cormat <- melt(cormat)
+
+# Plot
+ggplot(data = melted_cormat, aes(x=Var1, y=Var2, fill=value)) + 
+  geom_tile() +
+  scale_fill_gradient2(low = "blue", high = "red", mid = "white", 
+                       midpoint = 0, limit = c(-1,1)) +
+  theme_minimal() + 
+  coord_fixed() +
+  labs(title="Correlation Heatmap")
+```
+
+---
+
 ## Limitations
 
 > [!warning] Pitfalls
@@ -94,3 +120,11 @@ sns.clustermap(data.iloc[:20, :], cmap='viridis', standard_scale=1)
 - [[stats/02_Hypothesis_Testing/Pearson Correlation\|Pearson Correlation]] - The metric usually visualized.
 - [[stats/04_Machine_Learning/Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] - Alternative for high-dim data.
 - [[stats/04_Machine_Learning/Confusion Matrix\|Confusion Matrix]] - Often visualized as a heatmap.
+
+---
+
+## References
+
+- **Book:** Wilkinson, L. (2005). *The Grammar of Graphics*. Springer. [Springer Link](https://link.springer.com/book/10.1007/0-387-28695-0)
+- **Article:** Eisen, M. B., et al. (1998). Cluster analysis and display of genome-wide expression patterns. *PNAS*. [PNAS Link](https://doi.org/10.1073/pnas.95.25.14863)
+- **Book:** Tufte, E. R. (2001). *The Visual Display of Quantitative Information*. Graphics Press. [Official Site](https://www.edwardtufte.com/tufte/books_vdqi)

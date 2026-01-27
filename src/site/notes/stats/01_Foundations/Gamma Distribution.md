@@ -81,9 +81,37 @@ plt.show()
 
 ---
 
+## R Implementation
+
+```r
+# Gamma Distribution
+k <- 2   # shape
+theta <- 2 # scale (rate = 1/theta)
+
+# Sample
+samples <- rgamma(1000, shape=k, scale=theta)
+
+# Plot Density
+hist(samples, freq=FALSE, main="Gamma(2,2)", col="lightgreen")
+curve(dgamma(x, shape=k, scale=theta), add=TRUE, col="darkgreen", lwd=2)
+
+# CDF
+print(paste("Prob < 5:", pgamma(5, shape=k, scale=theta)))
+```
+
+---
+
 ## Related Concepts
 
 - [[stats/01_Foundations/Exponential Distribution\|Exponential Distribution]] - Special case ($k=1$).
 - [[stats/01_Foundations/Poisson Distribution\|Poisson Distribution]] - Counts events in fixed time (Dual concept).
 - [[stats/01_Foundations/Chi-Square Distribution\|Chi-Square Distribution]] - Another special case.
 - [[stats/01_Foundations/Beta Distribution\|Beta Distribution]] - Associated conjugate prior.
+
+---
+
+## References
+
+- **Book:** Hogg, R. V., & Tanis, E. A. (2010). *Probability and Statistical Inference* (8th ed.). Pearson. [Pearson Link](https://www.pearson.com/en-us/subject-catalog/p/probability-and-statistical-inference/P200000003540/9780137981502)
+- **Book:** Casella, G., & Berger, R. L. (2002). *Statistical Inference* (2nd ed.). Duxbury. [Publisher Link](https://www.routledge.com/Statistical-Inference/Casella-Berger/p/book/9781032593036)
+- **Article:** Huschke, R. E. (1959). *Glossary of Meteorology*. American Meteorological Society. [Archive.org](https://archive.org/details/glossaryofmeteoro00husc)

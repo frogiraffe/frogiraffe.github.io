@@ -68,8 +68,38 @@ z_stat, p_val = proportions_ztest(count, nobs)
 
 ---
 
+## R Implementation
+
+```r
+# One-sample Z-test (Manual, as base R doesn't have it by default)
+z_test <- function(sample_mean, pop_mean, pop_std, n) {
+  z_score <- (sample_mean - pop_mean) / (pop_std / sqrt(n))
+  p_value <- 2 * pnorm(-abs(z_score)) # Two-tailed
+  return(list(z = z_score, p = p_value))
+}
+
+# Run
+res <- z_test(sample_mean = 105, pop_mean = 100, pop_std = 15, n = 50)
+print(res)
+
+# Or using BSDA package
+# install.packages("BSDA")
+# library(BSDA)
+# z.test(data_vector, mu=100, sigma.x=15)
+```
+
+---
+
 ## Related Concepts
 
 - [[stats/02_Hypothesis_Testing/One-Sample t-test\|One-Sample t-test]] - The alternative for unknown $\sigma$.
 - [[stats/01_Foundations/Central Limit Theorem (CLT)\|Central Limit Theorem (CLT)]] - Justifies the Normal approx.
-- [[A/B Testing\|A/B Testing]] - Uses Two-Proportion Z-test.
+- [[stats/02_Hypothesis_Testing/A-B Testing\|A/B Testing]] - Uses Two-Proportion Z-test.
+
+---
+
+## References
+
+- **Book:** Sprinthall, R. C. (2011). *Basic Statistical Analysis* (9th ed.). Pearson. [Pearson Link](https://www.pearson.com/en-gb/subject-catalog/p/basic-statistical-analysis-pearson-new-international-edition/P100000109765)
+- **Book:** Daniel, W. W., & Cross, C. L. (2013). *Biostatistics: A Foundation for Analysis in the Health Sciences* (10th ed.). Wiley. [Wiley Link](https://www.wiley.com/en-us/Biostatistics%3A+A+Foundation+for+Analysis+in+the+Health+Sciences%2C+10th+Edition-p-9781118302798)
+- **Book:** Freedman, D., Pisani, R., & Purves, R. (2007). *Statistics* (4th ed.). W. W. Norton & Company. [W.W. Norton Link](https://wwnorton.com/books/9780393929720)

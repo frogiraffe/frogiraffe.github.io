@@ -284,4 +284,12 @@ t.test(before, after, paired = TRUE, alternative = "greater")
 
 **Extensions:**
 - [[stats/02_Hypothesis_Testing/Repeated Measures ANOVA\|Repeated Measures ANOVA]] — More than 2 time points
-- [[Mixed Effects Models\|Mixed Effects Models]] — Complex repeated measures with covariates
+- [[stats/03_Regression_Analysis/Linear Mixed Models (LMM)\|Mixed Effects Models]] — Complex repeated measures with covariates
+
+---
+
+## References
+
+- **Historical:** Student (Gosset, W. S.). (1908). The probable error of a mean. *Biometrika*, 6(1), 1-25. [DOI: 10.1093/biomet/6.1.1](https://doi.org/10.1093/biomet/6.1.1)
+- **Book:** Field, A. (2018). *Discovering Statistics Using IBM SPSS Statistics* (5th ed.). Sage. (Chapter 10) [Publisher Link](https://us.sagepub.com/en-us/nam/discovering-statistics-using-ibm-spss-statistics/book257672)
+- **Book:** Howell, D. C. (2013). *Statistical Methods for Psychology* (8th ed.). Cengage Learning. [Publisher Link](https://www.cengage.com/c/statistical-methods-for-psychology-8e-howell/9781111835484)

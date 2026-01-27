@@ -113,8 +113,34 @@ if result.pvalue < 0.05:
 
 ---
 
+## R Implementation
+
+```r
+# McNemar's Test
+# Create 2x2 Contingency Table
+#           After: Yes  After: No
+# Before: Yes      30        10
+# Before: No       25        35
+data <- matrix(c(30, 25, 10, 35), nrow = 2, byrow = FALSE)
+colnames(data) <- c("After: Yes", "After: No")
+rownames(data) <- c("Before: Yes", "Before: No")
+
+# Run Test
+mcnemar.test(data, correct=TRUE)
+```
+
+---
+
 ## Related Concepts
 
 - [[stats/02_Hypothesis_Testing/Paired T-Test\|Paired T-Test]] - Continuous equivalent.
 - [[stats/02_Hypothesis_Testing/Chi-Square Test of Independence\|Chi-Square Test of Independence]] - Unpaired equivalent.
 - [[stats/02_Hypothesis_Testing/Wilcoxon Signed-Rank Test\|Wilcoxon Signed-Rank Test]] - Paired ordinal equivalent.
+
+---
+
+## References
+
+- **Historical:** McNemar, Q. (1947). Note on the sampling error of the difference between correlated proportions or percentages. *Psychometrika*, 12(2), 153-157. [Springer](https://doi.org/10.1007/BF02295996)
+- **Book:** Agresti, A. (2013). *Categorical Data Analysis* (3rd ed.). Wiley. [Wiley Link](https://www.wiley.com/en-us/Categorical+Data+Analysis%2C+3rd+Edition-p-9780470463635)
+- **Book:** Fleiss, J. L., Levin, B., & Paik, M. C. (2003). *Statistical Methods for Rates and Proportions* (3rd ed.). Wiley. [Wiley Link](https://www.wiley.com/en-us/Statistical+Methods+for+Rates+and+Proportions%2C+3rd+Edition-p-9780471526292)

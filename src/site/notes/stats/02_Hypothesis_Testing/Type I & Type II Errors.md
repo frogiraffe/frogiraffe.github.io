@@ -148,3 +148,11 @@ cat("Beta (Type II Error):", round(beta, 3), "\n")
 - [[stats/02_Hypothesis_Testing/Hypothesis Testing (P-Value & CI)\|Hypothesis Testing (P-Value & CI)]]
 - [[stats/02_Hypothesis_Testing/Power Analysis\|Power Analysis]]
 - [[stats/02_Hypothesis_Testing/Bonferroni Correction\|Bonferroni Correction]] - Controls family-wise Type I error.
+
+---
+
+## References
+
+- **Historical:** Neyman, J., & Pearson, E. S. (1933). On the problem of the most efficient tests of statistical hypotheses. *Philosophical Transactions of the Royal Society of London*, 231, 289-337. [JSTOR Link](http://www.jstor.org/stable/91247)
+- **Book:** Cohen, J. (1988). *Statistical Power Analysis for the Behavioral Sciences* (2nd ed.). Lawrence Erlbaum. [Routledge](https://www.routledge.com/Statistical-Power-Analysis-for-the-Behavioral-Sciences/Cohen/p/book/9780805802832)
+- **Book:** Field, A. (2018). *Discovering Statistics Using IBM SPSS Statistics* (5th ed.). Sage. [Sage Link](https://us.sagepub.com/en-us/nam/discovering-statistics-using-ibm-spss-statistics/book249648)

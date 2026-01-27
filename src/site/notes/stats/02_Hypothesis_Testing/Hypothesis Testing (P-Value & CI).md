@@ -161,3 +161,11 @@ if(test_res$p.value < 0.05) {
 - [[stats/02_Hypothesis_Testing/Effect Size Measures\|Effect Size Measures]]
 - [[stats/02_Hypothesis_Testing/Bonferroni Correction\|Bonferroni Correction]]
 - [[stats/01_Foundations/Bayesian Statistics\|Bayesian Statistics]] - An alternative framework.
+
+---
+
+## References
+
+- **Book:** Wasserman, L. (2004). *All of Statistics*. Springer. [Springer Link](https://link.springer.com/book/10.1007/978-0-387-21736-9)
+- **Book:** Casella, G., & Berger, R. L. (2002). *Statistical Inference* (2nd ed.). Duxbury. [Cengage Link](https://www.cengage.com/c/statistical-inference-2e-casella/9780534243128/)
+- **Article:** Wasserstein, R. L., & Lazar, N. A. (2016). The ASA statement on p-values: Context, process, and purpose. *The American Statistician*, 70(2), 129-133. [Taylor & Francis Link](https://www.tandfonline.com/doi/full/10.1080/00031305.2016.1154108)

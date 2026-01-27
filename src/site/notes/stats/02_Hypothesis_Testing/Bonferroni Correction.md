@@ -157,3 +157,11 @@ print(adjusted < 0.05)
 - [[stats/02_Hypothesis_Testing/Tukey's HSD\|Tukey's HSD]] - Alternative for all pairwise comparisons.
 - [[stats/01_Foundations/False Discovery Rate (FDR)\|False Discovery Rate (FDR)]] - Less conservative alternative.
 - [[stats/02_Hypothesis_Testing/One-Way ANOVA\|One-Way ANOVA]]
+
+---
+
+## References
+
+- **Historical:** Bonferroni, C. E. (1936). Teoria statistica delle classi e calcolo delle probabilità. *Pubblicazioni del R Istituto Superiore di Scienze Economiche e Commerciali di Firenze*, 8, 3-62. [Google Books](https://books.google.com/books?id=0s5oNwAACAAJ)
+- **Book:** Hsu, J. C. (1996). *Multiple Comparisons: Theory and Methods*. Chapman and Hall/CRC. [Taylor & Francis](https://doi.org/10.1201/b15074)
+- **Article:** Dunn, O. J. (1961). Multiple comparisons among means. *Journal of the American Statistical Association*, 56(293), 52-64. [JSTOR](http://www.jstor.org/stable/2282330)

@@ -280,4 +280,12 @@ wilcox.test(group_A, group_B, conf.int = TRUE)
 - [[stats/02_Hypothesis_Testing/Kruskal-Wallis Test\|Kruskal-Wallis Test]] — More than 2 groups
 
 **Effect Size:**
-- [[Effect Size\|Effect Size]] — Why p-value isn't enough
+- [[stats/02_Hypothesis_Testing/Effect Size Measures\|Effect Size]] — Why p-value isn't enough
+
+---
+
+## References
+
+- **Historical:** Mann, H. B., & Whitney, D. R. (1947). On a test of whether one of two random variables is stochastically larger than the other. *Annals of Mathematical Statistics*, 18(1), 50-60. [DOI: 10.1214/aoms/1177730491](https://doi.org/10.1214/aoms/1177730491)
+- **Book:** Conover, W. J. (1999). *Practical Nonparametric Statistics* (3rd ed.). Wiley. [Wiley Link](https://www.wiley.com/en-us/Practical+Nonparametric+Statistics,+3rd+Edition-p-9780471160687)
+- **Book:** Field, A. (2018). *Discovering Statistics Using IBM SPSS Statistics* (5th ed.). Sage. (Chapter 7) [Publisher Link](https://us.sagepub.com/en-us/nam/discovering-statistics-using-ibm-spss-statistics/book257672)

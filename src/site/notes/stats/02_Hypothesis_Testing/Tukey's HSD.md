@@ -159,3 +159,11 @@ plot(tukey_result)
 - [[stats/02_Hypothesis_Testing/Bonferroni Correction\|Bonferroni Correction]] - More conservative alternative.
 - [[stats/02_Hypothesis_Testing/Kruskal-Wallis Test\|Kruskal-Wallis Test]] - Non-parametric ANOVA.
 - [[stats/01_Foundations/Multiple Comparisons Problem\|Multiple Comparisons Problem]]
+
+---
+
+## References
+
+- **Historical:** Tukey, J. W. (1949). Comparing individual means in the analysis of variance. *Biometrics*. [JSTOR](https://www.jstor.org/stable/3001913)
+- **Book:** Montgomery, D. C. (2017). *Design and Analysis of Experiments*. Wiley. [Wiley Link](https://www.wiley.com/en-us/Design+and+Analysis+of+Experiments%2C+9th+Edition-p-9781119113478)
+- **Article:** Abdi, H., & Williams, L. J. (2010). Tukey’s honestly significant difference (HSD) test. [Link](https://personal.utdallas.edu/~herve/abdi-TukeyHSD2010-pretty.pdf)

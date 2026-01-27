@@ -129,3 +129,11 @@ vuong(model_zip, model_zinb)
 - [[stats/03_Regression_Analysis/Poisson Regression\|Poisson Regression]]
 - [[stats/03_Regression_Analysis/Negative Binomial Regression\|Negative Binomial Regression]]
 - [[stats/01_Foundations/Hurdle Models\|Hurdle Models]] - Alternative for excess zeros.
+
+---
+
+## References
+
+- **Historical:** Lambert, D. (1992). Zero-inflated Poisson regression, with an application to defects in manufacturing. *Technometrics*, 34(1), 1-14. [DOI Link](https://doi.org/10.1080/00401706.1992.10485228)
+- **Book:** Hilbe, J. M. (2014). *Modeling Count Data*. Cambridge University Press. [Cambridge Link](https://doi.org/10.1017/CBO9781139236034)
+- **Book:** Cameron, A. C., & Trivedi, P. K. (2013). *Regression Analysis of Count Data* (2nd ed.). Cambridge University Press. [Cambridge Link](https://doi.org/10.1017/CBO9781139016384)

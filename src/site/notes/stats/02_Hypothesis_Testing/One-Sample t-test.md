@@ -73,8 +73,28 @@ if p_val < 0.05:
 
 ---
 
+## R Implementation
+
+```r
+# One-Sample t-test
+data <- c(98, 102, 101, 99, 100, 103, 97, 101, 99, 102)
+
+# H0: mu = 100
+t.test(data, mu = 100, alternative = "two.sided")
+```
+
+---
+
 ## Related Concepts
 
 - [[stats/02_Hypothesis_Testing/Student's T-Test\|Student's T-Test]] - The two-sample version.
 - [[stats/02_Hypothesis_Testing/Z-Test\|Z-Test]] - Used if $\sigma$ is known.
 - [[stats/02_Hypothesis_Testing/Confidence Intervals\|Confidence Intervals]] - The interval version of this test.
+
+---
+
+## References
+
+- **Historical:** Student [Gosset, W. S.] (1908). The probable error of a mean. *Biometrika*, 6(1), 1-25. [Oxford Academic Link](https://academic.oup.com/biomet/article/6/1/1/222373)
+- **Book:** Zar, J. H. (2010). *Biostatistical Analysis* (5th ed.). Pearson. [Pearson Link](https://www.pearson.com/en-us/subject-catalog/p/biostatistical-analysis/P200000006274/)
+- **Book:** Triola, M. F. (2018). *Elementary Statistics* (13th ed.). Pearson. [Pearson Link](https://www.pearson.com/en-us/subject-catalog/p/elementary-statistics/P200000006323/)

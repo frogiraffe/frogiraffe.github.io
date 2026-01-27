@@ -97,9 +97,40 @@ print(f"90th %ile Coeff: {model_90.params['Education']:.2f}")
 
 ---
 
+## R Implementation
+
+```r
+# install.packages("quantreg")
+library(quantreg)
+
+data(stackloss)
+
+# Median Regression (tau = 0.5)
+model_median <- rq(stack.loss ~ stack.x, tau = 0.5, data = stackloss)
+summary(model_median)
+
+# Compare with OLS
+model_ols <- lm(stack.loss ~ stack.x, data = stackloss)
+
+# Plot
+plot(stackloss$stack.loss ~ stackloss$Water.Temp)
+abline(rq(stack.loss ~ Water.Temp, tau = 0.5), col="blue")
+abline(lm(stack.loss ~ Water.Temp), col="red", lty=2)
+```
+
+---
+
 ## Related Concepts
 
 - [[stats/03_Regression_Analysis/Simple Linear Regression\|Simple Linear Regression]] - The baseline (Mean).
 - [[stats/01_Foundations/Descriptive Statistics\|Descriptive Statistics]] - Median vs Mean.
 - [[stats/03_Regression_Analysis/Heteroscedasticity\|Heteroscedasticity]] - The problem QR solves.
 - [[stats/01_Foundations/Loss Function\|Loss Function]] - L1 (Absolute) vs L2 (Squared).
+
+---
+
+## References
+
+- **Historical:** Koenker, R., & Bassett, G. (1978). Regression quantiles. *Econometrica*, 46(1), 33-50. [DOI: 10.2307/1913643](https://doi.org/10.2307/1913643)
+- **Book:** Koenker, R. (2005). *Quantile Regression*. Cambridge University Press. [Cambridge Link](https://www.cambridge.org/9780521845731)
+- **Book:** Hao, L., & Naiman, D. Q. (2007). *Quantile Regression*. Sage. [Sage Link](https://us.sagepub.com/en-us/nam/quantile-regression/book227144)

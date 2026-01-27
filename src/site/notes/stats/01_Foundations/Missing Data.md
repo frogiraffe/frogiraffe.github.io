@@ -253,3 +253,11 @@ summary(pooled)
 - [[Expectation Maximization (EM)\|Expectation Maximization (EM)]]
 - [[stats/01_Foundations/Selection Bias\|Selection Bias]]
 - [[stats/06_Causal_Inference/Survival Analysis\|Survival Analysis]] (Censoring is a form of missingness)
+
+---
+
+## References
+
+- **Book:** Little, R. J. A., & Rubin, D. B. (2019). *Statistical Analysis with Missing Data* (3rd ed.). Wiley. [Wiley Link](https://www.wiley.com/en-us/Statistical+Analysis+with+Missing+Data,+3rd+Edition-p-9780470526798)
+- **Book:** Schafer, J. L. (1997). *Analysis of Incomplete Multivariate Data*. Chapman and Hall. [CRC Press](https://www.routledge.com/Analysis-of-Incomplete-Multivariate-Data/Schafer/p/book/9780412040610)
+- **Article:** Rubin, D. B. (1976). Inference and missing data. *Biometrika*, 63(3), 581-592. [JSTOR Link](http://www.jstor.org/stable/2335720)

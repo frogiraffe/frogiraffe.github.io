@@ -127,3 +127,11 @@ summary(model, diagnostics = TRUE)
 - [[stats/06_Causal_Inference/Propensity Score Matching (PSM)\|Propensity Score Matching (PSM)]] - Alternative for selection bias.
 - [[stats/06_Causal_Inference/Difference-in-Differences (DiD)\|Difference-in-Differences (DiD)]]
 - [[stats/03_Regression_Analysis/Regression Discontinuity Design (RDD)\|Regression Discontinuity Design (RDD)]]
+
+---
+
+## References
+
+- **Historical:** Angrist, J. D., & Krueger, A. B. (1991). Does compulsory school attendance affect schooling and earnings? *Quarterly Journal of Economics*, 106(4), 979-1014. [DOI Link](https://doi.org/10.2307/2937954)
+- **Book:** Angrist, J. D., & Pischke, J. S. (2009). *Mostly Harmless Econometrics*. Princeton University Press. [Princeton Link](https://press.princeton.edu/books/paperback/9780691120355/mostly-harmless-econometrics)
+- **Book:** Wooldridge, J. M. (2010). *Econometric Analysis of Cross Section and Panel Data* (2nd ed.). MIT Press. [MIT Press Link](https://mitpress.mit.edu/9780262232586/econometric-analysis-of-cross-section-and-panel-data/)

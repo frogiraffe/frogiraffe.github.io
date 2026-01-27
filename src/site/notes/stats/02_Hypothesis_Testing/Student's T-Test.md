@@ -179,3 +179,11 @@ cohen.d(group_A, group_B)
 - [[stats/02_Hypothesis_Testing/One-Way ANOVA\|One-Way ANOVA]] - For 3+ groups.
 - [[stats/02_Hypothesis_Testing/Effect Size Measures\|Effect Size Measures]] - Cohen's d.
 - [[stats/02_Hypothesis_Testing/Levene's Test\|Levene's Test]] - Variance equality check.
+
+---
+
+## References
+
+- **Book:** Field, A. (2018). *Discovering Statistics Using IBM SPSS Statistics* (5th ed.). Sage. (Chapter 10) [Publisher Link](https://us.sagepub.com/en-us/nam/discovering-statistics-using-ibm-spss-statistics/book257672)
+- **Book:** Rice, J. A. (2007). *Mathematical Statistics and Data Analysis* (3rd ed.). Duxbury. (Chapter 11) [Cengage Link](https://www.cengage.com/c/mathematical-statistics-and-data-analysis-3e-rice/9780534399429)
+- **Historical:** Student (W. S. Gosset). (1908). The probable error of a mean. *Biometrika*, 6(1), 1-25. [DOI: 10.1093/biomet/6.1.1](https://doi.org/10.1093/biomet/6.1.1)

@@ -136,3 +136,11 @@ t.test(data)$conf.int
 - [[stats/01_Foundations/Central Limit Theorem (CLT)\|Central Limit Theorem (CLT)]] - Why SE exists.
 - [[stats/02_Hypothesis_Testing/Confidence Intervals\|Confidence Intervals]] - Built from SE.
 - [[stats/01_Foundations/T-Distribution\|T-Distribution]] - Used with SE when $\sigma$ unknown.
+
+---
+
+## References
+
+- **Book:** Wasserman, L. (2004). *All of Statistics*. Springer. [Springer Link](https://link.springer.com/book/10.1007/978-0-387-21736-9)
+- **Book:** Rice, J. A. (2007). *Mathematical Statistics and Data Analysis* (3rd ed.). Duxbury. [Cengage](https://www.cengage.com/c/mathematical-statistics-and-data-analysis-3e-rice/9780534399429/)
+- **Book:** Hogg, R. V., McKean, J. W., & Craig, A. T. (2019). *Introduction to Mathematical Statistics* (8th ed.). Pearson. [Pearson](https://www.pearson.com/en-us/subject-catalog/p/introduction-to-mathematical-statistics/P200000006263/)

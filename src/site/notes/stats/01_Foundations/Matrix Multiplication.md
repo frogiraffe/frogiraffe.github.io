@@ -90,6 +90,29 @@ print(f"Result (2x2):\n{C_modern}")
 
 ---
 
+## R Implementation
+
+```r
+# Matrices in R
+A <- matrix(c(1, 2, 3, 4), nrow=2, byrow=TRUE)
+B <- matrix(c(5, 6, 7, 8), nrow=2, byrow=TRUE)
+
+# Check dimensions
+print(dim(A))
+
+# Dot Product (Matrix Multiplication)
+# Operator is %*%
+C_dot <- A %*% B
+print(C_dot)
+
+# Element-wise Multiplication (Hadamard)
+# Operator is *
+C_elem <- A * B
+print(C_elem)
+```
+
+---
+
 ## Limitations & Pitfalls
 
 > [!warning] Pitfalls
@@ -104,3 +127,11 @@ print(f"Result (2x2):\n{C_modern}")
 - [[stats/01_Foundations/Eigenvalues & Eigenvectors\|Eigenvalues & Eigenvectors]] - What vectors stay the same after multiplication?
 - [[stats/04_Machine_Learning/Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] - Uses correlation matrix ($X^T X$).
 - [[stats/03_Regression_Analysis/Multiple Linear Regression\|Multiple Linear Regression]] - Solution involves $(X^T X)^{-1} X^T y$.
+
+---
+
+## References
+
+- **Book:** Strang, G. (2016). *Introduction to Linear Algebra* (5th ed.). Wellesley-Cambridge Press. [Book Site](https://math.mit.edu/~gs/linearalgebra/)
+- **Book:** Lay, D. C., et al. (2015). *Linear Algebra and Its Applications* (5th ed.). Pearson. [Pearson Link](https://www.pearson.com/us/higher-education/program/Lay-Linear-Algebra-and-Its-Applications-5th-Edition/PGM315848.html)
+- **Book:** Axler, S. (2015). *Linear Algebra Done Right* (3rd ed.). Springer. [Springer Link](https://link.springer.com/book/10.1007/978-3-319-11080-6)

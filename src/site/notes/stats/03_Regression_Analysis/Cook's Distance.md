@@ -153,3 +153,11 @@ which(cooks > 4/nrow(houses))
 - [[stats/03_Regression_Analysis/Leverage (Hat Matrix)\|Leverage (Hat Matrix)]] - Potential for influence.
 - [[stats/03_Regression_Analysis/Robust Regression\|Robust Regression]] - Alternative that downweights outliers (e.g., RANSAC, Huber).
 - [[stats/03_Regression_Analysis/VIF (Variance Inflation Factor)\|VIF (Variance Inflation Factor)]]
+
+---
+
+## References
+
+- **Historical:** Cook, R. D. (1977). Detection of influential observation in linear regression. *Technometrics*, 19(1), 15-18. [DOI Link](https://doi.org/10.1080/00401706.1977.10489493)
+- **Book:** Belsley, D. A., Kuh, E., & Welsch, R. E. (2005). *Regression Diagnostics: Identifying Influential Data and Sources of Collinearity*. Wiley. [Wiley Link](https://doi.org/10.1002/0471725315)
+- **Book:** Fox, J. (2019). *Regression Diagnostics: An Introduction* (2nd ed.). Sage. [Sage Link](https://us.sagepub.com/en-us/nam/regression-diagnostics/book265104)

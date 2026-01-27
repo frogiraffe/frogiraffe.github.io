@@ -67,3 +67,11 @@ print(loadings)
 - [[stats/04_Machine_Learning/Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] - Often used as a preliminary step.
 - [[stats/01_Foundations/Structural Equation Modeling (SEM)\|Structural Equation Modeling (SEM)]] - Extension of CFA.
 - [[Cronbach's Alpha\|Cronbach's Alpha]] - Reliability metric often paired with FA.
+
+---
+
+## References
+
+- **Historical:** Spearman, C. (1904). "General Intelligence," Objectively Determined and Measured. *The American Journal of Psychology*, 15(2), 201-292. [JSTOR](https://doi.org/10.2307/1412107)
+- **Book:** Gorsuch, R. L. (1983). *Factor Analysis* (2nd ed.). Routledge. [Routledge Link](https://www.routledge.com/Factor-Analysis/Gorsuch/p/book/9780805801088)
+- **Book:** Brown, T. A. (2015). *Confirmatory Factor Analysis for Applied Research* (2nd ed.). Guilford Publications. [Guilford Press](https://www.guilford.com/books/Confirmatory-Factor-Analysis-for-Applied-Research/Timothy-Brown/9781462515363)

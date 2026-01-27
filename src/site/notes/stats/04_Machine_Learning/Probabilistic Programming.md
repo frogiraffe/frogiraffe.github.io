@@ -82,3 +82,11 @@ print(az.summary(trace))
 - [[stats/01_Foundations/Bayesian Statistics\|Bayesian Statistics]] - Theoretical Principles.
 - [[stats/04_Machine_Learning/Bayesian Statistics via Probabilistic Programming\|Bayesian Statistics via Probabilistic Programming]] - Applied Examples.
 - [[stats/01_Foundations/Maximum Likelihood Estimation (MLE)\|Maximum Likelihood Estimation (MLE)]] - Frequentist alternative.
+
+---
+
+## References
+
+- **Article:** Carpenter, B., et al. (2017). Stan: A probabilistic programming language. *Journal of Statistical Software*. [DOI: 10.18637/jss.v076.i01](https://doi.org/10.18637/jss.v076.i01)
+- **Article:** Salvatier, J., Wiecki, T. V., & Fonnesbeck, C. (2016). Probabilistic programming in Python using PyMC3. *PeerJ Computer Science*. [DOI: 10.7717/peerj-cs.55](https://doi.org/10.7717/peerj-cs.55)
+- **Book:** Davidson-Pilon, C. (2015). *Bayesian Methods for Hackers*. Addison-Wesley. [GitHub / Online Edition](https://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)

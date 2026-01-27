@@ -140,3 +140,11 @@ t.test(group_A, group_B)  # var.equal = FALSE is default
 - [[stats/02_Hypothesis_Testing/Student's T-Test\|Student's T-Test]] - Assumes equal variances.
 - [[stats/02_Hypothesis_Testing/Levene's Test\|Levene's Test]] - Diagnoses unequal variances.
 - [[stats/02_Hypothesis_Testing/Mann-Whitney U Test\|Mann-Whitney U Test]] - Non-parametric alternative.
+
+---
+
+## References
+
+- **Article:** Welch, B. L. (1947). The generalization of "Student's" problem when several different population variances are involved. *Biometrika*, 34(1/2), 28-35. [Oxford Link](https://academic.oup.com/biomet/article/34/1-2/28/252932)
+- **Book:** Field, A. (2018). *Discovering Statistics Using IBM SPSS Statistics* (5th ed.). Sage. [SAGE Link](https://us.sagepub.com/en-us/nam/discovering-statistics-using-ibm-spss-statistics/book249648)
+- **Article:** Ruxton, G. D. (2006). The unequal variance t-test is an underused alternative to Student's t-test. *Behavioral Ecology*, 17(4), 688-690. [Oxford Link](https://academic.oup.com/beheco/article/17/4/688/215960)

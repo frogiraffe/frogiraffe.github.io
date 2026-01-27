@@ -69,3 +69,11 @@ rdplot(y = df$outcome, x = df$score, c = 3.5,
 - [[stats/06_Causal_Inference/Instrumental Variables (IV)\|Instrumental Variables (IV)]] - Used for Fuzzy RDD.
 - [[stats/06_Causal_Inference/Causal Inference\|Causal Inference]]
 - [[stats/03_Regression_Analysis/Local Linear Regression\|Local Linear Regression]]
+
+---
+
+## References
+
+- **Historical:** Thistlethwaite, D. L., & Campbell, D. T. (1960). Regression-discontinuity analysis: An alternative to the ex post facto experiment. *Journal of Educational Psychology*, 51(6), 309-317. [DOI Link](https://doi.org/10.1037/h0044431)
+- **Book:** Angrist, J. D., & Pischke, J. S. (2009). *Mostly Harmless Econometrics*. Princeton University Press. [Princeton Link](https://press.princeton.edu/books/paperback/9780691120355/mostly-harmless-econometrics)
+- **Article:** Imbens, G. W., & Lemieux, T. (2008). Regression discontinuity designs: A guide to practice. *Journal of Econometrics*, 142(2), 615-635. [DOI Link](https://doi.org/10.1016/j.jeconom.2007.05.001)

@@ -379,3 +379,11 @@ print(fc)
 **Advanced:**
 - [[stats/04_Machine_Learning/Cross-Validation\|Cross-Validation]] — Time series split (no shuffling!)
 - [[Anomaly Detection\|Anomaly Detection]] — Finding unusual points
+
+---
+
+## References
+
+- **Book:** Box, G. E. P., Jenkins, G. M., Reinsel, G. C., & Ljung, G. M. (2015). *Time Series Analysis: Forecasting and Control* (5th ed.). Wiley. [Wiley Link](https://www.wiley.com/en-us/Time+Series+Analysis%3A+Forecasting+and+Control%2C+5th+Edition-p-9781118675021)
+- **Book:** Hamilton, J. D. (1994). *Time Series Analysis*. Princeton University Press. [Princeton University Press Link](https://press.princeton.edu/books/hardcover/9780691042893/time-series-analysis)
+- **Book:** Hyndman, R. J., & Athanasopoulos, G. (2021). *Forecasting: Principles and Practice* (3rd ed.). OTexts. [Free Online Version](https://otexts.com/fpp3/)

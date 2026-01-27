@@ -157,3 +157,11 @@ kpss.test(series, null = "Level")
 - [[stats/05_Time_Series/ARIMA Models\|ARIMA Models]] - Requires stationarity.
 - [[stats/01_Foundations/Differencing\|Differencing]] - Transformation to achieve stationarity.
 - [[stats/05_Time_Series/GARCH Models\|GARCH Models]] - For non-constant variance.
+
+---
+
+## References
+
+- **Historical:** Dickey, D. A., & Fuller, W. A. (1979). Estimators for autoregressive time series with a unit root. *JASA*. [JSTOR](https://www.jstor.org/stable/2286331)
+- **Historical:** Kwiatkowski, D., et al. (1992). Testing the null hypothesis of stationarity against the alternative of a unit root. *Journal of Econometrics*. [Elsevier](https://doi.org/10.1016/0304-4076(92)90104-Y)
+- **Book:** Hamilton, J. D. (1994). *Time Series Analysis*. Princeton University Press. [Book Info](https://press.princeton.edu/books/hardcover/9780691042893/time-series-analysis)

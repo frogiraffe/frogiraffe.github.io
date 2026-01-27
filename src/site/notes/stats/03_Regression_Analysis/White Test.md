@@ -47,3 +47,11 @@ print(f"White Test p-value: {lm_p:.4f}")
 - [[stats/03_Regression_Analysis/Breusch-Pagan Test\|Breusch-Pagan Test]] - Alternative heteroscedasticity test.
 - [[stats/03_Regression_Analysis/Multiple Linear Regression\|Multiple Linear Regression]] - Framework.
 - [[stats/03_Regression_Analysis/Weighted Least Squares (WLS)\|Weighted Least Squares (WLS)]] - Remediation.
+
+---
+
+## References
+
+- **Historical:** White, H. (1980). A heteroskedasticity-consistent covariance matrix estimator and a direct test for heteroskedasticity. *Econometrica*, 48(4), 817-838. [DOI Link](https://doi.org/10.2307/1912934)
+- **Book:** Greene, W. H. (2018). *Econometric Analysis* (8th ed.). Pearson. [Pearson Link](https://www.pearson.com/en-us/subject-catalog/p/econometric-analysis/P200000005955/9780134461366)
+- **Book:** Stock, J. H., & Watson, M. W. (2015). *Introduction to Econometrics* (3rd ed.). Pearson. [Pearson Link](https://www.pearson.com/en-us/subject-catalog/p/introduction-to-econometrics/P200000007205/9780133486872)

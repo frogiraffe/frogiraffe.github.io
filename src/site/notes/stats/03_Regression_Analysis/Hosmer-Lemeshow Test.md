@@ -51,3 +51,11 @@
 - [[stats/03_Regression_Analysis/Binary Logistic Regression\|Binary Logistic Regression]] - The model being tested.
 - [[stats/04_Machine_Learning/ROC & AUC\|ROC & AUC]] - Measures discrimination (distinguishing classes) rather than calibration (accuracy of probability).
 - [[stats/04_Machine_Learning/Confusion Matrix\|Confusion Matrix]] - Classification performance.
+
+---
+
+## References
+
+- **Historical:** Hosmer, D. W., & Lemeshow, S. (1980). Goodness of fit tests for the multiple logistic regression model. *Communications in Statistics-Theory and Methods*, 9(10), 1043-1069. [DOI Link](https://doi.org/10.1080/03610928008827931)
+- **Book:** Hosmer, D. W., Lemeshow, S., & Sturdivant, R. X. (2013). *Applied Logistic Regression* (3rd ed.). Wiley. [Wiley Link](https://www.wiley.com/en-us/Applied+Logistic+Regression%2C+3rd+Edition-p-9780470582473)
+- **Article:** Allison, P. D. (2014). Measures of fit for logistic and Poisson regression. *SAS Global Forum*. [Paper Link](https://support.sas.com/resources/papers/proceedings14/1585-2014.pdf)

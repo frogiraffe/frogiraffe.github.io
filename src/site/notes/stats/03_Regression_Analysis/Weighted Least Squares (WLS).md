@@ -185,3 +185,11 @@ coeftest(model_ols, vcov = vcovHC(model_ols, type = "HC3"))
 - [[stats/03_Regression_Analysis/White Test\|White Test]] - General heteroscedasticity test.
 - [[stats/03_Regression_Analysis/Simple Linear Regression\|Simple Linear Regression]] - The unweighted baseline.
 - [[stats/01_Foundations/Robust Standard Errors\|Robust Standard Errors]] - Simpler alternative for inference.
+
+---
+
+## References
+
+- **Book:** Draper, N. R., & Smith, H. (1998). *Applied Regression Analysis* (3rd ed.). Wiley. [Wiley Link](https://www.wiley.com/en-us/Applied+Regression+Analysis%2C+3rd+Edition-p-9780471170822)
+- **Book:** Montgomery, D. C., Peck, E. A., & Vining, G. G. (2012). *Introduction to Linear Regression Analysis* (5th ed.). Wiley. [Wiley Link](https://www.wiley.com/en-us/Introduction+to+Linear+Regression+Analysis%2C+5th+Edition-p-9780470542811)
+- **Article:** Carroll, R. J., & Ruppert, D. (1988). *Transformation and Weighting in Regression*. Chapman and Hall. [DOI Link](https://doi.org/10.1007/978-1-4899-3114-6)

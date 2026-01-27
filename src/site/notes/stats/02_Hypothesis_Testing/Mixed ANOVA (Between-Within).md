@@ -154,3 +154,11 @@ print(result)
 - [[stats/02_Hypothesis_Testing/Repeated Measures ANOVA\|Repeated Measures ANOVA]] - Within-subjects only.
 - [[stats/03_Regression_Analysis/Linear Mixed Models (LMM)\|Linear Mixed Models (LMM)]] - More flexible alternative.
 - [[stats/03_Regression_Analysis/Interaction Effects\|Interaction Effects]]
+
+---
+
+## References
+
+- **Book:** Field, A. (2018). *Discovering Statistics Using IBM SPSS Statistics* (5th ed.). Sage. [Sage Link](https://us.sagepub.com/en-us/nam/discovering-statistics-using-ibm-spss-statistics/book249648)
+- **Book:** Maxwell, S. E., Delaney, H. D., & Kelley, K. (2017). *Designing Experiments and Analyzing Data* (3rd ed.). Routledge. [Routledge Link](https://www.routledge.com/Designing-Experiments-and-Analyzing-Data-A-Model-Comparison-Perspective/Maxwell-Delaney-Kelley/p/book/9781138892286)
+- **Book:** Kirk, R. E. (2013). *Experimental Design: Procedures for the Behavioral Sciences* (4th ed.). Sage. [Sage Link](https://us.sagepub.com/en-us/nam/experimental-design/book235123)

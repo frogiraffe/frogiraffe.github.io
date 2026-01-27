@@ -128,3 +128,11 @@ sqrt(sum((data - mean(data))^2) / length(data))
 - [[stats/01_Foundations/Variance\|Variance]]
 - [[stats/01_Foundations/Coefficient of Variation\|Coefficient of Variation]]
 - [[stats/01_Foundations/Z-Scores\|Z-Scores]]
+
+---
+
+## References
+
+- **Book:** Hogg, R. V., McKean, J. W., & Craig, A. T. (2019). *Introduction to Mathematical Statistics* (8th ed.). Pearson. [Pearson Link](https://www.pearson.com/us/higher-education/program/Hogg-Introduction-to-Mathematical-Statistics-8th-Edition/PGM2176840.html)
+- **Book:** Rice, J. A. (2007). *Mathematical Statistics and Data Analysis* (3rd ed.). Duxbury. [Cengage Link](https://www.cengage.com/c/mathematical-statistics-and-data-analysis-3e-rice/9780534399429/)
+- **Book:** Freedman, D., Pisani, R., & Purves, R. (2007). *Statistics* (4th ed.). W.W. Norton & Company. [W.W. Norton Link](https://wwnorton.com/books/9780393929720)

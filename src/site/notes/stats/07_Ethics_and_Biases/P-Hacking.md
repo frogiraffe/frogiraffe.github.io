@@ -85,3 +85,11 @@ print(f"False Positives: {significant_count} / 1000 ({significant_count/10}%)")
 - [[stats/02_Hypothesis_Testing/Bonferroni Correction\|Bonferroni Correction]]
 - [[stats/02_Hypothesis_Testing/Type I & Type II Errors\|Type I & Type II Errors]]
 - [[stats/01_Foundations/Reproducibility Crisis\|Reproducibility Crisis]]
+
+---
+
+## References
+
+- **Historical:** Ioannidis, J. P. (2005). Why most published research findings are false. *PLoS Medicine*. [DOI: 10.1371/journal.pmed.0020124](https://doi.org/10.1371/journal.pmed.0020124)
+- **Article:** Simmons, J. P., et al. (2011). False-positive psychology. *Psychological Science*. [DOI: 10.1177/0956797611417632](https://doi.org/10.1177/0956797611417632)
+- **Statement:** Wasserstein, R. L., & Lazar, N. A. (2016). The ASA statement on p-values. *The American Statistician*. [DOI: 10.1080/00031305.2016.1154108](https://doi.org/10.1080/00031305.2016.1154108)

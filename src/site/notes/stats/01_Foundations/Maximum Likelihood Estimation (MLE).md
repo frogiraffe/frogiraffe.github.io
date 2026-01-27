@@ -48,3 +48,11 @@ MLE seeks to find $\hat{\theta}$ that maximizes $L(\theta|X)$.
 
 - [[stats/03_Regression_Analysis/Binary Logistic Regression\|Binary Logistic Regression]] - Uses MLE.
 - [[stats/03_Regression_Analysis/Simple Linear Regression\|Simple Linear Regression]] - OLS is equivalent to MLE under normal errors.
+
+---
+
+## References
+
+- **Book:** Casella, G., & Berger, R. L. (2002). *Statistical Inference* (2nd ed.). Duxbury. [Cengage Link](https://www.cengage.com/c/statistical-inference-2e-casella/9780534243128/)
+- **Book:** Pawitan, Y. (2001). *In All Likelihood: Statistical Modelling and Inference Using Likelihood*. Oxford. [Oxford University Press](https://global.oup.com/academic/product/in-all-likelihood-9780199671229)
+- **Historical:** Fisher, R. A. (1922). On the mathematical foundations of theoretical statistics. *Phil. Trans. Roy. Soc. A*, 222, 309-368. [JSTOR Link](http://www.jstor.org/stable/91208)

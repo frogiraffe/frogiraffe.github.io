@@ -195,3 +195,11 @@ anova(model_reduced, model)
 - [[stats/03_Regression_Analysis/Ridge Regression\|Ridge Regression]] - Regularization to handle multicollinearity.
 - [[stats/03_Regression_Analysis/Lasso Regression\|Lasso Regression]] - Feature selection via L1 penalty.
 - [[stats/01_Foundations/Adjusted R-squared\|Adjusted R-squared]]
+
+---
+
+## References
+
+- **Book:** Draper, N. R., & Smith, H. (1998). *Applied Regression Analysis* (3rd ed.). Wiley. [Wiley Link](https://www.wiley.com/en-us/Applied+Regression+Analysis%2C+3rd+Edition-p-9780471170822)
+- **Book:** James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). *An Introduction to Statistical Learning* (2nd ed.). Springer. [Springer Link](https://link.springer.com/book/10.1007/978-1-0716-1418-1)
+- **Book:** Faraway, J. J. (2015). *Linear Models with R* (2nd ed.). CRC Press. [CRC Press Link](https://www.routledge.com/Linear-Models-with-R/Faraway/p/book/9781439887332)

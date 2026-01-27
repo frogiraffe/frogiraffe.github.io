@@ -173,3 +173,11 @@ checkresiduals(fit)
 - [[stats/05_Time_Series/Vector Autoregression (VAR)\|Vector Autoregression (VAR)]] - Multivariate extension.
 - [[stats/05_Time_Series/GARCH Models\|GARCH Models]] - For volatility.
 - [[stats/05_Time_Series/Granger Causality\|Granger Causality]] - Testing predictive relationships.
+
+---
+
+## References
+
+- **Book:** Box, G. E. P., & Jenkins, G. M. (1970). *Time Series Analysis: Forecasting and Control*. Holden-Day. [Wiley 2015 Edition](https://www.wiley.com/en-us/Time+Series+Analysis%3A+Forecasting+and+Control%2C+5th+Edition-p-9781118675021)
+- **Book:** Hyndman, R. J., & Athanasopoulos, G. (2021). *Forecasting: Principles and Practice*. OTexts. [Free Online Version](https://otexts.com/fpp3/)
+- **Book:** Hamilton, J. D. (1994). *Time Series Analysis*. Princeton University Press. [Book Site](https://press.princeton.edu/books/hardcover/9780691042893/time-series-analysis)

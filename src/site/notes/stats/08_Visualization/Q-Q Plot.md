@@ -117,3 +117,11 @@ plot(model, 2)  # Standard plot #2 is Q-Q
 - [[stats/02_Hypothesis_Testing/Shapiro-Wilk Test\|Shapiro-Wilk Test]] - Statistical test for normality.
 - [[stats/01_Foundations/Normal Distribution\|Normal Distribution]] - The reference distribution.
 - [[stats/01_Foundations/Log Transformations\|Log Transformations]] - Fix for skewness.
+
+---
+
+## References
+
+- **Article:** Wilk, M. B., & Gnanadesikan, R. (1968). Probability plotting methods for the analysis of data. *Biometrika*. [JSTOR](https://www.jstor.org/stable/2334444)
+- **Book:** Thode, H. C. (2002). *Testing for Normality*. CRC Press. [Link](https://www.routledge.com/Testing-for-Normality/Thode/p/book/9780824796136)
+- **Book:** Cleveland, W. S. (1993). *Visualizing Data*. Hobart Press. [Link](https://books.google.com.tr/books/about/Visualizing_Data.html?id=V-9SAAAAMAAJ)

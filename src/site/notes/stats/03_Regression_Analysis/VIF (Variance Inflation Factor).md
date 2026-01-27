@@ -128,3 +128,11 @@ vif(model)
 - [[stats/03_Regression_Analysis/Ridge Regression\|Ridge Regression]] - Handles multicollinearity.
 - [[stats/04_Machine_Learning/Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] - Dimension reduction.
 - [[stats/01_Foundations/Correlation Matrix\|Correlation Matrix]]
+
+---
+
+## References
+
+- **Historical:** Marquardt, D. W. (1970). Generalized inverses, ridge regression, biased linear estimation, and nonlinear estimation. *Technometrics*, 12(3), 591-612. [DOI Link](https://doi.org/10.1080/00401706.1970.10488691)
+- **Book:** Kutner, M. H., Nachtsheim, C. J., Neter, J., & Li, W. (2004). *Applied Linear Statistical Models* (5th ed.). McGraw-Hill. [McGraw-Hill Link](https://www.mheducation.com/highered/product/applied-linear-statistical-models-kutner-nachtsheim/M9780073108742.html)
+- **Book:** Fox, J. (2016). *Applied Regression Analysis and Generalized Linear Models* (3rd ed.). Sage. [Sage Link](https://us.sagepub.com/en-us/nam/applied-regression-analysis-and-generalized-linear-models/book237240)

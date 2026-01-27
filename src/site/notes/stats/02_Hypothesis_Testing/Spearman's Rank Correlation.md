@@ -135,3 +135,11 @@ cor.test(x, y, method = "spearman")
 
 - [[stats/02_Hypothesis_Testing/Pearson Correlation\|Pearson Correlation]] - Parametric, linear.
 - [[stats/02_Hypothesis_Testing/Kendall's Tau\|Kendall's Tau]] - Alternative for small samples.
+
+---
+
+## References
+
+- **Historical:** Spearman, C. (1904). The proof and measurement of association between two things. *American Journal of Psychology*, 15(1), 72-101. [JSTOR Link](http://www.jstor.org/stable/1412159)
+- **Book:** Conover, W. J. (1999). *Practical Nonparametric Statistics* (3rd ed.). Wiley. [Wiley Link](https://www.wiley.com/en-us/Practical+Nonparametric+Statistics,+3rd+Edition-p-9780471160687)
+- **Book:** Siegel, S., & Castellan, N. J. (1988). *Nonparametric Statistics for the Behavioral Sciences* (2nd ed.). McGraw-Hill. [WorldCat](https://www.worldcat.org/title/nonparametric-statistics-for-the-behavioral-sciences/oclc/16923055)

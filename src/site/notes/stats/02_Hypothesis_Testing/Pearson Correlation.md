@@ -166,3 +166,13 @@ cor(df[, c("var1", "var2", "var3")])
 - [[stats/02_Hypothesis_Testing/Kendall's Tau\|Kendall's Tau]] - For small samples, ordinal data.
 - [[stats/03_Regression_Analysis/Simple Linear Regression\|Simple Linear Regression]] - Models the relationship.
 - [[stats/01_Foundations/Correlation vs Causation\|Correlation vs Causation]]
+
+---
+
+## References
+
+- **Book:** Rice, J. A. (2007). *Mathematical Statistics and Data Analysis* (3rd ed.). Duxbury. [Cengage Link](https://www.cengage.com/c/mathematical-statistics-and-data-analysis-3e-rice/9780534399429)
+- **Book:** Cohen, J. (1988). *Statistical Power Analysis for the Behavioral Sciences* (2nd ed.). Erlbaum. [Routledge Link](https://www.routledge.com/Statistical-Power-Analysis-for-the-Behavioral-Sciences/Cohen/p/book/9780805802832)
+- **Historical:** Pearson, K. (1895). Notes on regression and inheritance in the case of two parents. *Proceedings of the Royal Society of London*, 58, 240-242. [JSTOR Link](http://www.jstor.org/stable/91211)
+- **Article:** Rodgers, J. L., & Nicewander, W. A. (1988). Thirteen ways to look at the correlation coefficient. *The American Statistician*, 42(1), 59-66. [Taylor & Francis](https://www.tandfonline.com/doi/abs/10.1080/00031305.1988.10475524)
+- **Book:** Cohen, J., et al. (2013). *Applied Multiple Regression/Correlation Analysis for the Behavioral Sciences*. Routledge. [Routledge Link](https://www.routledge.com/Applied-Multiple-RegressionCorrelation-Analysis-for-the-Behavioral-Sciences/Cohen-Cohen-West-Aiken/p/book/9780805822236)

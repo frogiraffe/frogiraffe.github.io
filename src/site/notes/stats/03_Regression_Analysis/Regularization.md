@@ -60,3 +60,11 @@ $$ \text{Loss} = \text{Data Fit Error} + \lambda \times \text{Complexity Penalty
 - [[stats/01_Foundations/Bias-Variance Trade-off\|Bias-Variance Trade-off]]
 - [[stats/04_Machine_Learning/Overfitting\|Overfitting]]
 - [[stats/04_Machine_Learning/Cross-Validation\|Cross-Validation]] - Essential for choosing $\lambda$ (strength of penalty).
+
+---
+
+## References
+
+- **Book:** Hastie, T., Tibshirani, R., & Friedman, J. (2009). *The Elements of Statistical Learning* (2nd ed.). Springer. [Springer Link](https://link.springer.com/book/10.1007/978-0-387-84858-7)
+- **Book:** James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). *An Introduction to Statistical Learning* (2nd ed.). Springer. [Springer Link](https://link.springer.com/book/10.1007/978-1-0716-1418-1)
+- **Historical:** Tikhonov, A. N. (1963). On the solution of ill-posed problems and the method of regularization. *Soviet Mathematics*, 4, 1035-1038. [MathNet Link](http://mi.mathnet.ru/dan28329)

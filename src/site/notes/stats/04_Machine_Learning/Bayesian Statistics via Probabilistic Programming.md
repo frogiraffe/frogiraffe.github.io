@@ -114,3 +114,11 @@ with pm.Model() as hierarchical_model:
 - [[stats/01_Foundations/Bayesian Statistics\|Bayesian Statistics]] - Theoretical foundations.
 - [[stats/04_Machine_Learning/Probabilistic Programming\|Probabilistic Programming]] - Framework details.
 - [[stats/01_Foundations/Likelihood Function\|Likelihood Function]] - Core component.
+
+---
+
+## References
+
+- **Book:** Gelman, A., et al. (2013). *Bayesian Data Analysis* (3rd ed.). CRC Press. [Official Site](http://www.stat.columbia.edu/~gelman/book/)
+- **Book:** Davidson-Pilon, C. (2015). *Bayesian Methods for Hackers*. Addison-Wesley. [GitHub / Online Edition](https://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
+- **Book:** McElreath, R. (2020). *Statistical Rethinking* (2nd ed.). CRC Press. [Book Website](https://xcelab.net/rm/statistical-rethinking/)

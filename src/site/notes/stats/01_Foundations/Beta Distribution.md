@@ -88,9 +88,37 @@ plt.show()
 
 ---
 
+## R Implementation
+
+```r
+# Beta Distribution
+alpha <- 2
+beta <- 5
+
+# Generate random samples
+samples <- rbeta(1000, alpha, beta)
+
+# Density at x=0.5
+dens <- dbeta(0.5, alpha, beta)
+
+# Plot
+hist(samples, freq=FALSE, main="Beta(2,5)", col="lightblue")
+curve(dbeta(x, alpha, beta), add=TRUE, col="red", lwd=2)
+```
+
+---
+
 ## Related Concepts
 
 - [[stats/01_Foundations/Bernoulli Distribution\|Bernoulli Distribution]] - Beta is derived from it.
 - [[stats/01_Foundations/Bayesian Statistics\|Bayesian Statistics]] - Heavy user of Beta.
 - [[stats/01_Foundations/Conjugate Prior\|Conjugate Prior]] - Mathematical property making Beta useful.
 - [[stats/01_Foundations/Dirichlet Distribution\|Dirichlet Distribution]] - Multivariate generalization (Beta for >2 categories).
+
+---
+
+## References
+
+- **Book:** Gelman, A., et al. (2013). *Bayesian Data Analysis* (3rd ed.). CRC Press. [Publisher Link](https://www.routledge.com/Bayesian-Data-Analysis/Gelman-Carlin-Stern-Dunson-Vehtari-Rubin/p/book/9781439840955)
+- **Book:** Johnson, N. L., Kotz, S., & Balakrishnan, N. (1995). *Continuous Univariate Distributions, Vol. 2* (2nd ed.). Wiley. (Chapter 25) [Wiley Link](https://www.wiley.com/en-us/Continuous+Univariate+Distributions%2C+Volume+2%2C+2nd+Edition-p-9780471584940)
+- **Article:** Gupta, A. K., & Nadarajah, S. (2004). *Handbook of Beta Distribution and Its Applications*. CRC Press. [Publisher Link](https://www.routledge.com/Handbook-of-Beta-Distribution-and-Its-Applications/Gupta-Nadarajah/p/book/9781138473218)

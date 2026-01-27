@@ -73,3 +73,11 @@ print(results.test_causality('TargetVar', 'CauseVar'))
 - [[stats/05_Time_Series/ARIMA Models\|ARIMA Models]] - Univariate case.
 - [[stats/05_Time_Series/Granger Causality\|Granger Causality]] - Causality test within VAR.
 - [[stats/05_Time_Series/Stationarity (ADF & KPSS)\|Stationarity (ADF & KPSS)]] - Requirement.
+
+---
+
+## References
+
+- **Historical:** Sims, C. A. (1980). Macroeconomics and reality. *Econometrica*. [JSTOR](https://www.jstor.org/stable/1912017)
+- **Book:** Lütkepohl, H. (2005). *New Introduction to Multiple Time Series Analysis*. Springer. [Springer Link](https://link.springer.com/book/10.1007/978-3-540-27752-1)
+- **Book:** Hamilton, J. D. (1994). *Time Series Analysis*. Princeton University Press. (Chapter 11) [Princeton University Press](https://press.princeton.edu/books/hardcover/9780691042893/time-series-analysis)

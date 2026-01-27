@@ -75,3 +75,11 @@ boxcox(lm(income ~ 1, data=df))
 
 - [[stats/01_Foundations/Normal Distribution\|Normal Distribution]]
 - [[stats/03_Regression_Analysis/Simple Linear Regression\|Simple Linear Regression]]
+
+---
+
+## References
+
+- **Historical:** Box, G. E. P., & Cox, D. R. (1964). An analysis of transformations. *Journal of the Royal Statistical Society: Series B*, 26(2), 211-252. [JSTOR](https://www.jstor.org/stable/2984418)
+- **Book:** Tukey, J. W. (1977). *Exploratory Data Analysis*. Addison-Wesley. [WorldCat](https://www.worldcat.org/title/exploratory-data-analysis/oclc/3038677)
+- **Article:** Bartlett, M. S. (1947). The use of transformations. *Biometrics*, 3(1), 39-52. [JSTOR](https://www.jstor.org/stable/3001536)

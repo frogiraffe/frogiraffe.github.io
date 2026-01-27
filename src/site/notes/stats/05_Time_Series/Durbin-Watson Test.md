@@ -134,3 +134,11 @@ dwtest(model)
 - [[stats/02_Hypothesis_Testing/Ljung-Box Test\|Ljung-Box Test]] - Tests white noise in ARIMA residuals.
 - [[stats/05_Time_Series/Time Series Analysis\|Time Series Analysis]]
 - [[stats/05_Time_Series/Stationarity (ADF & KPSS)\|Stationarity (ADF & KPSS)]]
+
+---
+
+## References
+
+- **Historical:** Durbin, J., & Watson, G. S. (1950). Testing for serial correlation in least squares regression I. *Biometrika*. [JSTOR](https://www.jstor.org/stable/2332391)
+- **Historical:** Durbin, J., & Watson, G. S. (1951). Testing for serial correlation in least squares regression II. *Biometrika*. [JSTOR](https://www.jstor.org/stable/2332325)
+- **Book:** Greene, W. H. (2018). *Econometric Analysis* (8th ed.). Pearson. [Pearson](https://www.pearson.com/us/higher-education/program/Greene-Econometric-Analysis-8th-Edition/PGM334704.html)

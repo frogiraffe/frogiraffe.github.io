@@ -91,98 +91,11 @@ $$
 
 ---
 
-## Assumptions
+## References
 
-Chi-square tests using this distribution assume:
-- [ ] **Independence** of observations.
-- [ ] **Normality (Crucial):** For variance tests, the underlying data must be Normal. This test is non-robust to non-normality.
-- [ ] For categorical tests: **Expected frequencies $\ge 5$**.
-
----
-
-## Limitations
-
-> [!warning] Pitfalls
-> 1.  **Extreme Sensitivity (Variance Test):** The simple Chi-square test for variance is incredibly sensitive to non-normality (even slight skew). Use **Levene's Test** or **Bartlett's Test** instead.
-> 2.  **Sample Size Dependence:** With huge $N$, tiny deviations become significant. Always check Effect Size (e.g., Cramer's V).
-> 3.  **Low Counts:** In goodness-of-fit, if bins have < 5 counts, the Chi-square approximation breaks down.
-
----
-
-## Python Implementation
-
-```python
-from scipy.stats import chi2
-import numpy as np
-import matplotlib.pyplot as plt
-
-# Define Chi-Square with df=5
-df = 5
-dist = chi2(df)
-
-# Critical Value (95th percentile)
-critical_value = dist.ppf(0.95)
-print(f"Chi-Square Critical Value (df={df}, α=0.05): {critical_value:.3f}")
-
-# P-value for an observed statistic
-observed_stat = 11.0
-p_value = 1 - dist.cdf(observed_stat)
-print(f"P-value for χ² = {observed_stat}: {p_value:.4f}")
-
-# Visualize Different Degrees of Freedom
-x = np.linspace(0, 30, 500)
-for df in [1, 3, 5, 10, 20]:
-    plt.plot(x, chi2(df).pdf(x), label=f'df={df}')
-
-plt.xlabel('χ²')
-plt.ylabel('Density')
-plt.title('Chi-Square Distribution for Various df')
-plt.legend()
-plt.grid(alpha=0.3)
-plt.show()
-```
-
----
-
-## R Implementation
-
-```r
-# Critical Value (95th percentile, df=5)
-qchisq(0.95, df = 5)
-
-# P-value for observed statistic
-observed_stat <- 11.0
-pchisq(observed_stat, df = 5, lower.tail = FALSE)
-
-# Visualize
-curve(dchisq(x, df = 1), from = 0, to = 30, col = "red", lwd = 2,
-      ylab = "Density", xlab = "χ²", main = "Chi-Square Distributions")
-curve(dchisq(x, df = 3), add = TRUE, col = "blue", lwd = 2)
-curve(dchisq(x, df = 5), add = TRUE, col = "green", lwd = 2)
-curve(dchisq(x, df = 10), add = TRUE, col = "purple", lwd = 2)
-legend("topright", legend = c("df=1", "df=3", "df=5", "df=10"),
-       col = c("red", "blue", "green", "purple"), lwd = 2)
-```
-
----
-
-## Interpretation Guide
-
-| Output | Interpretation |
-|--------|----------------|
-| Output | Interpretation |
-|--------|----------------|
-| **Value $\approx$ df** | Expected value under $H_0$. (e.g., $\chi^2=10$ with $df=10$ is normal). |
-| **Value $\gg$ df** | Significant deviation. Reject $H_0$. |
-| **Sum of Squares** | Intuitively, "How much total normalized error is there?" |
-| **P-value $\approx$ 1** | Too good to be true? Check for data fraud or overfitting. |
-
----
-
-## Related Concepts
-
-- [[stats/02_Hypothesis_Testing/Chi-Square Test of Independence\|Chi-Square Test of Independence]]
-- [[stats/01_Foundations/Normal Distribution\|Normal Distribution]] - $\chi^2$ is the sum of squared normals.
-- [[stats/01_Foundations/F-Distribution\|F-Distribution]] - Ratio of two chi-squares.
-- [[stats/02_Hypothesis_Testing/Degrees of Freedom\|Degrees of Freedom]]
-- [[stats/02_Hypothesis_Testing/Goodness-of-Fit Test\|Goodness-of-Fit Test]]
+- **Book:** Wackerly, D., Mendenhall, W., & Scheaffer, R. L. (2008). *Mathematical Statistics with Applications* (7th ed.). Thomson Brooks/Cole. [Cengage Link](https://www.cengage.com/c/mathematical-statistics-with-applications-7e-wackerly/)
+- **Book:** Casella, G., & Berger, R. L. (2002). *Statistical Inference* (2nd ed.). Duxbury. [Publisher Link](https://www.routledge.com/Statistical-Inference/Casella-Berger/p/book/9781032593036)
+- **Book:** Hogg, R. V., & Tanis, E. A. (2010). *Probability and Statistical Inference* (8th ed.). Pearson. [Pearson Link](https://www.pearson.com/en-us/subject-catalog/p/probability-and-statistical-inference/P200000003540/9780137981502)
+- **Book:** Rice, J. A. (2007). *Mathematical Statistics and Data Analysis* (3rd ed.). Duxbury. (Chapter 9) [Publisher Link](https://www.cengage.com/c/mathematical-statistics-and-data-analysis-3e-rice/9780534399429/)
+- **Book:** Agresti, A. (2013). *Categorical Data Analysis* (3rd ed.). Wiley. (Chapter 3) [Wiley Link](https://www.wiley.com/en-us/Categorical+Data+Analysis%2C+3rd+Edition-p-9780470463635)
+- **Historical:** Pearson, K. (1900). On the criterion that a given system of deviations from the probable in the case of a correlated system of variables is such that it can be reasonably supposed to have arisen from random sampling. *Philosophical Magazine*, 50, 157-175. [DOI: 10.1080/14786440009463897](https://doi.org/10.1080/14786440009463897)

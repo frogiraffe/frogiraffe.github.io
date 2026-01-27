@@ -285,3 +285,11 @@ bptest(log_model)  # Check if transformation helped
 - [[stats/03_Regression_Analysis/Simple Linear Regression\|Simple Linear Regression]] — Where homoscedasticity is assumed
 - [[stats/03_Regression_Analysis/Multiple Linear Regression\|Multiple Linear Regression]] — Same assumption applies
 - [[stats/05_Time_Series/GARCH Models\|GARCH Models]] — Time-varying volatility in time series
+
+---
+
+## References
+
+- **Historical:** Breusch, T. S., & Pagan, A. R. (1979). A simple test for heteroscedasticity and random coefficient variation. *Econometrica*, 47(5), 1287-1294. [DOI: 10.2307/1911995](https://doi.org/10.2307/1911995)
+- **Historical:** White, H. (1980). A heteroskedasticity-consistent covariance matrix estimator and a direct test for heteroskedasticity. *Econometrica*, 48(4), 817-838. [DOI: 10.2307/1912934](https://doi.org/10.2307/1912934)
+- **Book:** Greene, W. H. (2018). *Econometric Analysis* (8th ed.). Pearson. (Chapter 9) [Pearson Link](https://www.pearson.com/en-us/subject-catalog/p/econometric-analysis/P200000003056/9780134461366)

@@ -319,3 +319,11 @@ print(as.vector(coef(ridge_model)[-1]))
 **Applications:**
 - [[stats/03_Regression_Analysis/VIF (Variance Inflation Factor)\|VIF (Variance Inflation Factor)]] — Diagnose when Ridge is needed
 - [[stats/04_Machine_Learning/Cross-Validation\|Cross-Validation]] — Required for tuning λ
+
+---
+
+## References
+
+- **Historical:** Hoerl, A. E., & Kennard, R. W. (1970). Ridge regression: Biased estimation for nonorthogonal problems. *Technometrics*, 12(1), 55-67. [DOI: 10.1080/00401706.1970.10488634](https://doi.org/10.1080/00401706.1970.10488634)
+- **Book:** Hastie, T., Tibshirani, R., & Friedman, J. (2009). *The Elements of Statistical Learning* (2nd ed.). Springer. (Chapter 3) [Springer Link](https://link.springer.com/book/10.1007/978-0-387-84858-7)
+- **Book:** James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). *An Introduction to Statistical Learning* (2nd ed.). Springer. (Chapter 6) [Book Website](https://www.statlearning.com/)

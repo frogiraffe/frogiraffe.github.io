@@ -130,6 +130,28 @@ print("Centroids (Scaled):", centroids)
 
 ---
 
+## R Implementation
+
+```r
+library(ggplot2)
+
+# Load data
+data(iris)
+X <- iris[, 1:4]
+
+# K-Means Clustering
+set.seed(42)
+kmeans_res <- kmeans(X, centers = 3, nstart = 20)
+
+# Visualize
+data$cluster <- as.factor(kmeans_res$cluster)
+ggplot(data, aes(Petal.Length, Petal.Width, color = cluster)) +
+  geom_point() +
+  labs(title = "K-Means Clustering on Iris")
+```
+
+---
+
 ## Interpretation Guide
 
 | Output | Interpretation |
@@ -146,3 +168,11 @@ print("Centroids (Scaled):", centroids)
 - [[stats/01_Foundations/DBSCAN\|DBSCAN]] - Alternative clustering for irregular shapes.
 - [[stats/04_Machine_Learning/Hierarchical Clustering\|Hierarchical Clustering]] - Alternative that builds a tree.
 - [[stats/01_Foundations/Euclidean Distance\|Euclidean Distance]]
+
+---
+
+## References
+
+- **Historical:** MacQueen, J. (1967). Some methods for classification and analysis of multivariate observations. *Berkeley Symposium*. [Link](https://projecteuclid.org/euclid.bsmsp/1200512992)
+- **Historical:** Lloyd, S. (1982). Least squares quantization in PCM. *IEEE Transactions on Information Theory*, 28(2), 129-137. [IEEE Xplore](https://ieeexplore.ieee.org/document/1056489)
+- **Book:** Hastie, T., Tibshirani, R., & Friedman, J. (2009). *The Elements of Statistical Learning* (2nd ed.). Springer. [Springer Link](https://link.springer.com/book/10.1007/978-0-387-84858-7) (Chapter 14)

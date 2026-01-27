@@ -180,3 +180,11 @@ for (degree in c(1, 3, 15)) {
 - [[stats/04_Machine_Learning/Cross-Validation\|Cross-Validation]] - Detects overfitting.
 - [[stats/03_Regression_Analysis/Ridge Regression\|Ridge Regression]] / [[stats/03_Regression_Analysis/Lasso Regression\|Lasso Regression]] - Reduce variance.
 - [[stats/01_Foundations/Model Selection\|Model Selection]]
+
+---
+
+## References
+
+- **Book:** Hastie, T., Tibshirani, R., & Friedman, J. (2009). *The Elements of Statistical Learning* (2nd ed.). Springer. (Chapter 2.9) [Springer Link](https://link.springer.com/book/10.1007/978-0-387-84858-7)
+- **Book:** James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). *An Introduction to Statistical Learning* (2nd ed.). Springer. (Chapter 2.2) [Book Website](https://www.statlearning.com/)
+- **Article:** Geman, S., Bienenstock, E., & Doursat, R. (1992). Neural networks and the bias/variance dilemma. *Neural Computation*, 4(1), 1-58. [DOI: 10.1162/neco.1992.4.1.1](https://doi.org/10.1162/neco.1992.4.1.1)

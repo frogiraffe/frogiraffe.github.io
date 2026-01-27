@@ -86,7 +86,14 @@ Where $k = \min(\text{rows}, \text{cols})$
 | 0.3 | Medium effect |
 | 0.5 | Large effect |
 
+
 ---
+
+## References
+
+- **Historical:** Pearson, K. (1900). On the criterion that a given system of deviations from the probable in the case of a correlated system of variables is such that it can be reasonably supposed to have arisen from random sampling. *Philosophical Magazine Series 5*, 50(302), 157-175. [Taylor & Francis Link](https://www.tandfonline.com/doi/abs/10.1080/14786440009463897)
+- **Book:** Agresti, A. (2013). *Categorical Data Analysis* (3rd ed.). Wiley. [Wiley Link](https://www.wiley.com/en-us/Categorical+Data+Analysis,+3rd+Edition-p-9780470463635)
+- **Book:** McHugh, M. L. (2013). The chi-square test of independence. *Biochemia Medica*, 23(2), 143-149. [DOI: 10.11613/BM.2013.018](https://doi.org/10.11613/BM.2013.018)
 
 ## Implementation
 

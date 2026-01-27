@@ -123,3 +123,11 @@ pwr.r.test(r = 0.3, power = 0.8, sig.level = 0.05)
 - [[stats/02_Hypothesis_Testing/Type I & Type II Errors\|Type I & Type II Errors]]
 - [[stats/02_Hypothesis_Testing/Effect Size Measures\|Effect Size Measures]]
 - [[stats/02_Hypothesis_Testing/Hypothesis Testing (P-Value & CI)\|Hypothesis Testing (P-Value & CI)]]
+
+---
+
+## References
+
+- **Book:** Cohen, J. (1988). *Statistical Power Analysis for the Behavioral Sciences* (2nd ed.). Lawrence Erlbaum Associates. [Routledge](https://www.routledge.com/Statistical-Power-Analysis-for-the-Behavioral-Sciences/Cohen/p/book/9780805802832)
+- **Book:** Murphy, K. R., Myors, B., & Wolach, A. (2014). *Statistical Power Analysis: A Simple and General Model for Traditional and Modern Hypothesis Tests* (4th ed.). Routledge. [Routledge Link](https://www.routledge.com/Statistical-Power-Analysis-A-Simple-and-General-Model-for-Traditional-and/Murphy-Myors-Wolach/p/book/9781848725881)
+- **Book:** Ellis, P. D. (2010). *The Essential Guide to Effect Sizes: Statistical Power, Meta-Analysis, and the Interpretation of Research Results*. Cambridge University Press. [Cambridge Link](https://www.cambridge.org/core/books/essential-guide-to-effect-sizes/3673C5B5A40176D3A0FE564D705C1F03)

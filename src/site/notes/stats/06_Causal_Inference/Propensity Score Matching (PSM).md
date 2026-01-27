@@ -142,3 +142,11 @@ summary(model)
 - [[stats/03_Regression_Analysis/Binary Logistic Regression\|Binary Logistic Regression]] - Estimates propensity score.
 - [[stats/06_Causal_Inference/Instrumental Variables (IV)\|Instrumental Variables (IV)]] - Alternative for endogeneity.
 - [[stats/06_Causal_Inference/Difference-in-Differences (DiD)\|Difference-in-Differences (DiD)]]
+
+---
+
+## References
+
+- **Historical:** Rosenbaum, P. R., & Rubin, D. B. (1983). The central role of the propensity score in observational studies for causal effects. *Biometrika*, 70(1), 41-55. [DOI: 10.1093/biomet/70.1.41](https://doi.org/10.1093/biomet/70.1.41)
+- **Book:** Angrist, J. D., & Pischke, J. S. (2009). *Mostly Harmless Econometrics*. Princeton University Press. (Chapter 3) [Publisher Link](https://press.princeton.edu/books/paperback/9780691120355/mostly-harmless-econometrics)
+- **Book:** Morgan, S. L., & Winship, C. (2015). *Counterfactuals and Causal Inference* (2nd ed.). Cambridge University Press. [Cambridge Link](https://www.cambridge.org/core/books/counterfactuals-and-causal-inference/56F438A4476A8D00E91696291C80AC58)

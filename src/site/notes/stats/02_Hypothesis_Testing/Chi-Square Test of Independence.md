@@ -178,3 +178,11 @@ assocstats(tbl)
 - [[stats/02_Hypothesis_Testing/Fisher's Exact Test\|Fisher's Exact Test]] - For small expected counts.
 - [[stats/02_Hypothesis_Testing/Effect Size Measures\|Effect Size Measures]] - Cramer's V.
 - [[stats/03_Regression_Analysis/Logistic Regression\|Logistic Regression]] - For modeling categorical outcomes.
+
+---
+
+## References
+
+- **Book:** Agresti, A. (2013). *Categorical Data Analysis* (3rd ed.). Wiley. [Wiley Link](https://www.wiley.com/en-us/Categorical+Data+Analysis%2C+3rd+Edition-p-9780470463635) (Chapter 3)
+- **Book:** Field, A. (2018). *Discovering Statistics*. Sage. [Sage Link](https://www.sagepub.com/en-us/nam/discovering-statistics-using-ibm-spss-statistics/book254546) (Chapter 18)
+- **Historical:** Pearson, K. (1900). On the criterion that a given system of deviations from the probable. [Link](https://stat.smmu.edu.cn/history/pearson1900.pdf)

@@ -112,9 +112,37 @@ print(model.summary())
 
 ---
 
+## R Implementation
+
+```r
+# Factorial Design Analysis
+df <- data.frame(
+  A = factor(rep(c(-1, 1), each=4)),
+  B = factor(rep(c(-1, -1, 1, 1), 2)),
+  Response = c(20, 22, 25, 28, 30, 32, 35, 38)
+)
+
+# Fit ANOVA model with interaction
+model <- aov(Response ~ A * B, data=df)
+summary(model)
+
+# Interaction Plot
+interaction.plot(x.factor = df$A, trace.factor = df$B, response = df$Response)
+```
+
+---
+
 ## Related Concepts
 
 - [[stats/02_Hypothesis_Testing/One-Way ANOVA\|One-Way ANOVA]] - Investigating single factor.
 - [[stats/02_Hypothesis_Testing/Two-Way ANOVA\|Two-Way ANOVA]] - The statistical test for this design.
-- [[A/B Testing\|A/B Testing]] - Usually a 1-factor design.
+- [[stats/02_Hypothesis_Testing/A-B Testing\|A/B Testing]] - Usually a 1-factor design.
 - [[stats/01_Foundations/Response Surface Methodology\|Response Surface Methodology]] - For optimizing continuous factors.
+
+---
+
+## References
+
+- **Book:** Box, G. E. P., Hunter, J. S., & Hunter, W. G. (2005). *Statistics for Experimenters: Design, Innovation, and Discovery* (2nd ed.). Wiley. [Wiley Link](https://www.wiley.com/en-us/Statistics+for+Experimenters%3A+Design%2C+Innovation%2C+and+Discovery%2C+2nd+Edition-p-9780471718130)
+- **Book:** Montgomery, D. C. (2017). *Design and Analysis of Experiments* (9th ed.). Wiley. [Wiley Link](https://www.wiley.com/en-us/Design+and+Analysis+of+Experiments%2C+9th+Edition-p-9781119113478)
+- **Historical:** Fisher, R. A. (1935). *The Design of Experiments*. Oliver and Boyd. [WorldCat](https://www.worldcat.org/title/design-of-experiments/oclc/4733405)

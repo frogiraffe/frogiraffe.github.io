@@ -180,3 +180,12 @@ pca_result$rotation
 - [[stats/01_Foundations/Factor Analysis (EFA & CFA)\|Factor Analysis (EFA & CFA)]] - Similar but for latent constructs.
 - [[stats/03_Regression_Analysis/VIF (Variance Inflation Factor)\|VIF (Variance Inflation Factor)]] - PCA fixes multicollinearity.
 - [[stats/01_Foundations/t-SNE\|t-SNE]] - Non-linear visualization.
+
+---
+
+## References
+
+- **Historical:** Pearson, K. (1901). On lines and planes of closest fit to systems of points in space. [Link](http://stat.smmu.edu.cn/history/pearson1901.pdf)
+- **Historical:** Hotelling, H. (1933). Analysis of a complex of statistical variables into principal components. *Journal of Educational Psychology*, 24(6), 417-441. [PsycNET](https://doi.org/10.1037/h0071325)
+- **Book:** Jolliffe, I. T. (2002). *Principal Component Analysis* (2nd ed.). Springer. [Springer Link](https://link.springer.com/book/10.1007/b98835)
+- **Book:** Hastie, T., Tibshirani, R., & Friedman, J. (2009). *The Elements of Statistical Learning* (2nd ed.). Springer. [Springer Link](https://link.springer.com/book/10.1007/978-0-387-84858-7) (Chapter 14)

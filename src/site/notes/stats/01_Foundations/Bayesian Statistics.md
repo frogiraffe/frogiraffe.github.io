@@ -177,3 +177,12 @@ plot(model, "trace")
 - [[stats/01_Foundations/Maximum Likelihood Estimation (MLE)\|Maximum Likelihood Estimation (MLE)]] - Frequentist alternative.
 - [[stats/04_Machine_Learning/Probabilistic Programming\|Probabilistic Programming]] - Tools like PyMC, Stan.
 - [[stats/02_Hypothesis_Testing/Hypothesis Testing (P-Value & CI)\|Hypothesis Testing (P-Value & CI)]] - Frequentist framework.
+
+---
+
+## References
+
+- **Book:** Gelman, A., Carlin, J. B., Stern, H. S., Dunson, D. B., Vehtari, A., & Rubin, D. B. (2013). *Bayesian Data Analysis* (3rd ed.). CRC Press. [Publisher Link](https://www.routledge.com/Bayesian-Data-Analysis/Gelman-Carlin-Stern-Dunson-Vehtari-Rubin/p/book/9781439840955)
+- **Book:** McElreath, R. (2020). *Statistical Rethinking* (2nd ed.). CRC Press. [Publisher Link](https://www.routledge.com/Statistical-Rethinking-A-Bayesian-Course-with-Examples-in-R-and-Stan/McElreath/p/book/9780367139919)
+- **Book:** Kruschke, J. K. (2015). *Doing Bayesian Data Analysis* (2nd ed.). Academic Press. [Elsevier Link](https://www.elsevier.com/books/doing-bayesian-data-analysis/kruschke/978-0-12-405888-0)
+- **Article:** Efron, B. (1986). Why isn't everyone a Bayesian? *The American Statistician*, 40(1), 1-5. [DOI: 10.1080/00031305.1986.10475342](https://doi.org/10.1080/00031305.1986.10475342)

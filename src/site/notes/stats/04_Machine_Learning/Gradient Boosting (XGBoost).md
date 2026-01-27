@@ -344,3 +344,11 @@ cat("Best iteration:", model_es$best_iteration, "\n")
 **Interpretation:**
 - [[SHAP Values\|SHAP Values]] — Explain individual predictions
 - [[Feature Importance\|Feature Importance]] — Global variable ranking
+
+---
+
+## References
+
+- **Article:** Chen, T., & Guestrin, C. (2016). XGBoost: A scalable tree boosting system. *ACM SIGKDD*. [arXiv:1603.02754](https://arxiv.org/abs/1603.02754)
+- **Historical:** Friedman, J. H. (2001). Greedy function approximation: A gradient boosting machine. *The Annals of Statistics*, 29(5), 1189-1232. [JSTOR](https://www.jstor.org/stable/2674028)
+- **Book:** Hastie, T., Tibshirani, R., & Friedman, J. (2009). *The Elements of Statistical Learning* (2nd ed.). Springer. [Springer Link](https://link.springer.com/book/10.1007/978-0-387-84858-7) (Chapter 10)

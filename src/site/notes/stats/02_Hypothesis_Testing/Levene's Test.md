@@ -45,3 +45,11 @@ leveneTest(Score ~ Group, data = df)
 
 - [[stats/02_Hypothesis_Testing/Welch's T-Test\|Welch's T-Test]]
 - [[stats/02_Hypothesis_Testing/One-Way ANOVA\|One-Way ANOVA]]
+
+---
+
+## References
+
+- **Article:** Levene, H. (1960). Robust tests for equality of variances. In I. Olkin et al. (Eds.), *Contributions to Probability and Statistics* (pp. 278-292). Stanford University Press. [WorldCat](https://www.worldcat.org/title/contributions-to-probability-and-statistics-essays-in-honor-of-harold-hotelling/oclc/411786)
+- **Article:** Brown, M. B., & Forsythe, A. B. (1974). Robust tests for the equality of variances. *Journal of the American Statistical Association*, 69(346), 364-367. [JSTOR Link](http://www.jstor.org/stable/2285141)
+- **Book:** Field, A. (2018). *Discovering Statistics Using IBM SPSS Statistics* (5th ed.). Sage. [SAGE Link](https://us.sagepub.com/en-us/nam/discovering-statistics-using-ibm-spss-statistics/book249648)

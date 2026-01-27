@@ -148,3 +148,11 @@ ezANOVA(data = df_long, dv = Pain, wid = Subject, within = Time, detailed = TRUE
 - [[stats/02_Hypothesis_Testing/Friedman Test\|Friedman Test]] - Non-parametric alternative.
 - [[stats/03_Regression_Analysis/Linear Mixed Models (LMM)\|Linear Mixed Models (LMM)]] - More flexible; handles missing data.
 - [[Mauchly's Test of Sphericity\|Mauchly's Test of Sphericity]]
+
+---
+
+## References
+
+- **Book:** Field, A. (2018). *Discovering Statistics*. Sage. [Sage Link](https://www.sagepub.com/en-us/nam/discovering-statistics-using-ibm-spss-statistics/book254546) (Chapter 15)
+- **Book:** Maxwell, S. E., Delaney, H. D., & Kelley, K. (2017). *Designing Experiments and Analyzing Data*. Routledge. [Routledge Link](https://www.routledge.com/Designing-Experiments-and-Analyzing-Data-A-Model-Comparison-Perspective/Maxwell-Delaney-Kelley/p/book/9781138892286)
+- **Book:** Girden, E. R. (1992). *ANOVA: Repeated Measures*. Sage. [Sage Link](https://methods.sagepub.com/book/anova-repeated-measures)

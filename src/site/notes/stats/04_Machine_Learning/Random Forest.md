@@ -70,9 +70,37 @@ importance.sort_values(ascending=False).plot(kind='barh')
 
 ---
 
+## R Implementation
+
+```r
+library(randomForest)
+
+# Train Random Forest
+set.seed(42)
+rf_model <- randomForest(Species ~ ., data = iris, ntree = 100, mtry = 2)
+
+# View Importance
+print(importance(rf_model))
+varImpPlot(rf_model)
+
+# Predict
+preds <- predict(rf_model, iris)
+table(preds, iris$Species)
+```
+
+---
+
 ## Related Concepts
 
 - [[stats/04_Machine_Learning/Decision Tree\|Decision Tree]] - The building block.
 - [[stats/04_Machine_Learning/Gradient Boosting (XGBoost)\|Gradient Boosting (XGBoost)]] - The sequential alternative (often slightly more accurate but harder to tune).
 - [[stats/04_Machine_Learning/Bootstrap Methods\|Bootstrap Methods]] - The sampling technique used.
 - [[stats/04_Machine_Learning/Ensemble Methods\|Ensemble Methods]]
+
+---
+
+## References
+
+- **Historical:** Breiman, L. (2001). Random forests. *Machine Learning*, 45(1), 5-32. [Springer Link](https://link.springer.com/article/10.1023/A:1010933404324)
+- **Book:** Hastie, T., Tibshirani, R., & Friedman, J. (2009). *The Elements of Statistical Learning* (2nd ed.). Springer. [Springer Link](https://link.springer.com/book/10.1007/978-0-387-84858-7) (Chapter 15)
+- **Book:** James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). *An Introduction to Statistical Learning* (2nd ed.). Springer. [Book Website](https://www.statlearning.com/) (Chapter 8)

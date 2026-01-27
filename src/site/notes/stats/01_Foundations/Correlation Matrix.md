@@ -23,7 +23,7 @@
 
 ## 2. Red Flags
 
-- **High Correlation (> 0.9) between Predictors:** Indicates [[Multicollinearity\|Multicollinearity]]. You should drop one or use dimensionality reduction ([[PCA\|PCA]]).
+- **High Correlation (> 0.9) between Predictors:** Indicates [[stats/03_Regression_Analysis/VIF (Variance Inflation Factor)\|Multicollinearity]]. You should drop one or use dimensionality reduction ([[stats/04_Machine_Learning/Principal Component Analysis (PCA)\|PCA]]).
 - **Low Correlation with Target:** Variable might be useless features (or relationship is non-linear).
 
 ---
@@ -59,5 +59,13 @@ plt.show()
 
 - [[stats/02_Hypothesis_Testing/Pearson Correlation\|Pearson Correlation]]
 - [[stats/02_Hypothesis_Testing/Spearman's Rank Correlation\|Spearman's Rank Correlation]]
-- [[Multicollinearity\|Multicollinearity]]
+- [[stats/03_Regression_Analysis/VIF (Variance Inflation Factor)\|Multicollinearity]]
 - [[stats/08_Visualization/Heatmap\|Heatmap]]
+
+---
+
+## References
+
+- **Book:** Rodgers, J. L., & Nicewander, W. A. (1988). Thirteen ways to look at the correlation coefficient. *The American Statistician*, 42(1), 59-66. [Taylor & Francis](https://www.tandfonline.com/doi/abs/10.1080/00031305.1988.10475524)
+- **Book:** Cohen, J., et al. (2013). *Applied Multiple Regression/Correlation Analysis for the Behavioral Sciences* (3rd ed.). Routledge. [Routledge Link](https://www.routledge.com/Applied-Multiple-RegressionCorrelation-Analysis-for-the-Behavioral-Sciences/Cohen-Cohen-West-Aiken/p/book/9780805822236)
+- **Book:** Wickham, H., & Grolemund, G. (2016). *R for Data Science*. O'Reilly Media. [O'Reilly Link](https://www.oreilly.com/library/view/r-for-data/9781491910382/)

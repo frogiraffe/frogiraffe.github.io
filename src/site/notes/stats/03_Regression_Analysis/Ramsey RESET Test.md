@@ -44,3 +44,11 @@ print(f"RESET p-value: {reset.pvalue:.4f}")
 
 - [[stats/03_Regression_Analysis/Multiple Linear Regression\|Multiple Linear Regression]] - Model being tested.
 - [[stats/01_Foundations/Log Transformations\|Log Transformations]] - Potential fix for non-linearity.
+
+---
+
+## References
+
+- **Historical:** Ramsey, J. B. (1969). Tests for specification errors in classical linear least squares regression analysis. *Journal of the Royal Statistical Society: Series B*, 31(2), 350-371. [DOI Link](https://doi.org/10.1111/j.2517-6161.1969.tb00796.x)
+- **Book:** Wooldridge, J. M. (2015). *Introductory Econometrics: A Modern Approach* (6th ed.). Cengage Learning. [Cengage Link](https://www.cengage.com/c/introductory-econometrics-a-modern-approach-6e-wooldridge/9781305270107/)
+- **Book:** Gujarati, D. N. (2009). *Basic Econometrics* (5th ed.). McGraw-Hill. [McGraw-Hill Link](https://www.mheducation.com/highered/product/basic-econometrics-gujarati-porter/M9780073375779.html)

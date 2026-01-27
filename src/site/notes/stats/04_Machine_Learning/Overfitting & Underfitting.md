@@ -186,3 +186,11 @@ for (name in c("Underfit", "Good", "Overfit")) {
 - [[stats/04_Machine_Learning/Cross-Validation\|Cross-Validation]] - Detection method.
 - [[stats/03_Regression_Analysis/Ridge Regression\|Ridge Regression]] / [[stats/03_Regression_Analysis/Lasso Regression\|Lasso Regression]] - Prevention via regularization.
 - [[stats/01_Foundations/Model Selection\|Model Selection]]
+
+---
+
+## References
+
+- **Article:** Hawkins, D. M. (2004). The problem of overfitting. *Journal of Chemical Information and Computer Sciences*, 44(1), 1-12. [ACS Publications](https://pubs.acs.org/doi/10.1021/ci034247q)
+- **Book:** Hastie, T., Tibshirani, R., & Friedman, J. (2009). *The Elements of Statistical Learning* (2nd ed.). Springer. [Springer Link](https://link.springer.com/book/10.1007/978-0-387-84858-7)
+- **Book:** James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). *An Introduction to Statistical Learning* (2nd ed.). Springer. [Book Website](https://www.statlearning.com/)

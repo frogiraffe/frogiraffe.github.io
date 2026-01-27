@@ -192,3 +192,11 @@ cat("Z-score for P =", prob, ":", z_value, "\n")
 - [[stats/01_Foundations/Normal Distribution\|Normal Distribution]] — Z-scores assume normality
 - [[stats/01_Foundations/Feature Scaling\|Feature Scaling]] — Z-scores for standardization
 - [[stats/01_Foundations/T-Distribution\|T-Distribution]] — Used instead of z when σ unknown and n small
+
+---
+
+## References
+
+- **Book:** Altman, D. G. (1991). *Practical Statistics for Medical Research*. Chapman and Hall. [Routledge](https://www.routledge.com/Practical-Statistics-for-Medical-Research/Altman/p/book/9780412276309)
+- **Book:** Triola, M. F. (2018). *Elementary Statistics* (13th ed.). Pearson. [Pearson](https://www.pearson.com/en-us/subject-catalog/p/elementary-statistics/P200000006173/)
+- **Article:** Altman, D. G., & Bland, J. M. (1995). Statistics notes: The normal distribution. *BMJ*, 310(6975), 298. [BMJ](https://www.bmj.com/content/310/6975/298)

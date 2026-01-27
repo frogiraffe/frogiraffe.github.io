@@ -357,3 +357,11 @@ plot(sens)
 - [[DAGs (Directed Acyclic Graphs)\|DAGs (Directed Acyclic Graphs)]] — Visual causal reasoning
 - [[stats/01_Foundations/Structural Equation Modeling (SEM)\|Structural Equation Modeling (SEM)]] — Formal causal models
 - [[Judea Pearl's Causal Hierarchy\|Judea Pearl's Causal Hierarchy]] — Ladder of causation
+
+---
+
+## References
+
+- **Book:** Pearl, J., & Mackenzie, D. (2018). *The Book of Why: The New Science of Cause and Effect*. Basic Books. [Publisher Link](https://www.basicbooks.com/titles/judea-pearl/the-book-of-why/9780465097609/)
+- **Book:** Imbens, G. W., & Rubin, D. B. (2015). *Causal Inference for Statistics, Social, and Biomedical Sciences*. Cambridge University Press. [Cambridge Link](https://doi.org/10.1017/CBO9781139025744)
+- **Book:** Morgan, S. L., & Winship, C. (2015). *Counterfactuals and Causal Inference* (2nd ed.). Cambridge University Press. [Cambridge Link](https://doi.org/10.1017/CBO9781107587991)

@@ -96,9 +96,41 @@ plt.show()
 
 ---
 
+## R Implementation
+
+```r
+# Simple Gradient Descent for f(x) = x^2
+gradient_descent <- function(start_x, learning_rate, n_iter) {
+  x <- start_x
+  history <- numeric(n_iter)
+  
+  for(i in 1:n_iter) {
+    grad <- 2 * x  # Derivative of x^2 is 2x
+    x <- x - learning_rate * grad
+    history[i] <- x
+  }
+  return(list(final_x = x, history = history))
+}
+
+# Run
+res <- gradient_descent(start_x = 10, learning_rate = 0.1, n_iter = 20)
+print(paste("Minimum found at:", round(res$final_x, 4)))
+plot(res$history, type="b", main="Convergence Path", ylab="Value of x")
+```
+
+---
+
 ## Related Concepts
 
 - [[stats/01_Foundations/Backpropagation\|Backpropagation]] - Using chain rule to calculate gradients in Neural Nets.
 - [[stats/01_Foundations/Loss Function\|Loss Function]] - The function $J(\theta)$ we are minimizing.
 - [[stats/04_Machine_Learning/Neural Networks\|Neural Networks]] - Heavy users of GD.
 - [[stats/01_Foundations/Feature Scaling\|Feature Scaling]] - Critical pre-requisite.
+
+---
+
+## References
+
+- **Historical:** Cauchy, A. (1847). Méthode générale pour la résolution des systèmes d'équations simultanées. *Comptes Rendus*, 25, 536-538. [Link](https://gallica.bnf.fr/ark:/12148/bpt6k29824/f540.item)
+- **Article:** Ruder, S. (2016). An overview of gradient descent optimization algorithms. [arXiv:1609.04747](https://arxiv.org/abs/1609.04747)
+- **Book:** Goodfellow, I., Bengio, Y., & Courville, A. (2016). *Deep Learning*. MIT Press. [Book Website](https://www.deeplearningbook.org/)

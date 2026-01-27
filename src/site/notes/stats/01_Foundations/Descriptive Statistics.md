@@ -108,9 +108,45 @@ print(f"Skew: {skew:.2f} (High positive skew)")
 
 ---
 
+## R Implementation
+
+```r
+# Load data
+data(mtcars)
+x <- mtcars$mpg
+
+# Measures
+mean_val <- mean(x)
+median_val <- median(x)
+sd_val <- sd(x)
+var_val <- var(x)
+
+# Quantiles
+quartiles <- quantile(x, probs = c(0.25, 0.75))
+iqr_val <- IQR(x)
+
+# Skewness/Kurtosis (requires moments or e1071)
+library(e1071)
+skew <- skewness(x)
+kurt <- kurtosis(x)
+
+print(paste("Mean:", round(mean_val, 2)))
+print(paste("Skewness:", round(skew, 2)))
+```
+
+---
+
 ## Related Concepts
 
 - [[stats/01_Foundations/Normal Distribution\|Normal Distribution]] - Reference for skew/kurtosis.
 - [[stats/08_Visualization/Boxplot\|Boxplot]] - Visualizing the 5-number summary.
 - [[stats/03_Regression_Analysis/Outlier Analysis (Standardized Residuals)\|Outlier Analysis (Standardized Residuals)]]
 - [[stats/01_Foundations/Coefficient of Variation\|Coefficient of Variation]]
+
+---
+
+## References
+
+- **Book:** Tukey, J. W. (1977). *Exploratory Data Analysis*. Addison-Wesley. [WorldCat](https://www.worldcat.org/title/exploratory-data-analysis/oclc/3033187)
+- **Book:** Altman, D. G. (1991). *Practical Statistics for Medical Research*. Chapman and Hall. [Routledge](https://www.routledge.com/Practical-Statistics-for-Medical-Research/Altman/p/book/9780412276309)
+- **Book:** Freedman, D., Pisani, R., & Purves, R. (2007). *Statistics* (4th ed.). W. W. Norton & Company. [W.W. Norton](https://wwnorton.com/books/9780393929720)

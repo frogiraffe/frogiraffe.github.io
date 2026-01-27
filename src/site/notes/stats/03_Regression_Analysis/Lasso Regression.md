@@ -318,3 +318,11 @@ cat("MSE:", mse, "\n")
 - [[Group Lasso\|Group Lasso]] — Select entire groups of variables
 - [[Adaptive Lasso\|Adaptive Lasso]] — Weights penalties by initial estimates
 - [[stats/04_Machine_Learning/Cross-Validation\|Cross-Validation]] — Required for tuning λ
+
+---
+
+## References
+
+- **Historical:** Tibshirani, R. (1996). Regression shrinkage and selection via the lasso. *Journal of the Royal Statistical Society B*, 58(1), 267-288. [DOI: 10.1111/j.2517-6161.1996.tb02080.x](https://doi.org/10.1111/j.2517-6161.1996.tb02080.x)
+- **Book:** Hastie, T., Tibshirani, R., & Friedman, J. (2009). *The Elements of Statistical Learning* (2nd ed.). Springer. (Chapter 3) [Springer Link](https://link.springer.com/book/10.1007/978-0-387-84858-7)
+- **Book:** James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). *An Introduction to Statistical Learning* (2nd ed.). Springer. (Chapter 6) [Book Website](https://www.statlearning.com/)

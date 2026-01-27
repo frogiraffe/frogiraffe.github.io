@@ -295,3 +295,11 @@ with torch.no_grad():
 - [[Convolutional Neural Networks (CNN)\|Convolutional Neural Networks (CNN)]] — For images
 - [[Recurrent Neural Networks (RNN)\|Recurrent Neural Networks (RNN)]] — For sequences
 - [[Transformers\|Transformers]] — State-of-the-art NLP
+
+---
+
+## References
+
+- **Historical:** Rosenblatt, F. (1958). The perceptron: A probabilistic model for information storage and organization in the brain. *Psychological Review*. [APA PsycNET](https://doi.org/10.1037/h0042519)
+- **Article:** LeCun, Y., Bengio, Y., & Hinton, G. (2015). Deep learning. *Nature*. [Nature Link](https://www.nature.com/articles/nature14539)
+- **Book:** Goodfellow, I., Bengio, Y., & Courville, A. (2016). *Deep Learning*. MIT Press. [Book Website](https://www.deeplearningbook.org/)

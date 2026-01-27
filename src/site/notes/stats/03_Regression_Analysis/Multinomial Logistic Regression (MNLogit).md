@@ -199,3 +199,11 @@ print(p)
 - [[stats/03_Regression_Analysis/Binary Logistic Regression\|Binary Logistic Regression]]
 - [[stats/03_Regression_Analysis/Ordinal Logistic Regression\|Ordinal Logistic Regression]] - For ordered outcomes.
 - [[stats/03_Regression_Analysis/Generalized Linear Models (GLM)\|Generalized Linear Models (GLM)]]
+
+---
+
+## References
+
+- **Book:** Agresti, A. (2019). *An Introduction to Categorical Data Analysis* (3rd ed.). Wiley. [Wiley Link](https://www.wiley.com/en-us/An+Introduction+to+Categorical+Data+Analysis%2C+3rd+Edition-p-9781119405269)
+- **Book:** Long, J. S., & Freese, J. (2014). *Regression Models for Categorical Dependent Variables Using Stata* (3rd ed.). Stata Press. [Stata Press Link](https://www.stata.com/bookstore/regression-models-categorical-dependent-variables/)
+- **Book:** McFadden, D. (1974). Conditional logit analysis of qualitative choice behavior. *Frontiers in Econometrics*. [Stable Link](https://ideas.repec.org/h/nbe/nbechp/5341.html)

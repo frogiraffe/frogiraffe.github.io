@@ -49,3 +49,11 @@ print(f"LM p-value: {bg_test[1]:.4f}")
 
 - [[stats/05_Time_Series/Durbin-Watson Test\|Durbin-Watson Test]] - Simpler alternative.
 - [[stats/03_Regression_Analysis/Multiple Linear Regression\|Multiple Linear Regression]] - Framework.
+
+---
+
+## References
+
+- **Article:** Breusch, T. S. (1978). Testing for autocorrelation in dynamic linear models. *Australian Economic Papers*, 17(31), 334-355. [Wiley Link](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8454.1978.tb00635.x)
+- **Article:** Godfrey, L. G. (1978). Testing for higher order serial correlation in regression equations when the regressors include lagged dependent variables. *Econometrica*, 46(6), 1303-1310. [JSTOR Link](http://www.jstor.org/stable/1913831)
+- **Book:** Greene, W. H. (2018). *Econometric Analysis* (8th ed.). Pearson. [Pearson Link](https://www.pearson.com/us/higher-education/program/Greene-Econometric-Analysis-8th-Edition/PGM334862.html)
