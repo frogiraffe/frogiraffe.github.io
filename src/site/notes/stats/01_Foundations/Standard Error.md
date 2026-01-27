@@ -7,7 +7,7 @@
 > [!abstract] Core Statement
 > **Standard Error (SE)** is the ==standard deviation of a sampling distribution==. It quantifies the **precision** of a sample statistic (usually the mean) as an estimate of the population parameter. Smaller SE means more precise estimates.
 
-![Sampling Distribution of the Mean: Convergence and Standard Error](https://upload.wikimedia.org/wikipedia/commons/7/7b/Sampling_distribution.png)
+![Sampling Distribution of the Mean: Convergence and Standard Error](https://upload.wikimedia.org/wikipedia/commons/7/71/Sampling_distribution.png)
 
 ---
 
