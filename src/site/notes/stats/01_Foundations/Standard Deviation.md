@@ -24,7 +24,7 @@
 1. Describe the **spread** of a distribution.
 2. Identify **outliers** (values > 2-3 SD from mean are unusual).
 3. Standardize scores (Z-scores = deviations in SD units).
-4. Foundation for [[stats/01_Foundations/Standard Error\|Standard Error]], [[stats/02_Hypothesis_Testing/Confidence Intervals\|Confidence Intervals]], and inference.
+4. Foundation for [[stats/01_Foundations/Standard Error\|Standard Error]], [[stats/02_Statistical_Inference/Confidence Intervals\|Confidence Intervals]], and inference.
 
 ---
 

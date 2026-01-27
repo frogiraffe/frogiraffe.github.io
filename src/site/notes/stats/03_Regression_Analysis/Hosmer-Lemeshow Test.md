@@ -49,8 +49,8 @@
 ## 4. Related Concepts
 
 - [[stats/03_Regression_Analysis/Binary Logistic Regression\|Binary Logistic Regression]] - The model being tested.
-- [[stats/04_Machine_Learning/ROC & AUC\|ROC & AUC]] - Measures discrimination (distinguishing classes) rather than calibration (accuracy of probability).
-- [[stats/04_Machine_Learning/Confusion Matrix\|Confusion Matrix]] - Classification performance.
+- [[stats/04_Supervised_Learning/ROC & AUC\|ROC & AUC]] - Measures discrimination (distinguishing classes) rather than calibration (accuracy of probability).
+- [[stats/04_Supervised_Learning/Confusion Matrix\|Confusion Matrix]] - Classification performance.
 
 ---
 

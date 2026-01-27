@@ -55,9 +55,9 @@ dist(rbind(x, y))
 
 ## Applications
 
-- [[stats/04_Machine_Learning/K-Means Clustering\|K-Means Clustering]] - Distance to centroids
-- [[stats/04_Machine_Learning/K-Nearest Neighbors (KNN)\|K-Nearest Neighbors (KNN)]] - Finding neighbors
-- [[stats/04_Machine_Learning/Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] - Preserves distances
+- [[stats/04_Supervised_Learning/K-Means Clustering\|K-Means Clustering]] - Distance to centroids
+- [[stats/04_Supervised_Learning/K-Nearest Neighbors (KNN)\|K-Nearest Neighbors (KNN)]] - Finding neighbors
+- [[stats/04_Supervised_Learning/Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] - Preserves distances
 
 ---
 

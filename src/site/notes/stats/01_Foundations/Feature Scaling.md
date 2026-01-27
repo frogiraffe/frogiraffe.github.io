@@ -347,13 +347,13 @@ test_scaled <- predict(preproc, test)  # Uses training parameters!
 ## Related Concepts
 
 **Algorithms Requiring Scaling:**
-- [[stats/04_Machine_Learning/K-Nearest Neighbors (KNN)\|K-Nearest Neighbors (KNN)]] — Distance-based
-- [[stats/04_Machine_Learning/Support Vector Machines (SVM)\|Support Vector Machines (SVM)]] — Kernel distance
-- [[stats/04_Machine_Learning/Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] — Variance-based
+- [[stats/04_Supervised_Learning/K-Nearest Neighbors (KNN)\|K-Nearest Neighbors (KNN)]] — Distance-based
+- [[stats/04_Supervised_Learning/Support Vector Machines (SVM)\|Support Vector Machines (SVM)]] — Kernel distance
+- [[stats/04_Supervised_Learning/Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] — Variance-based
 
 **Data Leakage:**
 - [[stats/01_Foundations/Data Leakage\|Data Leakage]] — Why fit only on training set
-- [[stats/04_Machine_Learning/Cross-Validation\|Cross-Validation]] — Each fold needs separate scaling
+- [[stats/04_Supervised_Learning/Cross-Validation\|Cross-Validation]] — Each fold needs separate scaling
 
 **Related Preprocessing:**
 - [[stats/01_Foundations/Log Transformations\|Log Transformations]] — For skewed distributions

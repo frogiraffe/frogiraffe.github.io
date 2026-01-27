@@ -80,7 +80,7 @@ These metrics describe how spread out or dispersed the data is.
 > [!warning] Pitfalls
 > 1.  **The "Average" Lie:** Reporting only the Mean for skewed data (like Wealth) is deceptive. Always report Median too.
 > 2.  **Zero Variance:** If $\sigma=0$, all data points are identical.
-> 3.  **Anscombe's Quartet:** Different datasets can have identical Mean and Variance but look completely different. **Always plot the data** ([[stats/08_Visualization/Histogram\|Histogram]], [[stats/08_Visualization/Boxplot\|Boxplot]]).
+> 3.  **Anscombe's Quartet:** Different datasets can have identical Mean and Variance but look completely different. **Always plot the data** ([[stats/09_EDA_and_Visualization/Histogram\|Histogram]], [[stats/09_EDA_and_Visualization/Boxplot\|Boxplot]]).
 
 ---
 
@@ -143,7 +143,7 @@ print(paste("Skewness:", round(skew, 2)))
 ## Related Concepts
 
 - [[stats/01_Foundations/Normal Distribution\|Normal Distribution]] - Reference for skew/kurtosis.
-- [[stats/08_Visualization/Boxplot\|Boxplot]] - Visualizing the 5-number summary.
+- [[stats/09_EDA_and_Visualization/Boxplot\|Boxplot]] - Visualizing the 5-number summary.
 - [[stats/03_Regression_Analysis/Outlier Analysis (Standardized Residuals)\|Outlier Analysis (Standardized Residuals)]]
 - [[stats/01_Foundations/Coefficient of Variation\|Coefficient of Variation]]
 

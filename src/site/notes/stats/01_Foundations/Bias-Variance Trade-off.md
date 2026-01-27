@@ -103,7 +103,7 @@ This is a mathematical decomposition, not a test with assumptions. However:
 | Problem | Solution |
 |---------|----------|
 | **High Bias (Underfitting)** | Add features, increase model complexity, reduce regularization. |
-| **High Variance (Overfitting)** | Use [[stats/04_Machine_Learning/Cross-Validation\|Cross-Validation]], add [[stats/03_Regression_Analysis/Ridge Regression\|Ridge Regression]]/[[stats/03_Regression_Analysis/Lasso Regression\|Lasso Regression]], reduce features, collect more data. |
+| **High Variance (Overfitting)** | Use [[stats/04_Supervised_Learning/Cross-Validation\|Cross-Validation]], add [[stats/03_Regression_Analysis/Ridge Regression\|Ridge Regression]]/[[stats/03_Regression_Analysis/Lasso Regression\|Lasso Regression]], reduce features, collect more data. |
 
 ---
 
@@ -186,8 +186,8 @@ for (degree in c(1, 3, 15)) {
 
 ## Related Concepts
 
-- [[stats/04_Machine_Learning/Overfitting & Underfitting\|Overfitting & Underfitting]]
-- [[stats/04_Machine_Learning/Cross-Validation\|Cross-Validation]] - Detects overfitting.
+- [[stats/04_Supervised_Learning/Overfitting & Underfitting\|Overfitting & Underfitting]]
+- [[stats/04_Supervised_Learning/Cross-Validation\|Cross-Validation]] - Detects overfitting.
 - [[stats/03_Regression_Analysis/Ridge Regression\|Ridge Regression]] / [[stats/03_Regression_Analysis/Lasso Regression\|Lasso Regression]] - Reduce variance.
 - [[stats/01_Foundations/Model Selection\|Model Selection]]
 

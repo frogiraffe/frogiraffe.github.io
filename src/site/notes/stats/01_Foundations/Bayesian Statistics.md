@@ -177,8 +177,8 @@ plot(model, "trace")
 
 - [[stats/01_Foundations/Bayes' Theorem\|Bayes' Theorem]] - The mathematical foundation.
 - [[stats/01_Foundations/Maximum Likelihood Estimation (MLE)\|Maximum Likelihood Estimation (MLE)]] - Frequentist alternative.
-- [[stats/04_Machine_Learning/Probabilistic Programming\|Probabilistic Programming]] - Tools like PyMC, Stan.
-- [[stats/02_Hypothesis_Testing/Hypothesis Testing (P-Value & CI)\|Hypothesis Testing (P-Value & CI)]] - Frequentist framework.
+- [[stats/04_Supervised_Learning/Probabilistic Programming\|Probabilistic Programming]] - Tools like PyMC, Stan.
+- [[stats/02_Statistical_Inference/Hypothesis Testing (P-Value & CI)\|Hypothesis Testing (P-Value & CI)]] - Frequentist framework.
 
 ---
 

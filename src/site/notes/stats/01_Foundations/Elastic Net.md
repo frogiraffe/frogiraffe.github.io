@@ -247,7 +247,7 @@ Are features correlated?
 - [[stats/03_Regression_Analysis/Lasso Regression\|Lasso Regression]] — L1 only
 - [[stats/03_Regression_Analysis/Ridge Regression\|Ridge Regression]] — L2 only
 - [[stats/03_Regression_Analysis/Regularization\|Regularization]] — General concept
-- [[stats/04_Machine_Learning/Cross-Validation\|Cross-Validation]] — For hyperparameter tuning
+- [[stats/04_Supervised_Learning/Cross-Validation\|Cross-Validation]] — For hyperparameter tuning
 
 ---
 

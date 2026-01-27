@@ -28,7 +28,7 @@
 > - You have **repeated measurements** on the same subjects.
 > - Sample sizes **vary across groups**.
 > - You want to **generalize** to new groups (not just those in the sample).
-> - [[stats/02_Hypothesis_Testing/Repeated Measures ANOVA\|Repeated Measures ANOVA]] assumptions (sphericity) are violated.
+> - [[stats/02_Statistical_Inference/Repeated Measures ANOVA\|Repeated Measures ANOVA]] assumptions (sphericity) are violated.
 
 > [!failure] Do NOT Use When...
 > - Data is **truly independent** (use standard regression).
@@ -424,7 +424,7 @@ ggplot(df, aes(x = study_hours, y = fitted, color = school)) +
 
 **Prerequisites:**
 - [[stats/03_Regression_Analysis/Multiple Linear Regression\|Multiple Linear Regression]] - Fixed effects only
-- [[stats/02_Hypothesis_Testing/Repeated Measures ANOVA\|Repeated Measures ANOVA]] - Simpler repeated measures
+- [[stats/02_Statistical_Inference/Repeated Measures ANOVA\|Repeated Measures ANOVA]] - Simpler repeated measures
 
 **Extensions:**
 - [[stats/03_Regression_Analysis/Generalized Linear Models (GLM)\|Generalized Linear Models (GLM)]] - For non-normal outcomes (GLMM)

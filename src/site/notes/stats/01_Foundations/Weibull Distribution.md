@@ -57,7 +57,7 @@ mean(samples)
 ## Applications
 
 - Reliability and failure time analysis
-- [[stats/06_Causal_Inference/Survival Analysis\|Survival Analysis]] - Parametric survival models
+- [[stats/07_Causal_Inference/Survival Analysis\|Survival Analysis]] - Parametric survival models
 - Wind speed modeling
 
 ---

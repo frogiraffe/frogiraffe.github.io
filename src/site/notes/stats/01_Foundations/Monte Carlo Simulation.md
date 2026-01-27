@@ -111,7 +111,7 @@ cat("\n95% CI:", round(quantile(bootstrap_means, c(0.025, 0.975)), 2))
 
 ## Related Concepts
 
-- [[stats/04_Machine_Learning/Bootstrap Methods\|Bootstrap Methods]] - Resampling for inference
+- [[stats/04_Supervised_Learning/Bootstrap Methods\|Bootstrap Methods]] - Resampling for inference
 - [[stats/01_Foundations/Bayesian Statistics\|Bayesian Statistics]] - MCMC sampling
 - [[stats/01_Foundations/Law of Large Numbers\|Law of Large Numbers]] - Theoretical foundation
 

@@ -13,8 +13,8 @@
 
 ## Purpose
 
-1.  **Constructing [[stats/02_Hypothesis_Testing/Confidence Intervals\|Confidence Intervals]]** for the mean when $\sigma$ is unknown.
-2.  **Hypothesis Testing** ([[stats/02_Hypothesis_Testing/Student's T-Test\|Student's T-Test]], [[stats/02_Hypothesis_Testing/Welch's T-Test\|Welch's T-Test]]) comparing means.
+1.  **Constructing [[stats/02_Statistical_Inference/Confidence Intervals\|Confidence Intervals]]** for the mean when $\sigma$ is unknown.
+2.  **Hypothesis Testing** ([[stats/02_Statistical_Inference/Student's T-Test\|Student's T-Test]], [[stats/02_Statistical_Inference/Welch's T-Test\|Welch's T-Test]]) comparing means.
 3.  **Regression Inference** - Coefficients in [[stats/03_Regression_Analysis/Simple Linear Regression\|Simple Linear Regression]] are t-distributed under $H_0$.
 
 ---
@@ -182,10 +182,10 @@ legend("topright",
 ## Related Concepts
 
 - [[stats/01_Foundations/Normal Distribution\|Normal Distribution]] - The ideal scenario (known $\sigma$).
-- [[stats/02_Hypothesis_Testing/Student's T-Test\|Student's T-Test]] - Primary application.
-- [[stats/02_Hypothesis_Testing/Confidence Intervals\|Confidence Intervals]] - Calculated using t-scores.
-- [[stats/02_Hypothesis_Testing/Welch's T-Test\|Welch's T-Test]] - Robust version when variances differ.
-- [[stats/02_Hypothesis_Testing/Degrees of Freedom\|Degrees of Freedom]] - The shape parameter.
+- [[stats/02_Statistical_Inference/Student's T-Test\|Student's T-Test]] - Primary application.
+- [[stats/02_Statistical_Inference/Confidence Intervals\|Confidence Intervals]] - Calculated using t-scores.
+- [[stats/02_Statistical_Inference/Welch's T-Test\|Welch's T-Test]] - Robust version when variances differ.
+- [[stats/02_Statistical_Inference/Degrees of Freedom\|Degrees of Freedom]] - The shape parameter.
 
 ---
 

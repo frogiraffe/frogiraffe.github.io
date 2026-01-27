@@ -58,7 +58,7 @@ def gradient_descent(f, grad, x0, tol=1e-6, max_iter=1000):
 ## Related Concepts
 
 - [[stats/01_Foundations/Optimization\|Optimization]] - Where convergence applies
-- [[stats/04_Machine_Learning/Gradient Descent\|Gradient Descent]] - Common algorithm
+- [[stats/04_Supervised_Learning/Gradient Descent\|Gradient Descent]] - Common algorithm
 - [[stats/01_Foundations/Loss Function\|Loss Function]] - What we're minimizing
 
 ---

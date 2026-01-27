@@ -199,7 +199,7 @@ rexp(10, rate = lambda_param)
 - [[stats/01_Foundations/Poisson Distribution\|Poisson Distribution]] - Number of events in fixed time.
 - [[stats/01_Foundations/Geometric Distribution\|Geometric Distribution]] - Discrete memoryless distribution.
 - [[stats/01_Foundations/Weibull Distribution\|Weibull Distribution]] - Generalizes exponential; allows aging.
-- [[stats/06_Causal_Inference/Survival Analysis\|Survival Analysis]]
+- [[stats/07_Causal_Inference/Survival Analysis\|Survival Analysis]]
 
 ---
 

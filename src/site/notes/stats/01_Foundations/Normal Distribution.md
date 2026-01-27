@@ -98,12 +98,12 @@ $$
 
 ### Visual Methods
 1.  **Histogram:** Should appear symmetric and bell-shaped.
-2.  **[[stats/08_Visualization/Q-Q Plot\|Q-Q Plot]]:** Points should fall on the 45-degree diagonal reference line.
+2.  **[[stats/09_EDA_and_Visualization/Q-Q Plot\|Q-Q Plot]]:** Points should fall on the 45-degree diagonal reference line.
 
 ### Statistical Tests
 | Test | Best For | Null Hypothesis |
 |------|----------|-----------------|
-| [[stats/02_Hypothesis_Testing/Shapiro-Wilk Test\|Shapiro-Wilk Test]] | $n < 50$ | Data is Normal |
+| [[stats/02_Statistical_Inference/Shapiro-Wilk Test\|Shapiro-Wilk Test]] | $n < 50$ | Data is Normal |
 | Kolmogorov-Smirnov | $n > 50$ | Data is Normal |
 | D'Agostino-Pearson | Based on Skew/Kurtosis | Data is Normal |
 
@@ -185,8 +185,8 @@ qqline(data, col = "red", lwd = 2)
 
 - [[stats/01_Foundations/Central Limit Theorem (CLT)\|Central Limit Theorem (CLT)]] - Why sample means become normal.
 - [[stats/01_Foundations/T-Distribution\|T-Distribution]] - Normal's cousin for small samples.
-- [[stats/08_Visualization/Q-Q Plot\|Q-Q Plot]] - Visual diagnostic.
-- [[stats/02_Hypothesis_Testing/Shapiro-Wilk Test\|Shapiro-Wilk Test]] - Statistical diagnostic.
+- [[stats/09_EDA_and_Visualization/Q-Q Plot\|Q-Q Plot]] - Visual diagnostic.
+- [[stats/02_Statistical_Inference/Shapiro-Wilk Test\|Shapiro-Wilk Test]] - Statistical diagnostic.
 - [[stats/01_Foundations/Log Transformations\|Log Transformations]] - A cure for non-normality.
 
 ---

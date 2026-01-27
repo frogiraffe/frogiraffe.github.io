@@ -15,7 +15,7 @@
 
 1. Test hypotheses about **population variance**.
 2. Test **independence** and **goodness-of-fit** for categorical data.
-3. Form the basis of the [[stats/02_Hypothesis_Testing/Chi-Square Test of Independence\|Chi-Square Test of Independence]] and goodness-of-fit tests.
+3. Form the basis of the [[stats/02_Statistical_Inference/Chi-Square Test of Independence\|Chi-Square Test of Independence]] and goodness-of-fit tests.
 4. Related to the [[stats/01_Foundations/F-Distribution\|F-Distribution]] in ANOVA.
 
 ---
@@ -23,7 +23,7 @@
 ## When to Use
 
 > [!success] Chi-Square Distribution Appears In...
-> - [[stats/02_Hypothesis_Testing/Chi-Square Test of Independence\|Chi-Square Test of Independence]] - Testing association between categorical variables.
+> - [[stats/02_Statistical_Inference/Chi-Square Test of Independence\|Chi-Square Test of Independence]] - Testing association between categorical variables.
 > - **Goodness-of-Fit Test** - Does data fit a theoretical distribution?
 > - **Variance Test** - Testing if sample variance equals a hypothesized value.
 > - **Heteroscedasticity Tests** ([[stats/03_Regression_Analysis/Breusch-Pagan Test\|Breusch-Pagan Test]], [[stats/03_Regression_Analysis/White Test\|White Test]]).

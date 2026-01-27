@@ -55,7 +55,7 @@ X_test = scaler.transform(X_test)         # Transform test
 
 ## Related Concepts
 
-- [[stats/04_Machine_Learning/Cross-Validation\|Cross-Validation]] - Proper validation prevents leakage
+- [[stats/04_Supervised_Learning/Cross-Validation\|Cross-Validation]] - Proper validation prevents leakage
 - [[stats/01_Foundations/Feature Selection\|Feature Selection]] - Proper order matters
 
 ---

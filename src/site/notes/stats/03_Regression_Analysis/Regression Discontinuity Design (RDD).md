@@ -66,8 +66,8 @@ rdplot(y = df$outcome, x = df$score, c = 3.5,
 
 ## 5. Related Concepts
 
-- [[stats/06_Causal_Inference/Instrumental Variables (IV)\|Instrumental Variables (IV)]] - Used for Fuzzy RDD.
-- [[stats/06_Causal_Inference/Causal Inference\|Causal Inference]]
+- [[stats/07_Causal_Inference/Instrumental Variables (IV)\|Instrumental Variables (IV)]] - Used for Fuzzy RDD.
+- [[stats/07_Causal_Inference/Causal Inference\|Causal Inference]]
 - [[stats/03_Regression_Analysis/Local Linear Regression\|Local Linear Regression]]
 
 ---

@@ -63,7 +63,7 @@ p.adjust(p_values, method = "BH")  # Benjamini-Hochberg
 ## Related Concepts
 
 - [[stats/01_Foundations/False Discovery Rate (FDR)\|False Discovery Rate (FDR)]] - Alternative control target
-- [[stats/02_Hypothesis_Testing/Tukey's HSD\|Tukey's HSD]] - Specific to ANOVA
+- [[stats/02_Statistical_Inference/Tukey's HSD\|Tukey's HSD]] - Specific to ANOVA
 
 ---
 

@@ -2,9 +2,15 @@
 {"dg-publish":true,"permalink":"/stats/00-index/","hideInGraph":"true","tags":["Statistics","Map-of-Content","Index","gardenEntry"]}
 ---
 
+
+# Statistical Notes Vault
+
+Welcome to the comprehensive statistical MoC. This vault is organized by methodological pillars.
+
 ---
 
-## Foundations
+## 01. Foundations
+*Probability theory, distributions, and core mathematical concepts.*
 
 - [[stats/01_Foundations/Adjusted R-squared\|Adjusted R-squared]]
 - [[stats/01_Foundations/Backpropagation\|Backpropagation]]
@@ -90,53 +96,55 @@
 
 ---
 
-## Hypothesis Testing
+## 02. Statistical Inference
+*Classical hypothesis testing, P-values, and effect size measures.*
 
-- [[stats/02_Hypothesis_Testing/A-B Testing\|A-B Testing]]
-- [[stats/02_Hypothesis_Testing/Bonferroni Correction\|Bonferroni Correction]]
-- [[stats/02_Hypothesis_Testing/Chi-Square Test\|Chi-Square Test]]
-- [[stats/02_Hypothesis_Testing/Chi-Square Test of Independence\|Chi-Square Test of Independence]]
-- [[stats/02_Hypothesis_Testing/Confidence Intervals\|Confidence Intervals]]
-- [[stats/02_Hypothesis_Testing/Degrees of Freedom\|Degrees of Freedom]]
-- [[stats/02_Hypothesis_Testing/Effect Size Measures\|Effect Size Measures]]
-- [[stats/02_Hypothesis_Testing/Factorial Design (2k)\|Factorial Design (2k)]]
-- [[stats/02_Hypothesis_Testing/Fisher's Exact Test\|Fisher's Exact Test]]
-- [[stats/02_Hypothesis_Testing/Friedman Test\|Friedman Test]]
-- [[stats/02_Hypothesis_Testing/Goodness-of-Fit Test\|Goodness-of-Fit Test]]
-- [[stats/02_Hypothesis_Testing/Hypothesis Testing (P-Value & CI)\|Hypothesis Testing (P-Value & CI)]]
-- [[stats/02_Hypothesis_Testing/Kendall's Tau\|Kendall's Tau]]
-- [[stats/02_Hypothesis_Testing/Kruskal-Wallis Test\|Kruskal-Wallis Test]]
-- [[stats/02_Hypothesis_Testing/Levene's Test\|Levene's Test]]
-- [[stats/02_Hypothesis_Testing/Ljung-Box Test\|Ljung-Box Test]]
-- [[stats/02_Hypothesis_Testing/Mann-Whitney U Test\|Mann-Whitney U Test]]
-- [[stats/02_Hypothesis_Testing/MANOVA\|MANOVA]]
-- [[stats/02_Hypothesis_Testing/McNemar's Test\|McNemar's Test]]
-- [[stats/02_Hypothesis_Testing/Mixed ANOVA (Between-Within)\|Mixed ANOVA (Between-Within)]]
-- [[stats/02_Hypothesis_Testing/One-Sample t-test\|One-Sample t-test]]
-- [[stats/02_Hypothesis_Testing/One-Way ANOVA\|One-Way ANOVA]]
-- [[stats/02_Hypothesis_Testing/Paired T-Test\|Paired T-Test]]
-- [[stats/02_Hypothesis_Testing/Pearson Correlation\|Pearson Correlation]]
-- [[stats/02_Hypothesis_Testing/Permutation Tests\|Permutation Tests]]
-- [[stats/02_Hypothesis_Testing/Power Analysis\|Power Analysis]]
-- [[stats/02_Hypothesis_Testing/Repeated Measures ANOVA\|Repeated Measures ANOVA]]
-- [[stats/02_Hypothesis_Testing/Sample Size Calculation\|Sample Size Calculation]]
-- [[stats/02_Hypothesis_Testing/Sequential Testing\|Sequential Testing]]
-- [[stats/02_Hypothesis_Testing/Shapiro-Wilk Test\|Shapiro-Wilk Test]]
-- [[stats/02_Hypothesis_Testing/Spearman's Rank Correlation\|Spearman's Rank Correlation]]
-- [[stats/02_Hypothesis_Testing/Student's T-Test\|Student's T-Test]]
-- [[stats/02_Hypothesis_Testing/Tukey's HSD\|Tukey's HSD]]
-- [[stats/02_Hypothesis_Testing/Two-Way ANOVA\|Two-Way ANOVA]]
-- [[stats/02_Hypothesis_Testing/Type I & Type II Errors\|Type I & Type II Errors]]
-- [[stats/02_Hypothesis_Testing/Welch's ANOVA\|Welch's ANOVA]]
-- [[stats/02_Hypothesis_Testing/Welch's T-Test\|Welch's T-Test]]
-- [[stats/02_Hypothesis_Testing/Wilcoxon Signed-Rank Test\|Wilcoxon Signed-Rank Test]]
-- [[stats/02_Hypothesis_Testing/Z-Test\|Z-Test]]
+- [[stats/02_Statistical_Inference/A-B Testing\|A-B Testing]]
+- [[stats/02_Statistical_Inference/Bonferroni Correction\|Bonferroni Correction]]
+- [[stats/02_Statistical_Inference/Chi-Square Test\|Chi-Square Test]]
+- [[stats/02_Statistical_Inference/Chi-Square Test of Independence\|Chi-Square Test of Independence]]
+- [[stats/02_Statistical_Inference/Confidence Intervals\|Confidence Intervals]]
+- [[stats/02_Statistical_Inference/Degrees of Freedom\|Degrees of Freedom]]
+- [[stats/02_Statistical_Inference/Effect Size Measures\|Effect Size Measures]]
+- [[stats/02_Statistical_Inference/Factorial Design (2k)\|Factorial Design (2k)]]
+- [[stats/02_Statistical_Inference/Fisher's Exact Test\|Fisher's Exact Test]]
+- [[stats/02_Statistical_Inference/Friedman Test\|Friedman Test]]
+- [[stats/02_Statistical_Inference/Goodness-of-Fit Test\|Goodness-of-Fit Test]]
+- [[stats/02_Statistical_Inference/Hypothesis Testing (P-Value & CI)\|Hypothesis Testing (P-Value & CI)]]
+- [[stats/02_Statistical_Inference/Kendall's Tau\|Kendall's Tau]]
+- [[stats/02_Statistical_Inference/Kruskal-Wallis Test\|Kruskal-Wallis Test]]
+- [[stats/02_Statistical_Inference/Levene's Test\|Levene's Test]]
+- [[stats/02_Statistical_Inference/Ljung-Box Test\|Ljung-Box Test]]
+- [[stats/02_Statistical_Inference/Mann-Whitney U Test\|Mann-Whitney U Test]]
+- [[stats/02_Statistical_Inference/MANOVA\|MANOVA]]
+- [[stats/02_Statistical_Inference/McNemar's Test\|McNemar's Test]]
+- [[stats/02_Statistical_Inference/Mixed ANOVA (Between-Within)\|Mixed ANOVA (Between-Within)]]
+- [[stats/02_Statistical_Inference/One-Sample t-test\|One-Sample t-test]]
+- [[stats/02_Statistical_Inference/One-Way ANOVA\|One-Way ANOVA]]
+- [[stats/02_Statistical_Inference/Paired T-Test\|Paired T-Test]]
+- [[stats/02_Statistical_Inference/Pearson Correlation\|Pearson Correlation]]
+- [[stats/02_Statistical_Inference/Permutation Tests\|Permutation Tests]]
+- [[stats/02_Statistical_Inference/Power Analysis\|Power Analysis]]
+- [[stats/02_Statistical_Inference/Repeated Measures ANOVA\|Repeated Measures ANOVA]]
+- [[stats/02_Statistical_Inference/Sample Size Calculation\|Sample Size Calculation]]
+- [[stats/02_Statistical_Inference/Sequential Testing\|Sequential Testing]]
+- [[stats/02_Statistical_Inference/Shapiro-Wilk Test\|Shapiro-Wilk Test]]
+- [[stats/02_Statistical_Inference/Spearman's Rank Correlation\|Spearman's Rank Correlation]]
+- [[stats/02_Statistical_Inference/Student's T-Test\|Student's T-Test]]
+- [[stats/02_Statistical_Inference/Tukey's HSD\|Tukey's HSD]]
+- [[stats/02_Statistical_Inference/Two-Way ANOVA\|Two-Way ANOVA]]
+- [[stats/02_Statistical_Inference/Type I & Type II Errors\|Type I & Type II Errors]]
+- [[stats/02_Statistical_Inference/Welch's ANOVA\|Welch's ANOVA]]
+- [[stats/02_Statistical_Inference/Welch's T-Test\|Welch's T-Test]]
+- [[stats/02_Statistical_Inference/Wilcoxon Signed-Rank Test\|Wilcoxon Signed-Rank Test]]
+- [[stats/02_Statistical_Inference/Z-Test\|Z-Test]]
 
 { .block-language-dataview}
 
 ---
 
-## Regression Analysis
+## 03. Regression Analysis
+*Relationship modeling, diagnostics, and generalized linear models.*
 
 - [[stats/03_Regression_Analysis/Binary Logistic Regression\|Binary Logistic Regression]]
 - [[stats/03_Regression_Analysis/Breusch-Pagan Test\|Breusch-Pagan Test]]
@@ -175,106 +183,131 @@
 
 ---
 
-## Machine Learning
+## 04. Supervised Learning
+*Predictive modeling, classification metrics, and tree-based methods.*
 
-- [[stats/04_Machine_Learning/Bayesian Statistics via Probabilistic Programming\|Bayesian Statistics via Probabilistic Programming]]
-- [[stats/04_Machine_Learning/Bootstrap Methods\|Bootstrap Methods]]
-- [[stats/04_Machine_Learning/Confusion Matrix\|Confusion Matrix]]
-- [[stats/04_Machine_Learning/Cross-Validation\|Cross-Validation]]
-- [[stats/04_Machine_Learning/Decision Tree\|Decision Tree]]
-- [[stats/04_Machine_Learning/Ensemble Methods\|Ensemble Methods]]
-- [[stats/04_Machine_Learning/Gradient Boosting (XGBoost)\|Gradient Boosting (XGBoost)]]
-- [[stats/04_Machine_Learning/Gradient Descent\|Gradient Descent]]
-- [[stats/04_Machine_Learning/Hierarchical Clustering\|Hierarchical Clustering]]
-- [[stats/04_Machine_Learning/K-Means Clustering\|K-Means Clustering]]
-- [[stats/04_Machine_Learning/K-Nearest Neighbors (KNN)\|K-Nearest Neighbors (KNN)]]
-- [[stats/04_Machine_Learning/Model Evaluation Metrics\|Model Evaluation Metrics]]
-- [[stats/04_Machine_Learning/Naive Bayes\|Naive Bayes]]
-- [[stats/04_Machine_Learning/Neural Networks\|Neural Networks]]
-- [[stats/04_Machine_Learning/Overfitting\|Overfitting]]
-- [[stats/04_Machine_Learning/Overfitting & Underfitting\|Overfitting & Underfitting]]
-- [[stats/04_Machine_Learning/Precision-Recall Curve\|Precision-Recall Curve]]
-- [[stats/04_Machine_Learning/Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]]
-- [[stats/04_Machine_Learning/Probabilistic Programming\|Probabilistic Programming]]
-- [[stats/04_Machine_Learning/Random Forest\|Random Forest]]
-- [[stats/04_Machine_Learning/ROC & AUC\|ROC & AUC]]
-- [[stats/04_Machine_Learning/Support Vector Machines (SVM)\|Support Vector Machines (SVM)]]
-- [[stats/04_Machine_Learning/Train-Test Split\|Train-Test Split]]
-
-{ .block-language-dataview}
-
----
-
-## Time Series
-
-- [[stats/05_Time_Series/ARIMA Models\|ARIMA Models]]
-- [[stats/05_Time_Series/Auto-Correlation (ACF & PACF)\|Auto-Correlation (ACF & PACF)]]
-- [[stats/05_Time_Series/Breusch-Godfrey Test\|Breusch-Godfrey Test]]
-- [[stats/05_Time_Series/Durbin-Watson Test\|Durbin-Watson Test]]
-- [[stats/05_Time_Series/GARCH Models\|GARCH Models]]
-- [[stats/05_Time_Series/Granger Causality\|Granger Causality]]
-- [[stats/05_Time_Series/Smoothing\|Smoothing]]
-- [[stats/05_Time_Series/Stationarity (ADF & KPSS)\|Stationarity (ADF & KPSS)]]
-- [[stats/05_Time_Series/Taylor Series\|Taylor Series]]
-- [[stats/05_Time_Series/Time Series Analysis\|Time Series Analysis]]
-- [[stats/05_Time_Series/Vector Autoregression (VAR)\|Vector Autoregression (VAR)]]
+- [[stats/04_Supervised_Learning/Bayesian Statistics via Probabilistic Programming\|Bayesian Statistics via Probabilistic Programming]]
+- [[stats/04_Supervised_Learning/Bootstrap Methods\|Bootstrap Methods]]
+- [[stats/04_Supervised_Learning/Confusion Matrix\|Confusion Matrix]]
+- [[stats/04_Supervised_Learning/Cross-Validation\|Cross-Validation]]
+- [[stats/04_Supervised_Learning/Decision Tree\|Decision Tree]]
+- [[stats/04_Supervised_Learning/Ensemble Methods\|Ensemble Methods]]
+- [[stats/04_Supervised_Learning/Gradient Boosting (XGBoost)\|Gradient Boosting (XGBoost)]]
+- [[stats/04_Supervised_Learning/Gradient Descent\|Gradient Descent]]
+- [[stats/04_Supervised_Learning/Hierarchical Clustering\|Hierarchical Clustering]]
+- [[stats/04_Supervised_Learning/K-Means Clustering\|K-Means Clustering]]
+- [[stats/04_Supervised_Learning/K-Nearest Neighbors (KNN)\|K-Nearest Neighbors (KNN)]]
+- [[stats/04_Supervised_Learning/Model Evaluation Metrics\|Model Evaluation Metrics]]
+- [[stats/04_Supervised_Learning/Naive Bayes\|Naive Bayes]]
+- [[stats/04_Supervised_Learning/Neural Networks\|Neural Networks]]
+- [[stats/04_Supervised_Learning/Overfitting\|Overfitting]]
+- [[stats/04_Supervised_Learning/Overfitting & Underfitting\|Overfitting & Underfitting]]
+- [[stats/04_Supervised_Learning/Precision-Recall Curve\|Precision-Recall Curve]]
+- [[stats/04_Supervised_Learning/Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]]
+- [[stats/04_Supervised_Learning/Probabilistic Programming\|Probabilistic Programming]]
+- [[stats/04_Supervised_Learning/Random Forest\|Random Forest]]
+- [[stats/04_Supervised_Learning/ROC & AUC\|ROC & AUC]]
+- [[stats/04_Supervised_Learning/Support Vector Machines (SVM)\|Support Vector Machines (SVM)]]
+- [[stats/04_Supervised_Learning/Train-Test Split\|Train-Test Split]]
 
 { .block-language-dataview}
 
 ---
 
-## Causal Inference
+## 05. Unsupervised Learning
+*Pattern discovery, clustering, and dimensionality reduction.*
 
-- [[stats/06_Causal_Inference/Causal Inference\|Causal Inference]]
-- [[stats/06_Causal_Inference/Difference-in-Differences (DiD)\|Difference-in-Differences (DiD)]]
-- [[stats/06_Causal_Inference/Instrumental Variables (IV)\|Instrumental Variables (IV)]]
-- [[stats/06_Causal_Inference/Mediation & Moderation Analysis\|Mediation & Moderation Analysis]]
-- [[stats/06_Causal_Inference/Propensity Score Matching (PSM)\|Propensity Score Matching (PSM)]]
-- [[stats/06_Causal_Inference/Regression Discontinuity Design (RDD)\|Regression Discontinuity Design (RDD)]]
-- [[stats/06_Causal_Inference/Sensitivity and Specificity\|Sensitivity and Specificity]]
-- [[stats/06_Causal_Inference/Survival Analysis\|Survival Analysis]]
-- [[stats/06_Causal_Inference/Synthetic Control Method\|Synthetic Control Method]]
+- [[stats/05_Unsupervised_Learning/Hierarchical Clustering\|Hierarchical Clustering]]
+- [[stats/05_Unsupervised_Learning/K-Means Clustering\|K-Means Clustering]]
+- [[stats/05_Unsupervised_Learning/PCA (Principal Component Analysis)\|PCA (Principal Component Analysis)]]
+- [[stats/05_Unsupervised_Learning/t-SNE & UMAP\|t-SNE & UMAP]]
 
 { .block-language-dataview}
 
 ---
 
-## Ethics and Biases
+## 06. Experimental Design
+*Modern A/B testing, bandits, and sequential analysis.*
 
-- [[stats/07_Ethics_and_Biases/Algorithmic Bias\|Algorithmic Bias]]
-- [[stats/07_Ethics_and_Biases/Confounding Bias\|Confounding Bias]]
-- [[stats/07_Ethics_and_Biases/Differential Privacy\|Differential Privacy]]
-- [[stats/07_Ethics_and_Biases/Feedback Loops\|Feedback Loops]]
-- [[stats/07_Ethics_and_Biases/P-Hacking\|P-Hacking]]
-- [[stats/07_Ethics_and_Biases/Publication Bias\|Publication Bias]]
-- [[stats/07_Ethics_and_Biases/Recall Bias\|Recall Bias]]
-- [[stats/07_Ethics_and_Biases/Selection Bias\|Selection Bias]]
-- [[stats/07_Ethics_and_Biases/Simpson's Paradox\|Simpson's Paradox]]
-- [[stats/07_Ethics_and_Biases/Survivorship Bias\|Survivorship Bias]]
+- [[stats/06_Experimental_Design/Interleaved Testing\|Interleaved Testing]]
+- [[stats/06_Experimental_Design/Multi-armed Bandits (MAB)\|Multi-armed Bandits (MAB)]]
+- [[stats/06_Experimental_Design/Sequential Analysis\|Sequential Analysis]]
 
 { .block-language-dataview}
 
 ---
 
----
+## 07. Causal Inference
+*Econometric methods for policy analysis and counterfactuals.*
 
-## Visualization
-
-- [[stats/08_Visualization/Boxplot\|Boxplot]]
-- [[stats/08_Visualization/Heatmap\|Heatmap]]
-- [[stats/08_Visualization/Histogram\|Histogram]]
-- [[stats/08_Visualization/Q-Q Plot\|Q-Q Plot]]
-- [[stats/08_Visualization/Scatter Plot\|Scatter Plot]]
-- [[stats/08_Visualization/Violin Plot\|Violin Plot]]
+- [[stats/07_Causal_Inference/Causal Inference\|Causal Inference]]
+- [[stats/07_Causal_Inference/Difference-in-Differences (DiD)\|Difference-in-Differences (DiD)]]
+- [[stats/07_Causal_Inference/Instrumental Variables (IV)\|Instrumental Variables (IV)]]
+- [[stats/07_Causal_Inference/Mediation & Moderation Analysis\|Mediation & Moderation Analysis]]
+- [[stats/07_Causal_Inference/Propensity Score Matching (PSM)\|Propensity Score Matching (PSM)]]
+- [[stats/07_Causal_Inference/Regression Discontinuity Design (RDD)\|Regression Discontinuity Design (RDD)]]
+- [[stats/07_Causal_Inference/Sensitivity and Specificity\|Sensitivity and Specificity]]
+- [[stats/07_Causal_Inference/Survival Analysis\|Survival Analysis]]
+- [[stats/07_Causal_Inference/Synthetic Control Method\|Synthetic Control Method]]
 
 { .block-language-dataview}
 
 ---
 
-## Modern Experimental Design
+## 08. Time Series Analysis
+*Analysis of temporal data, forecasting, and stationarity.*
 
-- [[stats/09_Modern_Experimental_Design/Interleaved Testing\|Interleaved Testing]]
-- [[stats/09_Modern_Experimental_Design/Multi-armed Bandits (MAB)\|Multi-armed Bandits (MAB)]]
-- [[stats/09_Modern_Experimental_Design/Sequential Analysis\|Sequential Analysis]]
+- [[stats/08_Time_Series_Analysis/ARIMA Models\|ARIMA Models]]
+- [[stats/08_Time_Series_Analysis/Auto-Correlation (ACF & PACF)\|Auto-Correlation (ACF & PACF)]]
+- [[stats/08_Time_Series_Analysis/Breusch-Godfrey Test\|Breusch-Godfrey Test]]
+- [[stats/08_Time_Series_Analysis/Durbin-Watson Test\|Durbin-Watson Test]]
+- [[stats/08_Time_Series_Analysis/GARCH Models\|GARCH Models]]
+- [[stats/08_Time_Series_Analysis/Granger Causality\|Granger Causality]]
+- [[stats/08_Time_Series_Analysis/Smoothing\|Smoothing]]
+- [[stats/08_Time_Series_Analysis/Stationarity (ADF & KPSS)\|Stationarity (ADF & KPSS)]]
+- [[stats/08_Time_Series_Analysis/Taylor Series\|Taylor Series]]
+- [[stats/08_Time_Series_Analysis/Time Series Analysis\|Time Series Analysis]]
+- [[stats/08_Time_Series_Analysis/Vector Autoregression (VAR)\|Vector Autoregression (VAR)]]
+
+{ .block-language-dataview}
+
+---
+
+## 09. EDA and Visualization
+*Visual storytelling, plotting best practices, and exploratory tools.*
+
+- [[stats/09_EDA_and_Visualization/Area Chart\|Area Chart]]
+- [[stats/09_EDA_and_Visualization/Bar Chart\|Bar Chart]]
+- [[stats/09_EDA_and_Visualization/Boxplot\|Boxplot]]
+- [[stats/09_EDA_and_Visualization/Density Plot (KDE)\|Density Plot (KDE)]]
+- [[stats/09_EDA_and_Visualization/Dot Plot\|Dot Plot]]
+- [[stats/09_EDA_and_Visualization/Heatmap\|Heatmap]]
+- [[stats/09_EDA_and_Visualization/Histogram\|Histogram]]
+- [[stats/09_EDA_and_Visualization/Joint Plot\|Joint Plot]]
+- [[stats/09_EDA_and_Visualization/Line Chart\|Line Chart]]
+- [[stats/09_EDA_and_Visualization/Parallel Coordinates\|Parallel Coordinates]]
+- [[stats/09_EDA_and_Visualization/Pareto Chart\|Pareto Chart]]
+- [[stats/09_EDA_and_Visualization/Q-Q Plot\|Q-Q Plot]]
+- [[stats/09_EDA_and_Visualization/Radar Chart\|Radar Chart]]
+- [[stats/09_EDA_and_Visualization/Scatter Plot\|Scatter Plot]]
+- [[stats/09_EDA_and_Visualization/Violin Plot\|Violin Plot]]
+
+{ .block-language-dataview}
+
+---
+
+## 10. Ethics and Biases
+*Algorithmic fairness, statistical paradoxes, and research integrity.*
+
+- [[stats/10_Ethics_and_Biases/Algorithmic Bias\|Algorithmic Bias]]
+- [[stats/10_Ethics_and_Biases/Confounding Bias\|Confounding Bias]]
+- [[stats/10_Ethics_and_Biases/Differential Privacy\|Differential Privacy]]
+- [[stats/10_Ethics_and_Biases/Feedback Loops\|Feedback Loops]]
+- [[stats/10_Ethics_and_Biases/P-Hacking\|P-Hacking]]
+- [[stats/10_Ethics_and_Biases/Publication Bias\|Publication Bias]]
+- [[stats/10_Ethics_and_Biases/Recall Bias\|Recall Bias]]
+- [[stats/10_Ethics_and_Biases/Selection Bias\|Selection Bias]]
+- [[stats/10_Ethics_and_Biases/Simpson's Paradox\|Simpson's Paradox]]
+- [[stats/10_Ethics_and_Biases/Survivorship Bias\|Survivorship Bias]]
 
 { .block-language-dataview}

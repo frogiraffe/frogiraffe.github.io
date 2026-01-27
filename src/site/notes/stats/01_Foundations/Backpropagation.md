@@ -54,8 +54,8 @@ W2 -= lr * dL_dW2
 ## Related Concepts
 
 - [[stats/01_Foundations/Loss Function\|Loss Function]] - What we differentiate
-- [[stats/04_Machine_Learning/Gradient Descent\|Gradient Descent]] - Uses computed gradients
-- [[stats/04_Machine_Learning/Neural Networks\|Neural Networks]] - Where backprop is used
+- [[stats/04_Supervised_Learning/Gradient Descent\|Gradient Descent]] - Uses computed gradients
+- [[stats/04_Supervised_Learning/Neural Networks\|Neural Networks]] - Where backprop is used
 
 ---
 

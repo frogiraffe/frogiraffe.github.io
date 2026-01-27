@@ -53,7 +53,7 @@ sample(1:3, 1000, replace = TRUE, prob = probs)
 
 - Classification models (softmax output)
 - Survey responses with multiple choices
-- [[stats/04_Machine_Learning/Naive Bayes\|Naive Bayes]] - Feature likelihoods
+- [[stats/04_Supervised_Learning/Naive Bayes\|Naive Bayes]] - Feature likelihoods
 
 ---
 

@@ -58,8 +58,8 @@ $$ \text{Loss} = \text{Data Fit Error} + \lambda \times \text{Complexity Penalty
 ## Related Concepts
 
 - [[stats/01_Foundations/Bias-Variance Trade-off\|Bias-Variance Trade-off]]
-- [[stats/04_Machine_Learning/Overfitting\|Overfitting]]
-- [[stats/04_Machine_Learning/Cross-Validation\|Cross-Validation]] - Essential for choosing $\lambda$ (strength of penalty).
+- [[stats/04_Supervised_Learning/Overfitting\|Overfitting]]
+- [[stats/04_Supervised_Learning/Cross-Validation\|Cross-Validation]] - Essential for choosing $\lambda$ (strength of penalty).
 
 ---
 

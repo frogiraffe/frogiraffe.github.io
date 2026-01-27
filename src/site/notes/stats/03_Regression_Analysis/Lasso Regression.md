@@ -329,7 +329,7 @@ cat("MSE:", mse, "\n")
 **Extensions:**
 - [[Group Lasso\|Group Lasso]] — Select entire groups of variables
 - [[Adaptive Lasso\|Adaptive Lasso]] — Weights penalties by initial estimates
-- [[stats/04_Machine_Learning/Cross-Validation\|Cross-Validation]] — Required for tuning λ
+- [[stats/04_Supervised_Learning/Cross-Validation\|Cross-Validation]] — Required for tuning λ
 
 ---
 

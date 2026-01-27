@@ -243,7 +243,7 @@ Model: $\text{Salary} = 30000 + 1000 \times \text{Exp} + 20000 \times \text{Edu}
 
 - [[stats/03_Regression_Analysis/Multiple Linear Regression\|Multiple Linear Regression]] — Base framework
 - [[Moderation vs Mediation\|Moderation vs Mediation]] — Related concepts
-- [[stats/02_Hypothesis_Testing/One-Way ANOVA\|ANOVA]] — Factorial interactions
+- [[stats/02_Statistical_Inference/One-Way ANOVA\|ANOVA]] — Factorial interactions
 - [[stats/03_Regression_Analysis/VIF (Variance Inflation Factor)\|Multicollinearity]] — Issue with interactions
 
 ---

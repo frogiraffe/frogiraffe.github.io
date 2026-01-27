@@ -252,7 +252,7 @@ summary(pooled)
 - [[MICE (Multiple Imputation)\|MICE (Multiple Imputation)]]
 - [[Expectation Maximization (EM)\|Expectation Maximization (EM)]]
 - [[stats/01_Foundations/Selection Bias\|Selection Bias]]
-- [[stats/06_Causal_Inference/Survival Analysis\|Survival Analysis]] (Censoring is a form of missingness)
+- [[stats/07_Causal_Inference/Survival Analysis\|Survival Analysis]] (Censoring is a form of missingness)
 
 ---
 

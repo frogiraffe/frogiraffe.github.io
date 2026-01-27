@@ -71,7 +71,7 @@ VIF is a diagnostic, not a test. It has no formal assumptions but is only meanin
 ## Solutions for High VIF
 
 1.  **Remove one variable:** If $X_1$ and $X_2$ measure the same thing, drop one.
-2.  **Combine variables:** Create an index or use [[stats/04_Machine_Learning/Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]].
+2.  **Combine variables:** Create an index or use [[stats/04_Supervised_Learning/Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]].
 3.  **Regularization:** Use [[stats/03_Regression_Analysis/Ridge Regression\|Ridge Regression]] or [[stats/03_Regression_Analysis/Lasso Regression\|Lasso Regression]].
 
 ---
@@ -126,7 +126,7 @@ vif(model)
 
 - [[stats/03_Regression_Analysis/Multiple Linear Regression\|Multiple Linear Regression]]
 - [[stats/03_Regression_Analysis/Ridge Regression\|Ridge Regression]] - Handles multicollinearity.
-- [[stats/04_Machine_Learning/Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] - Dimension reduction.
+- [[stats/04_Supervised_Learning/Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] - Dimension reduction.
 - [[stats/01_Foundations/Correlation Matrix\|Correlation Matrix]]
 
 ---

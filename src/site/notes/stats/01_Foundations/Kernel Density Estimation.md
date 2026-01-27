@@ -60,9 +60,9 @@ rug(data)
 
 ## Related Concepts
 
-- [[stats/08_Visualization/Histogram\|Histogram]] - Discrete alternative
+- [[stats/09_EDA_and_Visualization/Histogram\|Histogram]] - Discrete alternative
 - [[stats/03_Regression_Analysis/Local Linear Regression\|Local Linear Regression]] - Uses similar kernels
-- [[stats/08_Visualization/Violin Plot\|Violin Plot]] - Uses KDE
+- [[stats/09_EDA_and_Visualization/Violin Plot\|Violin Plot]] - Uses KDE
 
 ---
 

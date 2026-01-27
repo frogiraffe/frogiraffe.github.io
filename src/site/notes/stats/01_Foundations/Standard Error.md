@@ -20,7 +20,7 @@
 ## Purpose
 
 1. Quantify **uncertainty** in sample estimates.
-2. Construct [[stats/02_Hypothesis_Testing/Confidence Intervals\|Confidence Intervals]].
+2. Construct [[stats/02_Statistical_Inference/Confidence Intervals\|Confidence Intervals]].
 3. Calculate test statistics (t-statistic, z-statistic).
 4. Distinguish between **variability in data (SD)** and **variability in estimates (SE)**.
 
@@ -142,7 +142,7 @@ t.test(data)$conf.int
 
 - [[stats/01_Foundations/Standard Deviation\|Standard Deviation]] - Variability in data.
 - [[stats/01_Foundations/Central Limit Theorem (CLT)\|Central Limit Theorem (CLT)]] - Why SE exists.
-- [[stats/02_Hypothesis_Testing/Confidence Intervals\|Confidence Intervals]] - Built from SE.
+- [[stats/02_Statistical_Inference/Confidence Intervals\|Confidence Intervals]] - Built from SE.
 - [[stats/01_Foundations/T-Distribution\|T-Distribution]] - Used with SE when $\sigma$ unknown.
 
 ---

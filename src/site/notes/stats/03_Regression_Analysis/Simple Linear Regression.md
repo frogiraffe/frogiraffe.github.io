@@ -87,8 +87,8 @@ $$
 
 > [!important] The LINE Mnemonic
 > - [ ] **L**inearity: The relationship between $X$ and $Y$ is linear. (Check: Scatter plot, Residual vs Fitted plot).
-> - [ ] **I**ndependence: Observations are independent. (Check: [[stats/05_Time_Series/Durbin-Watson Test\|Durbin-Watson Test]] for time series).
-> - [ ] **N**ormality: ==Residuals== (not $Y$!) are normally distributed. (Check: [[stats/08_Visualization/Q-Q Plot\|Q-Q Plot]], [[stats/02_Hypothesis_Testing/Shapiro-Wilk Test\|Shapiro-Wilk Test]]).
+> - [ ] **I**ndependence: Observations are independent. (Check: [[stats/08_Time_Series_Analysis/Durbin-Watson Test\|Durbin-Watson Test]] for time series).
+> - [ ] **N**ormality: ==Residuals== (not $Y$!) are normally distributed. (Check: [[stats/09_EDA_and_Visualization/Q-Q Plot\|Q-Q Plot]], [[stats/02_Statistical_Inference/Shapiro-Wilk Test\|Shapiro-Wilk Test]]).
 > - [ ] **E**qual Variance (Homoscedasticity): The variance of residuals is constant across all $X$. (Check: [[stats/03_Regression_Analysis/Breusch-Pagan Test\|Breusch-Pagan Test]], Residual vs Fitted plot).
 
 ---
@@ -209,7 +209,7 @@ predict(model, newdata = new_data, interval = "confidence")
 ## Related Concepts
 
 - [[stats/03_Regression_Analysis/Multiple Linear Regression\|Multiple Linear Regression]] - More than one predictor.
-- [[stats/02_Hypothesis_Testing/Pearson Correlation\|Pearson Correlation]] - Related but different (Correlation $\neq$ Slope).
+- [[stats/02_Statistical_Inference/Pearson Correlation\|Pearson Correlation]] - Related but different (Correlation $\neq$ Slope).
 - [[stats/03_Regression_Analysis/Residual Analysis\|Residual Analysis]] - Checking assumptions.
 - [[stats/03_Regression_Analysis/Cook's Distance\|Cook's Distance]] - Identifying influential observations.
 

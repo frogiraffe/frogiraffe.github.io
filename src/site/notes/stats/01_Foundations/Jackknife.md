@@ -63,8 +63,8 @@ sqrt(jack_var)
 
 ## Related Concepts
 
-- [[stats/04_Machine_Learning/Bootstrap Methods\|Bootstrap Methods]] - More flexible resampling
-- [[stats/04_Machine_Learning/Cross-Validation\|Cross-Validation]] - Similar leave-out idea
+- [[stats/04_Supervised_Learning/Bootstrap Methods\|Bootstrap Methods]] - More flexible resampling
+- [[stats/04_Supervised_Learning/Cross-Validation\|Cross-Validation]] - Similar leave-out idea
 
 ---
 

@@ -118,10 +118,10 @@ grad(f, x=2)
 
 ## Related Concepts
 
-- [[stats/04_Machine_Learning/Gradient Descent\|Gradient Descent]] - Using derivates iteratively.
+- [[stats/04_Supervised_Learning/Gradient Descent\|Gradient Descent]] - Using derivates iteratively.
 - [[stats/01_Foundations/Optimization\|Optimization]] - The broader field.
-- [[stats/04_Machine_Learning/Neural Networks\|Neural Networks]] - Use partial derivatives (weights).
-- [[stats/05_Time_Series/Taylor Series\|Taylor Series]] - Approximating functions using derivatives.
+- [[stats/04_Supervised_Learning/Neural Networks\|Neural Networks]] - Use partial derivatives (weights).
+- [[stats/08_Time_Series_Analysis/Taylor Series\|Taylor Series]] - Approximating functions using derivatives.
 
 ---
 

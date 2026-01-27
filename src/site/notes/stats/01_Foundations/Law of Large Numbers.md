@@ -132,7 +132,7 @@ legend("topright", legend = "True Mean = 3.5", col = "red", lty = 2)
 
 - [[stats/01_Foundations/Central Limit Theorem (CLT)\|Central Limit Theorem (CLT)]] - Distribution shape.
 - [[stats/01_Foundations/Monte Carlo Simulation\|Monte Carlo Simulation]]
-- [[stats/02_Hypothesis_Testing/Sample Size Calculation\|Sample Size Calculation]]
+- [[stats/02_Statistical_Inference/Sample Size Calculation\|Sample Size Calculation]]
 - [[stats/01_Foundations/Convergence\|Convergence]]
 
 ---

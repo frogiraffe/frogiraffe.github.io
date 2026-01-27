@@ -60,7 +60,7 @@ dhyper(1, m=4, n=48, k=5)  # m=successes in pop, n=failures, k=draws
 
 - Quality control (defectives in sample)
 - Card games (specific hands)
-- [[stats/02_Hypothesis_Testing/Fisher's Exact Test\|Fisher's Exact Test]] - Based on hypergeometric
+- [[stats/02_Statistical_Inference/Fisher's Exact Test\|Fisher's Exact Test]] - Based on hypergeometric
 
 ---
 

@@ -44,8 +44,8 @@
 
 ## Related Concepts
 
-- [[stats/02_Hypothesis_Testing/Hypothesis Testing (P-Value & CI)\|P-value]] - Misuse contributes to crisis
-- [[stats/02_Hypothesis_Testing/Power Analysis\|Power Analysis]] - Proper planning
+- [[stats/02_Statistical_Inference/Hypothesis Testing (P-Value & CI)\|P-value]] - Misuse contributes to crisis
+- [[stats/02_Statistical_Inference/Power Analysis\|Power Analysis]] - Proper planning
 - [[stats/01_Foundations/Multiple Comparisons Problem\|Multiple Comparisons Problem]] - Source of false positives
 
 ---

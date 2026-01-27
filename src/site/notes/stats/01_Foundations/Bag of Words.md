@@ -80,7 +80,7 @@ print(matrix_dtm)
 ## Related Concepts
 
 - Word embeddings (Word2Vec) - Dense alternatives
-- [[stats/04_Machine_Learning/Naive Bayes\|Naive Bayes]] - Common BoW classifier
+- [[stats/04_Supervised_Learning/Naive Bayes\|Naive Bayes]] - Common BoW classifier
 - TF-IDF - Weighted variant
 
 ---

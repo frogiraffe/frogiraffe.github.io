@@ -41,7 +41,7 @@ $$
 > - Measuring **spread/dispersion** of data.
 > - Comparing **consistency** between groups.
 > - Calculating [[stats/01_Foundations/Standard Deviation\|Standard Deviation]] ($\sigma = \sqrt{\sigma^2}$).
-> - Building statistical models ([[stats/02_Hypothesis_Testing/One-Way ANOVA\|ANOVA]], [[stats/03_Regression_Analysis/Multiple Linear Regression\|Linear Regression]]).
+> - Building statistical models ([[stats/02_Statistical_Inference/One-Way ANOVA\|ANOVA]], [[stats/03_Regression_Analysis/Multiple Linear Regression\|Linear Regression]]).
 > - Understanding [[stats/01_Foundations/Bias-Variance Trade-off\|Bias-Variance Trade-off]] in ML.
 
 > [!failure] Variance Limitations

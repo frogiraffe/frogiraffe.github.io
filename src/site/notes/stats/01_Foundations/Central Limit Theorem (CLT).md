@@ -19,7 +19,7 @@
 ## Purpose
 
 The CLT is the **foundational pillar** of inferential statistics. It justifies:
-1.  Using Z-scores and T-scores to calculate [[stats/02_Hypothesis_Testing/Confidence Intervals\|Confidence Intervals]].
+1.  Using Z-scores and T-scores to calculate [[stats/02_Statistical_Inference/Confidence Intervals\|Confidence Intervals]].
 2.  Using parametric tests (T-tests, ANOVA) on non-normal data when $n$ is large.
 3.  The assumption of normality for sample means in hypothesis testing.
 
@@ -197,7 +197,7 @@ ggplot(df, aes(x=mean, fill=n)) +
 - [[stats/01_Foundations/Law of Large Numbers\|Law of Large Numbers]] - Related but distinct (LLN is about accuracy, CLT is about distribution shape).
 - [[stats/01_Foundations/Standard Error\|Standard Error]] - Derived directly from CLT.
 - [[stats/01_Foundations/T-Distribution\|T-Distribution]] - Used when $\sigma$ is unknown.
-- [[stats/02_Hypothesis_Testing/Confidence Intervals\|Confidence Intervals]] - Built on CLT logic.
+- [[stats/02_Statistical_Inference/Confidence Intervals\|Confidence Intervals]] - Built on CLT logic.
 
 ---
 

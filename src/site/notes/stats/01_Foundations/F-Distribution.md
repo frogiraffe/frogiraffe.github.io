@@ -15,7 +15,7 @@
 
 1. Test **equality of variances** (Levene's Test uses a related statistic).
 2. Test **overall significance** of regression models.
-3. Compare variance explained by groups in [[stats/02_Hypothesis_Testing/One-Way ANOVA\|One-Way ANOVA]].
+3. Compare variance explained by groups in [[stats/02_Statistical_Inference/One-Way ANOVA\|One-Way ANOVA]].
 4. Basis for the **F-statistic** in multiple testing scenarios.
 
 ---
@@ -23,10 +23,10 @@
 ## When to Use
 
 > [!success] F-Distribution Appears In...
-> - [[stats/02_Hypothesis_Testing/One-Way ANOVA\|One-Way ANOVA]] - Testing if group means differ.
+> - [[stats/02_Statistical_Inference/One-Way ANOVA\|One-Way ANOVA]] - Testing if group means differ.
 > - [[stats/03_Regression_Analysis/Multiple Linear Regression\|Multiple Linear Regression]] - Overall model F-test.
 > - **Variance Ratio Test** - Comparing two sample variances.
-> - [[stats/02_Hypothesis_Testing/Welch's ANOVA\|Welch's ANOVA]] - Modified F-test for unequal variances.
+> - [[stats/02_Statistical_Inference/Welch's ANOVA\|Welch's ANOVA]] - Modified F-test for unequal variances.
 
 ---
 
@@ -188,10 +188,10 @@ legend("topright",
 
 ## Related Concepts
 
-- [[stats/02_Hypothesis_Testing/One-Way ANOVA\|One-Way ANOVA]] - Primary application.
+- [[stats/02_Statistical_Inference/One-Way ANOVA\|One-Way ANOVA]] - Primary application.
 - [[stats/01_Foundations/Chi-Square Distribution\|Chi-Square Distribution]] - F is the ratio of two chi-squares.
 - [[stats/01_Foundations/T-Distribution\|T-Distribution]] - Related via $t^2 = F(1, df)$.
-- [[stats/02_Hypothesis_Testing/Levene's Test\|Levene's Test]] - Uses F-like statistic for variance equality.
+- [[stats/02_Statistical_Inference/Levene's Test\|Levene's Test]] - Uses F-like statistic for variance equality.
 
 ---
 

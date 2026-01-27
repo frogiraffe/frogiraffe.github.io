@@ -89,8 +89,8 @@ path.plot(synth_out, synth_data)
 
 ## Related Concepts
 
-- [[stats/06_Causal_Inference/Difference-in-Differences (DiD)\|Difference-in-Differences]] - Alternative causal method
-- [[stats/06_Causal_Inference/Propensity Score Matching (PSM)\|Propensity Score Matching]] - Individual-level matching
+- [[stats/07_Causal_Inference/Difference-in-Differences (DiD)\|Difference-in-Differences]] - Alternative causal method
+- [[stats/07_Causal_Inference/Propensity Score Matching (PSM)\|Propensity Score Matching]] - Individual-level matching
 - [[stats/01_Foundations/Randomized Controlled Trials\|Randomized Controlled Trials]] - Gold standard
 
 ---

@@ -90,9 +90,9 @@ library(caret)
 
 ## Related Concepts
 
-- [[stats/02_Hypothesis_Testing/A-B Testing\|A-B Testing]] - Online RCT
+- [[stats/02_Statistical_Inference/A-B Testing\|A-B Testing]] - Online RCT
 - [[stats/01_Foundations/Confounding Variables\|Confounding Variables]] - What RCTs eliminate
-- [[stats/02_Hypothesis_Testing/Power Analysis\|Power Analysis]] - Sample size planning
+- [[stats/02_Statistical_Inference/Power Analysis\|Power Analysis]] - Sample size planning
 
 ---
 

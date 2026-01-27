@@ -57,8 +57,8 @@ def thompson_sampling(successes, failures):
 
 ## Related Concepts
 
-- [[stats/02_Hypothesis_Testing/A-B Testing\|A-B Testing]] - Traditional approach (no exploration)
-- [[stats/02_Hypothesis_Testing/Sequential Testing\|Sequential Testing]] - Related methodology
+- [[stats/02_Statistical_Inference/A-B Testing\|A-B Testing]] - Traditional approach (no exploration)
+- [[stats/02_Statistical_Inference/Sequential Testing\|Sequential Testing]] - Related methodology
 - [[stats/01_Foundations/Bayesian Statistics\|Bayesian Statistics]] - Thompson Sampling uses Bayes
 
 ---

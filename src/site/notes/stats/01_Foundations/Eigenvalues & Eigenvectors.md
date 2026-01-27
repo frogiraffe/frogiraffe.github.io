@@ -120,7 +120,7 @@ print(lambda1 * v1)
 
 ## Related Concepts
 
-- [[stats/04_Machine_Learning/Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] - Main application in stats.
+- [[stats/04_Supervised_Learning/Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] - Main application in stats.
 - [[stats/01_Foundations/Matrix Multiplication\|Matrix Multiplication]] - The operation $Av$.
 - [[stats/01_Foundations/Covariance Matrix\|Covariance Matrix]] - The input matrix often used.
 - [[stats/01_Foundations/Singular Value Decomposition (SVD)\|Singular Value Decomposition (SVD)]] - Generalization for non-square matrices (used in calculating PCA in practice).

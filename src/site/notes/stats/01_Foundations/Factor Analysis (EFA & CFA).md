@@ -64,7 +64,7 @@ print(loadings)
 
 ## 4. Related Concepts
 
-- [[stats/04_Machine_Learning/Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] - Often used as a preliminary step.
+- [[stats/04_Supervised_Learning/Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] - Often used as a preliminary step.
 - [[stats/01_Foundations/Structural Equation Modeling (SEM)\|Structural Equation Modeling (SEM)]] - Extension of CFA.
 - [[Cronbach's Alpha\|Cronbach's Alpha]] - Reliability metric often paired with FA.
 

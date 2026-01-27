@@ -60,7 +60,7 @@ V <- svd_result$v
 
 ## Related Concepts
 
-- [[stats/04_Machine_Learning/Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] - Uses SVD internally
+- [[stats/04_Supervised_Learning/Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] - Uses SVD internally
 - [[stats/01_Foundations/Eigenvalues & Eigenvectors\|Eigenvalue]] - Related to singular values
 
 ---

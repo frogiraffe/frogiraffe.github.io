@@ -75,7 +75,7 @@ log_loss <- function(y_true, y_pred) {
 ## Related Concepts
 
 - [[stats/01_Foundations/Optimization\|Optimization]] - Minimizing the loss
-- [[stats/04_Machine_Learning/Gradient Descent\|Gradient Descent]] - Common optimization method
+- [[stats/04_Supervised_Learning/Gradient Descent\|Gradient Descent]] - Common optimization method
 - [[stats/03_Regression_Analysis/Regularization\|Regularization]] - Adding penalty to loss
 
 ---

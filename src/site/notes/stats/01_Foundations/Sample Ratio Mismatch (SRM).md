@@ -82,9 +82,9 @@ if(test$p.value < 0.01) {
 
 ## Related Concepts
 
-- [[stats/02_Hypothesis_Testing/A-B Testing\|A-B Testing]] - Where SRM occurs
+- [[stats/02_Statistical_Inference/A-B Testing\|A-B Testing]] - Where SRM occurs
 - [[stats/01_Foundations/Selection Bias\|Selection Bias]] - SRM is a form of selection bias
-- [[stats/02_Hypothesis_Testing/Chi-Square Test\|Chi-Square Test]] - Detection method
+- [[stats/02_Statistical_Inference/Chi-Square Test\|Chi-Square Test]] - Detection method
 
 ---
 

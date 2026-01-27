@@ -26,7 +26,7 @@
 
 > [!warning] Causation Requires...
 > - **Randomized Controlled Trials (RCTs).**
-> - **Quasi-experimental designs** ([[stats/06_Causal_Inference/Instrumental Variables (IV)\|Instrumental Variables (IV)]], [[stats/06_Causal_Inference/Difference-in-Differences (DiD)\|Difference-in-Differences (DiD)]], [[stats/06_Causal_Inference/Regression Discontinuity Design (RDD)\|Regression Discontinuity Design (RDD)]]).
+> - **Quasi-experimental designs** ([[stats/07_Causal_Inference/Instrumental Variables (IV)\|Instrumental Variables (IV)]], [[stats/07_Causal_Inference/Difference-in-Differences (DiD)\|Difference-in-Differences (DiD)]], [[stats/07_Causal_Inference/Regression Discontinuity Design (RDD)\|Regression Discontinuity Design (RDD)]]).
 > - Strong theoretical justification + ruling out confounders.
 
 ---
@@ -70,9 +70,9 @@ $X$ may correlate with $Y$ because $Y$ causes $X$, not the other way around.
 | Method | Strength | Limitation |
 |--------|----------|------------|
 | **Randomized Controlled Trial (RCT)** | **Gold Standard.** Random assignment breaks confounding. | Expensive, ethically limited. |
-| [[stats/06_Causal_Inference/Instrumental Variables (IV)\|Instrumental Variables (IV)]] | Identifies causal effect with natural experiment. | Finding valid instruments is hard. |
-| [[stats/06_Causal_Inference/Propensity Score Matching (PSM)\|Propensity Score Matching (PSM)]] | Balances observed confounders. | Cannot control unobserved confounders. |
-| [[stats/06_Causal_Inference/Difference-in-Differences (DiD)\|Difference-in-Differences (DiD)]] | Removes time-invariant confounders. | Assumes parallel trends. |
+| [[stats/07_Causal_Inference/Instrumental Variables (IV)\|Instrumental Variables (IV)]] | Identifies causal effect with natural experiment. | Finding valid instruments is hard. |
+| [[stats/07_Causal_Inference/Propensity Score Matching (PSM)\|Propensity Score Matching (PSM)]] | Balances observed confounders. | Cannot control unobserved confounders. |
+| [[stats/07_Causal_Inference/Difference-in-Differences (DiD)\|Difference-in-Differences (DiD)]] | Removes time-invariant confounders. | Assumes parallel trends. |
 | **Longitudinal Studies** | Temporal ordering clarifies direction. | Still vulnerable to confounding. |
 
 ---
@@ -158,9 +158,9 @@ plot(ice_cream, drowning, main = "Spurious Correlation",
 
 ## Related Concepts
 
-- [[stats/06_Causal_Inference/Instrumental Variables (IV)\|Instrumental Variables (IV)]] - Causal inference method.
-- [[stats/06_Causal_Inference/Propensity Score Matching (PSM)\|Propensity Score Matching (PSM)]]
-- [[stats/06_Causal_Inference/Difference-in-Differences (DiD)\|Difference-in-Differences (DiD)]]
+- [[stats/07_Causal_Inference/Instrumental Variables (IV)\|Instrumental Variables (IV)]] - Causal inference method.
+- [[stats/07_Causal_Inference/Propensity Score Matching (PSM)\|Propensity Score Matching (PSM)]]
+- [[stats/07_Causal_Inference/Difference-in-Differences (DiD)\|Difference-in-Differences (DiD)]]
 - [[stats/01_Foundations/Confounding Variables\|Confounding Variables]]
 - [[stats/01_Foundations/Randomized Controlled Trials\|Randomized Controlled Trials]]
 

@@ -172,7 +172,7 @@ cat("P(Disease | Positive Test):", round(P_disease_given_pos, 3), "\n")
 - [[stats/01_Foundations/Bayesian Statistics\|Bayesian Statistics]] - Statistical framework built on Bayes' Theorem.
 - [[stats/01_Foundations/Conditional Probability\|Conditional Probability]]
 - [[stats/01_Foundations/Law of Total Probability\|Law of Total Probability]]
-- [[stats/06_Causal_Inference/Sensitivity and Specificity\|Sensitivity and Specificity]]
+- [[stats/07_Causal_Inference/Sensitivity and Specificity\|Sensitivity and Specificity]]
 
 ---
 

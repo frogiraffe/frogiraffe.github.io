@@ -286,7 +286,7 @@ bptest(log_model)  # Check if transformation helped
 **Related Assumptions:**
 - [[stats/03_Regression_Analysis/Simple Linear Regression\|Simple Linear Regression]] — Where homoscedasticity is assumed
 - [[stats/03_Regression_Analysis/Multiple Linear Regression\|Multiple Linear Regression]] — Same assumption applies
-- [[stats/05_Time_Series/GARCH Models\|GARCH Models]] — Time-varying volatility in time series
+- [[stats/08_Time_Series_Analysis/GARCH Models\|GARCH Models]] — Time-varying volatility in time series
 
 ---
 

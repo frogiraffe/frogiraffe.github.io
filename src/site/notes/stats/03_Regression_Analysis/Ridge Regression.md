@@ -318,7 +318,7 @@ print(as.vector(coef(ridge_model)[-1]))
 
 **Applications:**
 - [[stats/03_Regression_Analysis/VIF (Variance Inflation Factor)\|VIF (Variance Inflation Factor)]] — Diagnose when Ridge is needed
-- [[stats/04_Machine_Learning/Cross-Validation\|Cross-Validation]] — Required for tuning λ
+- [[stats/04_Supervised_Learning/Cross-Validation\|Cross-Validation]] — Required for tuning λ
 
 ---
 

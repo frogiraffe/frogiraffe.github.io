@@ -68,8 +68,8 @@ Use ADF test: If p > 0.05 → not stationary → difference.
 
 ## Related Concepts
 
-- [[stats/05_Time_Series/Stationarity (ADF & KPSS)\|Stationarity]] - Goal of differencing
-- [[stats/05_Time_Series/ARIMA Models\|ARIMA Models]] - I = integrated = differenced
+- [[stats/08_Time_Series_Analysis/Stationarity (ADF & KPSS)\|Stationarity]] - Goal of differencing
+- [[stats/08_Time_Series_Analysis/ARIMA Models\|ARIMA Models]] - I = integrated = differenced
 - [[Unit Root Tests\|Unit Root Tests]] - ADF, KPSS tests
 
 ---
