@@ -80,7 +80,7 @@ for _ in range(total_steps):
 
 ## Related Concepts
 
-- [[Exploration-Exploitation Trade-off\|Exploration-Exploitation Trade-off]]
-- [[Contextual Bandits\|Contextual Bandits]] - When actions depend on user context.
-- [[Thompson Sampling\|Thompson Sampling]]
+- [[stats/04_Supervised_Learning/Exploration-Exploitation Trade-off\|Exploration-Exploitation Trade-off]]
+- [[stats/04_Supervised_Learning/Contextual Bandits\|Contextual Bandits]] - When actions depend on user context.
+- [[stats/04_Supervised_Learning/Thompson Sampling\|Thompson Sampling]]
 - [[stats/01_Foundations/Beta Distribution\|Beta Distribution]]

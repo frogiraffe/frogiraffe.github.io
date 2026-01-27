@@ -285,18 +285,18 @@ with torch.no_grad():
 
 **Prerequisites:**
 - [[stats/04_Supervised_Learning/Gradient Descent\|Gradient Descent]] — Optimization algorithm
-- [[Activation Functions\|Activation Functions]] — Non-linearity
+- [[stats/04_Supervised_Learning/Activation Functions\|Activation Functions]] — Non-linearity
 - [[stats/01_Foundations/Loss Function\|Loss Function]] — What we minimize
 
 **Regularization:**
 - [[stats/04_Supervised_Learning/Overfitting\|Overfitting]] — Main risk
-- [[Dropout\|Dropout]] — Random neuron deactivation
-- [[Batch Normalization\|Batch Normalization]] — Stabilize training
+- [[stats/04_Supervised_Learning/Dropout\|Dropout]] — Random neuron deactivation
+- [[stats/04_Supervised_Learning/Batch Normalization\|Batch Normalization]] — Stabilize training
 
 **Architectures:**
 - [[Convolutional Neural Networks (CNN)\|Convolutional Neural Networks (CNN)]] — For images
 - [[Recurrent Neural Networks (RNN)\|Recurrent Neural Networks (RNN)]] — For sequences
-- [[Transformers\|Transformers]] — State-of-the-art NLP
+- [[stats/04_Supervised_Learning/Transformers\|Transformers]] — State-of-the-art NLP
 
 ---
 

@@ -290,7 +290,7 @@ tidy(model, exponentiate = TRUE, conf.int = TRUE)
 - [[stats/03_Regression_Analysis/Binary Logistic Regression\|Binary Logistic Regression]] - OR from regression coefficients
 - [[stats/02_Statistical_Inference/Chi-Square Test of Independence\|Chi-Square Test of Independence]] - Tests if OR ≠ 1
 - [[stats/02_Statistical_Inference/Fisher's Exact Test\|Fisher's Exact Test]] - Exact test for 2×2 tables
-- [[Relative Risk\|Relative Risk]] - Alternative measure for cohort studies
+- [[stats/02_Statistical_Inference/Relative Risk\|Relative Risk]] - Alternative measure for cohort studies
 - [[stats/02_Statistical_Inference/Confidence Intervals\|Confidence Intervals]] - Uncertainty quantification
 
 ---

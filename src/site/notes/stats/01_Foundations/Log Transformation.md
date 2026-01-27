@@ -53,7 +53,7 @@ The logarithm is a **concave function**:
 |--------|-------------|
 | $\log(y + 1)$ | Count data with zeros |
 | $\log(y + c)$ | Add small constant $c$ |
-| Use different transformation | If many zeros, consider [[Box-Cox Transformation\|Box-Cox Transformation]] |
+| Use different transformation | If many zeros, consider [[stats/01_Foundations/Box-Cox Transformation\|Box-Cox Transformation]] |
 
 ### Interpretation of Log-Transformed Variables
 
@@ -197,10 +197,10 @@ $$
 
 ## Related Concepts
 
-- [[Box-Cox Transformation\|Box-Cox Transformation]] — Generalized power transformation
+- [[stats/01_Foundations/Box-Cox Transformation\|Box-Cox Transformation]] — Generalized power transformation
 - [[stats/03_Regression_Analysis/Heteroscedasticity\|Heteroscedasticity]] — Variance stabilization
 - [[stats/01_Foundations/Normal Distribution\|Normal Distribution]] — Target for many tests
-- [[Skewness\|Skewness]] — Measure of asymmetry
+- [[stats/01_Foundations/Skewness\|Skewness]] — Measure of asymmetry
 
 ---
 

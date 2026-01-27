@@ -308,12 +308,12 @@ print(chi_test$residuals)
 
 **Alternatives:**
 - [[stats/02_Statistical_Inference/Fisher's Exact Test\|Fisher's Exact Test]] — For small expected frequencies
-- [[G-Test\|G-Test]] — Log-likelihood alternative
+- [[stats/02_Statistical_Inference/G-Test\|G-Test]] — Log-likelihood alternative
 
 **Effect Size:**
-- [[Cramér's V\|Cramér's V]] — Standardized effect size for χ²
+- [[stats/01_Foundations/Cramér's V\|Cramér's V]] — Standardized effect size for χ²
 - [[stats/01_Foundations/Odds Ratio\|Odds Ratio]] — For 2×2 tables
 
 **Extensions:**
 - [[stats/02_Statistical_Inference/McNemar's Test\|McNemar's Test]] — Paired categorical data
-- [[Cochran-Mantel-Haenszel\|Cochran-Mantel-Haenszel]] — Stratified tables
+- [[stats/02_Statistical_Inference/Cochran-Mantel-Haenszel\|Cochran-Mantel-Haenszel]] — Stratified tables

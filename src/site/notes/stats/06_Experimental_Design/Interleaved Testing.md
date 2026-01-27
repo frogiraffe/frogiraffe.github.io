@@ -75,6 +75,6 @@ def team_draft_interleave(list_a, list_b):
 ## Related Concepts
 
 - [[stats/02_Statistical_Inference/A-B Testing\|A-B Testing]]
-- [[Information Retrieval\|Information Retrieval]]
-- [[Learning to Rank\|Learning to Rank]]
+- [[stats/04_Supervised_Learning/Information Retrieval\|Information Retrieval]]
+- [[stats/04_Supervised_Learning/Learning to Rank\|Learning to Rank]]
 - [[Discounted Cumulative Gain (DCG)\|Discounted Cumulative Gain (DCG)]]

@@ -338,12 +338,12 @@ cat("Best iteration:", model_es$best_iteration, "\n")
 
 **Companions:**
 - [[stats/04_Supervised_Learning/Random Forest\|Random Forest]] — Bagging alternative
-- [[LightGBM\|LightGBM]] — Faster alternative
-- [[CatBoost\|CatBoost]] — Better for categoricals
+- [[stats/04_Supervised_Learning/LightGBM\|LightGBM]] — Faster alternative
+- [[stats/04_Supervised_Learning/CatBoost\|CatBoost]] — Better for categoricals
 
 **Interpretation:**
-- [[SHAP Values\|SHAP Values]] — Explain individual predictions
-- [[Feature Importance\|Feature Importance]] — Global variable ranking
+- [[stats/04_Supervised_Learning/SHAP Values\|SHAP Values]] — Explain individual predictions
+- [[stats/04_Supervised_Learning/Feature Importance\|Feature Importance]] — Global variable ranking
 
 ---
 

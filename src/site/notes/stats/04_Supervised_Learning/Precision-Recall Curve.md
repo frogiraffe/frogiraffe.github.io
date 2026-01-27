@@ -355,11 +355,11 @@ ggplot(df, aes(x = recall, y = precision)) +
 
 **Companions:**
 - [[stats/04_Supervised_Learning/ROC & AUC\|ROC & AUC]] — Alternative for balanced data
-- [[F1 Score\|F1 Score]] — Harmonic mean of Precision and Recall
+- [[stats/04_Supervised_Learning/F1 Score\|F1 Score]] — Harmonic mean of Precision and Recall
 
 **Applications:**
-- [[Imbalanced Data\|Imbalanced Data]] — When PR curve is essential
-- [[Threshold Optimization\|Threshold Optimization]] — Choosing operating point on curve
+- [[stats/04_Supervised_Learning/Imbalanced Data\|Imbalanced Data]] — When PR curve is essential
+- [[stats/04_Supervised_Learning/Threshold Optimization\|Threshold Optimization]] — Choosing operating point on curve
 
 ---
 

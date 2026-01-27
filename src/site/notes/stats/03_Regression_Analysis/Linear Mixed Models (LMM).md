@@ -433,8 +433,8 @@ ggplot(df, aes(x = study_hours, y = fitted, color = school)) +
 - [[stats/01_Foundations/Bayesian Statistics\|Bayesian Statistics]] - Bayesian multilevel models
 
 **Applications:**
-- [[Panel Data Analysis\|Panel Data Analysis]] - Econometric perspective
-- [[Growth Curve Models\|Growth Curve Models]] - Longitudinal trajectories
+- [[stats/03_Regression_Analysis/Panel Data Analysis\|Panel Data Analysis]] - Econometric perspective
+- [[stats/03_Regression_Analysis/Growth Curve Models\|Growth Curve Models]] - Longitudinal trajectories
 
 ---
 

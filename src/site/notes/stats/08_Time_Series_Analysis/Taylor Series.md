@@ -62,7 +62,7 @@ taylor_approx(1, 10)  # ≈ e
 
 ## Related Concepts
 
-- [[Delta Method\|Delta Method]] - Uses first-order Taylor
+- [[stats/01_Foundations/Delta Method\|Delta Method]] - Uses first-order Taylor
 - [[stats/01_Foundations/Maximum Likelihood Estimation (MLE)\|Maximum Likelihood Estimation (MLE)]] - Quadratic approximation
 
 ---

@@ -384,7 +384,7 @@ cat("Stacking Accuracy:", mean(stack_pred == test$y), "\n")
 **Core Algorithms:**
 - [[stats/04_Supervised_Learning/Random Forest\|Random Forest]] — Bagging with Decision Trees
 - [[stats/04_Supervised_Learning/Gradient Boosting (XGBoost)\|Gradient Boosting (XGBoost)]] — Sequential boosting
-- [[AdaBoost\|AdaBoost]] — Original boosting algorithm
+- [[stats/04_Supervised_Learning/AdaBoost\|AdaBoost]] — Original boosting algorithm
 
 **Prerequisites:**
 - [[stats/04_Supervised_Learning/Decision Tree\|Decision Tree]] — Base learner for most ensembles
@@ -393,7 +393,7 @@ cat("Stacking Accuracy:", mean(stack_pred == test$y), "\n")
 
 **Advanced:**
 - [[stats/04_Supervised_Learning/Overfitting & Underfitting\|Overfitting & Underfitting]] — What ensembles solve
-- [[Feature Importance\|Feature Importance]] — Interpreting ensemble contributions
+- [[stats/04_Supervised_Learning/Feature Importance\|Feature Importance]] — Interpreting ensemble contributions
 
 ---
 

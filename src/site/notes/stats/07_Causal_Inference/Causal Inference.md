@@ -358,7 +358,7 @@ plot(sens)
 **Advanced:**
 - [[DAGs (Directed Acyclic Graphs)\|DAGs (Directed Acyclic Graphs)]] — Visual causal reasoning
 - [[stats/01_Foundations/Structural Equation Modeling (SEM)\|Structural Equation Modeling (SEM)]] — Formal causal models
-- [[Judea Pearl's Causal Hierarchy\|Judea Pearl's Causal Hierarchy]] — Ladder of causation
+- [[stats/07_Causal_Inference/Judea Pearl's Causal Hierarchy\|Judea Pearl's Causal Hierarchy]] — Ladder of causation
 
 ---
 

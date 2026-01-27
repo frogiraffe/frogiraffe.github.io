@@ -83,8 +83,8 @@ print(f"Reported Odds Ratio (due to Recall Bias): {odds_ratio:.2f}")
 ## Related Concepts
 
 - [[stats/10_Ethics_and_Biases/Selection Bias\|Selection Bias]] - Another threat to validity.
-- [[Case-Control Study\|Case-Control Study]] - The design most vulnerable to recall bias.
-- [[Hindsight Bias\|Hindsight Bias]] - The psychological tendency to see events as more predictable after they happened.
+- [[stats/02_Statistical_Inference/Case-Control Study\|Case-Control Study]] - The design most vulnerable to recall bias.
+- [[stats/10_Ethics_and_Biases/Hindsight Bias\|Hindsight Bias]] - The psychological tendency to see events as more predictable after they happened.
 
 ---
 

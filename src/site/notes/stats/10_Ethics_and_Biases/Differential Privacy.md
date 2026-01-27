@@ -81,8 +81,8 @@ print(f"DP Mean (e=1.0): {private_mean(salaries, 1.0):.3f}")
 ## Related Concepts
 
 - [[stats/10_Ethics_and_Biases/Algorithmic Bias\|Algorithmic Bias]] - DP can sometimes introduce bias if the noise affects minority groups disproportionately.
-- [[Privacy-Preserving ML\|Privacy-Preserving ML]] - Using DP during model training (e.g., DP-SGD).
-- [[Federated Learning\|Federated Learning]] - Often combined with DP.
+- [[stats/04_Supervised_Learning/Privacy-Preserving ML\|Privacy-Preserving ML]] - Using DP during model training (e.g., DP-SGD).
+- [[stats/04_Supervised_Learning/Federated Learning\|Federated Learning]] - Often combined with DP.
 
 ---
 

@@ -220,7 +220,7 @@ Start with problem type:
 - [[stats/04_Supervised_Learning/Cross-Validation\|Cross-Validation]] — Estimating generalization
 - [[stats/04_Supervised_Learning/Overfitting\|Overfitting]] — Why we need validation
 - [[stats/01_Foundations/Bias-Variance Trade-off\|Bias-Variance Trade-off]] — Model complexity
-- [[Hyperparameter Tuning\|Hyperparameter Tuning]] — Optimizing within model
+- [[stats/04_Supervised_Learning/Hyperparameter Tuning\|Hyperparameter Tuning]] — Optimizing within model
 
 ---
 

@@ -187,7 +187,7 @@ qqline(data, col = "red", lwd = 2)
 - [[stats/01_Foundations/T-Distribution\|T-Distribution]] - Normal's cousin for small samples.
 - [[stats/09_EDA_and_Visualization/Q-Q Plot\|Q-Q Plot]] - Visual diagnostic.
 - [[stats/02_Statistical_Inference/Shapiro-Wilk Test\|Shapiro-Wilk Test]] - Statistical diagnostic.
-- [[stats/01_Foundations/Log Transformations\|Log Transformations]] - A cure for non-normality.
+- [[Log Transformations\|Log Transformations]] - A cure for non-normality.
 
 ---
 

@@ -327,8 +327,8 @@ cat("MSE:", mse, "\n")
 - [[stats/01_Foundations/Elastic Net\|Elastic Net]] — Combines L1 + L2
 
 **Extensions:**
-- [[Group Lasso\|Group Lasso]] — Select entire groups of variables
-- [[Adaptive Lasso\|Adaptive Lasso]] — Weights penalties by initial estimates
+- [[stats/03_Regression_Analysis/Group Lasso\|Group Lasso]] — Select entire groups of variables
+- [[stats/03_Regression_Analysis/Adaptive Lasso\|Adaptive Lasso]] — Weights penalties by initial estimates
 - [[stats/04_Supervised_Learning/Cross-Validation\|Cross-Validation]] — Required for tuning λ
 
 ---

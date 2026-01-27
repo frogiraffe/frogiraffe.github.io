@@ -75,7 +75,7 @@ title("Funnel Plot: Asymmetry indicates Publication Bias")
 
 - [[stats/10_Ethics_and_Biases/P-Hacking\|P-Hacking]] - The process used to generate the "publishable" results.
 - [[stats/01_Foundations/Reproducibility Crisis\|Reproducibility Crisis]] - Partially caused by publication bias.
-- [[Meta-Analysis\|Meta-Analysis]] - Highly sensitive to this bias.
+- [[stats/02_Statistical_Inference/Meta-Analysis\|Meta-Analysis]] - Highly sensitive to this bias.
 
 ---
 

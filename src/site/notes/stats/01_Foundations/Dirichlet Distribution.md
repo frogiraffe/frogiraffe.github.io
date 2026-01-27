@@ -61,7 +61,7 @@ rowSums(samples)  # All = 1
 ## Related Concepts
 
 - [[stats/01_Foundations/Beta Distribution\|Beta Distribution]] - 2-category special case
-- [[Multinomial Distribution\|Multinomial Distribution]] - Likelihood partner
+- [[stats/01_Foundations/Multinomial Distribution\|Multinomial Distribution]] - Likelihood partner
 - [[stats/01_Foundations/Conjugate Prior\|Conjugate Prior]] - Dirichlet-Multinomial pair
 
 ---

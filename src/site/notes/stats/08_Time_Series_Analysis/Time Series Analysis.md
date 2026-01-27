@@ -357,9 +357,9 @@ print(fc)
 | Model | Use Case | Key Feature |
 |-------|----------|-------------|
 | [[stats/08_Time_Series_Analysis/ARIMA Models\|ARIMA Models]] | General forecasting | Handles trend + autocorrelation |
-| [[SARIMA\|SARIMA]] | Seasonal data | ARIMA + seasonal components |
-| [[Exponential Smoothing\|Exponential Smoothing]] | Simple forecasting | Weighted average of past |
-| [[Prophet\|Prophet]] | Business forecasting | Handles holidays, changepoints |
+| [[stats/08_Time_Series_Analysis/SARIMA\|SARIMA]] | Seasonal data | ARIMA + seasonal components |
+| [[stats/08_Time_Series_Analysis/Exponential Smoothing\|Exponential Smoothing]] | Simple forecasting | Weighted average of past |
+| [[stats/08_Time_Series_Analysis/Prophet\|Prophet]] | Business forecasting | Handles holidays, changepoints |
 | [[stats/08_Time_Series_Analysis/GARCH Models\|GARCH Models]] | Volatility forecasting | Time-varying variance |
 | [[stats/08_Time_Series_Analysis/Vector Autoregression (VAR)\|Vector Autoregression (VAR)]] | Multivariate series | Multiple interrelated series |
 
@@ -373,12 +373,12 @@ print(fc)
 
 **Core Models:**
 - [[stats/08_Time_Series_Analysis/ARIMA Models\|ARIMA Models]] — Standard forecasting
-- [[Exponential Smoothing\|Exponential Smoothing]] — Simpler alternative
+- [[stats/08_Time_Series_Analysis/Exponential Smoothing\|Exponential Smoothing]] — Simpler alternative
 - [[stats/08_Time_Series_Analysis/GARCH Models\|GARCH Models]] — Volatility modeling
 
 **Advanced:**
 - [[stats/04_Supervised_Learning/Cross-Validation\|Cross-Validation]] — Time series split (no shuffling!)
-- [[Anomaly Detection\|Anomaly Detection]] — Finding unusual points
+- [[stats/05_Unsupervised_Learning/Anomaly Detection\|Anomaly Detection]] — Finding unusual points
 
 ---
 

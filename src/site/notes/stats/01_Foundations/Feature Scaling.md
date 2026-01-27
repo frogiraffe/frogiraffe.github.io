@@ -356,8 +356,8 @@ test_scaled <- predict(preproc, test)  # Uses training parameters!
 - [[stats/04_Supervised_Learning/Cross-Validation\|Cross-Validation]] — Each fold needs separate scaling
 
 **Related Preprocessing:**
-- [[stats/01_Foundations/Log Transformations\|Log Transformations]] — For skewed distributions
-- [[Encoding Categorical Variables\|Encoding Categorical Variables]] — For non-numeric features
+- [[Log Transformations\|Log Transformations]] — For skewed distributions
+- [[stats/04_Supervised_Learning/Encoding Categorical Variables\|Encoding Categorical Variables]] — For non-numeric features
 
 ---
 

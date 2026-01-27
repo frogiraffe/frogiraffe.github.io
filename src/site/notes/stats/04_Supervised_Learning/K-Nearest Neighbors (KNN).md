@@ -305,7 +305,7 @@ confusionMatrix(final_pred, y_test)
 - [[stats/04_Supervised_Learning/Cross-Validation\|Cross-Validation]] — For choosing k
 
 **Problems:**
-- [[Curse of Dimensionality\|Curse of Dimensionality]] — Why KNN fails in high dimensions
+- [[stats/04_Supervised_Learning/Curse of Dimensionality\|Curse of Dimensionality]] — Why KNN fails in high dimensions
 - [[stats/01_Foundations/Bias-Variance Trade-off\|Bias-Variance Trade-off]] — k controls this trade-off
 
 **Alternatives:**

@@ -339,7 +339,7 @@ plot(best_model, train, X1 ~ X2,
 
 **Extensions:**
 - [[SVR (Support Vector Regression)\|SVR (Support Vector Regression)]] — Regression version
-- [[Kernel Methods\|Kernel Methods]] — General framework
+- [[stats/04_Supervised_Learning/Kernel Methods\|Kernel Methods]] — General framework
 
 ---
 

@@ -246,7 +246,7 @@ summary(pooled)
 
 **Prerequisites:**
 - [[Exploratory Data Analysis (EDA)\|Exploratory Data Analysis (EDA)]]
-- [[Feature Engineering\|Feature Engineering]]
+- [[stats/04_Supervised_Learning/Feature Engineering\|Feature Engineering]]
 
 **Advanced Topics:**
 - [[MICE (Multiple Imputation)\|MICE (Multiple Imputation)]]

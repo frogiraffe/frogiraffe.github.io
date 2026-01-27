@@ -334,7 +334,7 @@ cat("Ridge CV RMSE:", sqrt(min(ridge$cvm)), "\n")
 ## Related Concepts
 
 **The Opposite:**
-- [[Underfitting\|Underfitting]] — Model too simple, high bias
+- [[stats/04_Supervised_Learning/Underfitting\|Underfitting]] — Model too simple, high bias
 
 **Solutions:**
 - [[stats/03_Regression_Analysis/Regularization\|Regularization]] — L1/L2 penalties
@@ -343,7 +343,7 @@ cat("Ridge CV RMSE:", sqrt(min(ridge$cvm)), "\n")
 
 **Diagnostics:**
 - [[stats/01_Foundations/Bias-Variance Trade-off\|Bias-Variance Trade-off]] — Theoretical framework
-- [[Learning Curves\|Learning Curves]] — Visual diagnosis tool
+- [[stats/04_Supervised_Learning/Learning Curves\|Learning Curves]] — Visual diagnosis tool
 
 ---
 

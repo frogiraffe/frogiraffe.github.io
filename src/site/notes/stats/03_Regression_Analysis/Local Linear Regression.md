@@ -82,7 +82,7 @@ ggplot(df, aes(x, y)) +
 
 - [[stats/08_Time_Series_Analysis/Smoothing\|Smoothing]] - Time series smoothing
 - [[stats/01_Foundations/Kernel Density Estimation\|Kernel Density Estimation]] - Similar idea for density
-- [[Generalized Additive Models\|Generalized Additive Models]] - Extends to multiple predictors
+- [[stats/03_Regression_Analysis/Generalized Additive Models\|Generalized Additive Models]] - Extends to multiple predictors
 
 ---
 

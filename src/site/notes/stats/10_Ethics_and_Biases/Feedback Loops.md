@@ -84,7 +84,7 @@ plt.show()
 ## Related Concepts
 
 - [[stats/10_Ethics_and_Biases/Algorithmic Bias\|Algorithmic Bias]] - The catalyst for dangerous loops.
-- [[Reinforcement Learning\|Reinforcement Learning]] - Highly susceptible to feedback effects.
+- [[stats/04_Supervised_Learning/Reinforcement Learning\|Reinforcement Learning]] - Highly susceptible to feedback effects.
 - [[stats/10_Ethics_and_Biases/Selection Bias\|Selection Bias]] - Feedback loops are essentially a dynamic selection bias.
 
 ---

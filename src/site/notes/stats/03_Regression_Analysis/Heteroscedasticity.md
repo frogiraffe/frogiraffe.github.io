@@ -281,7 +281,7 @@ bptest(log_model)  # Check if transformation helped
 **Solutions:**
 - [[stats/03_Regression_Analysis/Weighted Least Squares (WLS)\|Weighted Least Squares (WLS)]] — Explicitly model variance structure
 - [[stats/01_Foundations/Robust Standard Errors\|Robust Standard Errors]] — Keep OLS, adjust standard errors
-- [[stats/01_Foundations/Log Transformations\|Log Transformations]] — Stabilize variance through transformation
+- [[Log Transformations\|Log Transformations]] — Stabilize variance through transformation
 
 **Related Assumptions:**
 - [[stats/03_Regression_Analysis/Simple Linear Regression\|Simple Linear Regression]] — Where homoscedasticity is assumed

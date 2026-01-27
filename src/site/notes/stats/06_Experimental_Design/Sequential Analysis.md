@@ -87,4 +87,4 @@ for data_point in incoming_stream:
 - [[stats/02_Statistical_Inference/A-B Testing\|A-B Testing]]
 - [[stats/02_Statistical_Inference/Type I & Type II Errors\|Type I & Type II Errors]]
 - [[stats/02_Statistical_Inference/Power Analysis\|Power Analysis]]
-- [[Bayesian AB Testing\|Bayesian AB Testing]]
+- [[stats/06_Experimental_Design/Bayesian AB Testing\|Bayesian AB Testing]]

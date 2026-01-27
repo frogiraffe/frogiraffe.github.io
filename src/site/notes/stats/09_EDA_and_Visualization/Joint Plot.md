@@ -61,7 +61,7 @@ plt.show()
 
 - [[stats/09_EDA_and_Visualization/Scatter Plot\|Scatter Plot]] - The core of the joint plot.
 - [[stats/09_EDA_and_Visualization/Density Plot (KDE)\|Density Plot (KDE)]] - Frequently used for the margins.
-- [[Correlation Analysis\|Correlation Analysis]] - Often the reason for creating a joint plot.
+- [[stats/01_Foundations/Correlation Analysis\|Correlation Analysis]] - Often the reason for creating a joint plot.
 
 ---
 

@@ -64,7 +64,7 @@ cat("CV:", round(cv, 1), "%")
 ## Related Concepts
 
 - [[stats/01_Foundations/Standard Deviation\|Standard Deviation]] - Numerator
-- [[Mean\|Mean]] - Denominator
+- [[stats/01_Foundations/Mean\|Mean]] - Denominator
 
 ---
 

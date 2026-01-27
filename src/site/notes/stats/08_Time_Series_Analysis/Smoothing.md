@@ -465,7 +465,7 @@ autoplot(train) +
 - [[stats/08_Time_Series_Analysis/Time Series Analysis\|Time Series Analysis]] - Overview
 
 **Applications:**
-- [[Forecasting\|Forecasting]] - General methodology
+- [[stats/08_Time_Series_Analysis/Forecasting\|Forecasting]] - General methodology
 - Seasonal Decomposition - STL, X-13
 
 ---

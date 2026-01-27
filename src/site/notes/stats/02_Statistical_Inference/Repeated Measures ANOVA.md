@@ -52,7 +52,7 @@ $$
 > [!important] Critical Assumption
 > **Sphericity** means the **variances of differences** between all pairs of repeated measures are equal.
 > 
-> **Test:** [[Mauchly's Test of Sphericity\|Mauchly's Test of Sphericity]].
+> **Test:** [[stats/02_Statistical_Inference/Mauchly's Test of Sphericity\|Mauchly's Test of Sphericity]].
 > - If violated ($p < 0.05$), use **Greenhouse-Geisser** or **Huynh-Feldt** correction.
 
 ### Why Not Standard ANOVA?
@@ -147,7 +147,7 @@ ezANOVA(data = df_long, dv = Pain, wid = Subject, within = Time, detailed = TRUE
 - [[stats/02_Statistical_Inference/Mixed ANOVA (Between-Within)\|Mixed ANOVA (Between-Within)]] - Combines RM and between factors.
 - [[stats/02_Statistical_Inference/Friedman Test\|Friedman Test]] - Non-parametric alternative.
 - [[stats/03_Regression_Analysis/Linear Mixed Models (LMM)\|Linear Mixed Models (LMM)]] - More flexible; handles missing data.
-- [[Mauchly's Test of Sphericity\|Mauchly's Test of Sphericity]]
+- [[stats/02_Statistical_Inference/Mauchly's Test of Sphericity\|Mauchly's Test of Sphericity]]
 
 ---
 

@@ -49,7 +49,7 @@
 |---------|----------------|---------|
 | **Straight Line** | Data is Normal. | Normal residuals. |
 | **S-Shape** | Light tails (Uniform). | Limited variation. |
-| **Curve (Concave)** | Right Skew. | Income data. Use [[stats/01_Foundations/Log Transformations\|Log Transformations]]. |
+| **Curve (Concave)** | Right Skew. | Income data. Use [[Log Transformations\|Log Transformations]]. |
 | **Curve (Convex)** | Left Skew. | Ceiling effects. |
 | **Tails Depart Upward** | Heavy right tail (Outliers). | Check for extreme values. |
 | **Tails Depart Downward** | Heavy left tail. | Negative outliers. |
@@ -123,7 +123,7 @@ plot(model, 2)  # Standard plot #2 is Q-Q
 
 - [[stats/02_Statistical_Inference/Shapiro-Wilk Test\|Shapiro-Wilk Test]] - Statistical test for normality.
 - [[stats/01_Foundations/Normal Distribution\|Normal Distribution]] - The reference distribution.
-- [[stats/01_Foundations/Log Transformations\|Log Transformations]] - Fix for skewness.
+- [[Log Transformations\|Log Transformations]] - Fix for skewness.
 
 ---
 

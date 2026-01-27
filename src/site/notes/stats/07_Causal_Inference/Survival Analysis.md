@@ -351,8 +351,8 @@ ggforest(cox_model, data = data)
 
 - [[stats/03_Regression_Analysis/Binary Logistic Regression\|Binary Logistic Regression]] - When time is not relevant
 - [[stats/03_Regression_Analysis/Poisson Regression\|Poisson Regression]] - Rate models for count data
-- [[Kaplan-Meier Curves\|Kaplan-Meier Curves]] - Non-parametric survival estimation
-- [[Hazard Ratio\|Hazard Ratio]] - Effect measure in Cox models
+- [[stats/02_Statistical_Inference/Kaplan-Meier Curves\|Kaplan-Meier Curves]] - Non-parametric survival estimation
+- [[stats/02_Statistical_Inference/Hazard Ratio\|Hazard Ratio]] - Effect measure in Cox models
 - [[stats/07_Causal_Inference/Propensity Score Matching (PSM)\|Propensity Score Matching (PSM)]] - Causal inference with observational survival data
 
 ---
