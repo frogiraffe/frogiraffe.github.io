@@ -120,7 +120,7 @@ ggplot(data = melted_cormat, aes(x=Var1, y=Var2, fill=value)) +
 ## Related Concepts
 
 - [[stats/02_Statistical_Inference/Pearson Correlation\|Pearson Correlation]] - The metric usually visualized.
-- [[stats/04_Supervised_Learning/Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] - Alternative for high-dim data.
+- [[Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] - Alternative for high-dim data.
 - [[stats/04_Supervised_Learning/Confusion Matrix\|Confusion Matrix]] - Often visualized as a heatmap.
 
 ---

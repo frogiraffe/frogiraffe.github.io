@@ -23,7 +23,7 @@
 
 ## 2. Red Flags
 
-- **High Correlation (> 0.9) between Predictors:** Indicates [[stats/03_Regression_Analysis/VIF (Variance Inflation Factor)\|Multicollinearity]]. You should drop one or use dimensionality reduction ([[stats/04_Supervised_Learning/Principal Component Analysis (PCA)\|PCA]]).
+- **High Correlation (> 0.9) between Predictors:** Indicates [[stats/03_Regression_Analysis/VIF (Variance Inflation Factor)\|Multicollinearity]]. You should drop one or use dimensionality reduction ([[Principal Component Analysis (PCA)\|PCA]]).
 - **Low Correlation with Target:** Variable might be useless features (or relationship is non-linear).
 
 ---

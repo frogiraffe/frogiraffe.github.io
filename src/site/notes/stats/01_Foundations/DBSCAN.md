@@ -66,7 +66,7 @@ plot(X, col = db$cluster + 1)
 
 ## Related Concepts
 
-- [[stats/04_Supervised_Learning/K-Means Clustering\|K-Means Clustering]] - Centroid-based alternative
+- [[stats/05_Unsupervised_Learning/K-Means Clustering\|K-Means Clustering]] - Centroid-based alternative
 - [[stats/01_Foundations/Euclidean Distance\|Euclidean Distance]] - Default distance metric
 - HDBSCAN - Hierarchical extension
 

@@ -60,7 +60,7 @@ cor(X)   # Correlation matrix
 
 ## Applications
 
-- [[stats/04_Supervised_Learning/Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] - Eigendecomposition of Σ
+- [[Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] - Eigendecomposition of Σ
 - [[Multivariate Normal Distribution\|Multivariate Normal Distribution]] - Parameterized by μ and Σ
 - [[stats/03_Regression_Analysis/Multiple Linear Regression\|Multiple Linear Regression]] - Variance of coefficients
 

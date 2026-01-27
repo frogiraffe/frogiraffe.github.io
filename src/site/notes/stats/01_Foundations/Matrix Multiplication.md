@@ -125,7 +125,7 @@ print(C_elem)
 ## Related Concepts
 
 - [[stats/01_Foundations/Eigenvalues & Eigenvectors\|Eigenvalues & Eigenvectors]] - What vectors stay the same after multiplication?
-- [[stats/04_Supervised_Learning/Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] - Uses correlation matrix ($X^T X$).
+- [[Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] - Uses correlation matrix ($X^T X$).
 - [[stats/03_Regression_Analysis/Multiple Linear Regression\|Multiple Linear Regression]] - Solution involves $(X^T X)^{-1} X^T y$.
 
 ---
