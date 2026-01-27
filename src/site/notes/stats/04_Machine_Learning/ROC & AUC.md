@@ -7,7 +7,7 @@
 > [!abstract] Core Statement
 > **ROC (Receiver Operating Characteristic) Curve** plots the **True Positive Rate (Recall)** against the **False Positive Rate** at all possible classification thresholds. **AUC (Area Under the Curve)** summarizes the ROC into a single number representing the model's ability to ==discriminate between classes==.
 
-![ROC Curve Example](https://upload.wikimedia.org/wikipedia/commons/3/36/ROC_Curve.svg)
+![ROC Curve Example](https://upload.wikimedia.org/wikipedia/commons/1/13/Roc_curve.svg)
 
 ---
 

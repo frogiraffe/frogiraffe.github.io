@@ -26,7 +26,7 @@
 
 > [!warning] Causation Requires...
 > - **Randomized Controlled Trials (RCTs).**
-> - **Quasi-experimental designs** ([[stats/06_Causal_Inference/Instrumental Variables (IV)\|Instrumental Variables (IV)]], [[stats/06_Causal_Inference/Difference-in-Differences (DiD)\|Difference-in-Differences (DiD)]], [[stats/03_Regression_Analysis/Regression Discontinuity Design (RDD)\|Regression Discontinuity Design (RDD)]]).
+> - **Quasi-experimental designs** ([[stats/06_Causal_Inference/Instrumental Variables (IV)\|Instrumental Variables (IV)]], [[stats/06_Causal_Inference/Difference-in-Differences (DiD)\|Difference-in-Differences (DiD)]], [[stats/06_Causal_Inference/Regression Discontinuity Design (RDD)\|Regression Discontinuity Design (RDD)]]).
 > - Strong theoretical justification + ruling out confounders.
 
 ---

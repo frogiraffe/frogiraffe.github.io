@@ -8,7 +8,7 @@
 > [!abstract] Core Statement
 > **Survival Analysis** is a branch of statistics focused on analyzing ==time-to-event data==—the time until an event of interest occurs. It handles **censored observations** (incomplete data where the event hasn't occurred yet) and estimates survival probability, hazard rates, and the effect of covariates on survival time.
 
-![Kaplan-Meier Survival Curves](https://upload.wikimedia.org/wikipedia/commons/e/e0/Kaplan-Meier_survival_curve_for_two_groups.svg)
+![Kaplan-Meier Survival Curves](https://upload.wikimedia.org/wikipedia/commons/7/73/Km_plot.jpg)
 
 **Intuition (ELI5):** Imagine tracking when light bulbs burn out. Some bulbs are still working when you stop the experiment—you don't know exactly when they'll fail, but you know they lasted *at least* that long. Survival analysis uses this partial information rather than throwing it away.
 

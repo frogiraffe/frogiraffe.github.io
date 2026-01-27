@@ -12,7 +12,7 @@
 > [!tip] Intuition (ELI5): The Switch
 > The Bernoulli distribution is the simplest "On/Off" switch of probability. It represents exactly one coin flip or one "Yes/No" question. Everything else in probability is just a bunch of these switches connected together.
 
-![Bernoulli Distribution PMF](https://upload.wikimedia.org/wikipedia/commons/f/f4/PMF_and_CDF_of_a_bernouli_distribution.png)
+![Bernoulli Distribution PMF](https://upload.wikimedia.org/wikipedia/commons/b/b6/PMF_and_CDF_of_a_bernouli_distribution.png)
 
 $$ P(X=k) = p^k (1-p)^{1-k} \quad \text{for } k \in \{0, 1\} $$
 

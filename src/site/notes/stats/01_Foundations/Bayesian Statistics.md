@@ -7,7 +7,7 @@
 > [!abstract] Core Statement
 > **Bayesian Statistics** is an approach to statistical inference that treats probability as a ==measure of belief==. It combines **prior knowledge** with **observed data** to produce a **posterior distribution**---an updated belief about parameters after seeing the evidence.
 
-![Bayesian Inference: Prior, Likelihood, and Posterior](https://upload.wikimedia.org/wikipedia/commons/e/e0/Prior%2C_Likelihood%2C_Posterior_schematic.svg)
+![Bayesian Inference: Prior, Likelihood, and Posterior](https://upload.wikimedia.org/wikipedia/commons/a/a0/Prior%2C_Likelihood%2C_Posterior_schematic.svg)
 
 ---
 

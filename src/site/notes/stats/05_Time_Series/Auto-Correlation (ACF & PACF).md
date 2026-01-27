@@ -8,8 +8,8 @@
 > **ACF (Auto-Correlation Function)** measures the correlation between a time series and its lagged values (e.g., $Y_t$ vs $Y_{t-1}$).
 > **PACF (Partial Auto-Correlation Function)** measures the correlation between $Y_t$ and $Y_{t-k}$ *after removing* the effects of the intermediate lags ($Y_{t-1} \dots Y_{t-k+1}$).
 
-![ACF Plot Example](https://upload.wikimedia.org/wikipedia/commons/e/ec/Acf.svg)
-![PACF Plot Example](https://upload.wikimedia.org/wikipedia/commons/2/2a/Autocorrelation_Function_vs._Partial_Autocorrelation_Function.png)
+![ACF Plot Example](https://upload.wikimedia.org/wikipedia/commons/8/84/Acf.svg)
+![PACF Plot Example](https://upload.wikimedia.org/wikipedia/commons/3/32/Autocorrelation_Function_vs._Partial_Autocorrelation_Function.png)
 
 These are the primary tools for identifying the order (p, q) of [[stats/05_Time_Series/ARIMA Models\|ARIMA Models]].
 

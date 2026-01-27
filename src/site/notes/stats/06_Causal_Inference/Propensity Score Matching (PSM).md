@@ -7,7 +7,7 @@
 > [!abstract] Core Statement
 > **Propensity Score Matching (PSM)** is a quasi-experimental method that creates comparable treatment and control groups from observational data by matching units with similar ==propensity scores== (the probability of receiving treatment given observed covariates). It mimics a randomized experiment by balancing confounders.
 
-![Propensity Score Matching Visualization](https://upload.wikimedia.org/wikipedia/commons/e/ea/Propensity_score_matching_sample.jpg)
+![Propensity Score Matching Visualization](https://upload.wikimedia.org/wikipedia/commons/5/5b/Propensity_score_matching_sample.jpg)
 
 ---
 

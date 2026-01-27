@@ -57,7 +57,7 @@
 > The **p-value** is the probability of obtaining a test statistic ==at least as extreme== as the one observed, **assuming $H_0$ is true**.
 > $$ P\text{-value} = P(\text{Observed Data or More Extreme} | H_0 \text{ is True}) $$
 
-![P-value Visualization](https://upload.wikimedia.org/wikipedia/commons/0/07/P-value_in_statistical_significance_testing.svg)
+![P-value Visualization](https://upload.wikimedia.org/wikipedia/commons/3/3a/P-value_in_statistical_significance_testing.svg)
 
 **Interpretation:**
 | P-Value | Evidence | Decision |

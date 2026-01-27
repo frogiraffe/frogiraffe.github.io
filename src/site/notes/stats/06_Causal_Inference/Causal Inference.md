@@ -8,7 +8,7 @@
 > [!abstract] Core Statement
 > **Causal Inference** is the science of drawing conclusions about **cause-and-effect relationships** from data. Unlike correlation ("X and Y move together"), causal inference asks: "Does X **cause** Y?" and "What would Y be if we changed X?"
 
-![Causal DAG (Confounder, Mediator, Collider)](https://upload.wikimedia.org/wikipedia/commons/5/52/Confounder_mediator_collider.svg)
+![Causal DAG (Confounder, Mediator, Collider)](https://upload.wikimedia.org/wikipedia/commons/7/70/Confounder_mediator_collider.svg)
 
 **Intuition (ELI5):** You notice that people who carry umbrellas are often wet. Do umbrellas cause wetness? No — rain causes both. Causal inference is the toolkit for distinguishing "X causes Y" from "X and Y share a common cause."
 
@@ -337,8 +337,8 @@ plot(sens)
 | [[stats/06_Causal_Inference/Propensity Score Matching (PSM)\|Propensity Score Matching (PSM)]] | Observational data, rich covariates | No unmeasured confounders |
 | [[stats/06_Causal_Inference/Difference-in-Differences (DiD)\|Difference-in-Differences (DiD)]] | Panel data, policy change | Parallel pre-trends |
 | [[stats/06_Causal_Inference/Instrumental Variables (IV)\|Instrumental Variables (IV)]] | Have exogenous instrument | Exclusion restriction |
-| [[stats/03_Regression_Analysis/Regression Discontinuity Design (RDD)\|Regression Discontinuity Design (RDD)]] | Assignment by threshold | Continuity at cutoff |
-| [[stats/01_Foundations/Synthetic Control Method\|Synthetic Control Method]] | One treated unit, multiple controls | Pre-treatment fit |
+| [[stats/06_Causal_Inference/Regression Discontinuity Design (RDD)\|Regression Discontinuity Design (RDD)]] | Assignment by threshold | Continuity at cutoff |
+| [[stats/06_Causal_Inference/Synthetic Control Method\|Synthetic Control Method]] | One treated unit, multiple controls | Pre-treatment fit |
 
 ---
 
@@ -353,7 +353,7 @@ plot(sens)
 - [[stats/06_Causal_Inference/Propensity Score Matching (PSM)\|Propensity Score Matching (PSM)]]
 - [[stats/06_Causal_Inference/Difference-in-Differences (DiD)\|Difference-in-Differences (DiD)]]
 - [[stats/06_Causal_Inference/Instrumental Variables (IV)\|Instrumental Variables (IV)]]
-- [[stats/03_Regression_Analysis/Regression Discontinuity Design (RDD)\|Regression Discontinuity Design (RDD)]]
+- [[stats/06_Causal_Inference/Regression Discontinuity Design (RDD)\|Regression Discontinuity Design (RDD)]]
 
 **Advanced:**
 - [[DAGs (Directed Acyclic Graphs)\|DAGs (Directed Acyclic Graphs)]] — Visual causal reasoning

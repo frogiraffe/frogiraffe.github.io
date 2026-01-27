@@ -9,7 +9,7 @@
 > 
 > $$ Av = \lambda v $$
 
-![Eigenvectors Transformation Illustration](https://upload.wikimedia.org/wikipedia/commons/3/3c/Eigenvectors-extended.gif)
+![Eigenvectors Transformation Illustration](https://upload.wikimedia.org/wikipedia/commons/a/ad/Eigenvectors-extended.gif)
 
 ---
 

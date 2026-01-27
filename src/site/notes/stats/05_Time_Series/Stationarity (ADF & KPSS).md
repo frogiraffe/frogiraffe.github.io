@@ -12,7 +12,7 @@
 > [!tip] Intuition (ELI5): The Treadmill
 > A stationary time series is like a person walking on a treadmill. They are moving, but their average position and how much they "bounce" (variance) stay the same. Non-stationarity is like a person walking through a city—where they are now depends on where they were a block ago, and their average position and path are constantly changing.
 
-![Stationary vs Non-Stationary Time Series](https://upload.wikimedia.org/wikipedia/commons/e/e2/Stationarycomparison.png)
+![Stationary vs Non-Stationary Time Series](https://upload.wikimedia.org/wikipedia/commons/e/e1/Stationarycomparison.png)
 
 ---
 

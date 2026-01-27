@@ -8,7 +8,7 @@
 > [!abstract] Core Statement
 > A **Violin Plot** combines a ==boxplot with a kernel density estimate==, showing both summary statistics and the full distribution shape.
 
-![Violin Plot Visualization](https://upload.wikimedia.org/wikipedia/commons/6/6c/Ggplot2_Violin_Plot.png)
+![Violin Plot Visualization](https://upload.wikimedia.org/wikipedia/commons/3/35/Ggplot2_Violin_Plot.png)
 
 ---
 

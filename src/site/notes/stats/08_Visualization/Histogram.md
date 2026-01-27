@@ -7,7 +7,7 @@
 > [!abstract] Core Statement
 > A **Histogram** is a graphical representation of the distribution of a ==continuous numerical variable==. It groups data into adjacent intervals called **bins** and displays the frequency (count) of observations in each bin as a bar.
 
-![Histogram Visualization](https://upload.wikimedia.org/wikipedia/commons/d/d9/Histogram_example.svg)
+![Histogram Visualization](https://upload.wikimedia.org/wikipedia/commons/8/8e/Histogram_example.svg)
 
 ---
 

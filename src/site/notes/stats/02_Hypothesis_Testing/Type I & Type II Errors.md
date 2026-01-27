@@ -8,7 +8,7 @@
 > **Type I Error ($\alpha$):** Rejecting a true null hypothesis (==False Positive==).
 > **Type II Error ($\beta$):** Failing to reject a false null hypothesis (==False Negative==).
 
-![Type I and II Error Visualization](https://upload.wikimedia.org/wikipedia/commons/2/27/Type_1_error.png)
+![Type I and II Error Visualization](https://upload.wikimedia.org/wikipedia/commons/c/c8/Type_1_error.png)
 
 ---
 

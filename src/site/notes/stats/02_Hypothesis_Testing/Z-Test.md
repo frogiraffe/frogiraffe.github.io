@@ -7,7 +7,7 @@
 > [!abstract] Core Statement
 > A **Z-Test** is a statistical test used to determine whether a sample mean differs significantly from a population mean when the **Population Standard Deviation ($\sigma$) is Known** and/or the sample size is **Large** ($n \ge 30$).
 
-![Z-Test Rejection Region](https://upload.wikimedia.org/wikipedia/commons/e/e0/Null-hypothesis-region-eng.png)
+![Z-Test Rejection Region](https://upload.wikimedia.org/wikipedia/commons/0/0b/Null-hypothesis-region-eng.png)
 
 $$ Z = \frac{\bar{x} - \mu_0}{\sigma / \sqrt{n}} $$
 

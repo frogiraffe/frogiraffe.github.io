@@ -8,7 +8,7 @@
 > [!abstract] Core Statement
 > **Monte Carlo Simulation** uses ==repeated random sampling== to estimate numerical quantities that are difficult to compute analytically. By simulating many random scenarios, we approximate probabilities, expectations, and distributions.
 
-![Monte Carlo Method for Estimating Pi](https://upload.wikimedia.org/wikipedia/commons/e/e0/Monte-Carlo_method_pi.svg)
+![Monte Carlo Method for Estimating Pi](https://upload.wikimedia.org/wikipedia/commons/e/ea/Monte-Carlo_method_pi.svg)
 
 **Intuition:** Can't solve the math? Simulate it 10,000 times and count.
 

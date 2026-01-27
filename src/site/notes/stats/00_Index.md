@@ -228,9 +228,12 @@
 - [[stats/06_Causal_Inference/Causal Inference\|Causal Inference]]
 - [[stats/06_Causal_Inference/Difference-in-Differences (DiD)\|Difference-in-Differences (DiD)]]
 - [[stats/06_Causal_Inference/Instrumental Variables (IV)\|Instrumental Variables (IV)]]
+- [[stats/06_Causal_Inference/Mediation & Moderation Analysis\|Mediation & Moderation Analysis]]
 - [[stats/06_Causal_Inference/Propensity Score Matching (PSM)\|Propensity Score Matching (PSM)]]
+- [[stats/06_Causal_Inference/Regression Discontinuity Design (RDD)\|Regression Discontinuity Design (RDD)]]
 - [[stats/06_Causal_Inference/Sensitivity and Specificity\|Sensitivity and Specificity]]
 - [[stats/06_Causal_Inference/Survival Analysis\|Survival Analysis]]
+- [[stats/06_Causal_Inference/Synthetic Control Method\|Synthetic Control Method]]
 
 { .block-language-dataview}
 
@@ -253,6 +256,8 @@
 
 ---
 
+---
+
 ## Visualization
 
 - [[stats/08_Visualization/Boxplot\|Boxplot]]
@@ -261,5 +266,15 @@
 - [[stats/08_Visualization/Q-Q Plot\|Q-Q Plot]]
 - [[stats/08_Visualization/Scatter Plot\|Scatter Plot]]
 - [[stats/08_Visualization/Violin Plot\|Violin Plot]]
+
+{ .block-language-dataview}
+
+---
+
+## Modern Experimental Design
+
+- [[stats/09_Modern_Experimental_Design/Interleaved Testing\|Interleaved Testing]]
+- [[stats/09_Modern_Experimental_Design/Multi-armed Bandits (MAB)\|Multi-armed Bandits (MAB)]]
+- [[stats/09_Modern_Experimental_Design/Sequential Analysis\|Sequential Analysis]]
 
 { .block-language-dataview}

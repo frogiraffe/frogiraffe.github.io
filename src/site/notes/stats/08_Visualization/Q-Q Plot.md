@@ -7,7 +7,7 @@
 > [!abstract] Core Statement
 > A **Q-Q Plot (Quantile-Quantile Plot)** is a graphical tool to compare the distribution of a sample against a theoretical distribution (usually the [[stats/01_Foundations/Normal Distribution\|Normal Distribution]]). It plots ==sample quantiles against theoretical quantiles==. If the data follows the theoretical distribution, points will fall on a straight diagonal line.
 
-![Q-Q Plot Visualization](https://upload.wikimedia.org/wikipedia/commons/c/c6/Normal_normal_qq.svg)
+![Q-Q Plot Visualization](https://upload.wikimedia.org/wikipedia/commons/0/08/Normal_normal_qq.svg)
 
 ---
 

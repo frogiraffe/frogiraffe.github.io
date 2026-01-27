@@ -7,7 +7,7 @@
 > [!abstract] Core Statement
 > A **Scatter Plot** displays the relationship between ==two continuous numerical variables==. One variable is plotted on the x-axis and the other on the y-axis, with each point representing an observation. It is the primary tool for detecting **correlation**, **clusters**, and **outliers**.
 
-![Scatter Plot Visualization](https://upload.wikimedia.org/wikipedia/commons/a/af/Example_of_Scatter_Plot.jpg)
+![Scatter Plot Visualization](https://upload.wikimedia.org/wikipedia/commons/c/c3/Example_of_Scatter_Plot.jpg)
 
 ---
 

@@ -42,7 +42,7 @@ These metrics describe how spread out or dispersed the data is.
 
 ## 3. Measures of Shape
 
-![Skewness Visualization](https://upload.wikimedia.org/wikipedia/commons/c/cc/Negative_and_positive_skew_diagrams_%28English%29.svg)
+![Skewness Visualization](https://upload.wikimedia.org/wikipedia/commons/f/f8/Negative_and_positive_skew_diagrams_%28English%29.svg)
 
 | Measure | Description | Interpretation |
 |---------|-------------|----------------|

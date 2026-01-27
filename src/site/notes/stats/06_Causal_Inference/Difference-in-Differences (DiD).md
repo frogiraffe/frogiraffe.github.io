@@ -7,7 +7,7 @@
 > [!abstract] Core Statement
 > **Difference-in-Differences (DiD)** is a quasi-experimental design that estimates causal effects by comparing the ==change in outcomes over time== between a **treatment group** and a **control group**. The key insight is that the control group's change captures the counterfactual trend.
 
-![Difference-in-Differences Visualization](https://upload.wikimedia.org/wikipedia/commons/5/5e/Illustration_of_Difference_in_Differences.png)
+![Difference-in-Differences Visualization](https://upload.wikimedia.org/wikipedia/commons/d/da/Illustration_of_Difference_in_Differences.png)
 
 ---
 
@@ -139,8 +139,8 @@ ggplot(df, aes(x = Time, y = Outcome, color = factor(Treat))) +
 
 - [[stats/06_Causal_Inference/Propensity Score Matching (PSM)\|Propensity Score Matching (PSM)]]
 - [[stats/06_Causal_Inference/Instrumental Variables (IV)\|Instrumental Variables (IV)]]
-- [[stats/03_Regression_Analysis/Regression Discontinuity Design (RDD)\|Regression Discontinuity Design (RDD)]]
-- [[stats/01_Foundations/Synthetic Control Method\|Synthetic Control Method]]
+- [[stats/06_Causal_Inference/Regression Discontinuity Design (RDD)\|Regression Discontinuity Design (RDD)]]
+- [[stats/06_Causal_Inference/Synthetic Control Method\|Synthetic Control Method]]
 
 ---
 

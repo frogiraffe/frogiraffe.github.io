@@ -9,7 +9,7 @@
 > The **Weibull Distribution** models ==time-to-event data== with flexible hazard functions. It generalizes the Exponential distribution.
 > $$f(x; k, \lambda) = \frac{k}{\lambda}\left(\frac{x}{\lambda}\right)^{k-1} e^{-(x/\lambda)^k}$$
 
-![Weibull Distribution PDF](https://upload.wikimedia.org/wikipedia/commons/5/52/Weibull_PDF.svg)
+![Weibull Distribution PDF](https://upload.wikimedia.org/wikipedia/commons/5/58/Weibull_PDF.svg)
 
 ---
 

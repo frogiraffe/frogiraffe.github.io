@@ -7,7 +7,7 @@
 > [!abstract] Core Statement
 > The **Exponential Distribution** models the ==time between events== in a Poisson process, where events occur continuously and independently at a constant average rate. It is the continuous analog of the geometric distribution.
 
-![Exponential Distribution PDF](https://upload.wikimedia.org/wikipedia/commons/e/e4/Exponential_distribution_pdf_-_public_domain.svg)
+![Exponential Distribution PDF](https://upload.wikimedia.org/wikipedia/commons/f/f5/Exponential_distribution_pdf_-_public_domain.svg)
 
 ---
 

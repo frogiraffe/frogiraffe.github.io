@@ -7,7 +7,7 @@
 > [!abstract] Core Statement
 > **Two-Way ANOVA** extends [[stats/02_Hypothesis_Testing/One-Way ANOVA\|One-Way ANOVA]] to examine the effects of ==two independent categorical variables== (factors) on a continuous outcome. It can detect **main effects** of each factor and their **interaction effect**.
 
-![ANOVA F-Test Rejection Region](https://upload.wikimedia.org/wikipedia/commons/e/e0/F-test_plot.svg)
+![ANOVA F-Test Rejection Region](https://upload.wikimedia.org/wikipedia/commons/7/7b/F-test_plot.svg)
 
 ---
 

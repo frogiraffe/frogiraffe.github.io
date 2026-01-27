@@ -7,7 +7,7 @@
 > [!abstract] Core Statement
 > **One-Way ANOVA (Analysis of Variance)** tests whether the means of ==three or more independent groups== are equal. It is an extension of the t-test for multiple groups, using the F-statistic to compare between-group variance to within-group variance.
 
-![ANOVA F-Test Rejection Region](https://upload.wikimedia.org/wikipedia/commons/e/e0/F-test_plot.svg)
+![ANOVA F-Test Rejection Region](https://upload.wikimedia.org/wikipedia/commons/7/7b/F-test_plot.svg)
 
 ---
 

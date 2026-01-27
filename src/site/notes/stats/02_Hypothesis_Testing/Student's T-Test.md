@@ -7,7 +7,7 @@
 > [!abstract] Core Statement
 > **Student's T-Test** (Independent Samples) compares the ==means of two independent groups== to determine if they are significantly different. It assumes that both groups are drawn from normally distributed populations with ==equal variances==.
 
-![T-Test Rejection Region](https://upload.wikimedia.org/wikipedia/commons/1/1a/One_sample_t-test.png)
+![T-Test Rejection Region](https://upload.wikimedia.org/wikipedia/commons/1/1b/One_sample_t-test.png)
 
 ---
 
