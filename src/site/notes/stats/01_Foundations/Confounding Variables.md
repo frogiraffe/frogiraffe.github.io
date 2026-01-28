@@ -59,7 +59,7 @@ print(f"Adjusted effect: {adj.params['treatment']:.3f}")
 
 ## Related Concepts
 
-- [[stats/01_Foundations/Selection Bias\|Selection Bias]] - Different threat to validity
+- [[stats/10_Ethics_and_Biases/Selection Bias\|Selection Bias]] - Different threat to validity
 - [[stats/01_Foundations/Randomized Controlled Trials\|Randomized Controlled Trials]] - Eliminates confounding
 - [[stats/07_Causal_Inference/Propensity Score Matching (PSM)\|Propensity Score Matching]] - Adjusts for confounders
 

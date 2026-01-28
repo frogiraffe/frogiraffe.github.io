@@ -114,8 +114,8 @@ Pooled              ◆                   100%
 ## Related Concepts
 
 - [[stats/01_Foundations/Effect Size\|Effect Size]] — What meta-analysis pools
-- [[P-Value\|P-Value]] — Often misinterpreted in meta-analysis
-- [[Confidence Interval\|Confidence Interval]] — Pooled CI is narrower
+- [[stats/02_Statistical_Inference/Hypothesis Testing (P-Value & CI)\|P-Value]] — Often misinterpreted in meta-analysis
+- [[stats/02_Statistical_Inference/Confidence Intervals\|Confidence Intervals]] — Pooled CI is narrower
 
 ---
 

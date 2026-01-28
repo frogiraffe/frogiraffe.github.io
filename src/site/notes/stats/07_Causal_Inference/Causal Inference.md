@@ -335,7 +335,7 @@ plot(sens)
 | Method | When to Use | Key Assumption |
 |--------|-------------|----------------|
 | [[stats/07_Causal_Inference/Propensity Score Matching (PSM)\|Propensity Score Matching (PSM)]] | Observational data, rich covariates | No unmeasured confounders |
-| [[stats/07_Causal_Inference/Difference-in-Differences (DiD)\|Difference-in-Differences (DiD)]] | Panel data, policy change | Parallel pre-trends |
+| [[stats/07_Causal_Inference/Difference-in-Differences\|Difference-in-Differences]] | Panel data, policy change | Parallel pre-trends |
 | [[stats/07_Causal_Inference/Instrumental Variables (IV)\|Instrumental Variables (IV)]] | Have exogenous instrument | Exclusion restriction |
 | [[stats/07_Causal_Inference/Regression Discontinuity Design (RDD)\|Regression Discontinuity Design (RDD)]] | Assignment by threshold | Continuity at cutoff |
 | [[stats/07_Causal_Inference/Synthetic Control Method\|Synthetic Control Method]] | One treated unit, multiple controls | Pre-treatment fit |
@@ -347,16 +347,16 @@ plot(sens)
 **Prerequisites:**
 - [[stats/01_Foundations/Confounding Variables\|Confounding Variables]] — Why naive comparisons fail
 - [[stats/01_Foundations/Correlation vs Causation\|Correlation vs Causation]] — The core distinction
-- [[stats/10_Ethics_and_Biases/Simpson's Paradox\|Simpson's Paradox]] — When aggregation reverses effects
+- [[stats/07_Causal_Inference/Simpson's Paradox\|Simpson's Paradox]] — When aggregation reverses effects
 
 **Core Methods:**
 - [[stats/07_Causal_Inference/Propensity Score Matching (PSM)\|Propensity Score Matching (PSM)]]
-- [[stats/07_Causal_Inference/Difference-in-Differences (DiD)\|Difference-in-Differences (DiD)]]
+- [[stats/07_Causal_Inference/Difference-in-Differences\|Difference-in-Differences]]
 - [[stats/07_Causal_Inference/Instrumental Variables (IV)\|Instrumental Variables (IV)]]
 - [[stats/07_Causal_Inference/Regression Discontinuity Design (RDD)\|Regression Discontinuity Design (RDD)]]
 
 **Advanced:**
-- [[DAGs (Directed Acyclic Graphs)\|DAGs (Directed Acyclic Graphs)]] — Visual causal reasoning
+- [[stats/07_Causal_Inference/DAGs (Directed Acyclic Graphs)\|DAGs (Directed Acyclic Graphs)]] — Visual causal reasoning
 - [[stats/01_Foundations/Structural Equation Modeling (SEM)\|Structural Equation Modeling (SEM)]] — Formal causal models
 - [[stats/07_Causal_Inference/Judea Pearl's Causal Hierarchy\|Judea Pearl's Causal Hierarchy]] — Ladder of causation
 

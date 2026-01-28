@@ -230,7 +230,7 @@ p1 + p2
 
 - [[stats/07_Causal_Inference/DAGs for Causal Inference\|DAGs for Causal Inference]] — Visual tool for identifying colliders
 - [[stats/01_Foundations/Confounding Variables\|Confounding Variables]] — The other main source of bias
-- [[stats/01_Foundations/Selection Bias\|Selection Bias]] — Often involves collider conditioning
+- [[stats/10_Ethics_and_Biases/Selection Bias\|Selection Bias]] — Often involves collider conditioning
 - [[stats/07_Causal_Inference/Propensity Score Matching (PSM)\|Propensity Score Matching (PSM)]] — Can avoid if designed well
 
 ---

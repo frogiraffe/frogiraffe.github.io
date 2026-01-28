@@ -123,7 +123,7 @@ Plot training and validation error vs. number of training samples (or epochs):
 
 ### 5. Ensemble Methods
 - [[stats/04_Supervised_Learning/Random Forest\|Random Forest]] — Averaging reduces variance
-- [[stats/04_Supervised_Learning/Gradient Boosting (XGBoost)\|Gradient Boosting (XGBoost)]] with regularization
+- [[stats/04_Supervised_Learning/Gradient Boosting\|Gradient Boosting]] with regularization
 
 ---
 

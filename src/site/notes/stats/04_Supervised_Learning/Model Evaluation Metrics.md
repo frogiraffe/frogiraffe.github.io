@@ -40,7 +40,7 @@ Used when the target variable is categorical.
 ## 3. Related Concepts
 
 - [[stats/04_Supervised_Learning/Confusion Matrix\|Confusion Matrix]] - Source of classification metrics.
-- [[stats/04_Supervised_Learning/ROC & AUC\|ROC & AUC]] - Detailed note on Area Under Curve.
+- [[stats/04_Supervised_Learning/ROC-AUC\|ROC-AUC]] - Detailed note on Area Under Curve.
 - [[stats/03_Regression_Analysis/Simple Linear Regression\|Simple Linear Regression]] - Uses $R^2$.
 
 ---

@@ -95,7 +95,7 @@ Unlike OLS ($R^2$), Logistic Regression uses different metrics:
 | Metric | Purpose |
 |--------|---------|
 | **Pseudo $R^2$ (McFadden's)** | Explained variance analog. 0.2-0.4 is excellent. |
-| **[[stats/04_Supervised_Learning/ROC & AUC\|ROC & AUC]]** | Discrimination ability. Area under curve; 0.7-0.8 acceptable, >0.8 excellent. |
+| **[[stats/04_Supervised_Learning/ROC-AUC\|ROC-AUC]]** | Discrimination ability. Area under curve; 0.7-0.8 acceptable, >0.8 excellent. |
 
 ---
 
@@ -222,7 +222,7 @@ hoslem.test(df$Purchased, fitted(model), g = 10)
 
 - [[stats/03_Regression_Analysis/Logistic Regression\|Logistic Regression]] - Family overview.
 - [[stats/01_Foundations/Maximum Likelihood Estimation (MLE)\|Maximum Likelihood Estimation (MLE)]]
-- [[stats/04_Supervised_Learning/ROC & AUC\|ROC & AUC]] - Performance metric.
+- [[stats/04_Supervised_Learning/ROC-AUC\|ROC-AUC]] - Performance metric.
 - [[stats/04_Supervised_Learning/Confusion Matrix\|Confusion Matrix]] - Classification metrics.
 - [[stats/03_Regression_Analysis/Probit Regression\|Probit Regression]] - Alternative using normal CDF.
 

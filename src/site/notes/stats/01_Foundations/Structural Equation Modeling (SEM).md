@@ -79,7 +79,7 @@ print(sem_model.inspect())
 
 ## Related Concepts
 
-- [[Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] - Simpler dimension reduction
+- [[stats/05_Unsupervised_Learning/PCA (Principal Component Analysis)\|PCA (Principal Component Analysis)]] - Simpler dimension reduction
 - Path Analysis - SEM without latent variables
 - Confirmatory Factor Analysis - Measurement model only
 

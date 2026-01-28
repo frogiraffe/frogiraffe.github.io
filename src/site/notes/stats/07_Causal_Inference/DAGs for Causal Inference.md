@@ -273,11 +273,11 @@ A set Z satisfies the backdoor criterion relative to (X, Y) if:
 **Core Methods:**
 - [[stats/07_Causal_Inference/Propensity Score Matching (PSM)\|Propensity Score Matching (PSM)]] — Estimation after adjustment
 - [[stats/07_Causal_Inference/Instrumental Variables (IV)\|Instrumental Variables (IV)]] — When confounders are unmeasured
-- [[stats/07_Causal_Inference/Difference-in-Differences (DiD)\|Difference-in-Differences (DiD)]] — Panel data approach
+- [[stats/07_Causal_Inference/Difference-in-Differences\|Difference-in-Differences]] — Panel data approach
 
 **Extensions:**
 - Structural Equation Models (SEM)
-- [[stats/07_Causal_Inference/Mediation & Moderation Analysis\|Mediation & Moderation Analysis]] — Path analysis
+- [[Mediation & Moderation Analysis\|Mediation & Moderation Analysis]] — Path analysis
 
 ---
 

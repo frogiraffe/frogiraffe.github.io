@@ -123,7 +123,7 @@ plot(model, 2)  # Standard plot #2 is Q-Q
 
 - [[stats/02_Statistical_Inference/Shapiro-Wilk Test\|Shapiro-Wilk Test]] - Statistical test for normality.
 - [[stats/01_Foundations/Normal Distribution\|Normal Distribution]] - The reference distribution.
-- [[Log Transformations\|Log Transformations]] - Fix for skewness.
+- [[stats/01_Foundations/Log Transformation\|Log Transformation]] - Fix for skewness.
 
 ---
 

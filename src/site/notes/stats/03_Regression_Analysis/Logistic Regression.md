@@ -71,7 +71,7 @@ Unlike OLS (which minimizes RSS), Logistic Regression uses [[stats/01_Foundation
 - [[stats/03_Regression_Analysis/Multinomial Logistic Regression (MNLogit)\|Multinomial Logistic Regression (MNLogit)]] - For unordered multi-class.
 - [[stats/03_Regression_Analysis/Poisson Regression\|Poisson Regression]] - For count data.
 - [[stats/03_Regression_Analysis/Generalized Linear Models (GLM)\|Generalized Linear Models (GLM)]] - The parent framework.
-- [[stats/04_Supervised_Learning/ROC & AUC\|ROC & AUC]] - Model evaluation.
+- [[stats/04_Supervised_Learning/ROC-AUC\|ROC-AUC]] - Model evaluation.
 
 ---
 

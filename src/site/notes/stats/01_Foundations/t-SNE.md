@@ -61,7 +61,7 @@ plot(tsne$Y, col = labels)
 
 ## Related Concepts
 
-- [[Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] - Linear alternative
+- [[stats/05_Unsupervised_Learning/PCA (Principal Component Analysis)\|PCA (Principal Component Analysis)]] - Linear alternative
 - UMAP - Faster, preserves global structure better
 - [[stats/05_Unsupervised_Learning/K-Means Clustering\|K-Means Clustering]] - Often used after t-SNE for visual clustering
 

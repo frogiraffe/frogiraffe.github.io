@@ -64,7 +64,7 @@
 
 > [!warning] Pitfalls
 > 1.  **Accuracy Paradox:** In imbalanced data (e.g., 99% negative), a model predicting all negative gets 99% accuracy but is useless.
-> 2.  **Threshold Dependent:** Metrics change with the classification threshold. Use [[stats/04_Supervised_Learning/ROC & AUC\|ROC & AUC]] for threshold-independent evaluation.
+> 2.  **Threshold Dependent:** Metrics change with the classification threshold. Use [[stats/04_Supervised_Learning/ROC-AUC\|ROC-AUC]] for threshold-independent evaluation.
 
 ---
 
@@ -156,7 +156,7 @@ confusionMatrix(data = pred, reference = actual)
 
 ## Related Concepts
 
-- [[stats/04_Supervised_Learning/ROC & AUC\|ROC & AUC]] - Threshold-independent performance.
+- [[stats/04_Supervised_Learning/ROC-AUC\|ROC-AUC]] - Threshold-independent performance.
 - [[stats/03_Regression_Analysis/Binary Logistic Regression\|Binary Logistic Regression]] - Typical model producing these outputs.
 - [[stats/04_Supervised_Learning/Precision-Recall Curve\|Precision-Recall Curve]]
 

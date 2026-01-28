@@ -57,7 +57,7 @@ summary(model)$adj.r.squared
 ## Related Concepts
 
 - [[stats/01_Foundations/Adjusted R-squared\|R-Squared]] - Unadjusted version
-- [[AIC (Akaike Information Criterion)\|AIC (Akaike Information Criterion)]] - Alternative criterion
+- [[stats/03_Regression_Analysis/AIC (Akaike Information Criterion)\|AIC (Akaike Information Criterion)]] - Alternative criterion
 - [[stats/01_Foundations/Model Selection\|Model Selection]] - Choosing predictors
 
 ---

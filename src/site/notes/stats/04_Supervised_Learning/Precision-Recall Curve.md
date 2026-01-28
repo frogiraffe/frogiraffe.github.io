@@ -28,7 +28,7 @@ You can't maximize both. High recall = catch everyone, but flag many healthy peo
 > - **Classes are heavily imbalanced** (e.g., 99% negative, 1% positive).
 > - You care more about the **positive class** (fraud, disease, churn).
 > - True Negatives are **not meaningful** — you don't care about predicting "not fraud" correctly.
-> - Comparing models where [[stats/04_Supervised_Learning/ROC & AUC\|ROC & AUC]] gives **misleadingly optimistic** results.
+> - Comparing models where [[stats/04_Supervised_Learning/ROC-AUC\|ROC-AUC]] gives **misleadingly optimistic** results.
 
 > [!failure] Use ROC-AUC Instead When...
 > - Classes are **balanced** (50/50 or close).
@@ -354,7 +354,7 @@ ggplot(df, aes(x = recall, y = precision)) +
 - [[stats/03_Regression_Analysis/Binary Logistic Regression\|Binary Logistic Regression]] — Common classifier to evaluate
 
 **Companions:**
-- [[stats/04_Supervised_Learning/ROC & AUC\|ROC & AUC]] — Alternative for balanced data
+- [[stats/04_Supervised_Learning/ROC-AUC\|ROC-AUC]] — Alternative for balanced data
 - [[stats/04_Supervised_Learning/F1 Score\|F1 Score]] — Harmonic mean of Precision and Recall
 
 **Applications:**

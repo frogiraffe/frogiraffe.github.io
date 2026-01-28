@@ -349,7 +349,7 @@ test_scaled <- predict(preproc, test)  # Uses training parameters!
 **Algorithms Requiring Scaling:**
 - [[stats/04_Supervised_Learning/K-Nearest Neighbors (KNN)\|K-Nearest Neighbors (KNN)]] — Distance-based
 - [[stats/04_Supervised_Learning/Support Vector Machines (SVM)\|Support Vector Machines (SVM)]] — Kernel distance
-- [[Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] — Variance-based
+- [[stats/05_Unsupervised_Learning/PCA (Principal Component Analysis)\|PCA (Principal Component Analysis)]] — Variance-based
 
 **Data Leakage:**
 - [[stats/01_Foundations/Data Leakage\|Data Leakage]] — Why fit only on training set

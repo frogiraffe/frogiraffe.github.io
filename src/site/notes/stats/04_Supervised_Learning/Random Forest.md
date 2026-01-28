@@ -100,7 +100,7 @@ table(preds, iris$Species)
 ## Related Concepts
 
 - [[stats/04_Supervised_Learning/Decision Tree\|Decision Tree]] - The building block.
-- [[stats/04_Supervised_Learning/Gradient Boosting (XGBoost)\|Gradient Boosting (XGBoost)]] - The sequential alternative (often slightly more accurate but harder to tune).
+- [[stats/04_Supervised_Learning/Gradient Boosting\|Gradient Boosting]] - The sequential alternative (often slightly more accurate but harder to tune).
 - [[stats/04_Supervised_Learning/Bootstrap Methods\|Bootstrap Methods]] - The sampling technique used.
 - [[stats/04_Supervised_Learning/Ensemble Methods\|Ensemble Methods]]
 

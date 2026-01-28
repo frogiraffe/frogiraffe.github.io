@@ -37,7 +37,7 @@
 > - Building **clinical decision rules**.
 
 > [!failure] Limitations...
-> - They describe **one threshold**. For overall performance, use [[stats/04_Supervised_Learning/ROC & AUC\|ROC & AUC]].
+> - They describe **one threshold**. For overall performance, use [[stats/04_Supervised_Learning/ROC-AUC\|ROC-AUC]].
 > - They don't tell you **what a positive result means** (use Predictive Values).
 > - Misleading with **imbalanced classes** without context.
 
@@ -79,7 +79,7 @@ Moving the classification threshold affects both metrics:
 - **Lower threshold** → Higher sensitivity, lower specificity (more positives)
 - **Higher threshold** → Higher specificity, lower sensitivity (fewer positives)
 
-The [[stats/04_Supervised_Learning/ROC & AUC\|ROC & AUC]] curve visualizes this trade-off across all thresholds.
+The [[stats/04_Supervised_Learning/ROC-AUC\|ROC-AUC]] curve visualizes this trade-off across all thresholds.
 
 ### Relationship to Bayes' Theorem
 
@@ -392,7 +392,7 @@ ggplot(df_long, aes(x = Threshold, y = Value, color = Metric)) +
 ## Related Concepts
 
 **Metrics:**
-- [[stats/04_Supervised_Learning/ROC & AUC\|ROC & AUC]] - Aggregate performance across thresholds
+- [[stats/04_Supervised_Learning/ROC-AUC\|ROC-AUC]] - Aggregate performance across thresholds
 - [[stats/04_Supervised_Learning/Confusion Matrix\|Confusion Matrix]] - Full breakdown of predictions
 - [[stats/04_Supervised_Learning/Precision-Recall Curve\|Precision-Recall Curve]] - Alternative for imbalanced data
 

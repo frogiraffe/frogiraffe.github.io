@@ -20,7 +20,7 @@
 
 1.  **Interpretability:** "White Box" model. You can visualize exactly *why* a decision was made.
 2.  **Non-Linearity:** Can model complex, non-linear relationships without feature engineering.
-3.  **Foundation:** The building block for powerful ensembles like [[stats/04_Supervised_Learning/Random Forest\|Random Forest]] and [[stats/04_Supervised_Learning/Gradient Boosting (XGBoost)\|Gradient Boosting (XGBoost)]].
+3.  **Foundation:** The building block for powerful ensembles like [[stats/04_Supervised_Learning/Random Forest\|Random Forest]] and [[stats/04_Supervised_Learning/Gradient Boosting\|Gradient Boosting]].
 
 ---
 
@@ -112,7 +112,8 @@ table(preds, iris$Species)
 ## Related Concepts
 
 - [[stats/04_Supervised_Learning/Random Forest\|Random Forest]] - Many trees (Bagging).
-- [[stats/04_Supervised_Learning/Gradient Boosting (XGBoost)\|Gradient Boosting (XGBoost)]] - Sequential trees (Boosting).
+- [[stats/04_Supervised_Learning/Gradient Boosting\|Gradient Boosting]]
+ - Sequential trees (Boosting).
 - [[stats/04_Supervised_Learning/Overfitting\|Overfitting]] - The main weakness.
 
 ---

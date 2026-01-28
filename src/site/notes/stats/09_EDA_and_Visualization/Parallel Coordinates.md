@@ -61,7 +61,7 @@ plt.show()
 ## Related Concepts
 
 - [[stats/09_EDA_and_Visualization/Radar Chart\|Radar Chart]] - A radial version of parallel coordinates.
-- [[Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] - Used to reduce dimensions before plotting if there are too many variables.
+- [[stats/05_Unsupervised_Learning/PCA (Principal Component Analysis)\|PCA (Principal Component Analysis)]] - Used to reduce dimensions before plotting if there are too many variables.
 
 ---
 

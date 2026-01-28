@@ -83,7 +83,7 @@ print(model.mv_test())
 
 - [[stats/02_Statistical_Inference/One-Way ANOVA\|One-Way ANOVA]] - Univariate version.
 - [[stats/02_Statistical_Inference/Hotelling's T-Squared\|Hotelling's T-Squared]] - Two-group multivariate test (Multivariate t-test).
-- [[Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] - Can be used to reduce DVs before analysis.
+- [[stats/05_Unsupervised_Learning/PCA (Principal Component Analysis)\|PCA (Principal Component Analysis)]] - Can be used to reduce DVs before analysis.
 
 ---
 

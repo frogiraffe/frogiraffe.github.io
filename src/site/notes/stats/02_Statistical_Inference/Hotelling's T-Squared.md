@@ -107,7 +107,7 @@ HotellingsT2Test(X1, X2)
 
 ## Related Concepts
 
-- [[T-Test\|T-Test]] — Univariate version
+- [[stats/02_Statistical_Inference/Student's T-Test\|Student's T-Test]] — Univariate version
 - [[stats/02_Statistical_Inference/MANOVA\|MANOVA]] — Extension for multiple groups
 - [[stats/01_Foundations/Multivariate Normal Distribution\|Multivariate Normal Distribution]] — Assumed distribution
 

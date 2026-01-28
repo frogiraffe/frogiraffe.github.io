@@ -338,7 +338,7 @@ plot(best_model, train, X1 ~ X2,
 - [[stats/04_Supervised_Learning/K-Nearest Neighbors (KNN)\|K-Nearest Neighbors (KNN)]] — Instance-based
 
 **Extensions:**
-- [[SVR (Support Vector Regression)\|SVR (Support Vector Regression)]] — Regression version
+- [[stats/04_Supervised_Learning/Support Vector Machines\|Support Vector Machines]] — Regression version
 - [[stats/04_Supervised_Learning/Kernel Methods\|Kernel Methods]] — General framework
 
 ---

@@ -82,7 +82,8 @@ print(f"Fairness Difference: {abs(tpr_1 - tpr_0):.2f}")
 
 - [[stats/10_Ethics_and_Biases/Feedback Loops\|Feedback Loops]] - How bias becomes self-fulfilling.
 - [[stats/10_Ethics_and_Biases/Differential Privacy\|Differential Privacy]] - Protecting individual data while ensuring group fairness.
-- [[Explainable AI (XAI)\|Explainable AI (XAI)]] - Understanding why a model made a biased decision.
+- [[stats/04_Supervised_Learning/Interpretability\|Interpretability]] (XAI)
+ - Understanding why a model made a biased decision.
 
 ---
 

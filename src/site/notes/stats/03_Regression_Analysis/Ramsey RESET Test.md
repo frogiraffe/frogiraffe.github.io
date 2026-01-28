@@ -43,7 +43,7 @@ print(f"RESET p-value: {reset.pvalue:.4f}")
 ## 4. Related Concepts
 
 - [[stats/03_Regression_Analysis/Multiple Linear Regression\|Multiple Linear Regression]] - Model being tested.
-- [[Log Transformations\|Log Transformations]] - Potential fix for non-linearity.
+- [[stats/01_Foundations/Log Transformation\|Log Transformation]] - Potential fix for non-linearity.
 
 ---
 

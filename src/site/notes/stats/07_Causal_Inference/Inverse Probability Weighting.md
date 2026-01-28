@@ -164,7 +164,7 @@ summary(model)
 - [[stats/07_Causal_Inference/Propensity Score Matching (PSM)\|Propensity Score Matching (PSM)]] — Alternative approach
 - [[stats/07_Causal_Inference/Causal Inference\|Causal Inference]] — Framework
 - [[stats/07_Causal_Inference/DAGs for Causal Inference\|DAGs for Causal Inference]] — Identifying confounders
-- [[stats/07_Causal_Inference/Difference-in-Differences (DiD)\|Difference-in-Differences (DiD)]] — Alternative for panel data
+- [[stats/07_Causal_Inference/Difference-in-Differences\|Difference-in-Differences]] — Alternative for panel data
 
 ---
 

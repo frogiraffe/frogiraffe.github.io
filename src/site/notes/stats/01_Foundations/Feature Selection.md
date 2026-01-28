@@ -59,7 +59,7 @@ predictors(results)
 ## Related Concepts
 
 - [[stats/03_Regression_Analysis/Lasso Regression\|Lasso Regression]] - L1 regularization selects features
-- [[Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] - Feature extraction (not selection)
+- [[stats/05_Unsupervised_Learning/PCA (Principal Component Analysis)\|PCA (Principal Component Analysis)]] - Feature extraction (not selection)
 - [[stats/01_Foundations/Data Leakage\|Data Leakage]] - Feature selection must be inside CV
 
 ---

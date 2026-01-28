@@ -96,7 +96,7 @@ df['rake_weight'] = df['age_group'].map(
 ## Related Concepts
 
 - [[stats/01_Foundations/Stratified Sampling\|Stratified Sampling]] — Design requiring weights
-- [[stats/01_Foundations/Selection Bias\|Selection Bias]] — What weighting corrects
+- [[stats/10_Ethics_and_Biases/Selection Bias\|Selection Bias]] — What weighting corrects
 
 ---
 

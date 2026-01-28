@@ -132,7 +132,7 @@ summary(model, diagnostics = TRUE)
 
 - [[stats/03_Regression_Analysis/Multiple Linear Regression\|Multiple Linear Regression]] - The biased OLS baseline.
 - [[stats/07_Causal_Inference/Propensity Score Matching (PSM)\|Propensity Score Matching (PSM)]] - Alternative for selection bias.
-- [[stats/07_Causal_Inference/Difference-in-Differences (DiD)\|Difference-in-Differences (DiD)]]
+- [[stats/07_Causal_Inference/Difference-in-Differences\|Difference-in-Differences]]
 - [[stats/07_Causal_Inference/Regression Discontinuity Design (RDD)\|Regression Discontinuity Design (RDD)]]
 
 ---

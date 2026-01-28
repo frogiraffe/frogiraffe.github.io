@@ -138,7 +138,8 @@ exp.show_in_notebook()
 
 - [[stats/04_Supervised_Learning/SHAP Values\|SHAP Values]] — Gold standard for attribution
 - [[stats/04_Supervised_Learning/Feature Importance\|Feature Importance]] — Global importance methods
-- [[GAMs\|GAMs]] — Inherently interpretable non-linear models
+- [[stats/03_Regression_Analysis/Generalized Additive Models\|Generalized Additive Models]]
+ — Inherently interpretable non-linear models
 
 ---
 

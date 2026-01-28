@@ -378,7 +378,7 @@ print(fc)
 
 **Advanced:**
 - [[stats/04_Supervised_Learning/Cross-Validation\|Cross-Validation]] — Time series split (no shuffling!)
-- [[stats/05_Unsupervised_Learning/Anomaly Detection\|Anomaly Detection]] — Finding unusual points
+- [[stats/04_Supervised_Learning/Anomaly Detection\|Anomaly Detection]] — Finding unusual points
 
 ---
 

@@ -43,7 +43,7 @@ $$
 | Strategy | Goal | Training | Combination | Key Algorithm |
 |----------|------|----------|-------------|---------------|
 | **Bagging** | Reduce Variance | Parallel (independent) | Voting / Averaging | [[stats/04_Supervised_Learning/Random Forest\|Random Forest]] |
-| **Boosting** | Reduce Bias | Sequential (dependent) | Weighted sum | [[stats/04_Supervised_Learning/Gradient Boosting (XGBoost)\|Gradient Boosting (XGBoost)]] |
+| **Boosting** | Reduce Bias | Sequential (dependent) | Weighted sum | [[stats/04_Supervised_Learning/Gradient Boosting\|Gradient Boosting]] |
 | **Stacking** | Optimize Both | Parallel, then meta-model | Learned weights | Stacked Generalization |
 
 ---
@@ -383,7 +383,7 @@ cat("Stacking Accuracy:", mean(stack_pred == test$y), "\n")
 
 **Core Algorithms:**
 - [[stats/04_Supervised_Learning/Random Forest\|Random Forest]] — Bagging with Decision Trees
-- [[stats/04_Supervised_Learning/Gradient Boosting (XGBoost)\|Gradient Boosting (XGBoost)]] — Sequential boosting
+- [[stats/04_Supervised_Learning/Gradient Boosting\|Gradient Boosting]] — Sequential boosting
 - [[stats/04_Supervised_Learning/AdaBoost\|AdaBoost]] — Original boosting algorithm
 
 **Prerequisites:**

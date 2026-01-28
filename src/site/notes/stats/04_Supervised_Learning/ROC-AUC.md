@@ -12,8 +12,13 @@
 
 ---
 
-> [!tip] Intuition (ELI5): The Ranking Game
+## Intuition (ELI5)
+
+> [!tip] The Ranking Game
 > AUC answers: "If I pick a random positive and a random negative example, what's the probability my model ranks the positive higher?" AUC = 0.8 means 80% of the time, positives score higher than negatives.
+
+> [!tip] The "Sensitivity Knob" Metaphor
+> Imagine a metal detector. You can turn the sensitivity up (find more gold, but beep at old nails) or down (no false beeps, but miss some gold). ROC-AUC tells you **how good the detector is overall**, regardless of where you set the knob.
 
 ---
 
@@ -84,8 +89,8 @@ from sklearn.preprocessing import label_binarize
 from sklearn.metrics import roc_auc_score
 
 # For multiclass, use 'ovr' (one-vs-rest)
-auc_multi = roc_auc_score(y_test, y_pred_proba_multi, 
-                          multi_class='ovr', average='macro')
+# auc_multi = roc_auc_score(y_test, y_pred_proba_multi, 
+#                           multi_class='ovr', average='macro')
 ```
 
 ---
@@ -108,9 +113,9 @@ plot(roc_obj, main = "ROC Curve",
 ci.auc(roc_obj)
 
 # ========== COMPARE MODELS ==========
-roc1 <- roc(y_test, pred_model1)
-roc2 <- roc(y_test, pred_model2)
-roc.test(roc1, roc2)  # DeLong test
+# roc1 <- roc(y_test, pred_model1)
+# roc2 <- roc(y_test, pred_model2)
+# roc.test(roc1, roc2)  # DeLong test
 ```
 
 ---
@@ -159,10 +164,11 @@ pr_auc = average_precision_score(y_test, y_pred_proba)
 - [[stats/04_Supervised_Learning/Recall\|Recall]] — Y-axis in both curves
 - [[stats/04_Supervised_Learning/F1 Score\|F1 Score]] — Threshold-dependent alternative
 - [[stats/04_Supervised_Learning/Imbalanced Data\|Imbalanced Data]] — When to use PR-AUC
+- [[stats/03_Regression_Analysis/Binary Logistic Regression\|Binary Logistic Regression]] — Common use case
 
 ---
 
 ## References
 
-- **Paper:** Hanley, J. A., & McNeil, B. J. (1982). The meaning and use of the area under a receiver operating characteristic (ROC) curve. *Radiology*, 143(1), 29-36.
+- **Paper:** Hanley, J. A., & McNeil, B. J. (1982). The meaning and use of the area under a receiver operating characteristic (ROC) curve. *Radiology*.
 - **Tutorial:** [Scikit-learn ROC Curve](https://scikit-learn.org/stable/modules/model_evaluation.html#roc-metrics)

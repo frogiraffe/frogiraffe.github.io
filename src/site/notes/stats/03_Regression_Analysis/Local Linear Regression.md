@@ -5,87 +5,53 @@
 
 ## Definition
 
-> [!abstract] Core Statement
-> **Local Linear Regression** (LOESS/LOWESS) fits ==weighted linear regressions in local neighborhoods== of each point, allowing flexible non-linear relationships without specifying a functional form.
+> [!abstract] Overview
+> **Local Linear Regression (LLR)** is a non-parametric method that fits a linear regression model within a local window around each point of interest. Instead of assuming a global linear relationship, it allows the relationship to vary locally, effectively smoothing the data.
+>
+> It solves the following optimization problem for each target point $x_0$:
+> $$ \min_{\alpha, \beta} \sum_{i=1}^{n} w_i(x_0) (y_i - \alpha - \beta(x_i - x_0))^2 $$
+> where $w_i(x_0)$ is a **kernel weight** that gives more importance to points close to $x_0$.
 
 ---
 
-## How It Works
+## Key Components
 
-1. For each point $x_0$, select nearby observations
-2. Weight observations by distance (tricube kernel)
-3. Fit weighted linear regression
-4. Predict $\hat{y}_0$ from local fit
-5. Repeat for all points
-
----
-
-## Key Parameter
-
-**Span (α):** Controls neighborhood size
-- Small span: More flexible, more noise
-- Large span: Smoother, may miss patterns
+1.  **Kernel Function ($K$):** Determines the shape of the weights (e.g., Gaussian, Epanechnikov).
+2.  **Bandwidth ($h$):** Controls the size of the local window.
+    *   **Small $h$:** High variance, low bias (overfitting, wiggly curve).
+    *   **Large $h$:** Low variance, high bias (underfitting, overly smooth).
 
 ---
 
 ## Python Implementation
 
 ```python
-from statsmodels.nonparametric.smoothers_lowess import lowess
+import numpy as np
+import statsmodels.api as sm
 import matplotlib.pyplot as plt
 
-# Fit LOWESS
-smoothed = lowess(y, x, frac=0.3)  # span = 0.3
+# Generate synthetic data
+np.random.seed(42)
+x = np.linspace(0, 10, 100)
+y = np.sin(x) + np.random.normal(0, 0.2, 100)
 
-plt.scatter(x, y, alpha=0.5)
-plt.plot(smoothed[:, 0], smoothed[:, 1], 'r-', linewidth=2)
-plt.title('LOWESS Smoothing')
+# Local Linear Regression using Lowess (Locally Weighted Scatterplot Smoothing)
+# frac: The fraction of the data used when estimating each y-value (bandwidth proxy)
+lowess = sm.nonparametric.lowess
+z = lowess(y, x, frac=0.2)
+
+# Plot
+plt.scatter(x, y, label='Data', alpha=0.5)
+plt.plot(z[:, 0], z[:, 1], color='red', label='Local Linear Regression (Lowess)')
+plt.legend()
+plt.title("Local Linear Regression with Lowess")
 plt.show()
 ```
 
 ---
 
-## R Implementation
-
-```r
-# LOESS smoothing
-loess_fit <- loess(y ~ x, data = df, span = 0.3)
-plot(df$x, df$y)
-lines(df$x, predict(loess_fit), col = "red", lwd = 2)
-
-# ggplot2 version
-library(ggplot2)
-ggplot(df, aes(x, y)) + 
-  geom_point() + 
-  geom_smooth(method = "loess", span = 0.3)
-```
-
----
-
-## When to Use
-
-- Exploratory data analysis
-- Non-linear patterns of unknown form
-- Visualizing trends before modeling
-
----
-
-## Limitations
-
-- No closed-form equation
-- Computationally intensive for large n
-- Edge effects at boundaries
-
----
-
 ## Related Concepts
 
-- [[stats/08_Time_Series_Analysis/Smoothing\|Smoothing]] - Time series smoothing
-- [[stats/01_Foundations/Kernel Density Estimation\|Kernel Density Estimation]] - Similar idea for density
-- [[stats/03_Regression_Analysis/Generalized Additive Models\|Generalized Additive Models]] - Extends to multiple predictors
-
----
-
-## References
-
-- **Article:** Cleveland, W. S. (1979). Robust locally weighted regression and smoothing scatterplots. *JASA*, 74(368), 829-836. [DOI: 10.1080/01621459.1979.10481038](https://doi.org/10.1080/01621459.1979.10481038)
+- [[stats/03_Regression_Analysis/Simple Linear Regression\|Simple Linear Regression]] - The global counterpart.
+- [[stats/01_Foundations/Kernel Density Estimation\|Kernel Density Estimation]] - Uses kernels for density instead of regression.
+- [[stats/08_Time_Series_Analysis/Smoothing\|Smoothing]] - The general category LLR belongs to.

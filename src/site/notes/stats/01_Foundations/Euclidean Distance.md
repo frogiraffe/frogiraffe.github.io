@@ -59,7 +59,7 @@ dist(rbind(x, y))
 
 - [[stats/05_Unsupervised_Learning/K-Means Clustering\|K-Means Clustering]] - Distance to centroids
 - [[stats/04_Supervised_Learning/K-Nearest Neighbors (KNN)\|K-Nearest Neighbors (KNN)]] - Finding neighbors
-- [[Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] - Preserves distances
+- [[stats/05_Unsupervised_Learning/PCA (Principal Component Analysis)\|PCA (Principal Component Analysis)]] - Preserves distances
 
 ---
 

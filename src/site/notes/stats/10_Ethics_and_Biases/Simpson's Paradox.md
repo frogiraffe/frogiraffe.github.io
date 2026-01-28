@@ -89,7 +89,8 @@ plt.show()
 
 - [[stats/10_Ethics_and_Biases/Confounding Bias\|Confounding Bias]] - The underlying cause of Simpson's Paradox.
 - [[stats/10_Ethics_and_Biases/Selection Bias\|Selection Bias]] - Can create the groups that lead to the paradox.
-- [[Linear Regression\|Linear Regression]] - Aggregated regression intercepts/slopes are often biased.
+- [[stats/03_Regression_Analysis/Simple Linear Regression\|Simple Linear Regression]]
+ - Aggregated regression intercepts/slopes are often biased.
 
 ---
 

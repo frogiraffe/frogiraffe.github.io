@@ -68,7 +68,7 @@ outliers = data[z_scores > 3]  # More than 3 standard deviations
 
 - [[stats/01_Foundations/Quantiles and Quartiles\|Quantiles and Quartiles]] — IQR basis
 - [[stats/09_EDA_and_Visualization/Box Plots\|Box Plots]] — Visualize outliers
-- [[stats/05_Unsupervised_Learning/Anomaly Detection\|Anomaly Detection]] — ML perspective
+- [[stats/04_Supervised_Learning/Anomaly Detection\|Anomaly Detection]] — ML perspective
 
 ---
 

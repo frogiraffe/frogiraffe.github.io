@@ -143,7 +143,7 @@ summary(model)
 
 - [[stats/03_Regression_Analysis/Binary Logistic Regression\|Binary Logistic Regression]] - Estimates propensity score.
 - [[stats/07_Causal_Inference/Instrumental Variables (IV)\|Instrumental Variables (IV)]] - Alternative for endogeneity.
-- [[stats/07_Causal_Inference/Difference-in-Differences (DiD)\|Difference-in-Differences (DiD)]]
+- [[stats/07_Causal_Inference/Difference-in-Differences\|Difference-in-Differences]]
 
 ---
 

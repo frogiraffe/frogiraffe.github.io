@@ -1,59 +1,132 @@
 ---
-{"dg-publish":true,"permalink":"/stats/07-causal-inference/synthetic-control-method/","tags":["Causal-Inference","Econometrics","Time-Series","Comparative-Case-Study"]}
+{"dg-publish":true,"permalink":"/stats/07-causal-inference/synthetic-control-method/","tags":["Causal-Inference","Policy-Evaluation","Econometrics","Time-Series"]}
 ---
 
 
 ## Definition
 
 > [!abstract] Core Statement
-> The **Synthetic Control Method (SCM)** is a statistical method used to evaluate the effect of an intervention in comparative case studies. it creates a "synthetic" version of the treated unit by taking a weighted average of similar control units that were not treated.
+> The **Synthetic Control Method (SCM)** constructs a ==weighted combination of control units== to create a counterfactual "synthetic" version of a treated unit, enabling causal inference from comparative case studies with a single treated unit.
 
 ---
 
 > [!tip] Intuition (ELI5): The "Digital Twin" Country
-> Imagine a country passes a new law. To see if it worked, we can't just compare it to one neighbor. Instead, we create a "Digital Twin" of that country by mixing bits of other similar countries (e.g., 40% Country A, 30% Country B, 30% Country C). 
-> - Before the law, the real country and the Digital Twin look identical.
+> Imagine a country (e.g., California) passes a new law. To see if it worked, we can't just compare it to one neighbor. Instead, we create a **"Digital Twin"** of California by mixing bits of other similar states (e.g., 40% New York, 30% Texas, 30% Illinois).
+> - Before the law, the real California and its Digital Twin should look identical.
 > - After the law, any difference between them is the effect of that law.
 
 ---
 
 ## When to Use
 
-- When you only have **one** treated unit (e.g., one city, one state, one company).
-- When there is no single perfect control group.
-- When you have a long time-series of data before the treatment.
+- **Single Treated Unit:** When you only have one treated entity (e.g., one city, state, or company).
+- **No Perfect Control:** When no single control unit is similar enough on its own.
+- **Long Pre-Treatment:** When you have substantial historical data to fit the weights.
 
 ---
 
 ## The Workflow
 
-1.  **Identify Donor Pool:** A set of control units that were never treated and are similar to the treated unit.
-2.  **Assign Weights:** Find a set of weights for the donor pool such that the weighted average (Synthetic Control) matches the treated unit's outcome trajectory *before* the treatment.
-3.  **Validate Pre-Trend:** Ensure the Synthetic Control and the real unit track each other closely in the pre-treatment period.
-4.  **Estimate Effect:** The causal effect is the difference between the treated unit and the Synthetic Control *after* the treatment.
+1.  **Identify Donor Pool:** Select control units that were never treated and are structurally similar.
+2.  **Assign Weights ($w_j$):** Find a set of weights for donor units to minimize the pre-treatment difference.
+3.  **Validate Pre-Trend:** Ensure the Synthetic Control tracks the real unit closely *before* the intervention.
+4.  **Estimate Effect:** The causal effect is the divergence between the real unit and the Synthetic Control *after* the intervention.
 
 ---
 
-## Python Example (Logic)
+## Mathematical Formulation
 
-In Python, the `CausalML` or `SparseSC` libraries are common for this. Below is the conceptual logic:
+We find weights $w = (w_1, \dots, w_J)$ that minimize the pre-treatment prediction error:
+
+$$
+\min_w \sum_{t<T_0} \left(Y_{1t} - \sum_{j=2}^{J+1} w_j Y_{jt}\right)^2
+$$
+
+Subject to:
+- $w_j \ge 0$ (No negative weights)
+- $\sum w_j = 1$ (Weights sum to 100%)
+
+---
+
+## Python Implementation
 
 ```python
-# Conceptual logic using weight optimization
 import numpy as np
 from scipy.optimize import minimize
 
-def objective(weights, donors, treated_pre):
-    # Weighted average of donors should equal treated_pre
-    synthetic = np.dot(weights, donors)
-    return np.sum((synthetic - treated_pre)**2)
+# Conceptual implementation of finding weights
+def get_synthetic_weights(donors_pre, treated_pre):
+    """
+    donors_pre: Matrix of (n_time_pre, n_donors)
+    treated_pre: Vector of (n_time_pre,)
+    """
+    n_donors = donors_pre.shape[1]
+    
+    # Objective: Minimize squared difference
+    def loss(w):
+        synthetic = donors_pre @ w
+        return np.sum((treated_pre - synthetic)**2)
+    
+    # Constraints: Sum to 1, non-negative
+    constraints = ({'type': 'eq', 'fun': lambda w: np.sum(w) - 1})
+    bounds = [(0, 1) for _ in range(n_donors)]
+    
+    # Optimize
+    result = minimize(loss, 
+                      x0=np.ones(n_donors)/n_donors,
+                      args=(),
+                      method='SLSQP',
+                      bounds=bounds,
+                      constraints=constraints)
+    
+    return result.x
 
-# Constraints: weights must sum to 1 and be non-negative
-cons = ({'type': 'eq', 'fun': lambda w: np.sum(w) - 1})
-bounds = [(0, 1) for _ in range(num_donors)]
-
-res = minimize(objective, initial_weights, args=(donors_pre, treated_pre), 
-               method='SLSQP', bounds=bounds, constraints=cons)
-
-best_weights = res.x
+# Usage
+# weights = get_synthetic_weights(donor_data, treated_data)
+# synthetic_post = donor_data_post @ weights
+# causal_effect = treated_data_post - synthetic_post
 ```
+
+---
+
+## R Implementation
+
+```r
+library(Synth)
+
+# Prepare data
+synth_data <- dataprep(
+    foo = data,
+    predictors = c("gdp", "population", "inflation"),
+    dependent = "outcome",
+    unit.variable = "state_id",
+    time.variable = "year",
+    treatment.identifier = 1,      # ID of treated unit
+    controls.identifier = 2:50,    # IDs of donor pool
+    time.predictors.prior = 1980:1990,
+    time.optimize.ssr = 1980:1990
+)
+
+# Run optimization
+synth_out <- synth(synth_data)
+
+# Visualize path plot
+path.plot(synth_out, synth_data, 
+          Main = "Real vs Synthetic California",
+          Ylab = "Smoking per Capita", Xlab = "Year")
+```
+
+---
+
+## Related Concepts
+
+- [[stats/07_Causal_Inference/Difference-in-Differences\|Difference-in-Differences]] — SCM is a generalization of DiD
+- [[stats/07_Causal_Inference/Propensity Score Matching (PSM)\|Propensity Score Matching (PSM)]] — Matching individual units
+- [[stats/07_Causal_Inference/Causal Inference\|Causal Inference]] — Broad framework
+
+---
+
+## References
+
+- **Paper:** Abadie, A., Diamond, A., & Hainmueller, J. (2010). Synthetic control methods for comparative case studies. *Journal of the American Statistical Association*, 105(490), 493-505.
+- **Paper:** Abadie, A. (2021). Using Synthetic Controls: Feasibility, Data Requirements, and Methodological Aspects. *Journal of Economic Literature*.

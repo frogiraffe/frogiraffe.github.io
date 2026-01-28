@@ -97,7 +97,8 @@ print(f"Corrected Coefficient (Edu): {model_correct.params['Edu']:.2f}")
 
 - [[stats/10_Ethics_and_Biases/Simpson's Paradox\|Simpson's Paradox]] - A result of confounding.
 - [[stats/03_Regression_Analysis/Multiple Linear Regression\|Multiple Linear Regression]] - The primary tool for control.
-- [[Randomized Controlled Trials (RCT)\|Randomized Controlled Trials (RCT)]] - The gold standard to eliminate confounding.
+- [[stats/01_Foundations/Randomized Controlled Trials\|Randomized Controlled Trials]]
+ - The gold standard to eliminate confounding.
 
 ---
 

@@ -32,7 +32,8 @@
 
 > [!failure] Do NOT Use Neural Networks When...
 > - Data is **small** (<10K samples) — prone to overfitting.
-> - Data is **tabular/structured** — [[stats/04_Supervised_Learning/Gradient Boosting (XGBoost)\|Gradient Boosting (XGBoost)]] often wins.
+> - Data is **tabular/structured** — [[stats/04_Supervised_Learning/Gradient Boosting\|Gradient Boosting]]
+ often wins.
 > - **Interpretability** is critical — use simpler models.
 > - **Computational resources** are limited.
 > - A simpler model achieves comparable performance.
@@ -294,8 +295,9 @@ with torch.no_grad():
 - [[stats/04_Supervised_Learning/Batch Normalization\|Batch Normalization]] — Stabilize training
 
 **Architectures:**
-- [[Convolutional Neural Networks (CNN)\|Convolutional Neural Networks (CNN)]] — For images
-- [[Recurrent Neural Networks (RNN)\|Recurrent Neural Networks (RNN)]] — For sequences
+- [[stats/04_Supervised_Learning/Neural Networks\|Neural Networks]] (CNNs)
+- [[stats/04_Supervised_Learning/Neural Networks\|Neural Networks]] (RNNs)
+ — For sequences
 - [[stats/04_Supervised_Learning/Transformers\|Transformers]] — State-of-the-art NLP
 
 ---

@@ -243,7 +243,8 @@ confusionMatrix(final_pred, y_test)
 > **2. Using KNN in High Dimensions**
 > - *Problem:* With 500 features, all points become roughly equidistant.
 > - *Reason:* "Curse of dimensionality" — volume of space grows exponentially.
-> - *Solution:* Apply [[Principal Component Analysis (PCA)\|Principal Component Analysis (PCA)]] or feature selection first.
+> - *Solution:* Apply- [[stats/05_Unsupervised_Learning/PCA (Principal Component Analysis)\|PCA (Principal Component Analysis)]]
+ or feature selection first.
 >
 > **3. Ignoring Imbalanced Classes**
 > - *Problem:* 95% of training data is Class A. KNN almost always predicts A.

@@ -241,7 +241,7 @@ ggplot(df, aes(x = Age, y = Percentage, fill = Source)) +
 
 ## Related Concepts
 
-- [[stats/01_Foundations/Selection Bias\|Selection Bias]] — Broader category including sampling
+- [[stats/10_Ethics_and_Biases/Selection Bias\|Selection Bias]] — Broader category including sampling
 - [[stats/10_Ethics_and_Biases/Survivorship Bias\|Survivorship Bias]] — Special case of sampling bias
 - [[stats/01_Foundations/Confounding Variables\|Confounding Variables]] — Another source of invalid inference
 - [[stats/01_Foundations/Stratified Sampling\|Stratified Sampling]] — Solution for known population subgroups
