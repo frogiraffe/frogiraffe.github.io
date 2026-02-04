@@ -274,7 +274,7 @@ with torch.no_grad():
 ## Related Concepts
 
 **Prerequisites:**
-- [[stats/01_Foundations/Backpropagation\|Backpropagation]] — Training mechanism
+- [[stats/01_Foundations/Backpropagation\|stats/01_Foundations/Backpropagation]] — Training mechanism
 - [[stats/01_Foundations/Loss Function\|Loss Function]] — Reconstruction objective
 - [[stats/01_Foundations/Normal Distribution\|Normal Distribution]] — VAE latent prior
 

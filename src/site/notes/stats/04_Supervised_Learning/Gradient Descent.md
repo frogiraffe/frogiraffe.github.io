@@ -124,7 +124,7 @@ plot(res$history, type="b", main="Convergence Path", ylab="Value of x")
 
 ## Related Concepts
 
-- [[stats/01_Foundations/Backpropagation\|Backpropagation]] - Using chain rule to calculate gradients in Neural Nets.
+- [[stats/01_Foundations/Backpropagation\|stats/01_Foundations/Backpropagation]] - Using chain rule to calculate gradients in Neural Nets.
 - [[stats/01_Foundations/Loss Function\|Loss Function]] - The function $J(\theta)$ we are minimizing.
 - [[stats/04_Supervised_Learning/Neural Networks\|Neural Networks]] - Heavy users of GD.
 - [[stats/01_Foundations/Feature Scaling\|Feature Scaling]] - Critical pre-requisite.
