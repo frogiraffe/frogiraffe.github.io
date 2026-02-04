@@ -87,6 +87,8 @@ plt.show()
 - [[stats/01_Foundations/Eigenvalues & Eigenvectors\|Eigenvalues & Eigenvectors]] - The mathematical engine.
 - [[stats/01_Foundations/Bias-Variance Trade-off\|Bias-Variance Trade-off]] - Reducing dimensions can reduce variance but increase bias.
 - [[stats/05_Unsupervised_Learning/t-SNE & UMAP\|t-SNE & UMAP]] - The non-linear alternatives.
+- [[stats/01_Foundations/Linear Transformations\|Linear Transformations]] - PCA is a linear transformation to a new basis.
+- [[stats/01_Foundations/Covariance Matrix\|Covariance Matrix]] - The matrix PCA decomposes.
 
 ---
 

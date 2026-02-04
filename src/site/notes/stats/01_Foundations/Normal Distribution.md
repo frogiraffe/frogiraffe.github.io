@@ -106,6 +106,8 @@ $$
 | [[stats/02_Statistical_Inference/Shapiro-Wilk Test\|Shapiro-Wilk Test]] | $n < 50$ | Data is Normal |
 | Kolmogorov-Smirnov | $n > 50$ | Data is Normal |
 | D'Agostino-Pearson | Based on Skew/Kurtosis | Data is Normal |
+| Anderson-Darling | General, weighted tails | Data is Normal |
+| [[stats/02_Statistical_Inference/Hotelling's T-Squared\|Hotelling's T-Squared]] | Multivariate normality | Mean vector = μ₀ |
 
 ---
 
@@ -187,7 +189,8 @@ qqline(data, col = "red", lwd = 2)
 - [[stats/01_Foundations/T-Distribution\|T-Distribution]] - Normal's cousin for small samples.
 - [[stats/09_EDA_and_Visualization/Q-Q Plot\|Q-Q Plot]] - Visual diagnostic.
 - [[stats/02_Statistical_Inference/Shapiro-Wilk Test\|Shapiro-Wilk Test]] - Statistical diagnostic.
-- [[Log Transformations\|Log Transformations]] - A cure for non-normality.
+- [[stats/01_Foundations/Log Transformation\|Log Transformation]] - A cure for non-normality.
+- [[stats/01_Foundations/Chebyshev's Inequality\|Chebyshev's Inequality]] - Distribution-free alternative to 68-95-99.7 rule.
 
 ---
 

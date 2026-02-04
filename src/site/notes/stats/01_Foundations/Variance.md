@@ -203,6 +203,7 @@ cat("Sample Std Dev (s):", sd_sample, "\n")
 - [[stats/01_Foundations/Covariance Matrix\|Covariance]] — Variance between two variables
 - [[stats/01_Foundations/Coefficient of Variation\|Coefficient of Variation]] — Variance relative to mean
 - [[stats/01_Foundations/Bias-Variance Trade-off\|Bias-Variance Trade-off]] — Variance in ML context
+- [[stats/01_Foundations/Chebyshev's Inequality\|Chebyshev's Inequality]] — Bounds on probability using variance
 
 ---
 

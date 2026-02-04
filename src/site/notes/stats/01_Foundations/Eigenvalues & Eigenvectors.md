@@ -124,6 +124,9 @@ print(lambda1 * v1)
 - [[stats/01_Foundations/Matrix Multiplication\|Matrix Multiplication]] - The operation $Av$.
 - [[stats/01_Foundations/Covariance Matrix\|Covariance Matrix]] - The input matrix often used.
 - [[stats/01_Foundations/Singular Value Decomposition (SVD)\|Singular Value Decomposition (SVD)]] - Generalization for non-square matrices (used in calculating PCA in practice).
+- [[stats/01_Foundations/Positive Definite Matrices\|Positive Definite Matrices]] - PD matrices have all positive eigenvalues.
+- [[stats/01_Foundations/Linear Transformations\|Linear Transformations]] - Eigenvectors are preserved directions.
+- [[stats/01_Foundations/Determinants & Matrix Inversion\|Determinants & Matrix Inversion]] - Det(A) = product of eigenvalues.
 
 ---
 
