@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/02-statistical-inference/chi-square-test-of-independence/","tags":["Hypothesis-Testing","Categorical-Data","Non-Parametric"]}
+{"dg-publish":true,"permalink":"/stats/02-statistical-inference/chi-square-test-of-independence/","tags":["probability","hypothesis-testing","categorical-data","non-parametric"]}
 ---
 
 ## Definition

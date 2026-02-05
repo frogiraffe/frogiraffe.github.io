@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/10-ethics-and-biases/selection-bias/","tags":["Bias","Causal-Inference","Study-Design","Ethics","Sampling"]}
+{"dg-publish":true,"permalink":"/stats/10-ethics-and-biases/selection-bias/","tags":["bias","causal-inference","study-design","ethics","sampling"]}
 ---
 
 

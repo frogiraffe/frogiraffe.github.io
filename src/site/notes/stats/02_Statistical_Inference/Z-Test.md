@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/02-statistical-inference/z-test/","tags":["Hypothesis-Testing","Parametric-Tests","Foundations"]}
+{"dg-publish":true,"permalink":"/stats/02-statistical-inference/z-test/","tags":["probability","hypothesis-testing","parametric-tests","foundations"]}
 ---
 
 ## Definition

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/05-unsupervised-learning/dbscan/","tags":["Clustering","Machine-Learning","Density-Based"]}
+{"dg-publish":true,"permalink":"/stats/05-unsupervised-learning/dbscan/","tags":["clustering","machine-learning","density-based"]}
 ---
 
 

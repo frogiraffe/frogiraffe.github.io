@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/random-forest/","tags":["Machine-Learning","Supervised-Learning","Ensemble-Methods"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/random-forest/","tags":["probability","machine-learning","supervised-learning","ensemble-methods"]}
 ---
 
 ## Definition

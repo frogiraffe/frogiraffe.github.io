@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/quantile-regression/","tags":["Regression","Robust  - Advanced"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/quantile-regression/","tags":["probability","regression","robust-methods"]}
 ---
 
 ## Definition

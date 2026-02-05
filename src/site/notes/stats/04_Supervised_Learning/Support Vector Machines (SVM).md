@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/support-vector-machines-svm/","tags":["Machine-Learning","Classification","Algorithms","Kernel-Methods"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/support-vector-machines-svm/","tags":["probability","machine-learning","classification","algorithms","kernel-methods"]}
 ---
 
 
@@ -338,7 +338,7 @@ plot(best_model, train, X1 ~ X2,
 - [[stats/04_Supervised_Learning/K-Nearest Neighbors (KNN)\|K-Nearest Neighbors (KNN)]] — Instance-based
 
 **Extensions:**
-- [[stats/04_Supervised_Learning/Support Vector Machines\|Support Vector Machines]] — Regression version
+- [[Support Vector Machines\|Support Vector Machines]] — Regression version
 - [[stats/04_Supervised_Learning/Kernel Methods\|Kernel Methods]] — General framework
 
 ---

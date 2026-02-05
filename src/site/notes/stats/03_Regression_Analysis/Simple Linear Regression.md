@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/simple-linear-regression/","tags":["Regression","Linear-Models","OLS","Prediction"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/simple-linear-regression/","tags":["probability","regression","linear-models","ols"]}
 ---
 
 ## Definition

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/poisson-regression/","tags":["Regression","Classification","GLM","Count-Data"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/poisson-regression/","tags":["probability","regression","glm","count-data"]}
 ---
 
 ## Definition

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/gradient-boosting/","tags":["Machine-Learning","Ensemble","Boosting"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/gradient-boosting/","tags":["probability","machine-learning","ensemble","boosting"]}
 ---
 
 

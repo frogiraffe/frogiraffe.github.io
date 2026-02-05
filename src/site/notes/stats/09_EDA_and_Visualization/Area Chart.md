@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/09-eda-and-visualization/area-chart/","tags":["Visualization","Time-Series","Composition"]}
+{"dg-publish":true,"permalink":"/stats/09-eda-and-visualization/area-chart/","tags":["visualization","time-series","composition"]}
 ---
 
 

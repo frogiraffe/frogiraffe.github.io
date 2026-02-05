@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/train-test-split/","tags":["Machine-Learning","Model-Validation","Data-Splitting"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/train-test-split/","tags":["probability","machine-learning","model-validation","data-splitting"]}
 ---
 
 ## Definition

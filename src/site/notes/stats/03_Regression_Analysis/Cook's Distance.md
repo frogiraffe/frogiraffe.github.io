@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/cook-s-distance/","tags":["Diagnostics","Regression","Outliers","Influential-Points"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/cook-s-distance/","tags":["probability","diagnostics","regression","outliers"]}
 ---
 
 ## Definition

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/02-statistical-inference/pearson-correlation/","tags":["Correlation","Parametric-Tests","Association"]}
+{"dg-publish":true,"permalink":"/stats/02-statistical-inference/pearson-correlation/","tags":["probability","correlation","parametric-tests","association"]}
 ---
 
 ## Definition

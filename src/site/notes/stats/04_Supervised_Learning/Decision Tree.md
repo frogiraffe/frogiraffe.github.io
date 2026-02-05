@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/decision-tree/","tags":["Machine-Learning","Supervised-Learning","Classification","Regression"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/decision-tree/","tags":["probability","machine-learning","supervised-learning","classification","regression"]}
 ---
 
 ## Definition

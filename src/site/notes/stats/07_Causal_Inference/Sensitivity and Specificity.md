@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/07-causal-inference/sensitivity-and-specificity/","tags":["Classification","Model-Evaluation","Diagnostic-Testing","Medical-Statistics"]}
+{"dg-publish":true,"permalink":"/stats/07-causal-inference/sensitivity-and-specificity/","tags":["classification","model-evaluation","diagnostic-testing","medical-statistics"]}
 ---
 
 

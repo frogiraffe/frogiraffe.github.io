@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/09-eda-and-visualization/pareto-chart/","tags":["Visualization","Quality-Control","Analysis"]}
+{"dg-publish":true,"permalink":"/stats/09-eda-and-visualization/pareto-chart/","tags":["visualization","quality-control","analysis"]}
 ---
 
 

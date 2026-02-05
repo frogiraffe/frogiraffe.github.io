@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/01-foundations/covariance-matrix/","tags":["Linear-Algebra","Statistics","Multivariate"]}
+{"dg-publish":true,"permalink":"/stats/01-foundations/covariance-matrix/","tags":["probability","linear-algebra","multivariate","foundations"]}
 ---
 
 

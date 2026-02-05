@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/02-statistical-inference/spearman-s-rank-correlation/","tags":["Correlation","Non-Parametric","Association"]}
+{"dg-publish":true,"permalink":"/stats/02-statistical-inference/spearman-s-rank-correlation/","tags":["probability","correlation","non-parametric","association"]}
 ---
 
 ## Definition

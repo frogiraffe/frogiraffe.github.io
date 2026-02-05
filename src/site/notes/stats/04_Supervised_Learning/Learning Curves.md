@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/learning-curves/","tags":["Machine-Learning","Model-Evaluation","Diagnostics"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/learning-curves/","tags":["probability","machine-learning","model-evaluation","diagnostics"]}
 ---
 
 
@@ -226,7 +226,7 @@ plt.show()
 ## Related Concepts
 
 - [[stats/04_Supervised_Learning/Overfitting\|Overfitting]] — What high variance looks like
-- [[stats/04_Supervised_Learning/Underfitting\|Underfitting]] — What high bias looks like
+- [[Underfitting\|Underfitting]] — What high bias looks like
 - [[stats/04_Supervised_Learning/Cross-Validation\|Cross-Validation]] — Used to generate curves
 - [[stats/04_Supervised_Learning/Hyperparameter Tuning\|Hyperparameter Tuning]] — Uses validation curves
 

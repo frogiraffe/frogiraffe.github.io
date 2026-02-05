@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/hyperparameter-tuning/","tags":["Machine-Learning","Model-Selection","Optimization"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/hyperparameter-tuning/","tags":["probability","machine-learning","model-selection","optimization"]}
 ---
 
 

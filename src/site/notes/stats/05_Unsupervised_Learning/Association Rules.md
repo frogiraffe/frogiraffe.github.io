@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/05-unsupervised-learning/association-rules/","tags":["Machine-Learning","Unsupervised","Market-Basket","Data-Mining"]}
+{"dg-publish":true,"permalink":"/stats/05-unsupervised-learning/association-rules/","tags":["probability","machine-learning","unsupervised","market-basket","data-mining"]}
 ---
 
 

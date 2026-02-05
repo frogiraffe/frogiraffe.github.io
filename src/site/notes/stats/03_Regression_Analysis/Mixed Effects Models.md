@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/mixed-effects-models/","tags":["Mixed-Models","Panel-Data","Longitudinal"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/mixed-effects-models/","tags":["probability","mixed-models","longitudinal"]}
 ---
 
 

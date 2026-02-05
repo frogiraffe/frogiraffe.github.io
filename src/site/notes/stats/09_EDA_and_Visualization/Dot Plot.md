@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/09-eda-and-visualization/dot-plot/","tags":["Visualization","EDA","Categorical"]}
+{"dg-publish":true,"permalink":"/stats/09-eda-and-visualization/dot-plot/","tags":["visualization","eda","categorical"]}
 ---
 
 

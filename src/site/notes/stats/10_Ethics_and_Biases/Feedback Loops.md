@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/10-ethics-and-biases/feedback-loops/","tags":["Ethics","Systems-Thinking","AI-Safety","Reinforcement-Learning"]}
+{"dg-publish":true,"permalink":"/stats/10-ethics-and-biases/feedback-loops/","tags":["ethics","systems-thinking","ai-safety","reinforcement-learning"]}
 ---
 
 ## Definition

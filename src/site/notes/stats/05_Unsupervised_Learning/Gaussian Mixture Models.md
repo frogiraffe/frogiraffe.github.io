@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/05-unsupervised-learning/gaussian-mixture-models/","tags":["Clustering","Machine-Learning","Probabilistic"]}
+{"dg-publish":true,"permalink":"/stats/05-unsupervised-learning/gaussian-mixture-models/","tags":["clustering","machine-learning","probabilistic"]}
 ---
 
 

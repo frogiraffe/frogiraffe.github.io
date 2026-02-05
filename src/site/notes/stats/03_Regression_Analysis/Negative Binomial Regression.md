@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/negative-binomial-regression/","tags":["Regression","GLM","Count-Data","Overdispersion"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/negative-binomial-regression/","tags":["probability","regression","glm","count-data"]}
 ---
 
 ## Definition

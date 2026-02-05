@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/07-causal-inference/collider-bias/","tags":["Causal-Inference","Bias","Study-Design"]}
+{"dg-publish":true,"permalink":"/stats/07-causal-inference/collider-bias/","tags":["causal-inference","bias","study-design"]}
 ---
 
 

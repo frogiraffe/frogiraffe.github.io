@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/08-time-series-analysis/vector-autoregression-var/","tags":["Time-Series","Multivariate"]}
+{"dg-publish":true,"permalink":"/stats/08-time-series-analysis/vector-autoregression-var/","tags":["time-series","multivariate"]}
 ---
 
 ## Overview

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/06-experimental-design/interleaved-testing/","tags":["Experimental-Design","Information-Retrieval","Ranking"]}
+{"dg-publish":true,"permalink":"/stats/06-experimental-design/interleaved-testing/","tags":["experimental-design","information-retrieval","ranking"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/06-experimental-design/factorial-design-2k/","tags":["Experimental-Design","DOE","ANOVA"]}
+{"dg-publish":true,"permalink":"/stats/06-experimental-design/factorial-design-2k/","tags":["experimental-design","doe","anova"]}
 ---
 
 ## Definition

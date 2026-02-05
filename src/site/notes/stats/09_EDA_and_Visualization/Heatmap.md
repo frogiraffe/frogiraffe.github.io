@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/09-eda-and-visualization/heatmap/","tags":["Visualization","EDA","High-Dimensional"]}
+{"dg-publish":true,"permalink":"/stats/09-eda-and-visualization/heatmap/","tags":["visualization","eda","high-dimensional"]}
 ---
 
 ## Definition

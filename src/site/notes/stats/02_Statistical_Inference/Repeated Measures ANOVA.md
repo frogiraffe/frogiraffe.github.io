@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/02-statistical-inference/repeated-measures-anova/","tags":["Hypothesis-Testing","ANOVA","Within-Subjects","Parametric-Tests"]}
+{"dg-publish":true,"permalink":"/stats/02-statistical-inference/repeated-measures-anova/","tags":["probability","hypothesis-testing","anova","within-subjects"]}
 ---
 
 ## Definition

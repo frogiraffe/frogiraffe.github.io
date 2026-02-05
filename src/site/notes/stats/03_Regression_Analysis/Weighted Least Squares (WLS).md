@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/weighted-least-squares-wls/","tags":["Regression","Linear-Models","Heteroscedasticity"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/weighted-least-squares-wls/","tags":["probability","regression","heteroscedasticity"]}
 ---
 
 ## Definition

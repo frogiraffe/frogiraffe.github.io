@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/02-statistical-inference/one-sample-t-test/","tags":["Hypothesis-Testing","Parametric-Tests","T-Test"]}
+{"dg-publish":true,"permalink":"/stats/02-statistical-inference/one-sample-t-test/","tags":["probability","hypothesis-testing","parametric-tests","t-test"]}
 ---
 
 ## Definition

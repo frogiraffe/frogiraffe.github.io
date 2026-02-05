@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/multinomial-logistic-regression-mn-logit/","tags":["Regression","GLM","Classification","Multiclass"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/multinomial-logistic-regression-mn-logit/","tags":["probability","regression","glm","classification"]}
 ---
 
 ## Definition

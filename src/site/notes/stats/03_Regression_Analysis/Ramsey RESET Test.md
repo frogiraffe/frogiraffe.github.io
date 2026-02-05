@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/ramsey-reset-test/","tags":["Diagnostics","Regression"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/ramsey-reset-test/","tags":["probability","diagnostics","regression"]}
 ---
 
 ## Overview

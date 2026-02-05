@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/information-retrieval/","tags":["Machine-Learning","NLP","Search"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/information-retrieval/","tags":["probability","machine-learning","nlp","search"]}
 ---
 
 

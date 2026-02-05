@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/regularization/","tags":["Machine-Learning","Model-Validation","Overfitting"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/regularization/","tags":["probability","machine-learning","regularization","overfitting"]}
 ---
 
 ## Definition

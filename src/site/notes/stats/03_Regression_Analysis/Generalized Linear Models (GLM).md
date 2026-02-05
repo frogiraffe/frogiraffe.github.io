@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/generalized-linear-models-glm/","tags":["Regression","Generalized"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/generalized-linear-models-glm/","tags":["probability","regression","glm"]}
 ---
 
 

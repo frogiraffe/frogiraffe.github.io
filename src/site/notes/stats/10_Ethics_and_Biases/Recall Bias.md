@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/10-ethics-and-biases/recall-bias/","tags":["Ethics","Study-Design","Psychology","Survey-Analysis"]}
+{"dg-publish":true,"permalink":"/stats/10-ethics-and-biases/recall-bias/","tags":["ethics","study-design","psychology","survey-analysis"]}
 ---
 
 ## Definition

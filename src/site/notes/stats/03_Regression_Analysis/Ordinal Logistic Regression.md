@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/ordinal-logistic-regression/","tags":["Regression","Classification","GLM","Ordinal-Outcome"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/ordinal-logistic-regression/","tags":["probability","regression","glm","ordinal-outcome"]}
 ---
 
 

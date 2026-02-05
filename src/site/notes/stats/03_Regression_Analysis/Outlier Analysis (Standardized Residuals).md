@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/outlier-analysis-standardized-residuals/","tags":["Diagnostics","Outliers"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/outlier-analysis-standardized-residuals/","tags":["probability","diagnostics","outliers"]}
 ---
 
 ## Overview

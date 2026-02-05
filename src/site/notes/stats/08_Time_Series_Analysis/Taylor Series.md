@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/08-time-series-analysis/taylor-series/","tags":["Calculus","Approximation","Mathematics"]}
+{"dg-publish":true,"permalink":"/stats/08-time-series-analysis/taylor-series/","tags":["calculus","approximation","mathematics"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/01-foundations/standard-error/","tags":["Foundations","Inference","Sampling"]}
+{"dg-publish":true,"permalink":"/stats/01-foundations/standard-error/","tags":["probability","inference","sampling","foundations"]}
 ---
 
 ## Definition

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/07-causal-inference/difference-in-differences/","tags":["Causal-Inference","Econometrics","Policy-Evaluation","Quasi-Experiment"]}
+{"dg-publish":true,"permalink":"/stats/07-causal-inference/difference-in-differences/","tags":["causal-inference","econometrics","policy-evaluation","quasi-experiment"]}
 ---
 
 

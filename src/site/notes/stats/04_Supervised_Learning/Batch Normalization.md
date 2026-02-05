@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/batch-normalization/","tags":["Deep-Learning","Neural-Networks","Normalization"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/batch-normalization/","tags":["probability","deep-learning","neural-networks","normalization"]}
 ---
 
 

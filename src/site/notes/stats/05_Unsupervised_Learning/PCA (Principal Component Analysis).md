@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/05-unsupervised-learning/pca-principal-component-analysis/","tags":["Unsupervised-Learning","Dimension-Reduction","Linear-Algebra"]}
+{"dg-publish":true,"permalink":"/stats/05-unsupervised-learning/pca-principal-component-analysis/","tags":["unsupervised-learning","dimension-reduction","linear-algebra"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/nlp/","tags":["NLP","Machine-Learning","Text-Analysis"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/nlp/","tags":["probability","nlp","machine-learning","text-analysis"]}
 ---
 
 

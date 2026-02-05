@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/threshold-optimization/","tags":["Machine-Learning","Classification","Model-Evaluation"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/threshold-optimization/","tags":["probability","machine-learning","classification","model-evaluation"]}
 ---
 
 

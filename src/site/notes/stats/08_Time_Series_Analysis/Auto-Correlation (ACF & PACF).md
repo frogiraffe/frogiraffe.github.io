@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/08-time-series-analysis/auto-correlation-acf-and-pacf/","tags":["Time-Series","Diagnostics","Visualization"]}
+{"dg-publish":true,"permalink":"/stats/08-time-series-analysis/auto-correlation-acf-and-pacf/","tags":["time-series","diagnostics","visualization"]}
 ---
 
 ## Definition

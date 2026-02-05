@@ -69,7 +69,7 @@ boxplot(data)
 ## Related Concepts
 
 - [[stats/01_Foundations/Median\|Median]] — Q2 = 50th percentile
-- [[stats/09_EDA_and_Visualization/Box Plots\|Box Plots]] — Visualizes quartiles
+- [[Box Plots\|Box Plots]] — Visualizes quartiles
 
 ---
 

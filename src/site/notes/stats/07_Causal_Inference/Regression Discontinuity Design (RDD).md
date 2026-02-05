@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/07-causal-inference/regression-discontinuity-design-rdd/","tags":["Causal-Inference","Econometrics","Quasi-Experiment"]}
+{"dg-publish":true,"permalink":"/stats/07-causal-inference/regression-discontinuity-design-rdd/","tags":["causal-inference","econometrics","quasi-experiment"]}
 ---
 
 

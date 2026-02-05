@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/02-statistical-inference/wilcoxon-signed-rank-test/","tags":["Hypothesis-Testing","Non-Parametric","Paired-Samples"]}
+{"dg-publish":true,"permalink":"/stats/02-statistical-inference/wilcoxon-signed-rank-test/","tags":["probability","hypothesis-testing","non-parametric","paired-samples"]}
 ---
 
 ## Definition

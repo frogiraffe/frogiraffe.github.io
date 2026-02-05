@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/07-causal-inference/cox-proportional-hazards-model/","tags":["Causal-Inference","Survival-Analysis","Regression"]}
+{"dg-publish":true,"permalink":"/stats/07-causal-inference/cox-proportional-hazards-model/","tags":["causal-inference","survival-analysis","regression"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/09-eda-and-visualization/scatter-plot/","tags":["Visualization","EDA","Bivariate"]}
+{"dg-publish":true,"permalink":"/stats/09-eda-and-visualization/scatter-plot/","tags":["visualization","eda","bivariate"]}
 ---
 
 ## Definition

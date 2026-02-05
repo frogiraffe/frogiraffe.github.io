@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/discounted-cumulative-gain-dcg/","tags":["Evaluation-Metrics","Ranking"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/discounted-cumulative-gain-dcg/","tags":["probability","evaluation-metrics","ranking"]}
 ---
 
 

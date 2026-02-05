@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/09-eda-and-visualization/violin-plot/","tags":["Visualization","EDA","Distribution"]}
+{"dg-publish":true,"permalink":"/stats/09-eda-and-visualization/violin-plot/","tags":["visualization","eda","distribution"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/10-ethics-and-biases/survivorship-bias/","tags":["Critical-Thinking","Bias","Sampling"]}
+{"dg-publish":true,"permalink":"/stats/10-ethics-and-biases/survivorship-bias/","tags":["critical-thinking","bias","sampling"]}
 ---
 
 ## Definition

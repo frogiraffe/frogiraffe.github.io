@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/08-time-series-analysis/breusch-godfrey-test/","tags":["Diagnostics","Time-Series","Regression"]}
+{"dg-publish":true,"permalink":"/stats/08-time-series-analysis/breusch-godfrey-test/","tags":["diagnostics","time-series","regression"]}
 ---
 
 ## Overview

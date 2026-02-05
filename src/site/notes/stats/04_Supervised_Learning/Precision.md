@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/precision/","tags":["ML-Evaluation","Classification","Metrics"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/precision/","tags":["probability","ml-evaluation","classification","metrics"]}
 ---
 
 

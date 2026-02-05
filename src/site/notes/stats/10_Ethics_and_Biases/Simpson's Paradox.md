@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/10-ethics-and-biases/simpson-s-paradox/","tags":["Critical-Thinking","Probability","Paradoxes","Study-Design"]}
+{"dg-publish":true,"permalink":"/stats/10-ethics-and-biases/simpson-s-paradox/","tags":["critical-thinking","probability","paradoxes","study-design"]}
 ---
 
 ## Definition

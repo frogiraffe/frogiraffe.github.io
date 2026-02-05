@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/08-time-series-analysis/exponential-smoothing/","tags":["Time-Series","Forecasting","Smoothing"]}
+{"dg-publish":true,"permalink":"/stats/08-time-series-analysis/exponential-smoothing/","tags":["time-series","forecasting","smoothing"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/10-ethics-and-biases/publication-bias/","tags":["Ethics","Meta-Analysis","Critical-Thinking","Reporting"]}
+{"dg-publish":true,"permalink":"/stats/10-ethics-and-biases/publication-bias/","tags":["ethics","meta-analysis","critical-thinking","reporting"]}
 ---
 
 ## Definition

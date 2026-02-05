@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/01-foundations/t-distribution/","tags":["Probability-Theory","Distributions","Foundations"]}
+{"dg-publish":true,"permalink":"/stats/01-foundations/t-distribution/","tags":["probability","distributions","continuous","foundations"]}
 ---
 
 ## Definition
@@ -7,7 +7,13 @@
 > [!abstract] Core Statement
 > The **Student's t-distribution** is a probability distribution used when estimating the mean of a normally distributed population in situations where the sample size is small ($n < 30$) and the population standard deviation ($\sigma$) is ==unknown==. It has **heavier tails** than the Normal Distribution, reflecting the increased uncertainty.
 
-![T-Distribution vs Normal Distribution](https://upload.wikimedia.org/wikipedia/commons/4/41/Student_t_pdf.svg)
+![T-Distribution compared to Normal Distribution for different df|500](https://upload.wikimedia.org/wikipedia/commons/4/41/Student_t_pdf.svg)
+*Figure 1: T-distribution vs Normal distribution. Lower df means heavier tails (more probability of extreme values).*
+
+---
+
+> [!tip] Intuition (ELI5): The Careful Estimate
+> Imagine you're guessing the average height of all students based on just 5 friends. With so few data points, you're more uncertain—extreme averages are more likely. The t-distribution is the "humble" version of the Normal that admits this uncertainty by having fatter tails.
 
 ---
 
@@ -22,9 +28,19 @@
 ## When to Use
 
 > [!success] Use T-Distribution When...
-> - Sample size is small ($n < 30$).
-> - Population standard deviation ($\sigma$) is **unknown** and estimated by sample SD ($s$).
-> - Data is approximately normal (or $n$ is large enough for CLT to apply).
+> - Sample size is small ($n < 30$)
+> - Population standard deviation ($\sigma$) is **unknown** and estimated by sample SD ($s$)
+> - Data is approximately normal (or $n$ is large enough for CLT to apply)
+
+---
+
+## When NOT to Use
+
+> [!danger] Do NOT Use T-Distribution When...
+> - **Severely skewed data:** Especially with small $n$. Use [[stats/02_Statistical_Inference/Mann-Whitney U Test\|Mann-Whitney U Test]] or [[stats/02_Statistical_Inference/Wilcoxon Signed-Rank Test\|Wilcoxon Signed-Rank Test]].
+> - **Heavy outliers:** The sample mean and SD are distorted. Use robust methods or bootstrap.
+> - **Known population σ:** Use [[stats/01_Foundations/Normal Distribution\|Normal Distribution]] (Z-scores) directly.
+> - **Non-normal data, small n:** t-distribution assumes underlying normality for small samples.
 
 > [!tip] Modern Practice
 > Modern software uses the t-distribution by default for mean comparisons, even for large $n$. This is because as $n \to \infty$, the t-distribution converges to the Normal distribution anyway, so it is always safe to use.
@@ -50,6 +66,19 @@ $$
 T = \frac{Z}{\sqrt{V/k}} \sim t(k)
 $$
 
+**Understanding the Formula:**
+- $Z$: Standard normal variable (what we'd use if σ were known)
+- $V/k$: Chi-square divided by df estimates the variance
+- The ratio creates additional variability (heavier tails)
+
+### Probability Density Function
+
+$$
+f(t | \nu) = \frac{\Gamma\left(\frac{\nu+1}{2}\right)}{\sqrt{\nu\pi}\,\Gamma\left(\frac{\nu}{2}\right)} \left(1 + \frac{t^2}{\nu}\right)^{-\frac{\nu+1}{2}}
+$$
+
+where $\nu = df$ (degrees of freedom) and $\Gamma$ is the gamma function.
+
 ### Comparison: T vs Normal
 
 | Feature | Normal Distribution ($Z$) | T-Distribution ($t$) |
@@ -57,7 +86,7 @@ $$
 | **When $\sigma$ is** | Known | Unknown (Estimated by $s$) |
 | **Parameter** | None (Standard) | Degrees of Freedom ($df$) |
 | **Tail Thickness** | Thin | Heavy (More extreme outcomes) |
-| **Critical Value (95%, Two-Tailed)** | 1.96 (Always) | Varies: 2.57 ($df=5$), 2.09 ($df=20$), 1.98 ($df=100$) |
+| **Critical Value (95%, Two-Tailed)** | 1.96 (Always) | Varies: 2.57 ($df$=5), 2.09 ($df$=20), 1.98 ($df$=100) |
 
 ---
 
@@ -91,20 +120,47 @@ $$
 **Interpretation:**
 We are 95% confident that the true mean length of the screws is between **49.98 mm** and **50.06 mm**. Since 50 mm is inside this interval, the process is likely on target.
 
+**Verification with Code:**
+```python
+from scipy import stats
+
+n = 10
+x_bar = 50.02
+s = 0.05
+df = n - 1
+
+# Critical value
+t_crit = stats.t.ppf(0.975, df=df)
+print(f"t* (df=9, 95%): {t_crit:.3f}")  # 2.262
+
+# Margin of error
+me = t_crit * (s / (n ** 0.5))
+print(f"Margin of Error: {me:.4f}")  # 0.0357
+
+# Confidence Interval
+print(f"95% CI: [{x_bar - me:.3f}, {x_bar + me:.3f}]")
+```
+
 ---
 
 ## Assumptions
 
 - [ ] **Random Sampling:** Data is a random sample from the population.
+  - *Example:* Random selection ✓ vs Convenience sampling ✗
+  
 - [ ] **Independence:** Observations are independent.
-- [ ] **Normality:** The population from which the sample is drawn is approximately normal. (Robust if $n$ is large due to CLT).
+  - *Example:* Separate measurements ✓ vs Repeated measures on same subject ✗
+  
+- [ ] **Normality:** The population from which the sample is drawn is approximately normal.
+  - *Example:* Heights ✓ vs Highly skewed income data ✗
+  - *Note:* Robust if $n$ is large due to [[stats/01_Foundations/Central Limit Theorem (CLT)\|CLT]].
 
 ---
 
 ## Limitations
 
 > [!warning] Pitfalls
-> 1.  **Skewed Data in Small Samples:** If $n=10$ and the data is highly skewed (e.g., reaction times), the t-distribution is **not valid** and CIs will be incorrect. Use bootstrapping or Wilcoxon tests.
+> 1.  **Skewed Data in Small Samples:** If $n=10$ and the data is highly skewed (e.g., reaction times), the t-distribution is **not valid** and CIs will be incorrect. Use bootstrapping or [[stats/02_Statistical_Inference/Wilcoxon Signed-Rank Test\|Wilcoxon Signed-Rank Test]].
 > 2.  **The "Z instead of T" Error:** A common mistake is using $Z$-score (1.96) for small samples. This produces an interval that is *too narrow*, leading to false confidence (underestimating uncertainty).
 > 3.  **Outliers:** Since standard deviation $s$ is not robust to outliers, the t-statistic can be severely distorted by a single extreme value.
 
@@ -129,13 +185,28 @@ print(f"Z_critical (Normal): {stats.norm.ppf(0.975):.3f}")
 
 # --- Visualization ---
 x = np.linspace(-4, 4, 500)
+plt.figure(figsize=(10, 6))
 plt.plot(x, stats.norm.pdf(x), 'k-', lw=2, label='Normal (Z)')
 for df in [2, 5, 30]:
     plt.plot(x, stats.t.pdf(x, df=df), '--', label=f't (df={df})')
 plt.legend()
 plt.title("T-Distribution vs Normal: Tail Comparison")
+plt.xlabel("x")
+plt.ylabel("Density")
+plt.grid(alpha=0.3)
 plt.show()
 ```
+
+**Expected Output:**
+```
+df =   5: t_critical = 2.571
+df =  15: t_critical = 2.131
+df =  30: t_critical = 2.042
+df = 100: t_critical = 1.984
+Z_critical (Normal): 1.960
+```
+
+*Notice how t critical values decrease and approach 1.96 as df increases.*
 
 ---
 
@@ -170,27 +241,44 @@ legend("topright",
 
 | Value | Interpretation |
 |-------|----------------|
-| Value | Interpretation |
-|-------|----------------|
-| **$|t| > t_{critical}$** | Reject Null Hypothesis ($p < \alpha$). Result is significant. |
+| **$\|t\| > t_{critical}$** | Reject Null Hypothesis ($p < \alpha$). Result is significant. |
 | **Small $df$ (e.g., 5)** | **Fat tails.** Much higher chance of extreme values than Normal. Critical values are large (e.g., > 2.5). |
-| **Large $df$ (e.g., >30)** | **T $\approx$ Z.** The distribution is effectively Normal. |
+| **Large $df$ (e.g., >30)** | **T ≈ Z.** The distribution is effectively Normal. |
 | **Confidence Interval** | Wider than Z-interval reflecting uncertainty about $\sigma$. |
 
 ---
 
 ## Related Concepts
 
-- [[stats/01_Foundations/Normal Distribution\|Normal Distribution]] - The ideal scenario (known $\sigma$).
-- [[stats/02_Statistical_Inference/Student's T-Test\|Student's T-Test]] - Primary application.
-- [[stats/02_Statistical_Inference/Confidence Intervals\|Confidence Intervals]] - Calculated using t-scores.
-- [[stats/02_Statistical_Inference/Welch's T-Test\|Welch's T-Test]] - Robust version when variances differ.
-- [[stats/02_Statistical_Inference/Degrees of Freedom\|Degrees of Freedom]] - The shape parameter.
+### Directly Related
+- [[stats/01_Foundations/Normal Distribution\|Normal Distribution]] - The ideal scenario (known $\sigma$)
+- [[stats/02_Statistical_Inference/Student's T-Test\|Student's T-Test]] - Primary application
+- [[stats/02_Statistical_Inference/Confidence Intervals\|Confidence Intervals]] - Calculated using t-scores
+- [[stats/02_Statistical_Inference/Welch's T-Test\|Welch's T-Test]] - Robust version when variances differ
+- [[stats/02_Statistical_Inference/Degrees of Freedom\|Degrees of Freedom]] - The shape parameter
+
+### Theoretically Related
+- [[stats/01_Foundations/Chi-Square Distribution\|Chi-Square Distribution]] - Used in t-distribution definition
+- [[stats/01_Foundations/F-Distribution\|F-Distribution]] - Ratio of two chi-squares (related to t²)
+
+### Other Related Topics
+- [[stats/02_Statistical_Inference/A-B Testing\|A-B Testing]]
+- [[stats/01_Foundations/Bernoulli Distribution\|Bernoulli Distribution]]
+- [[stats/01_Foundations/Beta Distribution\|Beta Distribution]]
+- [[stats/01_Foundations/Binomial Distribution\|Binomial Distribution]]
+- [[stats/02_Statistical_Inference/Bonferroni Correction\|Bonferroni Correction]]
+
+{ .block-language-dataview}
 
 ---
 
 ## References
 
-- **Book:** Casella, G., & Berger, R. L. (2002). *Statistical Inference* (2nd ed.). Duxbury. [Cengage](https://www.cengage.com/c/statistical-inference-2e-casella/9780534243128/)
-- **Book:** Rice, J. A. (2007). *Mathematical Statistics and Data Analysis* (3rd ed.). Duxbury. [Cengage](https://www.cengage.com/c/mathematical-statistics-and-data-analysis-3e-rice/9780534399429/)
-- **Historical:** Student (W. S. Gosset). (1908). The probable error of a mean. *Biometrika*, 6(1), 1-25. [JSTOR](http://www.jstor.org/stable/2331554)
+1. Student (W. S. Gosset). (1908). The probable error of a mean. *Biometrika*, 6(1), 1-25. [Available online](http://www.jstor.org/stable/2331554)
+
+2. Casella, G., & Berger, R. L. (2002). *Statistical Inference* (2nd ed.). Duxbury. Chapter 5. [Available online](https://www.cengage.com/c/statistical-inference-2e-casella/)
+
+3. Rice, J. A. (2007). *Mathematical Statistics and Data Analysis* (3rd ed.). Duxbury. [Available online](https://www.cengage.com/c/mathematical-statistics-and-data-analysis-3e-rice/)
+
+### Additional Resources
+- [T-Distribution Calculator](https://www.statology.org/t-distribution-calculator/)

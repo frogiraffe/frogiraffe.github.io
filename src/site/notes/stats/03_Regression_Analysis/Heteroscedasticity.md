@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/heteroscedasticity/","tags":["Regression","Assumptions","Diagnostics","Residual-Analysis"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/heteroscedasticity/","tags":["probability","regression","assumptions","diagnostics"]}
 ---
 
 

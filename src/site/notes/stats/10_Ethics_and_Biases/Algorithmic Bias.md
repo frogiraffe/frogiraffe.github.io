@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/10-ethics-and-biases/algorithmic-bias/","tags":["Ethics","Machine-Learning","AI-Safety","Data-Science"]}
+{"dg-publish":true,"permalink":"/stats/10-ethics-and-biases/algorithmic-bias/","tags":["ethics","machine-learning","ai-safety","data-science"]}
 ---
 
 ## Definition

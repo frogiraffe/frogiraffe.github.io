@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/07-causal-inference/moderation-vs-mediation/","tags":["Causal-Inference","Statistics","Mechanisms"]}
+{"dg-publish":true,"permalink":"/stats/07-causal-inference/moderation-vs-mediation/","tags":["causal-inference","statistics","mechanisms"]}
 ---
 
 

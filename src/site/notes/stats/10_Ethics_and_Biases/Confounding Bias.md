@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/10-ethics-and-biases/confounding-bias/","tags":["Critical-Thinking","Causality","Regression","Study-Design"]}
+{"dg-publish":true,"permalink":"/stats/10-ethics-and-biases/confounding-bias/","tags":["critical-thinking","causality","regression","study-design"]}
 ---
 
 ## Definition

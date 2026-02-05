@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/07-causal-inference/survival-analysis/","tags":["Causal-Inference","Time-to-Event","Biostatistics","Epidemiology"]}
+{"dg-publish":true,"permalink":"/stats/07-causal-inference/survival-analysis/","tags":["causal-inference","time-to-event","biostatistics","epidemiology"]}
 ---
 
 

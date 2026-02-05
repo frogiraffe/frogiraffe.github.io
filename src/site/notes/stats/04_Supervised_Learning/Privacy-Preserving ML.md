@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/privacy-preserving-ml/","tags":["Machine-Learning","Privacy","Security"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/privacy-preserving-ml/","tags":["probability","machine-learning","privacy","security"]}
 ---
 
 

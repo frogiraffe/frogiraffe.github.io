@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/01-foundations/chebyshev-s-inequality/","tags":["Probability","Inequalities","Distribution"]}
+{"dg-publish":true,"permalink":"/stats/01-foundations/chebyshev-s-inequality/","tags":["probability","inequalities","foundations"]}
 ---
 
 ## Definition

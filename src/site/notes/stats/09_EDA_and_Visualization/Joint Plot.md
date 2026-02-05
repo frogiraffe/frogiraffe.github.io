@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/09-eda-and-visualization/joint-plot/","tags":["Visualization","Multivariate","Bivariate"]}
+{"dg-publish":true,"permalink":"/stats/09-eda-and-visualization/joint-plot/","tags":["visualization","multivariate","bivariate"]}
 ---
 
 

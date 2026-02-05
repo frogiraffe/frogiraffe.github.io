@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/feature-engineering/","tags":["Machine-Learning","Data-Preprocessing","Feature-Selection"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/feature-engineering/","tags":["probability","machine-learning","data-preprocessing","feature-selection"]}
 ---
 
 

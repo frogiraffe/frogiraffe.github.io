@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/01-foundations/correlation-matrix/","tags":["EDA","Visualization","Statistics"]}
+{"dg-publish":true,"permalink":"/stats/01-foundations/correlation-matrix/","tags":["probability","descriptive-statistics","visualization","foundations"]}
 ---
 
 

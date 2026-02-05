@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/kernel-methods/","tags":["Machine-Learning","Non-Linear","SVM"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/kernel-methods/","tags":["probability","machine-learning","non-linear","svm"]}
 ---
 
 
@@ -113,7 +113,7 @@ Must be **positive semi-definite** for valid kernel.
 
 ## Related Concepts
 
-- [[stats/04_Supervised_Learning/Support Vector Machines\|Support Vector Machines]] — Primary application
+- [[Support Vector Machines\|Support Vector Machines]] — Primary application
 - [[stats/04_Supervised_Learning/Gaussian Processes\|Gaussian Processes]] — Kernel-based probabilistic model
 - [[stats/01_Foundations/Feature Scaling\|Feature Scaling]] — Essential preprocessing
 

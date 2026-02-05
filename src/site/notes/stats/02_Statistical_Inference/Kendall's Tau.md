@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/02-statistical-inference/kendall-s-tau/","tags":["Correlation","Non-Parametric"]}
+{"dg-publish":true,"permalink":"/stats/02-statistical-inference/kendall-s-tau/","tags":["probability","correlation","non-parametric"]}
 ---
 
 ## Overview

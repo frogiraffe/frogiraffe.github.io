@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/transformers/","tags":["Machine-Learning","Deep-Learning","NLP"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/transformers/","tags":["probability","machine-learning","deep-learning","nlp"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/06-experimental-design/sequential-analysis/","tags":["Experimental-Design","Hypothesis-Testing","Statistics"]}
+{"dg-publish":true,"permalink":"/stats/06-experimental-design/sequential-analysis/","tags":["experimental-design","hypothesis-testing","statistics"]}
 ---
 
 

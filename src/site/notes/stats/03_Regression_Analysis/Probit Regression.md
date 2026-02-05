@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/probit-regression/","tags":["Regression","GLM","Classification"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/probit-regression/","tags":["probability","regression","glm","classification"]}
 ---
 
 ## Definition

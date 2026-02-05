@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/02-statistical-inference/fisher-s-exact-test/","tags":["Hypothesis-Testing","Categorical-Data","Non-Parametric"]}
+{"dg-publish":true,"permalink":"/stats/02-statistical-inference/fisher-s-exact-test/","tags":["probability","hypothesis-testing","categorical-data","non-parametric"]}
 ---
 
 ## Definition

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/anomaly-detection/","tags":["Machine-Learning","Unsupervised"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/anomaly-detection/","tags":["probability","machine-learning","unsupervised"]}
 ---
 
 

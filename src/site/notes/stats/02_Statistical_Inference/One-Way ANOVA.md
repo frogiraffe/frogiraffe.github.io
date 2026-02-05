@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/02-statistical-inference/one-way-anova/","tags":["Hypothesis-Testing","Parametric-Tests","Mean-Comparison","ANOVA"]}
+{"dg-publish":true,"permalink":"/stats/02-statistical-inference/one-way-anova/","tags":["probability","hypothesis-testing","parametric-tests","anova"]}
 ---
 
 ## Definition

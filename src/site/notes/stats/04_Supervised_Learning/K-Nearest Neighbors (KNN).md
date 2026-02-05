@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/k-nearest-neighbors-knn/","tags":["Machine-Learning","Classification","Regression","Instance-Based","Non-Parametric"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/k-nearest-neighbors-knn/","tags":["probability","machine-learning","classification","regression","instance-based","non-parametric"]}
 ---
 
 

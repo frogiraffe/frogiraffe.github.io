@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/01-foundations/eigenvalues-and-eigenvectors/","tags":["Math","Linear-Algebra","Dimensionality-Reduction"]}
+{"dg-publish":true,"permalink":"/stats/01-foundations/eigenvalues-and-eigenvectors/","tags":["probability","linear-algebra","dimensionality-reduction","foundations"]}
 ---
 
 ## Definition

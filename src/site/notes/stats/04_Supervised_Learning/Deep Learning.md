@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/deep-learning/","tags":["Machine-Learning","Deep-Learning","Neural-Networks"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/deep-learning/","tags":["probability","machine-learning","deep-learning","neural-networks"]}
 ---
 
 

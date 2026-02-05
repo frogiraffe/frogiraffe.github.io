@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/05-unsupervised-learning/isolation-forest/","tags":["Machine-Learning","Unsupervised-Learning","Anomaly-Detection"]}
+{"dg-publish":true,"permalink":"/stats/05-unsupervised-learning/isolation-forest/","tags":["machine-learning","unsupervised-learning","anomaly-detection"]}
 ---
 
 

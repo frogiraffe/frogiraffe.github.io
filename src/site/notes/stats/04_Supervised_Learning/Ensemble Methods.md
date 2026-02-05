@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/ensemble-methods/","tags":["Machine-Learning","Algorithms","Model-Combination","Variance-Reduction"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/ensemble-methods/","tags":["probability","machine-learning","algorithms","model-combination","variance-reduction"]}
 ---
 
 

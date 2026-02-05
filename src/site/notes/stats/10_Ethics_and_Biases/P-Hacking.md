@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/10-ethics-and-biases/p-hacking/","tags":["Critical-Thinking","Ethics","Hypothesis-Testing"]}
+{"dg-publish":true,"permalink":"/stats/10-ethics-and-biases/p-hacking/","tags":["critical-thinking","ethics","hypothesis-testing"]}
 ---
 
 ## Definition

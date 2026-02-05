@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/10-ethics-and-biases/confirmation-bias/","tags":["Bias","Cognitive","Decision-Making"]}
+{"dg-publish":true,"permalink":"/stats/10-ethics-and-biases/confirmation-bias/","tags":["bias","cognitive","decision-making"]}
 ---
 
 

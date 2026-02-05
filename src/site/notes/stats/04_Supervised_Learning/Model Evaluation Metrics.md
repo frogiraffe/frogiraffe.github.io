@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/model-evaluation-metrics/","tags":["Machine-Learning","Evaluation"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/model-evaluation-metrics/","tags":["probability","machine-learning","evaluation"]}
 ---
 
 ## Overview

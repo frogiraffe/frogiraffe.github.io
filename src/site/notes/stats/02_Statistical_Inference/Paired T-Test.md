@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/02-statistical-inference/paired-t-test/","tags":["Hypothesis-Testing","Parametric","T-Test","Paired-Samples"]}
+{"dg-publish":true,"permalink":"/stats/02-statistical-inference/paired-t-test/","tags":["probability","hypothesis-testing","parametric-tests","t-test"]}
 ---
 
 

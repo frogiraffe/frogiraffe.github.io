@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/07-causal-inference/da-gs-for-causal-inference/","tags":["Causal-Inference","Statistics","Graph-Theory"]}
+{"dg-publish":true,"permalink":"/stats/07-causal-inference/da-gs-for-causal-inference/","tags":["causal-inference","statistics","graph-theory"]}
 ---
 
 

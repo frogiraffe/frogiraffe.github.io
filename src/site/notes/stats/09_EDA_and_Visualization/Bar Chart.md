@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/09-eda-and-visualization/bar-chart/","tags":["Visualization","Categorical","EDA"]}
+{"dg-publish":true,"permalink":"/stats/09-eda-and-visualization/bar-chart/","tags":["visualization","categorical","eda"]}
 ---
 
 

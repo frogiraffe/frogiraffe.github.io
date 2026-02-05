@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/white-test/","tags":["Diagnostics","Regression","Heteroscedasticity"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/white-test/","tags":["probability","diagnostics","regression","heteroscedasticity"]}
 ---
 
 ## Overview

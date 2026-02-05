@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/08-time-series-analysis/arima-models/","tags":["Time-Series","Forecasting","Econometrics"]}
+{"dg-publish":true,"permalink":"/stats/08-time-series-analysis/arima-models/","tags":["time-series","forecasting","econometrics"]}
 ---
 
 ## Definition

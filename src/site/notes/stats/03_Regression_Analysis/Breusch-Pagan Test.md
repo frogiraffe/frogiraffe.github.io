@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/breusch-pagan-test/","tags":["Diagnostics","Regression","Heteroscedasticity"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/breusch-pagan-test/","tags":["probability","diagnostics","regression","heteroscedasticity"]}
 ---
 
 ## Definition

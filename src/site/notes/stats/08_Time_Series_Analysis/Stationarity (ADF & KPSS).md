@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/08-time-series-analysis/stationarity-adf-and-kpss/","tags":["Time-Series","Diagnostics","Stationarity"]}
+{"dg-publish":true,"permalink":"/stats/08-time-series-analysis/stationarity-adf-and-kpss/","tags":["time-series","diagnostics","stationarity"]}
 ---
 
 ## Definition
@@ -47,6 +47,7 @@
 |------|------------------------|----------------|
 | **ADF (Augmented Dickey-Fuller)** | Series **has a unit root** (Non-Stationary). | Reject if p < 0.05: Series is stationary. |
 | **KPSS** | Series **is stationary**. | Reject if p < 0.05: Series is non-stationary. |
+| **Phillips-Perron (PP)** | Series **has a unit root**. | Robust to heteroscedasticity. Similar to ADF. |
 
 > [!important] Use Both Tests Together
 > | ADF Result | KPSS Result | Conclusion |

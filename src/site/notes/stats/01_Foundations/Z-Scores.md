@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/01-foundations/z-scores/","tags":["Foundations","Descriptive-Statistics","Normalization"]}
+{"dg-publish":true,"permalink":"/stats/01-foundations/z-scores/","tags":["probability","descriptive-statistics","normalization","foundations"]}
 ---
 
 

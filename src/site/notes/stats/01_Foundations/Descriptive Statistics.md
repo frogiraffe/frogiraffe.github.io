@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/01-foundations/descriptive-statistics/","tags":["Foundations","EDA",{"Summaryaliases":null},"Mean","Median","Mode","Variance","Standard Deviation","Kurtosis","Skewness"]}
+{"dg-publish":true,"permalink":"/stats/01-foundations/descriptive-statistics/","tags":["foundations","eda","summary"]}
 ---
 
 ## Definition

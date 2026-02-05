@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/06-experimental-design/bayesian-ab-testing/","tags":["AB-Testing","Bayesian","Experimental-Design"]}
+{"dg-publish":true,"permalink":"/stats/06-experimental-design/bayesian-ab-testing/","tags":["ab-testing","bayesian","experimental-design"]}
 ---
 
 

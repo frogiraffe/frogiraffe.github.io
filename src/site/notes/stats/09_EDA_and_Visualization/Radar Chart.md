@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/09-eda-and-visualization/radar-chart/","tags":["Visualization","Multivariate"]}
+{"dg-publish":true,"permalink":"/stats/09-eda-and-visualization/radar-chart/","tags":["visualization","multivariate"]}
 ---
 
 

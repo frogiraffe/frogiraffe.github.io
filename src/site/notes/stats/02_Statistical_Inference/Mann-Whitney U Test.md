@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/02-statistical-inference/mann-whitney-u-test/","tags":["Hypothesis-Testing","Non-Parametric","Rank-Tests"]}
+{"dg-publish":true,"permalink":"/stats/02-statistical-inference/mann-whitney-u-test/","tags":["probability","hypothesis-testing","non-parametric","rank-tests"]}
 ---
 
 

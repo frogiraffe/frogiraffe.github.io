@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/ada-boost/","tags":["Machine-Learning","Ensemble","Boosting"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/ada-boost/","tags":["probability","machine-learning","ensemble","boosting"]}
 ---
 
 

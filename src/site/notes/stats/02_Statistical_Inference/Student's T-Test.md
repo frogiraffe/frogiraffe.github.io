@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/02-statistical-inference/student-s-t-test/","tags":["Hypothesis-Testing","Parametric-Tests","Mean-Comparison"]}
+{"dg-publish":true,"permalink":"/stats/02-statistical-inference/student-s-t-test/","tags":["probability","hypothesis-testing","parametric-tests","t-test"]}
 ---
 
 ## Definition

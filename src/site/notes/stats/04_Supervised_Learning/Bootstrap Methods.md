@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/bootstrap-methods/","tags":["Resampling","Machine-Learning","Inference","Uncertainty-Quantification"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/bootstrap-methods/","tags":["probability","resampling","machine-learning","inference","uncertainty-quantification"]}
 ---
 
 ## Definition

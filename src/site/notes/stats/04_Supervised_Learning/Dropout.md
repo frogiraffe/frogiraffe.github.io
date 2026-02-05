@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/dropout/","tags":["Deep-Learning","Regularization","Neural-Networks"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/dropout/","tags":["probability","deep-learning","regularization","neural-networks"]}
 ---
 
 

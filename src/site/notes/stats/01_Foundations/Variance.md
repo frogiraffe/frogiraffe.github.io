@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/01-foundations/variance/","tags":["Foundations","Descriptive-Statistics","Dispersion"]}
+{"dg-publish":true,"permalink":"/stats/01-foundations/variance/","tags":["probability","descriptive-statistics","dispersion","foundations"]}
 ---
 
 

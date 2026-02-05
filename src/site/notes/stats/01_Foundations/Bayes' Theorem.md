@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/01-foundations/bayes-theorem/","tags":["Probability-Theory","Bayesian","Foundations"]}
+{"dg-publish":true,"permalink":"/stats/01-foundations/bayes-theorem/","tags":["probability","bayesian","foundations","inference"]}
 ---
 
 ## Definition
@@ -31,6 +31,15 @@
 > - Integrating prior knowledge with observed data.
 > - Medical diagnosis (disease given test result).
 > - **Bayesian inference** in statistics.
+
+---
+
+## When NOT to Use
+
+> [!danger] Do NOT Use Bayes' Theorem When...
+> - **Base rates are unknown:** Without $P(A)$, you can't compute the posterior
+> - **Events aren't conditionally related:** Bayes is for updating beliefs, not independent events
+> - **Misinterpreting likelihood:** $P(B|A) \neq P(A|B)$ — that's why you need Bayes!
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/09-eda-and-visualization/line-chart/","tags":["Visualization","Time-Series","Continuous"]}
+{"dg-publish":true,"permalink":"/stats/09-eda-and-visualization/line-chart/","tags":["visualization","time-series","continuous"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/naive-bayes/","tags":["Machine-Learning","Supervised-Learning","Classification","Bayesian"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/naive-bayes/","tags":["probability","machine-learning","supervised-learning","classification","bayesian"]}
 ---
 
 ## Definition

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/residual-plot/","tags":["Regression","Diagnostics","Visualization"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/residual-plot/","tags":["probability","regression","diagnostics","visualization"]}
 ---
 
 

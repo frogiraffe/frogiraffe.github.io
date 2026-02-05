@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/07-causal-inference/propensity-score-matching-psm/","tags":["Causal-Inference","Econometrics","Observational-Studies"]}
+{"dg-publish":true,"permalink":"/stats/07-causal-inference/propensity-score-matching-psm/","tags":["causal-inference","econometrics","observational-studies"]}
 ---
 
 ## Definition

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/random-effects/","tags":["Panel-Data","Econometrics"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/random-effects/","tags":["probability","panel-data","econometrics"]}
 ---
 
 

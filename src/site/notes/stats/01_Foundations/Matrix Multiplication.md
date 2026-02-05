@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/01-foundations/matrix-multiplication/","tags":["Math","Linear-Algebra","Foundations"]}
+{"dg-publish":true,"permalink":"/stats/01-foundations/matrix-multiplication/","tags":["probability","linear-algebra","foundations"]}
 ---
 
 ## Definition

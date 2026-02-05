@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/08-time-series-analysis/time-series-analysis/","tags":["Time-Series","Forecasting","Analysis","Temporal-Data"]}
+{"dg-publish":true,"permalink":"/stats/08-time-series-analysis/time-series-analysis/","tags":["time-series","forecasting","analysis","temporal-data"]}
 ---
 
 

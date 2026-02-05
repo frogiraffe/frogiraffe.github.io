@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/05-unsupervised-learning/anomaly-detection/","tags":["Machine-Learning","Unsupervised","Outlier-Detection"]}
+{"dg-publish":true,"permalink":"/stats/05-unsupervised-learning/anomaly-detection/","tags":["machine-learning","unsupervised","outlier-detection"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/f1-score/","tags":["ML-Evaluation","Classification","Metrics"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/f1-score/","tags":["probability","ml-evaluation","classification","metrics"]}
 ---
 
 

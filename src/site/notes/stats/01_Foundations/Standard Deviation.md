@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/01-foundations/standard-deviation/","tags":["Foundations","Variability",{"Descriptivealiases":null},"SD","Sample Variance"]}
+{"dg-publish":true,"permalink":"/stats/01-foundations/standard-deviation/","tags":["probability","descriptive-statistics","dispersion","foundations"]}
 ---
 
 ## Definition

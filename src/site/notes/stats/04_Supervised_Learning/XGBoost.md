@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/xg-boost/","tags":["Machine-Learning","Algorithms","Boosting","Ensemble"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/xg-boost/","tags":["probability","machine-learning","algorithms","boosting","ensemble"]}
 ---
 
 

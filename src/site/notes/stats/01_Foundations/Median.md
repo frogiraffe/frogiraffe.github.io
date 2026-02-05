@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/01-foundations/median/","tags":["Statistics","Descriptive-Statistics","Central-Tendency"]}
+{"dg-publish":true,"permalink":"/stats/01-foundations/median/","tags":["probability","descriptive-statistics","central-tendency","foundations"]}
 ---
 
 
@@ -7,6 +7,11 @@
 
 > [!abstract] Core Statement
 > The **Median** is the ==middle value== when data is ordered. It divides the distribution in half — 50% of values are below, 50% above. It's robust to outliers unlike the mean.
+
+---
+
+> [!tip] Intuition (ELI5): The Middle Kid
+> Line up all your data points by size. The median is the kid standing exactly in the middle. If there's an even number, take the average of the two middle kids. The median doesn't care if the tallest kid is 6 feet or 100 feet—it's still in the middle.
 
 ---
 

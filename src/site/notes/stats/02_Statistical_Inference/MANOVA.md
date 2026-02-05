@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/02-statistical-inference/manova/","tags":["Multivariate","Hypothesis-Testing","ANOVA"]}
+{"dg-publish":true,"permalink":"/stats/02-statistical-inference/manova/","tags":["probability","multivariate","hypothesis-testing","anova"]}
 ---
 
 ## Overview

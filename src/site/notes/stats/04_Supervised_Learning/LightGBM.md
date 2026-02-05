@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/light-gbm/","tags":["Machine-Learning","Gradient-Boosting","Ensemble"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/light-gbm/","tags":["probability","machine-learning","gradient-boosting","ensemble"]}
 ---
 
 

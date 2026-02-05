@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/07-causal-inference/kaplan-meier-estimator/","tags":["Causal-Inference","Survival-Analysis"]}
+{"dg-publish":true,"permalink":"/stats/07-causal-inference/kaplan-meier-estimator/","tags":["causal-inference","survival-analysis"]}
 ---
 
 

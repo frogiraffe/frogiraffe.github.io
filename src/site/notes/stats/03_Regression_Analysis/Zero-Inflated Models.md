@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/zero-inflated-models/","tags":["Regression","GLM","Count-Data","Zero-Inflation"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/zero-inflated-models/","tags":["probability","regression","glm","count-data"]}
 ---
 
 ## Definition

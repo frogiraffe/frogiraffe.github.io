@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/leverage-hat-matrix/","tags":["Diagnostics","Regression","Influential-Points"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/leverage-hat-matrix/","tags":["probability","diagnostics","regression","influential-points"]}
 ---
 
 ## Overview

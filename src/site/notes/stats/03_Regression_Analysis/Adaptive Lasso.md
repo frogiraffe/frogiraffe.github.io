@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/adaptive-lasso/","tags":["Regularization","Machine-Learning","Feature-Selection"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/adaptive-lasso/","tags":["probability","regularization","machine-learning","feature-selection"]}
 ---
 
 

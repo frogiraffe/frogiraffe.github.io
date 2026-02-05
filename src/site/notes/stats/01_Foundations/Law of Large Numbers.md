@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/01-foundations/law-of-large-numbers/","tags":["Probability-Theory","Foundations","Convergence"]}
+{"dg-publish":true,"permalink":"/stats/01-foundations/law-of-large-numbers/","tags":["probability","foundations","convergence"]}
 ---
 
 ## Definition

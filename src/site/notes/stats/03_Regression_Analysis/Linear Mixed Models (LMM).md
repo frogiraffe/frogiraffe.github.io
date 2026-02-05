@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/linear-mixed-models-lmm/","tags":["Regression","Hierarchical-Data","Mixed-Effects","Panel-Data","Repeated-Measures"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/linear-mixed-models-lmm/","tags":["probability","regression","hierarchical-data","mixed-effects"]}
 ---
 
 

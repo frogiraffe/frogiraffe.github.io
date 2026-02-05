@@ -30,7 +30,6 @@ Welcome to the comprehensive statistical MoC. This vault is organized by methodo
 - [[stats/01_Foundations/Conditional Probability\|Conditional Probability]]
 - [[stats/01_Foundations/Confounding Variables\|Confounding Variables]]
 - [[stats/01_Foundations/Conjugate Prior\|Conjugate Prior]]
-- [[stats/01_Foundations/Continuous Uniform Distribution\|Continuous Uniform Distribution]]
 - [[stats/01_Foundations/Convergence\|Convergence]]
 - [[stats/01_Foundations/Correlation Analysis\|Correlation Analysis]]
 - [[stats/01_Foundations/Correlation Matrix\|Correlation Matrix]]
@@ -198,7 +197,6 @@ Welcome to the comprehensive statistical MoC. This vault is organized by methodo
 - [[stats/03_Regression_Analysis/Leverage (Hat Matrix)\|Leverage (Hat Matrix)]]
 - [[stats/03_Regression_Analysis/Linear Mixed Models (LMM)\|Linear Mixed Models (LMM)]]
 - [[stats/03_Regression_Analysis/Local Linear Regression\|Local Linear Regression]]
-- [[stats/03_Regression_Analysis/Local Linear Regression.sync-conflict-20260128-173445-7O6MRBE\|Local Linear Regression.sync-conflict-20260128-173445-7O6MRBE]]
 - [[stats/03_Regression_Analysis/Logistic Regression\|Logistic Regression]]
 - [[stats/03_Regression_Analysis/Mixed Effects Models\|Mixed Effects Models]]
 - [[stats/03_Regression_Analysis/Multinomial Logistic Regression (MNLogit)\|Multinomial Logistic Regression (MNLogit)]]
@@ -236,7 +234,6 @@ Welcome to the comprehensive statistical MoC. This vault is organized by methodo
 - [[stats/04_Supervised_Learning/Anomaly Detection\|Anomaly Detection]]
 - [[stats/04_Supervised_Learning/Batch Normalization\|Batch Normalization]]
 - [[stats/04_Supervised_Learning/Bayesian Statistics via Probabilistic Programming\|Bayesian Statistics via Probabilistic Programming]]
-- [[stats/04_Supervised_Learning/Bias-Variance Tradeoff\|Bias-Variance Tradeoff]]
 - [[stats/04_Supervised_Learning/Bootstrap Methods\|Bootstrap Methods]]
 - [[stats/04_Supervised_Learning/CatBoost\|CatBoost]]
 - [[stats/04_Supervised_Learning/Confusion Matrix\|Confusion Matrix]]
@@ -282,13 +279,11 @@ Welcome to the comprehensive statistical MoC. This vault is organized by methodo
 - [[stats/04_Supervised_Learning/ROC-AUC\|ROC-AUC]]
 - [[stats/04_Supervised_Learning/SHAP Values\|SHAP Values]]
 - [[stats/04_Supervised_Learning/SMOTE\|SMOTE]]
-- [[stats/04_Supervised_Learning/Support Vector Machines\|Support Vector Machines]]
 - [[stats/04_Supervised_Learning/Support Vector Machines (SVM)\|Support Vector Machines (SVM)]]
 - [[stats/04_Supervised_Learning/Thompson Sampling\|Thompson Sampling]]
 - [[stats/04_Supervised_Learning/Threshold Optimization\|Threshold Optimization]]
 - [[stats/04_Supervised_Learning/Train-Test Split\|Train-Test Split]]
 - [[stats/04_Supervised_Learning/Transformers\|Transformers]]
-- [[stats/04_Supervised_Learning/Underfitting\|Underfitting]]
 - [[stats/04_Supervised_Learning/XGBoost\|XGBoost]]
 
 { .block-language-dataview}
@@ -350,7 +345,6 @@ Welcome to the comprehensive statistical MoC. This vault is organized by methodo
 - [[stats/07_Causal_Inference/Propensity Score Matching (PSM)\|Propensity Score Matching (PSM)]]
 - [[stats/07_Causal_Inference/Regression Discontinuity Design (RDD)\|Regression Discontinuity Design (RDD)]]
 - [[stats/07_Causal_Inference/Sensitivity and Specificity\|Sensitivity and Specificity]]
-- [[stats/07_Causal_Inference/Simpson's Paradox\|Simpson's Paradox]]
 - [[stats/07_Causal_Inference/Survival Analysis\|Survival Analysis]]
 - [[stats/07_Causal_Inference/Synthetic Control Method\|Synthetic Control Method]]
 
@@ -375,7 +369,6 @@ Welcome to the comprehensive statistical MoC. This vault is organized by methodo
 - [[stats/08_Time_Series_Analysis/Stationarity (ADF & KPSS)\|Stationarity (ADF & KPSS)]]
 - [[stats/08_Time_Series_Analysis/Taylor Series\|Taylor Series]]
 - [[stats/08_Time_Series_Analysis/Time Series Analysis\|Time Series Analysis]]
-- [[stats/08_Time_Series_Analysis/Unit Root Tests\|Unit Root Tests]]
 - [[stats/08_Time_Series_Analysis/Vector Autoregression (VAR)\|Vector Autoregression (VAR)]]
 
 { .block-language-dataview}
@@ -387,7 +380,6 @@ Welcome to the comprehensive statistical MoC. This vault is organized by methodo
 
 - [[stats/09_EDA_and_Visualization/Area Chart\|Area Chart]]
 - [[stats/09_EDA_and_Visualization/Bar Chart\|Bar Chart]]
-- [[stats/09_EDA_and_Visualization/Box Plots\|Box Plots]]
 - [[stats/09_EDA_and_Visualization/Boxplot\|Boxplot]]
 - [[stats/09_EDA_and_Visualization/Density Plot (KDE)\|Density Plot (KDE)]]
 - [[stats/09_EDA_and_Visualization/Dot Plot\|Dot Plot]]

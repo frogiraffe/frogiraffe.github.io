@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/panel-data-analysis/","tags":["Panel-Data","Econometrics","Longitudinal"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/panel-data-analysis/","tags":["probability","panel-data","econometrics"]}
 ---
 
 

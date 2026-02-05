@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/logistic-regression/","tags":["Regression","Classification","GLM"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/logistic-regression/","tags":["probability","regression","classification","glm"]}
 ---
 
 ## Definition

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/05-unsupervised-learning/autoencoders/","tags":["Deep-Learning","Neural-Networks","Dimensionality-Reduction","Unsupervised"]}
+{"dg-publish":true,"permalink":"/stats/05-unsupervised-learning/autoencoders/","tags":["deep-learning","neural-networks","dimensionality-reduction","unsupervised"]}
 ---
 
 

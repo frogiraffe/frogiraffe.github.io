@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/roc-auc/","tags":["ML-Evaluation","Classification","Metrics"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/roc-auc/","tags":["probability","ml-evaluation","classification","metrics"]}
 ---
 
 

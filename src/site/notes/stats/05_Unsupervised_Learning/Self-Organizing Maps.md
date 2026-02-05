@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/05-unsupervised-learning/self-organizing-maps/","tags":["Machine-Learning","Neural-Networks","Clustering","Visualization"]}
+{"dg-publish":true,"permalink":"/stats/05-unsupervised-learning/self-organizing-maps/","tags":["machine-learning","neural-networks","clustering","visualization"]}
 ---
 
 

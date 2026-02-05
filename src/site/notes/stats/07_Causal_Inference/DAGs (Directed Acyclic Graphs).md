@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/07-causal-inference/da-gs-directed-acyclic-graphs/","tags":["Causal-Inference","Graphs"]}
+{"dg-publish":true,"permalink":"/stats/07-causal-inference/da-gs-directed-acyclic-graphs/","tags":["causal-inference","graphs"]}
 ---
 
 

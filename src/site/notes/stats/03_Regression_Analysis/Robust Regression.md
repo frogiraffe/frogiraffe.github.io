@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/robust-regression/","tags":["Regression","Outliers","Non-Parametric"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/robust-regression/","tags":["probability","regression","outliers","robust-methods"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/generalized-additive-models/","tags":["Machine-Learning","Regression","Non-Linear"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/generalized-additive-models/","tags":["probability","machine-learning","regression","non-linear"]}
 ---
 
 

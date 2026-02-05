@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/02-statistical-inference/confidence-intervals/","tags":["Foundations","Inference","Estimation"]}
+{"dg-publish":true,"permalink":"/stats/02-statistical-inference/confidence-intervals/","tags":["probability","inference","estimation","foundations"]}
 ---
 
 ## Definition

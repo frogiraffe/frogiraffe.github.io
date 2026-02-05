@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/ridge-regression/","tags":["Regression","Regularization","Penalized-Regression","Multicollinearity"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/ridge-regression/","tags":["probability","regression","regularization","penalized-regression"]}
 ---
 
 

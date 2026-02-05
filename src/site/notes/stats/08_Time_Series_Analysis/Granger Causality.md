@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/08-time-series-analysis/granger-causality/","tags":["Time-Series","Causal-Inference","Econometrics"]}
+{"dg-publish":true,"permalink":"/stats/08-time-series-analysis/granger-causality/","tags":["time-series","causal-inference","econometrics"]}
 ---
 
 

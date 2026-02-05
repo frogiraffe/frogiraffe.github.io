@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/10-ethics-and-biases/differential-privacy/","tags":["Ethics","Privacy","Data-Science","Cryptography"]}
+{"dg-publish":true,"permalink":"/stats/10-ethics-and-biases/differential-privacy/","tags":["ethics","privacy","data-science","cryptography"]}
 ---
 
 ## Definition

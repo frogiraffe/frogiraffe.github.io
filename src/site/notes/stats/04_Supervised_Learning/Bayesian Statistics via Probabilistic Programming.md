@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/bayesian-statistics-via-probabilistic-programming/","tags":["Bayesian","Machine-Learning","Applied"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/bayesian-statistics-via-probabilistic-programming/","tags":["probability","bayesian","machine-learning","applied"]}
 ---
 
 ## Overview

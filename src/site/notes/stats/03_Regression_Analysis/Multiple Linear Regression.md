@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/multiple-linear-regression/","tags":["Regression","Linear-Models","OLS","Multiple-Predictors"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/multiple-linear-regression/","tags":["probability","regression","linear-models","ols"]}
 ---
 
 ## Definition

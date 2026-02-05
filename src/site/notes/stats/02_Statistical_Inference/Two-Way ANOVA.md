@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/02-statistical-inference/two-way-anova/","tags":["Hypothesis-Testing","ANOVA","Factorial-Design","Parametric-Tests"]}
+{"dg-publish":true,"permalink":"/stats/02-statistical-inference/two-way-anova/","tags":["probability","hypothesis-testing","anova","factorial-design"]}
 ---
 
 ## Definition

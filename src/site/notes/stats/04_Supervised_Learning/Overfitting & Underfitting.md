@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/overfitting-and-underfitting/","tags":["Machine-Learning","Model-Validation","Diagnostics"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/overfitting-and-underfitting/","tags":["probability","machine-learning","model-validation","diagnostics"]}
 ---
 
 ## Definition

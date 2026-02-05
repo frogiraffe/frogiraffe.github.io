@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/05-unsupervised-learning/k-means-clustering/","tags":["Unsupervised-Learning","Clustering"]}
+{"dg-publish":true,"permalink":"/stats/05-unsupervised-learning/k-means-clustering/","tags":["unsupervised-learning","clustering"]}
 ---
 
 

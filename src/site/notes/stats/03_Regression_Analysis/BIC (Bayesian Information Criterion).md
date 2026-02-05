@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/bic-bayesian-information-criterion/","tags":["Regression","Model-Selection","Information-Theory"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/bic-bayesian-information-criterion/","tags":["probability","model-selection","information-theory"]}
 ---
 
 

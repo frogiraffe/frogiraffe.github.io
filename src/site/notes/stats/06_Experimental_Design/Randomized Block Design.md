@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/06-experimental-design/randomized-block-design/","tags":["Experimental-Design","DOE","Blocking"]}
+{"dg-publish":true,"permalink":"/stats/06-experimental-design/randomized-block-design/","tags":["experimental-design","doe","blocking"]}
 ---
 
 

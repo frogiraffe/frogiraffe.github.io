@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/residual-analysis/","tags":["Regression","Diagnostics","Model-Validation"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/residual-analysis/","tags":["probability","regression","diagnostics","model-validation"]}
 ---
 
 

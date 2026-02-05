@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/hosmer-lemeshow-test/","tags":["Diagnostics","Regression","Calibration"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/hosmer-lemeshow-test/","tags":["probability","diagnostics","regression","calibration"]}
 ---
 
 ## Overview

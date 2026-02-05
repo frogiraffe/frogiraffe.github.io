@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/08-time-series-analysis/durbin-watson-test/","tags":["Diagnostics","Time-Series","Regression","Autocorrelation"]}
+{"dg-publish":true,"permalink":"/stats/08-time-series-analysis/durbin-watson-test/","tags":["diagnostics","time-series","regression","autocorrelation"]}
 ---
 
 ## Definition

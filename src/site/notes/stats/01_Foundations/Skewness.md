@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/01-foundations/skewness/","tags":["Statistics","Descriptive-Statistics","Distribution-Shape"]}
+{"dg-publish":true,"permalink":"/stats/01-foundations/skewness/","tags":["probability","descriptive-statistics","distribution-shape","foundations"]}
 ---
 
 

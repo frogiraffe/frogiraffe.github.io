@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/01-foundations/bayesian-statistics/","tags":["Bayesian","Inference","Probabilistic-Thinking"]}
+{"dg-publish":true,"permalink":"/stats/01-foundations/bayesian-statistics/","tags":["probability","bayesian","inference","foundations"]}
 ---
 
 ## Definition

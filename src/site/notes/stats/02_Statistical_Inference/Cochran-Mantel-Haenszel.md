@@ -81,7 +81,7 @@ mantelhaen.test(mytable)$estimate
 ## Related Concepts
 
 - [[stats/02_Statistical_Inference/Chi-Square Test\|Chi-Square Test]] — Basic independence test
-- [[stats/07_Causal_Inference/Simpson's Paradox\|Simpson's Paradox]] — Why stratification matters
+- [[stats/10_Ethics_and_Biases/Simpson's Paradox\|Simpson's Paradox]] — Why stratification matters
 - [[stats/02_Statistical_Inference/Meta-Analysis\|Meta-Analysis]] — Combining effect sizes
 
 ---

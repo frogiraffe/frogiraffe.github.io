@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/05-unsupervised-learning/factor-analysis/","tags":["Multivariate","Dimensionality-Reduction","Statistics"]}
+{"dg-publish":true,"permalink":"/stats/05-unsupervised-learning/factor-analysis/","tags":["multivariate","dimensionality-reduction","statistics"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/02-statistical-inference/kruskal-wallis-test/","tags":["Hypothesis-Testing","Non-Parametric","ANOVA"]}
+{"dg-publish":true,"permalink":"/stats/02-statistical-inference/kruskal-wallis-test/","tags":["probability","hypothesis-testing","non-parametric","anova"]}
 ---
 
 ## Definition

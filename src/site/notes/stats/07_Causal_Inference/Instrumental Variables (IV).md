@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/07-causal-inference/instrumental-variables-iv/","tags":["Causal-Inference","Econometrics","Endogeneity"]}
+{"dg-publish":true,"permalink":"/stats/07-causal-inference/instrumental-variables-iv/","tags":["causal-inference","econometrics","endogeneity"]}
 ---
 
 ## Definition

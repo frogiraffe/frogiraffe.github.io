@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/02-statistical-inference/mixed-anova-between-within/","tags":["Hypothesis-Testing","ANOVA","Mixed-Design","Within-Between"]}
+{"dg-publish":true,"permalink":"/stats/02-statistical-inference/mixed-anova-between-within/","tags":["probability","hypothesis-testing","anova","mixed-design"]}
 ---
 
 ## Definition

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/vif-variance-inflation-factor/","tags":["Diagnostics","Regression","Multicollinearity"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/vif-variance-inflation-factor/","tags":["probability","diagnostics","regression","multicollinearity"]}
 ---
 
 ## Definition

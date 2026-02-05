@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/activation-functions/","tags":["Deep-Learning","Neural-Networks"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/activation-functions/","tags":["probability","deep-learning","neural-networks"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/growth-curve-models/","tags":["Longitudinal","Mixed-Models","Statistics"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/growth-curve-models/","tags":["probability","longitudinal","mixed-models"]}
 ---
 
 

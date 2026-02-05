@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/imbalanced-data/","tags":["Machine-Learning","Classification","Data-Quality"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/imbalanced-data/","tags":["probability","machine-learning","classification","data-quality"]}
 ---
 
 

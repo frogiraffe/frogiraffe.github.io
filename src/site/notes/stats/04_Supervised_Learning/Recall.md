@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/recall/","tags":["ML-Evaluation","Classification","Metrics"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/recall/","tags":["probability","ml-evaluation","classification","metrics"]}
 ---
 
 

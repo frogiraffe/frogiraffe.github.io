@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/learning-to-rank/","tags":["Machine-Learning","Ranking","Search"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/learning-to-rank/","tags":["probability","machine-learning","ranking","search"]}
 ---
 
 

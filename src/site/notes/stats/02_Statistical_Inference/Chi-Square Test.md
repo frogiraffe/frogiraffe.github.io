@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/02-statistical-inference/chi-square-test/","tags":["Hypothesis-Testing","Non-Parametric","Categorical-Data"]}
+{"dg-publish":true,"permalink":"/stats/02-statistical-inference/chi-square-test/","tags":["probability","hypothesis-testing","non-parametric","categorical-data"]}
 ---
 
 

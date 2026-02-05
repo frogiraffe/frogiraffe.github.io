@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/gradient-descent/","tags":["Math","Calculus","Machine-Learning","Optimization"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/gradient-descent/","tags":["probability","math","calculus","machine-learning","optimization"]}
 ---
 
 ## Definition

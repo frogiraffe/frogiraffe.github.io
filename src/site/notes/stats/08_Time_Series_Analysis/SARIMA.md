@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/08-time-series-analysis/sarima/","tags":["Time-Series","ARIMA","Seasonality"]}
+{"dg-publish":true,"permalink":"/stats/08-time-series-analysis/sarima/","tags":["time-series","arima","seasonality"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/02-statistical-inference/welch-s-anova/","tags":["Hypothesis-Testing","ANOVA"]}
+{"dg-publish":true,"permalink":"/stats/02-statistical-inference/welch-s-anova/","tags":["probability","hypothesis-testing","anova","parametric-tests"]}
 ---
 
 ## Overview

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/lasso-regression/","tags":["Regression","Regularization","Feature-Selection","Penalized-Regression"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/lasso-regression/","tags":["probability","regression","regularization","feature-selection"]}
 ---
 
 

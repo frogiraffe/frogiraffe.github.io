@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/06-experimental-design/a-a-testing/","tags":["Experimental-Design","A-B-Testing","Validation"]}
+{"dg-publish":true,"permalink":"/stats/06-experimental-design/a-a-testing/","tags":["experimental-design","a-b-testing","validation"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/08-time-series-analysis/prophet/","tags":["Time-Series","Forecasting","Machine-Learning"]}
+{"dg-publish":true,"permalink":"/stats/08-time-series-analysis/prophet/","tags":["time-series","forecasting","machine-learning"]}
 ---
 
 

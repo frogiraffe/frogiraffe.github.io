@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/smote/","tags":["Machine-Learning","Preprocessing","Imbalanced-Data"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/smote/","tags":["probability","machine-learning","preprocessing","imbalanced-data"]}
 ---
 
 

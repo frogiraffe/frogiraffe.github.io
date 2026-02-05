@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/shap-values/","tags":["Interpretability","Machine-Learning","Explainability"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/shap-values/","tags":["probability","interpretability","machine-learning","explainability"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/contextual-bandits/","tags":["Bandits","Reinforcement-Learning","Personalization"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/contextual-bandits/","tags":["probability","bandits","reinforcement-learning","personalization"]}
 ---
 
 

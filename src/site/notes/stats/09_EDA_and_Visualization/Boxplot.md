@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/09-eda-and-visualization/boxplot/","tags":["Visualization","EDA","Outliers"]}
+{"dg-publish":true,"permalink":"/stats/09-eda-and-visualization/boxplot/","tags":["visualization","eda","outliers","descriptive-statistics"]}
 ---
 
 ## Definition

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/06-experimental-design/split-plot-design/","tags":["Experimental-Design","DOE","Nested-Factors"]}
+{"dg-publish":true,"permalink":"/stats/06-experimental-design/split-plot-design/","tags":["experimental-design","doe","nested-factors"]}
 ---
 
 

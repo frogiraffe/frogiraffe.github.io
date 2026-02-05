@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/07-causal-inference/causal-inference/","tags":["Causal-Inference","Econometrics","Experimental-Design","Observational-Studies"]}
+{"dg-publish":true,"permalink":"/stats/07-causal-inference/causal-inference/","tags":["causal-inference","econometrics","experimental-design","observational-studies"]}
 ---
 
 
@@ -347,7 +347,7 @@ plot(sens)
 **Prerequisites:**
 - [[stats/01_Foundations/Confounding Variables\|Confounding Variables]] — Why naive comparisons fail
 - [[stats/01_Foundations/Correlation vs Causation\|Correlation vs Causation]] — The core distinction
-- [[stats/07_Causal_Inference/Simpson's Paradox\|Simpson's Paradox]] — When aggregation reverses effects
+- [[stats/10_Ethics_and_Biases/Simpson's Paradox\|Simpson's Paradox]] — When aggregation reverses effects
 
 **Core Methods:**
 - [[stats/07_Causal_Inference/Propensity Score Matching (PSM)\|Propensity Score Matching (PSM)]]

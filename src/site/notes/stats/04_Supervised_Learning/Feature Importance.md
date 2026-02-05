@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/feature-importance/","tags":["Machine-Learning","Interpretability","Model-Evaluation"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/feature-importance/","tags":["probability","machine-learning","interpretability","model-evaluation"]}
 ---
 
 

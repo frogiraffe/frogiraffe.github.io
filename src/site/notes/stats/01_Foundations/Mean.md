@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/01-foundations/mean/","tags":["Statistics","Descriptive-Statistics","Central-Tendency"]}
+{"dg-publish":true,"permalink":"/stats/01-foundations/mean/","tags":["probability","descriptive-statistics","central-tendency","foundations"]}
 ---
 
 
@@ -11,6 +11,15 @@
 $$
 \bar{x} = \frac{1}{n}\sum_{i=1}^{n} x_i
 $$
+
+---
+
+## When NOT to Use
+
+> [!danger] Do NOT Use Mean When...
+> - **Skewed data:** Use median (income, housing prices)
+> - **Outliers present:** One extreme value distorts the mean
+> - **Ordinal data:** Mean of ratings may be meaningless
 
 ---
 

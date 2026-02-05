@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/polynomial-regression/","tags":["Regression","Statistics","Non-Linear"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/polynomial-regression/","tags":["probability","regression","non-linear"]}
 ---
 
 

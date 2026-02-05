@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/09-eda-and-visualization/density-plot-kde/","tags":["Visualization","EDA","Distribution"]}
+{"dg-publish":true,"permalink":"/stats/09-eda-and-visualization/density-plot-kde/","tags":["visualization","eda","distribution"]}
 ---
 
 

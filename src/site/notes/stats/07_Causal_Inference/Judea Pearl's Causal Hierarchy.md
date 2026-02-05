@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/07-causal-inference/judea-pearl-s-causal-hierarchy/","tags":["Causal-Inference","Theory","DAGs"]}
+{"dg-publish":true,"permalink":"/stats/07-causal-inference/judea-pearl-s-causal-hierarchy/","tags":["causal-inference","theory","dags"]}
 ---
 
 

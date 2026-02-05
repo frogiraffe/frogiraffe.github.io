@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/07-causal-inference/inverse-probability-weighting/","tags":["Causal-Inference","Weighting","Propensity-Score"]}
+{"dg-publish":true,"permalink":"/stats/07-causal-inference/inverse-probability-weighting/","tags":["causal-inference","weighting","propensity-score"]}
 ---
 
 

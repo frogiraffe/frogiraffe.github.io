@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/09-eda-and-visualization/histogram/","tags":["Visualization","EDA","Distributions"]}
+{"dg-publish":true,"permalink":"/stats/09-eda-and-visualization/histogram/","tags":["visualization","eda","distributions"]}
 ---
 
 ## Definition

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/06-experimental-design/multi-armed-bandits-mab/","tags":["Experimental-Design","Reinforcement-Learning","Optimization"]}
+{"dg-publish":true,"permalink":"/stats/06-experimental-design/multi-armed-bandits-mab/","tags":["experimental-design","reinforcement-learning","optimization"]}
 ---
 
 

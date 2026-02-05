@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/08-time-series-analysis/garch-models/","tags":["Time-Series","Finance","Volatility"]}
+{"dg-publish":true,"permalink":"/stats/08-time-series-analysis/garch-models/","tags":["time-series","finance","volatility"]}
 ---
 
 ## Overview

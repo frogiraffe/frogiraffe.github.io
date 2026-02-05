@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/fixed-effects/","tags":["Panel-Data","Econometrics","Causal-Inference"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/fixed-effects/","tags":["probability","panel-data","econometrics","causal-inference"]}
 ---
 
 

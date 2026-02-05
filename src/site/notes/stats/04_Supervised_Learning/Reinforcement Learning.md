@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/reinforcement-learning/","tags":["Machine-Learning","AI","Decision-Making"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/reinforcement-learning/","tags":["probability","machine-learning","ai","decision-making"]}
 ---
 
 

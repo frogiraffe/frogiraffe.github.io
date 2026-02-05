@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/precision-recall-curve/","tags":["Machine-Learning","Evaluation","Classification","Imbalanced-Data"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/precision-recall-curve/","tags":["probability","machine-learning","evaluation","classification","imbalanced-data"]}
 ---
 
 

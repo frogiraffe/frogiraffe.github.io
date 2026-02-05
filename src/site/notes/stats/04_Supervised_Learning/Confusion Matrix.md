@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/confusion-matrix/","tags":["Classification","Machine-Learning","Model-Evaluation","Metrics"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/confusion-matrix/","tags":["probability","classification","machine-learning","model-evaluation","metrics"]}
 ---
 
 ## Definition

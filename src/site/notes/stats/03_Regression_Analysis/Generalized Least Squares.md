@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/generalized-least-squares/","tags":["Regression","Econometrics"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/generalized-least-squares/","tags":["probability","regression","econometrics"]}
 ---
 
 

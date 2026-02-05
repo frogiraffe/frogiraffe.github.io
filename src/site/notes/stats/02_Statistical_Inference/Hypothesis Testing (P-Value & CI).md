@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/02-statistical-inference/hypothesis-testing-p-value-and-ci/","tags":["Foundations","Hypothesis-Testing","Inference"]}
+{"dg-publish":true,"permalink":"/stats/02-statistical-inference/hypothesis-testing-p-value-and-ci/","tags":["probability","hypothesis-testing","inference","foundations"]}
 ---
 
 ## Definition

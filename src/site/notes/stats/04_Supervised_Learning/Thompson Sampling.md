@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/thompson-sampling/","tags":["Bandits","Bayesian","Reinforcement-Learning"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/thompson-sampling/","tags":["probability","bandits","bayesian","reinforcement-learning"]}
 ---
 
 

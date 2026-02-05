@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/interpretability/","tags":["Machine-Learning","Explainability","Ethics"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/interpretability/","tags":["probability","machine-learning","explainability","ethics"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/09-eda-and-visualization/parallel-coordinates/","tags":["Visualization","Multivariate","High-Dimensional"]}
+{"dg-publish":true,"permalink":"/stats/09-eda-and-visualization/parallel-coordinates/","tags":["visualization","multivariate","high-dimensional"]}
 ---
 
 

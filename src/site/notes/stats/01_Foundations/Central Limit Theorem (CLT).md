@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/01-foundations/central-limit-theorem-clt/","tags":["Probability-Theory","Foundations","Sampling"]}
+{"dg-publish":true,"permalink":"/stats/01-foundations/central-limit-theorem-clt/","tags":["probability","foundations","sampling","inference"]}
 ---
 
 ## Definition

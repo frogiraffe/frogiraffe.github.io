@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/cross-validation/","tags":["Machine-Learning","Model-Validation","Overfitting"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/cross-validation/","tags":["probability","machine-learning","model-validation","overfitting"]}
 ---
 
 ## Definition

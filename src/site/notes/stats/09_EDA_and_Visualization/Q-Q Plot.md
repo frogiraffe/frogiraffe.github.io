@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/09-eda-and-visualization/q-q-plot/","tags":["Diagnostics","Normality","Visualization"]}
+{"dg-publish":true,"permalink":"/stats/09-eda-and-visualization/q-q-plot/","tags":["diagnostics","normality","visualization"]}
 ---
 
 ## Definition

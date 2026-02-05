@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/gaussian-processes/","tags":["Machine-Learning","Probabilistic","Bayesian"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/gaussian-processes/","tags":["probability","machine-learning","probabilistic","bayesian"]}
 ---
 
 

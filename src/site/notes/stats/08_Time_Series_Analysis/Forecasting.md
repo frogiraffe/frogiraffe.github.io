@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/08-time-series-analysis/forecasting/","tags":["Time-Series","Forecasting","Machine-Learning"]}
+{"dg-publish":true,"permalink":"/stats/08-time-series-analysis/forecasting/","tags":["time-series","forecasting","machine-learning"]}
 ---
 
 

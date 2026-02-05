@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/05-unsupervised-learning/t-sne-and-umap/","tags":["Unsupervised-Learning","Dimension-Reduction","Visualization"]}
+{"dg-publish":true,"permalink":"/stats/05-unsupervised-learning/t-sne-and-umap/","tags":["unsupervised-learning","dimension-reduction","visualization"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/encoding-categorical-variables/","tags":["Data-Preprocessing","Machine-Learning","Feature-Engineering"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/encoding-categorical-variables/","tags":["probability","data-preprocessing","machine-learning","feature-engineering"]}
 ---
 
 

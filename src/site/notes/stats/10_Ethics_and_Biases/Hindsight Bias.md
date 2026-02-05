@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/10-ethics-and-biases/hindsight-bias/","tags":["Bias","Cognitive","Decision-Making"]}
+{"dg-publish":true,"permalink":"/stats/10-ethics-and-biases/hindsight-bias/","tags":["bias","cognitive","decision-making"]}
 ---
 
 

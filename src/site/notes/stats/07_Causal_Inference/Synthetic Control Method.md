@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/07-causal-inference/synthetic-control-method/","tags":["Causal-Inference","Policy-Evaluation","Econometrics","Time-Series"]}
+{"dg-publish":true,"permalink":"/stats/07-causal-inference/synthetic-control-method/","tags":["causal-inference","policy-evaluation","econometrics","time-series"]}
 ---
 
 

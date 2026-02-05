@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/binary-logistic-regression/","tags":["Regression","Classification","GLM","Binary-Outcome"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/binary-logistic-regression/","tags":["probability","regression","classification","glm"]}
 ---
 
 ## Definition

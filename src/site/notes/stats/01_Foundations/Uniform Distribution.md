@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/01-foundations/uniform-distribution/","tags":["Probability-Theory","Distributions","Continuous","Foundations"]}
+{"dg-publish":true,"permalink":"/stats/01-foundations/uniform-distribution/","tags":["probability","distributions","continuous","foundations"]}
 ---
 
 ## Definition
@@ -7,25 +7,41 @@
 > [!abstract] Core Statement
 > The **Uniform Distribution** (Continuous) assigns ==equal probability== to all values in a specified interval $[a, b]$. Every outcome in the range is equally likely. It is the "flat" distribution.
 
-![Uniform Distribution PDF](https://upload.wikimedia.org/wikipedia/commons/9/96/Uniform_Distribution_PDF_SVG.svg)
+![Uniform Distribution showing constant PDF|500](https://upload.wikimedia.org/wikipedia/commons/9/96/Uniform_Distribution_PDF_SVG.svg)
+*Figure 1: Uniform distribution has constant density—a perfect rectangle.*
+
+---
+
+> [!tip] Intuition (ELI5): The Spinning Wheel
+> Imagine spinning a wheel that stops at a random position. If the wheel is perfectly balanced, every position is equally likely. That's Uniform. There's no "hot spot" or preferred region—pure randomness across the range.
 
 ---
 
 ## Purpose
 
-1. Model scenarios where all outcomes are **equally likely**.
-2. Generate **random numbers** for simulations (basis of random number generators).
-3. Serve as a **non-informative prior** in [[stats/01_Foundations/Bayesian Statistics\|Bayesian Statistics]].
-4. Baseline for comparing other distributions.
+1. Model scenarios where all outcomes are **equally likely**
+2. Generate **random numbers** for simulations (basis of random number generators)
+3. Serve as a **non-informative prior** in [[stats/01_Foundations/Bayesian Statistics\|Bayesian Statistics]]
+4. Baseline for comparing other distributions
 
 ---
 
 ## When to Use
 
 > [!success] Use Uniform Distribution When...
-> - All values in a range are **equally probable**.
-> - No information suggests one value is more likely than another.
-> - Generating random samples for Monte Carlo simulations.
+> - All values in a range are **equally probable**
+> - No information suggests one value is more likely than another
+> - Generating random samples for [[stats/01_Foundations/Monte Carlo Simulation\|Monte Carlo Simulation]]
+
+---
+
+## When NOT to Use
+
+> [!danger] Do NOT Use Uniform Distribution When...
+> - **Data has structure:** Real data is rarely uniform—consider Normal, Exponential, etc.
+> - **Discrete outcomes:** Use [[stats/01_Foundations/Discrete Uniform Distribution\|Discrete Uniform Distribution]] (e.g., dice)
+> - **Prior knowledge exists:** Using Uniform as a "lazy prior" can be inappropriate
+> - **Unbounded data:** Uniform has finite bounds $[a, b]$
 
 ---
 
@@ -34,7 +50,7 @@
 ### Notation
 
 $$
-X \sim \text{Uniform}(a, b)
+X \sim \text{Uniform}(a, b) \quad \text{or} \quad X \sim U(a, b)
 $$
 
 where $a$ is the minimum and $b$ is the maximum.
@@ -49,7 +65,7 @@ f(x | a, b) =
 \end{cases}
 $$
 
-**Constant density** across the interval.
+**Constant density** across the interval. Height = $\frac{1}{b-a}$.
 
 ### Cumulative Distribution Function (CDF)
 
@@ -92,13 +108,23 @@ Parameters: $a = 0$, $b = 15$. Distribution $X \sim U(0, 15)$.
 PDF height = $\frac{1}{15 - 0} = \frac{1}{15}$.
 
 **1. Probability wait < 5 mins ($P(X < 5)$):**
-$$ P(X < 5) = \text{Base} \times \text{Height} = (5 - 0) \times \frac{1}{15} $$
-$$ P(X < 5) = \frac{5}{15} = \frac{1}{3} \approx 0.333 $$
+$$ P(X < 5) = \text{Base} \times \text{Height} = (5 - 0) \times \frac{1}{15} = \frac{5}{15} = \frac{1}{3} \approx 0.333 $$
 **Result:** ~33.3% chance of a short wait.
 
 **2. Average Waiting Time ($E[X]$):**
 $$ \mu = \frac{a + b}{2} = \frac{0 + 15}{2} = 7.5 \text{ minutes} $$
 **Result:** On average, you will wait 7.5 minutes.
+
+**Verification with Code:**
+```python
+from scipy.stats import uniform
+
+a, b = 0, 15
+dist = uniform(loc=a, scale=b-a)  # scipy uses loc=a, scale=b-a
+
+print(f"P(X < 5): {dist.cdf(5):.4f}")  # 0.3333
+print(f"Mean: {dist.mean():.2f}")      # 7.50
+```
 
 ---
 
@@ -106,7 +132,10 @@ $$ \mu = \frac{a + b}{2} = \frac{0 + 15}{2} = 7.5 \text{ minutes} $$
 
 The Uniform distribution is a **model choice**:
 - [ ] You believe all outcomes in $[a, b]$ are **equally probable**.
+  - *Example:* Random arrival time ✓ vs Peak hour arrivals ✗
+  
 - [ ] No prior knowledge favors any particular value.
+  - *Example:* Spinning wheel ✓ vs Historical sales data ✗
 
 ---
 
@@ -131,28 +160,31 @@ a, b = 2, 8
 dist = uniform(loc=a, scale=b-a)  # scipy uses loc=a, scale=b-a
 
 # Mean and Variance
-print(f"Mean: {dist.mean():.2f}")
-print(f"Variance: {dist.var():.2f}")
+print(f"Mean: {dist.mean():.2f}")  # 5.00
+print(f"Variance: {dist.var():.2f}")  # 3.00
 
 # P(3 < X < 6)
 prob = dist.cdf(6) - dist.cdf(3)
-print(f"P(3 < X < 6): {prob:.4f}")
+print(f"P(3 < X < 6): {prob:.4f}")  # 0.5000
 
 # Visualize PDF
 x = np.linspace(0, 10, 500)
+plt.figure(figsize=(10, 6))
 plt.plot(x, dist.pdf(x), lw=3, label=f'Uniform({a}, {b})')
+plt.fill_between(x, dist.pdf(x), alpha=0.3)
 plt.xlabel('x')
 plt.ylabel('Density')
 plt.title('Uniform Distribution')
 plt.legend()
 plt.grid(alpha=0.3)
 plt.show()
+```
 
-# Generate Random Sample
-sample = dist.rvs(size=1000)
-plt.hist(sample, bins=30, density=True, alpha=0.6, edgecolor='black')
-plt.title('Histogram of 1000 Uniform Samples')
-plt.show()
+**Expected Output:**
+```
+Mean: 5.00
+Variance: 3.00
+P(3 < X < 6): 0.5000
 ```
 
 ---
@@ -165,10 +197,13 @@ a <- 2
 b <- 8
 
 # Mean
-(a + b) / 2
+(a + b) / 2  # 5
+
+# Variance
+(b - a)^2 / 12  # 3
 
 # P(3 < X < 6)
-punif(6, min = a, max = b) - punif(3, min = a, max = b)
+punif(6, min = a, max = b) - punif(3, min = a, max = b)  # 0.5
 
 # Visualize PDF
 curve(dunif(x, min = a, max = b), from = 0, to = 10, lwd = 3,
@@ -185,25 +220,37 @@ runif(10, min = a, max = b)
 
 | Scenario | Interpretation |
 |----------|----------------|
-| Scenario | Interpretation |
-|----------|----------------|
-| **$U(0, 1)$** | Standard reference. If $p$-values are uniform, $H_0$ is true. |
-| **Mean vs Median** | In Uniform, Mean = Median. Symmetry holds. |
-| **Variance** | Depends heavily on the range width ($b-a$). $\sigma \propto (b-a)$. |
-| **Constant PDF** | "Flat" likelihood. Every value is equally surprising (or unsurprising). |
+| **$U(0, 1)$** | Standard reference. If p-values are uniform, $H_0$ is true. |
+| **Mean = Median** | In Uniform, Mean = Median = Midpoint (symmetry). |
+| **Variance** | Depends heavily on range width: $\sigma^2 = (b-a)^2/12$ |
+| **Constant PDF** | "Flat" likelihood. Every value is equally surprising. |
 
 ---
 
 ## Related Concepts
 
-- [[stats/01_Foundations/Normal Distribution\|Normal Distribution]] - Uniform is the opposite (flat vs bell).
-- [[stats/01_Foundations/Bayesian Statistics\|Bayesian Statistics]] - Uniform used as non-informative prior.
-- [[stats/01_Foundations/Monte Carlo Simulation\|Monte Carlo Simulation]] - Random number generation.
-- [[stats/01_Foundations/Discrete Uniform Distribution\|Discrete Uniform Distribution]] - For discrete outcomes (e.g., dice).
+### Directly Related
+- [[stats/01_Foundations/Discrete Uniform Distribution\|Discrete Uniform Distribution]] - For discrete outcomes (e.g., dice)
+- [[stats/01_Foundations/Bayesian Statistics\|Bayesian Statistics]] - Uniform used as non-informative prior
+- [[stats/01_Foundations/Monte Carlo Simulation\|Monte Carlo Simulation]] - Random number generation
+
+### Contrast With
+- [[stats/01_Foundations/Normal Distribution\|Normal Distribution]] - Uniform is the opposite (flat vs bell)
+- [[stats/01_Foundations/Exponential Distribution\|Exponential Distribution]] - Has decay structure
+
+### Other Related Topics
+- [[stats/01_Foundations/Beta Distribution\|Beta Distribution]]
+- [[stats/01_Foundations/Chi-Square Distribution\|Chi-Square Distribution]]
+- [[stats/01_Foundations/Dirichlet Distribution\|Dirichlet Distribution]]
+- [[stats/01_Foundations/Exponential Distribution\|Exponential Distribution]]
+- [[stats/01_Foundations/F-Distribution\|F-Distribution]]
+
+{ .block-language-dataview}
 
 ---
 
 ## References
 
-- **Book:** Ross, S. M. (2014). *A First Course in Probability* (9th ed.). Pearson. [Pearson Link](https://www.pearson.com/en-us/subject-catalog/p/first-course-in-probability-a/P200000006198/)
-- **Book:** DeGroot, M. H., & Schervish, M. J. (2012). *Probability and Statistics* (4th ed.). Pearson. [Pearson](https://www.pearson.com/en-us/subject-catalog/p/probability-and-statistics/P200000006277/)
+1. Ross, S. M. (2014). *A First Course in Probability* (9th ed.). Pearson. [Available online](https://www.pearson.com/en-us/subject-catalog/p/first-course-in-probability-a/P200000006198/)
+
+2. DeGroot, M. H., & Schervish, M. J. (2012). *Probability and Statistics* (4th ed.). Pearson. [Available online](https://www.pearson.com/en-us/subject-catalog/p/probability-and-statistics/P200000006277/)

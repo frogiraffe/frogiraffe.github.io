@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/08-time-series-analysis/smoothing/","tags":["Time-Series","Forecasting","Data-Preprocessing"]}
+{"dg-publish":true,"permalink":"/stats/08-time-series-analysis/smoothing/","tags":["time-series","forecasting","data-preprocessing"]}
 ---
 
 

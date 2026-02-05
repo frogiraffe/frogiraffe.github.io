@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/interaction-effects/","tags":["Regression","Analysis","Moderation"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/interaction-effects/","tags":["probability","regression","moderation"]}
 ---
 
 

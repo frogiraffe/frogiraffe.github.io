@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/federated-learning/","tags":["Machine-Learning","Privacy","Distributed"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/federated-learning/","tags":["probability","machine-learning","privacy","distributed"]}
 ---
 
 

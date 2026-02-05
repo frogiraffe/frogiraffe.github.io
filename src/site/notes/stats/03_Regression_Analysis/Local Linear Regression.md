@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/03-regression-analysis/local-linear-regression/","tags":["Regression","Non-Parametric","Smoothing"]}
+{"dg-publish":true,"permalink":"/stats/03-regression-analysis/local-linear-regression/","tags":["probability","regression","non-parametric","smoothing"]}
 ---
 
 

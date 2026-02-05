@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/01-foundations/conditional-probability/","tags":["Probability-Theory","Foundations","Bayesian"]}
+{"dg-publish":true,"permalink":"/stats/01-foundations/conditional-probability/","tags":["probability","foundations","bayesian"]}
 ---
 
 
@@ -23,6 +23,15 @@ $$
 1.  **Update Beliefs:** Revise probabilities given new information.
 2.  **Foundation for Bayes:** Core building block for [[stats/01_Foundations/Bayes' Theorem\|Bayes' Theorem]].
 3.  **Risk Assessment:** Calculate risks conditional on exposures.
+
+---
+
+## When NOT to Use
+
+> [!danger] Be Careful!
+> - **$P(B) = 0$:** Conditional probability is undefined when the conditioning event is impossible
+> - **Confusing $P(A|B)$ with $P(B|A)$:** Prosecutor's fallacy!
+> - **Assuming independence:** If $P(A|B) = P(A)$, events are independent
 
 ---
 

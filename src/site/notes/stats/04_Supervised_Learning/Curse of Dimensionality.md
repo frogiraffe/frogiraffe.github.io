@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stats/04-supervised-learning/curse-of-dimensionality/","tags":["Machine-Learning","Dimensionality","Statistics"]}
+{"dg-publish":true,"permalink":"/stats/04-supervised-learning/curse-of-dimensionality/","tags":["probability","machine-learning","dimensionality","statistics"]}
 ---
 
 
