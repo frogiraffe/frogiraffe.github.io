@@ -173,11 +173,11 @@ $$P(B_i | A) = \frac{P(A | B_i) \cdot P(B_i)}{P(A)} = \frac{P(A | B_i) \cdot P(B
 - [[Hidden Markov Models\|Hidden Markov Models]] - Uses total probability extensively
 
 ### Other Related Topics
+- [[stats/01_Foundations/00_Category_Index\|00_Category_Index]]
 - [[stats/01_Foundations/Bayes' Theorem\|Bayes' Theorem]]
 - [[stats/01_Foundations/Bayesian Statistics\|Bayesian Statistics]]
 - [[stats/01_Foundations/Bernoulli Distribution\|Bernoulli Distribution]]
 - [[stats/01_Foundations/Binomial Distribution\|Binomial Distribution]]
-- [[stats/01_Foundations/Central Limit Theorem (CLT)\|Central Limit Theorem (CLT)]]
 
 { .block-language-dataview}
 

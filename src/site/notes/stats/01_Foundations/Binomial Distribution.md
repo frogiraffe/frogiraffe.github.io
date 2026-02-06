@@ -281,11 +281,11 @@ points(x, dbinom(x, size = n, prob = p), pch = 16, col = "blue")
 - [[stats/02_Statistical_Inference/Confidence Intervals\|Confidence Intervals]] - For population proportions
 
 ### Other Related Topics
+- [[stats/01_Foundations/00_Category_Index\|00_Category_Index]]
 - [[stats/04_Supervised_Learning/Activation Functions\|Activation Functions]]
 - [[stats/04_Supervised_Learning/AdaBoost\|AdaBoost]]
 - [[stats/03_Regression_Analysis/Adaptive Lasso\|Adaptive Lasso]]
 - [[stats/03_Regression_Analysis/AIC (Akaike Information Criterion)\|AIC (Akaike Information Criterion)]]
-- [[stats/04_Supervised_Learning/Anomaly Detection\|Anomaly Detection]]
 
 { .block-language-dataview}
 
