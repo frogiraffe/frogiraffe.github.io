@@ -222,25 +222,3 @@ Algoritmik adalet, istatistiksel paradokslar ve araştırma etiği.
 
 { .block-language-dataview}
 *[[stats/10_Ethics_and_Biases/00_Category_Index\|Tüm notlar]]*
-
----
-
-## Kullanım
-
-Her not şu yapıya sahiptir:
-
-1. **Core Concept:** Kavramın temel açıklaması
-2. **Mathematical Formulation:** Matematiksel formüller
-3. **Implementation:** Python/R kod örnekleri
-4. **Connections:** İlgili konulara bağlantılar
-
-Dinamik sorgular için [Dataview](https://github.com/blacksmithgu/obsidian-dataview) eklentisi gereklidir.
-
----
-
-## Dış Kaynaklar
-
-- [Stats StackExchange](https://stats.stackexchange.com/)
-- [Kaggle Learn](https://www.kaggle.com/learn)
-- [Seeing Theory](https://seeing-theory.brown.edu/)
-- [StatQuest](https://www.youtube.com/c/joshstarmer)
