@@ -18,16 +18,16 @@
 | [[stats/04_Supervised_Learning/Cross-Validation\|Cross-Validation]]                                       | stats/04_Supervised_Learning   | 23       |
 | [[stats/05_Unsupervised_Learning/PCA (Principal Component Analysis)\|PCA (Principal Component Analysis)]] | stats/05_Unsupervised_Learning | 23       |
 | [[stats/01_Foundations/Bayesian Statistics\|Bayesian Statistics]]                                         | stats/01_Foundations           | 22       |
-| [[stats/02_Statistical_Inference/One-Way ANOVA\|One-Way ANOVA]]                                           | stats/02_Statistical_Inference | 18       |
+| [[stats/02_Statistical_Inference/One-Way ANOVA\|One-Way ANOVA]]                                           | stats/02_Statistical_Inference | 19       |
+| [[stats/03_Regression_Analysis/Simple Linear Regression\|Simple Linear Regression]]                       | stats/03_Regression_Analysis   | 18       |
 | [[stats/03_Regression_Analysis/Binary Logistic Regression\|Binary Logistic Regression]]                   | stats/03_Regression_Analysis   | 16       |
-| [[stats/03_Regression_Analysis/Simple Linear Regression\|Simple Linear Regression]]                       | stats/03_Regression_Analysis   | 16       |
 | [[stats/03_Regression_Analysis/Lasso Regression\|Lasso Regression]]                                       | stats/03_Regression_Analysis   | 15       |
+| [[stats/01_Foundations/Bias-Variance Trade-off\|Bias-Variance Trade-off]]                                 | stats/01_Foundations           | 14       |
 | [[stats/01_Foundations/Central Limit Theorem (CLT)\|Central Limit Theorem (CLT)]]                         | stats/01_Foundations           | 14       |
 | [[stats/02_Statistical_Inference/A-B Testing\|A-B Testing]]                                               | stats/02_Statistical_Inference | 14       |
 | [[stats/03_Regression_Analysis/Ridge Regression\|Ridge Regression]]                                       | stats/03_Regression_Analysis   | 14       |
 | [[stats/10_Ethics_and_Biases/Selection Bias\|Selection Bias]]                                             | stats/10_Ethics_and_Biases     | 14       |
 | [[stats/02_Statistical_Inference/Student's T-Test\|Student's T-Test]]                                     | stats/02_Statistical_Inference | 13       |
-| [[stats/08_Time_Series_Analysis/Stationarity (ADF & KPSS)\|Stationarity (ADF & KPSS)]]                    | stats/08_Time_Series_Analysis  | 13       |
 
 { .block-language-dataview}
 
@@ -40,16 +40,16 @@
 - [[stats/01_Foundations/Conditional Probability\|Conditional Probability]] | [[stats/01_Foundations/Covariance\|Covariance]] | [[stats/01_Foundations/Correlation Analysis\|Correlation Analysis]]
 
 **Regresyon ve Modelleme:**
-- [[Linear Regression\|Linear Regression]] | [[stats/03_Regression_Analysis/Logistic Regression\|Logistic Regression]] | [[stats/03_Regression_Analysis/Ridge Regression\|Ridge Regression]] | [[stats/03_Regression_Analysis/Lasso Regression\|Lasso Regression]]
+- [[stats/03_Regression_Analysis/Simple Linear Regression\|Simple Linear Regression]] | [[stats/03_Regression_Analysis/Logistic Regression\|Logistic Regression]] | [[stats/03_Regression_Analysis/Ridge Regression\|Ridge Regression]] | [[stats/03_Regression_Analysis/Lasso Regression\|Lasso Regression]]
 - [[stats/01_Foundations/Maximum Likelihood Estimation (MLE)\|Maximum Likelihood Estimation (MLE)]] | [[stats/03_Regression_Analysis/Regularization\|Regularization]]
 
 **Makine Öğrenimi:**
 - [[stats/04_Supervised_Learning/Random Forest\|Random Forest]] | [[stats/04_Supervised_Learning/XGBoost\|XGBoost]] | [[stats/04_Supervised_Learning/Neural Networks\|Neural Networks]] | [[stats/04_Supervised_Learning/Cross-Validation\|Cross-Validation]]
-- [[Bias-Variance Tradeoff\|Bias-Variance Tradeoff]] | [[stats/01_Foundations/Feature Selection\|Feature Selection]]
+- [[stats/01_Foundations/Bias-Variance Trade-off\|Bias-Variance Trade-off]] | [[stats/01_Foundations/Feature Selection\|Feature Selection]]
 
 **İstatistiksel Testler:**
 - [[stats/02_Statistical_Inference/Hypothesis Testing (P-Value & CI)\|Hypothesis Testing (P-Value & CI)]] | [[stats/02_Statistical_Inference/Student's T-Test\|Student's T-Test]] | [[stats/02_Statistical_Inference/Chi-Square Test\|Chi-Square Test]]
-- [[ANOVA\|ANOVA]] | [[stats/02_Statistical_Inference/A-B Testing\|A-B Testing]] | [[stats/02_Statistical_Inference/Mann-Whitney U Test\|Mann-Whitney U Test]]
+- [[stats/02_Statistical_Inference/One-Way ANOVA\|One-Way ANOVA]] | [[stats/02_Statistical_Inference/A-B Testing\|A-B Testing]] | [[stats/02_Statistical_Inference/Mann-Whitney U Test\|Mann-Whitney U Test]]
 
 ---
 

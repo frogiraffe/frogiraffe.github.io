@@ -101,14 +101,14 @@
 
 | Not                                                                                                  | Bağlantı |
 | ---------------------------------------------------------------------------------------------------- | -------- |
-| [[stats/01_Foundations/Adjusted R-squared\|Adjusted R-squared]]                                   | 2        |
+| [[stats/01_Foundations/Adjusted R-squared\|Adjusted R-squared]]                                   | 3        |
 | [[stats/01_Foundations/Backpropagation\|Backpropagation]]                                         | 2        |
 | [[stats/01_Foundations/Bag of Words\|Bag of Words]]                                               | 1        |
 | [[stats/01_Foundations/Bayes' Theorem\|Bayes' Theorem]]                                           | 9        |
 | [[stats/01_Foundations/Bayesian Statistics\|Bayesian Statistics]]                                 | 22       |
 | [[stats/01_Foundations/Bernoulli Distribution\|Bernoulli Distribution]]                           | 4        |
 | [[stats/01_Foundations/Beta Distribution\|Beta Distribution]]                                     | 5        |
-| [[stats/01_Foundations/Bias-Variance Trade-off\|Bias-Variance Trade-off]]                         | 12       |
+| [[stats/01_Foundations/Bias-Variance Trade-off\|Bias-Variance Trade-off]]                         | 14       |
 | [[stats/01_Foundations/Binomial Distribution\|Binomial Distribution]]                             | 8        |
 | [[stats/01_Foundations/Box-Cox Transformation\|Box-Cox Transformation]]                           | 3        |
 | [[stats/01_Foundations/Categorical Distribution\|Categorical Distribution]]                       | 4        |

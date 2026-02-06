@@ -66,8 +66,8 @@ Sınıflandırma ve regresyon algoritmaları, model değerlendirme metrikleri ve
 - [[stats/04_Supervised_Learning/Random Forest\|Random Forest]] - Ensemble yöntem
 - [[stats/04_Supervised_Learning/XGBoost\|XGBoost]] - Gradient boosting
 - [[stats/04_Supervised_Learning/Cross-Validation\|Cross-Validation]] - Model seçimi
-- [[ROC-AUC Curve\|ROC-AUC Curve]] - Sınıflandırma metriği
-- [[Bias-Variance Tradeoff\|Bias-Variance Tradeoff]] - Temel kavram
+- [[stats/04_Supervised_Learning/ROC-AUC\|ROC-AUC]] - Sınıflandırma metriği
+- [[stats/01_Foundations/Bias-Variance Trade-off\|Bias-Variance Trade-off]] - Temel kavram
 
 ---
 ## Tüm Notlar (A-Z)
@@ -121,7 +121,7 @@ Sınıflandırma ve regresyon algoritmaları, model değerlendirme metrikleri ve
 | [[stats/04_Supervised_Learning/Random Forest\|Random Forest]]                                                                         | 11       |
 | [[stats/04_Supervised_Learning/Recall\|Recall]]                                                                                       | 6        |
 | [[stats/04_Supervised_Learning/Reinforcement Learning\|Reinforcement Learning]]                                                       | 3        |
-| [[stats/04_Supervised_Learning/ROC-AUC\|ROC-AUC]]                                                                                     | 12       |
+| [[stats/04_Supervised_Learning/ROC-AUC\|ROC-AUC]]                                                                                     | 13       |
 | [[stats/04_Supervised_Learning/SHAP Values\|SHAP Values]]                                                                             | 4        |
 | [[stats/04_Supervised_Learning/SMOTE\|SMOTE]]                                                                                         | 1        |
 | [[stats/04_Supervised_Learning/Support Vector Machines (SVM)\|Support Vector Machines (SVM)]]                                         | 3        |

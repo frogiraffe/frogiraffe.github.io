@@ -58,11 +58,11 @@ Doğrusal regresyon, lojistik regresyon, regularization teknikleri ve ileri düz
 ---
 ## Öne Çıkan Konular
 
-- [[Linear Regression\|Linear Regression]] - Temel regresyon
+- [[stats/03_Regression_Analysis/Simple Linear Regression\|Simple Linear Regression]] - Temel regresyon
 - [[stats/03_Regression_Analysis/Logistic Regression\|Logistic Regression]] - Sınıflandırma için
 - [[stats/03_Regression_Analysis/Ridge Regression\|Ridge Regression]] & [[stats/03_Regression_Analysis/Lasso Regression\|Lasso Regression]] - Regularization
 - [[Multicollinearity\|Multicollinearity]] - Önemli diagnostik
-- [[R-squared & Adjusted R-squared\|R-squared & Adjusted R-squared]] - Model değerlendirme
+- [[stats/01_Foundations/Adjusted R-squared\|Adjusted R-squared]] - Model değerlendirme
 
 ---
 ## Tüm Notlar (A-Z)
@@ -107,7 +107,7 @@ Doğrusal regresyon, lojistik regresyon, regularization teknikleri ve ileri düz
 | [[stats/03_Regression_Analysis/Residual Plot\|Residual Plot]]                                                         | 2        |
 | [[stats/03_Regression_Analysis/Ridge Regression\|Ridge Regression]]                                                   | 14       |
 | [[stats/03_Regression_Analysis/Robust Regression\|Robust Regression]]                                                 | 2        |
-| [[stats/03_Regression_Analysis/Simple Linear Regression\|Simple Linear Regression]]                                   | 16       |
+| [[stats/03_Regression_Analysis/Simple Linear Regression\|Simple Linear Regression]]                                   | 18       |
 | [[stats/03_Regression_Analysis/VIF (Variance Inflation Factor)\|VIF (Variance Inflation Factor)]]                     | 5        |
 | [[stats/03_Regression_Analysis/Weighted Least Squares (WLS)\|Weighted Least Squares (WLS)]]                           | 6        |
 | [[stats/03_Regression_Analysis/White Test\|White Test]]                                                               | 4        |

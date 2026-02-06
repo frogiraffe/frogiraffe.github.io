@@ -100,7 +100,7 @@ Klasik hipotez testleri, güven aralıkları, p-değerleri ve istatistiksel çı
 | [[stats/02_Statistical_Inference/Meta-Analysis\|Meta-Analysis]]                                         | 2        |
 | [[stats/02_Statistical_Inference/Mixed ANOVA (Between-Within)\|Mixed ANOVA (Between-Within)]]           | 3        |
 | [[stats/02_Statistical_Inference/One-Sample t-test\|One-Sample t-test]]                                 | 1        |
-| [[stats/02_Statistical_Inference/One-Way ANOVA\|One-Way ANOVA]]                                         | 18       |
+| [[stats/02_Statistical_Inference/One-Way ANOVA\|One-Way ANOVA]]                                         | 19       |
 | [[stats/02_Statistical_Inference/Paired T-Test\|Paired T-Test]]                                         | 2        |
 | [[stats/02_Statistical_Inference/Pearson Correlation\|Pearson Correlation]]                             | 9        |
 | [[stats/02_Statistical_Inference/Permutation Tests\|Permutation Tests]]                                 | 1        |
