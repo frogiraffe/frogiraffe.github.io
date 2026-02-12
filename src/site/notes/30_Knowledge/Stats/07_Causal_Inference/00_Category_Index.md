@@ -63,7 +63,7 @@ Propensity score matching, difference-in-differences, instrumental variables, an
 | [[30_Knowledge/Stats/07_Causal_Inference/Causal Inference\|Causal Inference]]                                           | 7           |
 | [[30_Knowledge/Stats/07_Causal_Inference/Collider Bias\|Collider Bias]]                                                 | 1           |
 | [[30_Knowledge/Stats/07_Causal_Inference/Cox Proportional Hazards Model\|Cox Proportional Hazards Model]]               | 1           |
-| [[30_Knowledge/Stats/07_Causal_Inference/DAGs (Directed Acyclic Graphs)\|DAGs (Directed Acyclic Graphs)]]               | 2           |
+| [[30_Knowledge/Stats/07_Causal_Inference/DAGs (Directed Acyclic Graphs)\|DAGs (Directed Acyclic Graphs)]]               | 3           |
 | [[30_Knowledge/Stats/07_Causal_Inference/DAGs for Causal Inference\|DAGs for Causal Inference]]                         | 4           |
 | [[30_Knowledge/Stats/07_Causal_Inference/Difference-in-Differences\|Difference-in-Differences]]                         | 19          |
 | [[30_Knowledge/Stats/07_Causal_Inference/Instrumental Variables (IV)\|Instrumental Variables (IV)]]                     | 18          |
