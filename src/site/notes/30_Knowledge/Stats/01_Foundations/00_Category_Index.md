@@ -14,62 +14,138 @@ The building blocks of statistics: probability theory, distributions, and mathem
 ---
 ## Notes by Sub-Topic
 
-### Probability Distributions - Discrete
+### Probability Distributions — Discrete
 
 - [[30_Knowledge/Stats/01_Foundations/Bernoulli Distribution\|Bernoulli Distribution]]
 - [[30_Knowledge/Stats/01_Foundations/Binomial Distribution\|Binomial Distribution]]
+- [[30_Knowledge/Stats/01_Foundations/Categorical Distribution\|Categorical Distribution]]
 - [[30_Knowledge/Stats/01_Foundations/Discrete Uniform Distribution\|Discrete Uniform Distribution]]
 - [[30_Knowledge/Stats/01_Foundations/Geometric Distribution\|Geometric Distribution]]
 - [[30_Knowledge/Stats/01_Foundations/Hypergeometric Distribution\|Hypergeometric Distribution]]
+- [[30_Knowledge/Stats/01_Foundations/Multinomial Distribution\|Multinomial Distribution]]
 - [[30_Knowledge/Stats/01_Foundations/Poisson Distribution\|Poisson Distribution]]
 
 { .block-language-dataview}
 
-### Probability Distributions - Continuous
+### Probability Distributions — Continuous
 
 - [[30_Knowledge/Stats/01_Foundations/Beta Distribution\|Beta Distribution]]
 - [[30_Knowledge/Stats/01_Foundations/Chi-Square Distribution\|Chi-Square Distribution]]
 - [[30_Knowledge/Stats/01_Foundations/Dirichlet Distribution\|Dirichlet Distribution]]
 - [[30_Knowledge/Stats/01_Foundations/Exponential Distribution\|Exponential Distribution]]
+- [[30_Knowledge/Stats/01_Foundations/F-Distribution\|F-Distribution]]
 - [[30_Knowledge/Stats/01_Foundations/Gamma Distribution\|Gamma Distribution]]
 - [[30_Knowledge/Stats/01_Foundations/Multivariate Normal Distribution\|Multivariate Normal Distribution]]
 - [[30_Knowledge/Stats/01_Foundations/Normal Distribution\|Normal Distribution]]
+- [[30_Knowledge/Stats/01_Foundations/T-Distribution\|T-Distribution]]
 - [[30_Knowledge/Stats/01_Foundations/Uniform Distribution\|Uniform Distribution]]
 - [[30_Knowledge/Stats/01_Foundations/Weibull Distribution\|Weibull Distribution]]
 
 { .block-language-dataview}
 
-### Basic Statistical Measures
+### Probability Theory
+
+- [[30_Knowledge/Stats/01_Foundations/Bayes' Theorem\|Bayes' Theorem]]
+- [[30_Knowledge/Stats/01_Foundations/Bayesian Statistics\|Bayesian Statistics]]
+- [[30_Knowledge/Stats/01_Foundations/Conditional Probability\|Conditional Probability]]
+- [[30_Knowledge/Stats/01_Foundations/Conjugate Prior\|Conjugate Prior]]
+- [[30_Knowledge/Stats/01_Foundations/Convergence\|Convergence]]
+- [[30_Knowledge/Stats/01_Foundations/Law of Total Probability\|Law of Total Probability]]
+- [[30_Knowledge/Stats/01_Foundations/Likelihood Function\|Likelihood Function]]
+- [[30_Knowledge/Stats/01_Foundations/Markov Chains\|Markov Chains]]
+- [[30_Knowledge/Stats/01_Foundations/Maximum Likelihood Estimation (MLE)\|Maximum Likelihood Estimation (MLE)]]
+- [[30_Knowledge/Stats/01_Foundations/Monte Carlo Simulation\|Monte Carlo Simulation]]
+- [[30_Knowledge/Stats/01_Foundations/Odds Ratio\|Odds Ratio]]
+
+{ .block-language-dataview}
+
+### Descriptive Statistics & Measures
 
 - [[30_Knowledge/Stats/01_Foundations/Bias-Variance Trade-off\|Bias-Variance Trade-off]]
+- [[30_Knowledge/Stats/01_Foundations/Coefficient of Variation\|Coefficient of Variation]]
+- [[30_Knowledge/Stats/01_Foundations/Descriptive Statistics\|Descriptive Statistics]]
+- [[30_Knowledge/Stats/01_Foundations/Mean\|Mean]]
+- [[30_Knowledge/Stats/01_Foundations/Median\|Median]]
+- [[30_Knowledge/Stats/01_Foundations/Population Variance\|Population Variance]]
+- [[30_Knowledge/Stats/01_Foundations/Quantiles and Quartiles\|Quantiles and Quartiles]]
+- [[30_Knowledge/Stats/01_Foundations/Robust Standard Errors\|Robust Standard Errors]]
+- [[30_Knowledge/Stats/01_Foundations/Sample Variance\|Sample Variance]]
+- [[30_Knowledge/Stats/01_Foundations/Skewness\|Skewness]]
+- [[30_Knowledge/Stats/01_Foundations/Standard Deviation\|Standard Deviation]]
+- [[30_Knowledge/Stats/01_Foundations/Standard Error\|Standard Error]]
+- [[30_Knowledge/Stats/01_Foundations/Variance\|Variance]]
+- [[30_Knowledge/Stats/01_Foundations/Z-Scores\|Z-Scores]]
+
+{ .block-language-dataview}
+
+### Correlation & Association
+
 - [[30_Knowledge/Stats/01_Foundations/Correlation Analysis\|Correlation Analysis]]
 - [[30_Knowledge/Stats/01_Foundations/Correlation Matrix\|Correlation Matrix]]
 - [[30_Knowledge/Stats/01_Foundations/Correlation vs Causation\|Correlation vs Causation]]
 - [[30_Knowledge/Stats/01_Foundations/Covariance\|Covariance]]
 - [[30_Knowledge/Stats/01_Foundations/Covariance Matrix\|Covariance Matrix]]
-- [[30_Knowledge/Stats/01_Foundations/Hurdle Models\|Hurdle Models]]
-- [[30_Knowledge/Stats/01_Foundations/Mean\|Mean]]
-- [[30_Knowledge/Stats/01_Foundations/Median\|Median]]
-- [[30_Knowledge/Stats/01_Foundations/Model Selection\|Model Selection]]
-- [[30_Knowledge/Stats/01_Foundations/Population Variance\|Population Variance]]
-- [[30_Knowledge/Stats/01_Foundations/Robust Standard Errors\|Robust Standard Errors]]
-- [[30_Knowledge/Stats/01_Foundations/Sample Variance\|Sample Variance]]
-- [[30_Knowledge/Stats/01_Foundations/Skewness\|Skewness]]
+- [[30_Knowledge/Stats/01_Foundations/Cramér's V\|Cramér's V]]
+- [[30_Knowledge/Stats/01_Foundations/Kendall Tau\|Kendall Tau]]
 - [[30_Knowledge/Stats/01_Foundations/Spearman Rank Correlation\|Spearman Rank Correlation]]
-- [[30_Knowledge/Stats/01_Foundations/Standard Deviation\|Standard Deviation]]
-- [[30_Knowledge/Stats/01_Foundations/Standard Error\|Standard Error]]
-- [[30_Knowledge/Stats/01_Foundations/Structural Equation Modeling (SEM)\|Structural Equation Modeling (SEM)]]
-- [[30_Knowledge/Stats/01_Foundations/Variance\|Variance]]
 
 { .block-language-dataview}
 
-### Theorems and Rules
+### Theorems, Laws & Inequalities
 
 - [[30_Knowledge/Stats/01_Foundations/Bayes' Theorem\|Bayes' Theorem]]
 - [[30_Knowledge/Stats/01_Foundations/Central Limit Theorem (CLT)\|Central Limit Theorem (CLT)]]
 - [[30_Knowledge/Stats/01_Foundations/Chebyshev's Inequality\|Chebyshev's Inequality]]
+- [[30_Knowledge/Stats/01_Foundations/Delta Method\|Delta Method]]
 - [[30_Knowledge/Stats/01_Foundations/Law of Large Numbers\|Law of Large Numbers]]
-- [[30_Knowledge/Stats/01_Foundations/Law of Total Probability\|Law of Total Probability]]
+
+{ .block-language-dataview}
+
+### Estimation & Inference
+
+- [[30_Knowledge/Stats/01_Foundations/Adjusted R-squared\|Adjusted R-squared]]
+- [[30_Knowledge/Stats/01_Foundations/Cronbach's Alpha\|Cronbach's Alpha]]
+- [[30_Knowledge/Stats/01_Foundations/Effect Size\|Effect Size]]
+- [[30_Knowledge/Stats/01_Foundations/False Discovery Rate (FDR)\|False Discovery Rate (FDR)]]
+- [[30_Knowledge/Stats/01_Foundations/Hurdle Models\|Hurdle Models]]
+- [[30_Knowledge/Stats/01_Foundations/Item Response Theory\|Item Response Theory]]
+- [[30_Knowledge/Stats/01_Foundations/Jackknife\|Jackknife]]
+- [[30_Knowledge/Stats/01_Foundations/Kernel Density Estimation\|Kernel Density Estimation]]
+- [[30_Knowledge/Stats/01_Foundations/Maximum Likelihood Estimation (MLE)\|Maximum Likelihood Estimation (MLE)]]
+- [[30_Knowledge/Stats/01_Foundations/Multiple Comparisons Problem\|Multiple Comparisons Problem]]
+- [[30_Knowledge/Stats/01_Foundations/Overdispersion\|Overdispersion]]
+- [[30_Knowledge/Stats/01_Foundations/Robust Standard Errors\|Robust Standard Errors]]
+
+{ .block-language-dataview}
+
+### Model Building & Selection
+
+- [[30_Knowledge/Stats/01_Foundations/Bias-Variance Trade-off\|Bias-Variance Trade-off]]
+- [[30_Knowledge/Stats/01_Foundations/Confounding Variables\|Confounding Variables]]
+- [[30_Knowledge/Stats/01_Foundations/Data Leakage\|Data Leakage]]
+- [[30_Knowledge/Stats/01_Foundations/Elastic Net\|Elastic Net]]
+- [[30_Knowledge/Stats/01_Foundations/Feature Scaling\|Feature Scaling]]
+- [[30_Knowledge/Stats/01_Foundations/Feature Selection\|Feature Selection]]
+- [[30_Knowledge/Stats/01_Foundations/Missing Data\|Missing Data]]
+- [[30_Knowledge/Stats/01_Foundations/Model Selection\|Model Selection]]
+- [[30_Knowledge/Stats/01_Foundations/Multi-Armed Bandit\|Multi-Armed Bandit]]
+- [[30_Knowledge/Stats/01_Foundations/Randomized Controlled Trials\|Randomized Controlled Trials]]
+- [[30_Knowledge/Stats/01_Foundations/Reproducibility Crisis\|Reproducibility Crisis]]
+- [[30_Knowledge/Stats/01_Foundations/Response Surface Methodology\|Response Surface Methodology]]
+- [[30_Knowledge/Stats/01_Foundations/Sample Ratio Mismatch (SRM)\|Sample Ratio Mismatch (SRM)]]
+- [[30_Knowledge/Stats/01_Foundations/Sampling Bias\|Sampling Bias]]
+- [[30_Knowledge/Stats/01_Foundations/Stratified Sampling\|Stratified Sampling]]
+- [[30_Knowledge/Stats/01_Foundations/Survey Weighting\|Survey Weighting]]
+
+{ .block-language-dataview}
+
+### Transformations & Preprocessing
+
+- [[30_Knowledge/Stats/01_Foundations/Bag of Words\|Bag of Words]]
+- [[30_Knowledge/Stats/01_Foundations/Box-Cox Transformation\|Box-Cox Transformation]]
+- [[30_Knowledge/Stats/01_Foundations/Differencing\|Differencing]]
+- [[30_Knowledge/Stats/01_Foundations/Log Transformation\|Log Transformation]]
+- [[30_Knowledge/Stats/01_Foundations/t-SNE\|t-SNE]]
 
 { .block-language-dataview}
 
@@ -79,10 +155,28 @@ The building blocks of statistics: probability theory, distributions, and mathem
 - [[30_Knowledge/Stats/01_Foundations/Covariance Matrix\|Covariance Matrix]]
 - [[30_Knowledge/Stats/01_Foundations/Determinants & Matrix Inversion\|Determinants & Matrix Inversion]]
 - [[30_Knowledge/Stats/01_Foundations/Eigenvalues & Eigenvectors\|Eigenvalues & Eigenvectors]]
+- [[30_Knowledge/Stats/01_Foundations/Euclidean Distance\|Euclidean Distance]]
 - [[30_Knowledge/Stats/01_Foundations/Linear Transformations\|Linear Transformations]]
 - [[30_Knowledge/Stats/01_Foundations/LU Decomposition\|LU Decomposition]]
 - [[30_Knowledge/Stats/01_Foundations/Matrix Multiplication\|Matrix Multiplication]]
+- [[30_Knowledge/Stats/01_Foundations/Positive Definite Matrices\|Positive Definite Matrices]]
 - [[30_Knowledge/Stats/01_Foundations/Singular Value Decomposition (SVD)\|Singular Value Decomposition (SVD)]]
+
+{ .block-language-dataview}
+
+### Calculus & Optimization
+
+- [[30_Knowledge/Stats/01_Foundations/Backpropagation\|Backpropagation]]
+- [[30_Knowledge/Stats/01_Foundations/Derivatives & Gradients\|Derivatives & Gradients]]
+- [[30_Knowledge/Stats/01_Foundations/Loss Function\|Loss Function]]
+- [[30_Knowledge/Stats/01_Foundations/Optimization\|Optimization]]
+
+{ .block-language-dataview}
+
+### Structural & Latent Variable Models
+
+- [[30_Knowledge/Stats/01_Foundations/Factor Analysis (EFA & CFA)\|Factor Analysis (EFA & CFA)]]
+- [[30_Knowledge/Stats/01_Foundations/Structural Equation Modeling (SEM)\|Structural Equation Modeling (SEM)]]
 
 { .block-language-dataview}
 
