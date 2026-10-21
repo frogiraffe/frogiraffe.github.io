@@ -4,6 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="robots" content="noindex,nofollow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Biz">
+<meta property="og:description" content="Bir kukla oyunu. Sesi aç, dokun.">
+<meta property="og:url" content="https://frogiraffe.github.io/biz-k7m2q/">
+<meta property="og:image" content="https://frogiraffe.github.io/biz-k7m2q/onizleme.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="628">
+<meta name="twitter:card" content="summary_large_image">
 <title>Karton Barış</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -38,7 +46,7 @@ body{
   padding-right:max(16px, env(safe-area-inset-right, 0px));
   display:grid;gap:14px;
 }
-header{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}
+header{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
 .eyebrow{margin:0;font-family:var(--display);font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--kraft-deep)}
 h1{
   margin:0;font-family:var(--display);font-weight:700;
@@ -101,6 +109,8 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:10px}
 @media (prefers-reduced-motion: no-preference){
   .btn.ready{animation:nudge 1.4s ease-in-out infinite}
 }
+.music{min-height:40px;font-size:.9rem}
+.music[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
 .walls{display:grid;gap:10px;padding-top:10px;border-top:2px dashed rgba(60,30,10,.3)}
 .walls-head{display:flex;align-items:center;justify-content:space-between;gap:12px}
 .walls h2{margin:0;font-family:var(--display);font-size:1.4rem;color:var(--ink)}
@@ -123,6 +133,7 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:10px}
 <main class="wrap">
   <header>
     <h1>Biz</h1>
+    <button class="btn music" id="music" type="button" aria-pressed="false">♪ müzik</button>
   </header>
 
   <div class="theater">
@@ -257,7 +268,8 @@ function drawArm(c,p,X,dxS,sy,a,back){
   const sx=dir===1?X+dxS:X-dxS-4, cx=dir*Math.cos(a), cy=Math.sin(a);
   for(let i=0;i<=12;i++){ const t=i/12; px(c,sx+cx*L*t,sy+cy*L*t,4,4,t<.62?(back?k.sleeveBack:k.sleeve):(back?k.shade:k.skin)); }
   const hx=sx+2+cx*L, hy=sy+2+cy*L;
-  if(p.sword&&!back) drawSword(c,hx,hy,a+(p.swordOff??-.5),dir);
+  if(p.flower&&!back) drawFlower(c,hx,hy,a+(p.swordOff??-.5),dir);
+  else if(p.sword&&!back) drawSword(c,hx,hy,a+(p.swordOff??-.5),dir);
   return {hx,hy};
 }
 
@@ -675,18 +687,19 @@ const scenes=[
     name:'Kılıçlar', dur:6,
     caption:'Kim haklı? İkimiz de eminiz.',
     bg:{tint:'rgba(176,58,46,.13)',clouds:[[36,40],[260,52]]},
-    draw(t){
+    tap(t,st){ st.taps=(st.taps||0)+1; if(st.taps===3) Music.jingle(); },
+    draw(t,st){
       const cyc=1.4,u=(t%cyc)/cyc,n=Math.floor(t/cyc);
       let a;
       if(u<.4) a=lerp(.7,-1.7,ease(u/.4));
       else if(u<.5) a=lerp(-1.7,.05,(u-.4)/.1);
       else if(u<.75) a=.05+Math.sin((u-.5)*70)*.06*(1-(u-.5)/.25);
       else a=lerp(.05,.7,ease((u-.75)/.25));
-      const hit=u>=.48&&u<.75, l=hit?4:0;
-      drawPerson(sctx,{cfg:HIM,x:156+l,y:GROUND,dir:1,face:'angry',armF:a,armB:2.1,sword:true});
-      drawPerson(sctx,{cfg:HER,x:228-l,y:GROUND,dir:-1,face:'angry',armF:a,armB:2.1,sword:true});
-      if(u>=.48&&u<.66){ const k=(u-.48)/.18; fx.push(()=>sparks(cctx,192,176,k,n)); }
-      if(hit) say(['ÇANG!','ŞAK!','KLONK!'][n%3],192,128,18,'#ffe066',n%2?-.12:.12);
+      const hit=u>=.48&&u<.75, l=hit?4:0, fl=(st.taps||0)>=3, face=fl?'shy':'angry';
+      drawPerson(sctx,{cfg:HIM,x:156+l,y:GROUND,dir:1,face,armF:a,armB:2.1,sword:true,flower:fl});
+      drawPerson(sctx,{cfg:HER,x:228-l,y:GROUND,dir:-1,face,armF:a,armB:2.1,sword:true,flower:fl});
+      if(u>=.48&&u<.66){ const k=(u-.48)/.18; if(fl){ if(k<.2) for(let i=0;i<3;i++) emitHeart(st,186+i*5,170,t); } else fx.push(()=>sparks(cctx,192,176,k,n)); }
+      if(hit) say(fl?'♥':['ÇANG!','ŞAK!','KLONK!'][n%3],192,128,18,fl?'#ff8ab0':'#ffe066',n%2?-.12:.12);
     }
   },
   {
@@ -712,7 +725,8 @@ const scenes=[
     name:'Saç Baş', dur:6,
     caption:'Burası biraz bulanık.',
     bg:{tint:'rgba(196,90,40,.14)',clouds:[[32,36],[290,44]]},
-    draw(t){
+    tap(t,st){ st.cat=t; Music.jingle(); },
+    draw(t,st){
       const cx=192+(Math.floor(t*10)%2)*2, cy=160, idx=Math.floor(t/.2);
       const tufts=Math.min(18,Math.floor(t*3));
       for(let i=0;i<tufts;i++){
@@ -740,6 +754,11 @@ const scenes=[
         const x=cx+vx*age*44, y=cy-16-vy*age*52+56*age*age;
         const col=i%2?HER.hair:HIM.hair, d=i%3===0?-2:2;
         px(sctx,x,y,2,2,col); px(sctx,x+d,y+2,2,2,col); px(sctx,x+2*d,y+2,2,2,col); px(sctx,x+3*d,y+4,2,2,col);
+      }
+      if(st.cat!=null&&t-st.cat<1.6){
+        const a=t-st.cat, rise=Math.round(Math.min(1,a*4)*14);
+        pat(sctx,cx-7,cy-26-rise,CAT,{O:'#e8913a',K:'#1a120e',P:'#f08aa0'},2);
+        if(a>.25) say('miyav',cx+30,cy-52,11,'#ffe8c0',.1);
       }
       const lines=['SAÇIM!','BIRAK!','ÖNCE SEN BIRAK!','HAYIR SEN!','@#$%!'];
       const k=Math.floor(t/.8), side=k%2;
@@ -799,11 +818,13 @@ const scenes=[
     caption:'AUX onda.',
     bg:{clouds:[[40,30],[170,46],[300,24]],hillBase:176,ground:roadGround},
     hint:'▸ dokun: korna',
-    tap(t,st){ st.honk=t; },
+    tap(t,st){ st.honk=t; st.honks=(st.honks||0)+1; if(st.honks%5===0){ st.zoom=t; Music.jingle(); } },
     under(t){ const off=(t*160)%48; for(let x=-48;x<W+48;x+=48) px(cctx,x-off,210,24,3,'#efe6cf'); },
     draw(t,st){
       roadside(t);
-      const honk=st.honk!=null&&t-st.honk<.5, by=(Math.floor(t*6)%2)+(honk?-4:0);
+      const honk=st.honk!=null&&t-st.honk<.5, zoom=st.zoom!=null&&t-st.zoom<1.2;
+      const by=(Math.floor(t*6)%2)+(honk?-4:0)-(zoom?Math.round(Math.sin((t-st.zoom)/1.2*Math.PI)*28):0);
+      if(zoom){ say('VIIIN!',300,96,16,'#ffe066',-.15); fx.push(()=>{ for(let i=0;i<8;i++) px(cctx,60+rnd(i)*50,150+i*7,30,2,'rgba(255,255,255,.6)'); }); }
       const u=(t%4)/4, herHas=u>=.5, tug=u>.36&&u<.5, j=tug?Math.round(Math.sin(t*40)*2):0;
       drawCar(sctx,0,by,t,{spin:t*14,
         herFace:herHas?'happy':tug?'angry':'pout', himFace:herHas?'pout':'neutral',
@@ -1078,7 +1099,7 @@ const scenes=[
     caption:'Biraz bantlı. Olsun.',
     bg:{tint:'rgba(255,150,140,.10)',sun:[320,48,12],clouds:[[28,52],[108,28],[248,60]]},
     hint:'▸ dokun',
-    tap(t,st){ st.taps=(st.taps||0)+1; if(st.done) for(let i=0;i<6;i++) emitHeart(st,192+(Math.random()-.5)*60,80,t); },
+    tap(t,st){ st.taps=(st.taps||0)+1; if(st.done){ for(let i=0;i<6;i++) emitHeart(st,192+(Math.random()-.5)*60,80,t); st.after=(st.after||0)+1; if(st.after%7===0){ st.party=t; Music.jingle(); for(let i=0;i<16;i++) emitHeart(st,192+(Math.random()-.5)*120,150,t); } } },
     draw(t,st){
       const n=Math.min(3,Math.max(0,Math.floor((t-.8)/1.3))+(st.taps||0));
       if(st.n!==n){ (st.tapeT=st.tapeT||[])[n-1]=t; st.n=n; }
@@ -1086,9 +1107,11 @@ const scenes=[
       const done=n>=3&&st.g<.5;
       if(done&&!st.done){ st.done=true; next.classList.add('ready'); }
       circle(sctx,88,198,8,'#e8d9a8'); circle(sctx,88,198,4,'#9b6c41');
-      const reach=done?-.9:-.6;
-      drawPerson(sctx,{cfg:HIM,x:128,y:GROUND,dir:1,face:done?'happy':'neutral',armF:reach,armB:1.6});
-      drawPerson(sctx,{cfg:HER,x:256,y:GROUND,dir:-1,face:done?'happy':'neutral',armF:reach,armB:1.6});
+      const party=st.party!=null&&t-st.party<2.4, reach=party?-1.5:done?-.9:-.6;
+      const hop=party?-Math.abs(Math.sin((t-st.party)*9))*12:0, hop2=party?-Math.abs(Math.sin((t-st.party)*9+1.5))*12:0;
+      drawPerson(sctx,{cfg:HIM,x:128,y:GROUND,lift:hop,dir:1,face:done?'happy':'neutral',armF:reach,armB:party?-1.5:1.6});
+      drawPerson(sctx,{cfg:HER,x:256,y:GROUND,lift:hop2,dir:-1,face:done?'happy':'neutral',armF:reach,armB:party?-1.5:1.6});
+      if(party) say('♥',192,40,26,'#ff8ab0',Math.sin(t*6)*.15);
       const g=Math.round(st.g), cx=192, cy=108-(done&&Math.floor(t*2)%2?2:0);
       sctx.drawImage(HL,cx-50-g,cy-44+Math.round(g*.3)); sctx.drawImage(HR,cx-50+g,cy-44);
       [-20,2,22].forEach((j,k)=>{
@@ -1105,6 +1128,64 @@ const scenes=[
     }
   }
 ];
+
+// --- 8-bit music: four little loops, picked by the mood of the scene ---
+const Music=(()=>{
+  const SONGS={
+    fight:{bpm:168,lead:[69,null,72,69,76,null,74,72,69,null,72,74,76,74,72,71],bass:[45,null,45,57,48,null,48,60,43,null,43,55,40,null,40,52]},
+    quiet:{bpm:70,lead:[76,null,null,null,74,null,null,null,72,null,null,null,71,null,null,null],bass:[48,null,null,null,null,null,null,null,45,null,null,null,null,null,null,null]},
+    happy:{bpm:126,lead:[72,76,79,76,74,77,81,77,72,76,79,84,83,79,76,74],bass:[48,null,55,null,53,null,60,null,48,null,55,null,55,null,50,null]},
+    love:{bpm:92,lead:[77,null,81,null,84,null,81,79,77,null,76,null,74,null,null,null,72,null,76,null,79,null,77,76,74,null,72,null,77,null,null,null],bass:[53,null,null,null,60,null,null,null,50,null,null,null,58,null,null,null]}
+  };
+  let ac=null, master=null, on=false, timer=null, step=0, nextT=0, mood='fight';
+  const hz=m=>440*Math.pow(2,(m-69)/12);
+  function note(t,m,dur,type,vol){
+    const o=ac.createOscillator(), g=ac.createGain();
+    o.type=type; o.frequency.value=hz(m);
+    g.gain.setValueAtTime(vol,t); g.gain.exponentialRampToValueAtTime(.0001,t+dur);
+    o.connect(g); g.connect(master); o.start(t); o.stop(t+dur+.03);
+  }
+  function tick(){
+    const S=SONGS[mood], spb=60/S.bpm/2;
+    while(nextT<ac.currentTime+.2){
+      const l=S.lead[step%S.lead.length], b=S.bass[step%S.bass.length];
+      if(l!=null) note(nextT,l,spb*.9,'square',.035);
+      if(b!=null) note(nextT,b,spb*1.8,'triangle',.08);
+      nextT+=spb; step++;
+    }
+  }
+  return {
+    toggle(){
+      try{
+        if(!ac){ ac=new (window.AudioContext||window.webkitAudioContext)(); master=ac.createGain(); master.gain.value=.7; master.connect(ac.destination); }
+        on=!on;
+        if(on){ ac.resume(); nextT=ac.currentTime+.05; timer=setInterval(tick,50); } else clearInterval(timer);
+      }catch(e){ on=false; }
+      return on;
+    },
+    mood(m){ if(m!==mood){ mood=m; step=0; } },
+    jingle(){ if(!on) return; [72,76,79,84].forEach((m,i)=>note(ac.currentTime+i*.07,m,.12,'square',.05)); }
+  };
+})();
+const MOOD={'Perde':'fight','Kılıçlar':'fight','Atlayış':'fight','Saç Baş':'fight','Nefes Nefese':'quiet','Sessizlik':'quiet','Sarılma':'love','Bant':'love'};
+$('music').addEventListener('click',e=>{ const on=Music.toggle(); e.currentTarget.setAttribute('aria-pressed',on); e.currentTarget.textContent=on?'♪ kapat':'♪ müzik'; });
+
+// --- hidden extras that any scene can use ---
+function shower(st,t){
+  if(st.shower==null||t-st.shower>2.5) return;
+  const a=t-st.shower;
+  fx.push(()=>{ for(let i=0;i<26;i++){ const d=a-i*.07; if(d<0||d>1.2) continue;
+    const x=40+rnd(i*3.7)*320-d*90, y=-10+rnd(i*1.3)*60+d*120;
+    for(let j=0;j<6;j++) px(cctx,x+j*4,y-j*3,2,2,`rgba(255,248,220,${(1-j/6)*(1-d/1.2)})`); } });
+}
+function drawFlower(c,hx,hy,a,dir){
+  const dx=dir*Math.cos(a), dy=Math.sin(a);
+  for(let i=0;i<14;i++) px(c,hx+dx*i-1,hy+dy*i-1,2,2,'#4f8a2a');
+  px(c,hx+dx*7+2,hy+dy*7-2,3,2,'#6aa83a');
+  const fx0=hx+dx*16, fy0=hy+dy*16;
+  circle(c,fx0,fy0,4,'#d63a55'); px(c,fx0-1,fy0-2,3,3,'#f07a90');
+}
+const CAT=['O.....O','OO...OO','OOOOOOO','OKOOOKO','OOOPOOO','.OOOOO.'];
 
 // --- wallpapers: a scene frozen at a good moment, with extra sky on top for the clock ---
 const WALLS=[['Sarılma',4,192],['Sessizlik',7.6,192],['AUX',2.4,190],['Sahil',.35,226],['Uyku',3,188],['Erciyes',1.8,184],['Sivas',2.3,192,288],
@@ -1183,6 +1264,7 @@ function typeCaption(txt){
 function setScene(i){
   cur=i; st={parts:[],extra:0}; t0=performance.now();
   makeBg(scenes[i].bg);
+  Music.mood(MOOD[scenes[i].name]||'happy');
   $('sceneNo').textContent=`${i+1} / ${N}`;
   $('sceneName').textContent=scenes[i].name;
   typeCaption(scenes[i].caption);
@@ -1215,7 +1297,8 @@ view.addEventListener('pointerup',e=>{
   const x=CX0+(e.clientX-rect.left)/rect.width*CW, y=(e.clientY-rect.top)/rect.height*H;
   emitHeart(st,x-5,y-4,t,0);
   const s=scenes[cur];
-  if(s.tap) s.tap(t,st);
+  if(s.bg.moon&&Math.hypot(x-s.bg.moon[0],y-s.bg.moon[1])<26){ st.shower=t; Music.jingle(); }
+  if(s.tap) s.tap(t,st,x,y);
   st.extra=Math.min(8,st.extra+2);
 });
 cap.parentElement.addEventListener('click',()=>{ clearInterval(typeTimer); cap.textContent=scenes[cur].caption; });
@@ -1240,6 +1323,7 @@ function frame(now){
   if(s.under) s.under(t,st);
   sctx.clearRect(0,0,W,H); fx.length=0; texts.length=0;
   s.draw(t,st);
+  shower(st,t);
   drawParts(st,t);
   outlineInto(cctx,spr);
   fx.forEach(f=>f());
