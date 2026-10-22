@@ -1155,7 +1155,7 @@ const scenes=[
     }
   },
   {
-    name:'Bant', dur:Infinity,
+    name:'Bant', dur:10,
     caption:'Biraz bantlı. Olsun.',
     bg:{tint:'rgba(255,150,140,.10)',sun:[320,48,12],clouds:[[28,52],[108,28],[248,60]]},
     hint:'▸ dokun',
@@ -1185,6 +1185,32 @@ const scenes=[
         if(t>=st.nextH){ emitHeart(st,cx+(Math.random()-.5)*70,cy-36,t); st.nextH=t+.7; }
         fx.push(()=>{ for(let i=0;i<8;i++){ if((Math.floor(t*4)+i)%3) continue; const a=i/8*Math.PI*2; px(cctx,cx+Math.cos(a)*62,cy+Math.sin(a)*50,2,2,'#fff6d0'); } });
       }
+    }
+  },
+  {
+    name:'Son', dur:Infinity,
+    caption:'Son sahne. Sıra sende.',
+    bg:{tint:'rgba(255,140,150,.12)',sun:[192,200,22],sunCol:'#ec9a45',clouds:[[40,40],[270,60]]},
+    hint:'▸ dokun, o da söylesin',
+    tap(t,st){
+      st.said=(st.said||0)+1; st.lineT=t; Music.jingle();
+      for(let i=0;i<8;i++) emitHeart(st,192+(Math.random()-.5)*40,140,t);
+    },
+    draw(t,st){
+      const HER_L=['seni seviyorum.','iyi ki varsın.','bıyığını da seviyorum.','en sevdiğim insan sensin.','gel buraya.','sana kızınca bile seviyorum.','AUX senin olsun. bugünlük.','seni çok seviyorum.'];
+      const HIM_R=['ben de.','bir daha?','duydum ama bir daha?','ben daha çok.','geldim.','biliyorum.','kaydettim bunu.','ben de seni.'];
+      if(st.said==null&&t>6.5){ st.said=1; st.lineT=t; for(let i=0;i<8;i++) emitHeart(st,192+(Math.random()-.5)*40,140,t); }
+      const n=st.said||0, k=st.lineT!=null?t-st.lineT:99;
+      const herTalk=k<1.8, himReact=k>.7&&k<2.6;
+      const hop=himReact?-Math.abs(Math.sin((k-.7)*9))*8:0;
+      const a=drawPerson(sctx,{cfg:HIM,x:170,y:GROUND,lift:hop,dir:1,face:n?'happy':t>.4&&t<2.4?'shy':'neutral',armF:himReact?-1.4:1.2,armB:himReact?-1.4:1.6});
+      const b=drawPerson(sctx,{cfg:HER,x:214,y:GROUND,dir:-1,face:herTalk||n?'happy':'shy',armF:1.2,armB:1.6});
+      if(!n&&t>.4&&t<2.6) say('seni seviyorum.',a.X,a.ht-14,11,'#fff1d6',-.06);
+      if(!n&&t>2.8) bubble(sctx,b.X+4,b.ht-6,Math.floor(t*2)%4);
+      if(n&&herTalk) say(HER_L[(n-1)%HER_L.length],clamp(b.X,120,250),b.ht-14,11,'#c9d6ff',.06);
+      if(n&&himReact) say(HIM_R[(n-1)%HIM_R.length],clamp(a.X-14,100,240),a.ht-34,11,'#fff1d6',-.06);
+      if(n) say('♥ '+n,192,34,12,'#ff8ab0');
+      if(n){ st.nextH=st.nextH??t; if(t>=st.nextH){ emitHeart(st,192+(Math.random()-.5)*20,a.ht-4,t); st.nextH=t+.8; } }
     }
   }
 ];
@@ -1292,7 +1318,7 @@ const CAT=['O.....O','OO...OO','OOOOOOO','OKOOOKO','OOOPOOO','.OOOOO.'];
 
 // --- wallpapers: a scene frozen at a good moment, with extra sky on top for the clock ---
 const WALLS=[['Sarılma',4,192],['Sessizlik',7.6,192],['AUX',2.4,190],['Sahil',.35,226],['Uyku',2.4,188],['Erciyes',1.8,184],['Sivas',2.3,192,288],
-  ['Büyük Ev Ablukada',.65,192,288],['Kale',2.1,190],['Bilardo',5.2,190],['Sushido',7.2,192,288],['Deniz Tekin',2,192,288],['Kılıçlar',.7,192],['Bant',6,192]];
+  ['Büyük Ev Ablukada',.65,192,288],['Kale',2.1,190],['Bilardo',5.2,190],['Sushido',7.2,192,288],['Deniz Tekin',2,192,288],['Kılıçlar',.7,192],['Bant',6,192],['Son',7.4,192]];
 function renderWall(idx,T,cx,PW=192){ return renderWallScene(scenes[idx],T,cx,PW,idx); }
 function renderWallScene(s,T,cx,PW=192,idx=0){
   const st={parts:[],extra:0};
