@@ -1215,52 +1215,86 @@ const scenes=[
   }
 ];
 
-// --- 8-bit music box: soft loops picked by the mood of the scene, with a little echo ---
+// --- music: small original pieces, picked by the mood of the scene ---
+// each bar is 8 eighth-notes; chords feed a soft pad, roots feed the bass, drums are one letter per step (k s h .)
 const Music=(()=>{
   const _=null;
-  const SONGS={
-    fight:{bpm:132,lead:[69,_,69,72,_,69,76,_,74,_,72,_,71,_,_,_,69,_,69,72,_,69,77,_,76,_,74,_,72,_,_,_],
-                   bass:[45,_,52,_,45,_,52,_,43,_,50,_,43,_,50,_,41,_,48,_,41,_,48,_,40,_,47,_,40,_,47,_]},
-    quiet:{bpm:66,lead:[79,_,76,_,77,_,74,_,76,_,72,_,_,_,_,_,74,_,77,_,76,_,74,_,72,_,_,_,_,_,_,_],
-                  bass:[48,_,_,_,_,_,_,_,45,_,_,_,_,_,_,_,41,_,_,_,_,_,_,_,43,_,_,_,_,_,_,_]},
-    happy:{bpm:112,lead:[72,_,76,79,81,_,79,76,77,_,76,74,72,_,_,_,74,_,77,81,79,_,77,76,74,_,72,74,76,_,_,_],
-                   bass:[48,_,55,_,53,_,57,_,53,_,55,_,48,_,55,_,50,_,57,_,55,_,59,_,53,_,55,_,48,_,52,_]},
-    // G – Em – C – D, a slow eighth-note waltz of broken chords under a music-box tune
-    romance:{bpm:92,
-      lead:[71,_,_,74,79,_,78,_, 76,_,_,74,71,_,_,_, 72,_,74,76,79,_,76,_, 74,_,_,_,78,_,76,74,
-            71,_,74,79,83,_,81,79, 79,_,76,_,74,_,76,_, 72,_,76,_,79,_,81,_, 78,_,_,76,79,_,_,_],
-      bass:[43,50,55,50,59,50,55,50, 40,47,52,47,55,47,52,47, 36,43,48,43,52,43,48,43, 38,45,50,45,54,45,50,45],
-      bassVol:.045},
-    love:{bpm:84,lead:[77,_,_,81,_,_,84,_,_,82,81,_,79,_,_,77,_,_,76,_,_,77,_,_],
-                 bass:[53,_,_,60,_,_,58,_,_,60,_,_,50,_,_,57,_,_,48,_,_,55,_,_]}
+  const CH={ // chord voicings (pad) and bass roots
+    G:[[55,59,62],43], D_Fs:[[54,57,62],42], Em:[[52,55,59],40], C:[[52,55,60],36], D:[[54,57,62],38],
+    Am:[[57,60,64],45], F:[[53,57,60],41], Cc:[[55,60,64],48], Gg:[[55,59,62],43]
   };
-  let ac=null, out=null, on=false, timer=null, step=0, nextT=0, mood='fight';
+  const SONGS={
+    romance:{bpm:84,bars:['G','D_Fs','Em','C','G','D_Fs','C','D'],lead:'bell',bass:'root',pad:true,
+      notes:[74,_,_,71,74,_,76,_, 78,_,_,76,74,_,_,_, 71,_,_,74,79,_,78,76, 76,_,_,_,72,_,74,_,
+             74,_,_,71,74,_,79,_, 81,_,_,79,78,_,76,_, 76,_,79,_,76,_,74,72, 74,_,_,_,78,_,_,_]},
+    fight:{bpm:120,bars:['Am','F','Cc','Gg'],lead:'pluck',bass:'walk',drums:'h.h.h.h.',
+      notes:[69,_,69,72,_,69,76,_, 77,_,76,_,72,_,_,_, 72,_,72,76,_,72,79,_, 79,_,77,_,74,_,_,_]},
+    quiet:{bpm:60,bars:['Cc','Am','F','Gg'],lead:'soft',bass:'root',pad:true,
+      notes:[76,_,_,_,74,_,_,_, 72,_,_,_,_,_,_,_, 69,_,_,_,72,_,_,_, 71,_,_,_,_,_,_,_]},
+    happy:{bpm:128,bars:['Cc','Gg','Am','F'],lead:'bell',bass:'walk',drums:'khshkhsh',
+      notes:[72,_,76,79,81,_,79,76, 74,_,79,_,83,_,81,79, 76,_,81,_,84,_,83,81, 77,_,76,74,72,_,_,_]},
+    bea:{bpm:140,bars:['Em','C','G','D'],lead:'synth',bass:'drive',pad:true,drums:'k.s.kks.',
+      notes:[76,_,76,79,_,76,74,_, 72,_,72,76,_,72,71,_, 74,_,74,79,_,74,78,_, 74,_,_,_,71,_,74,_,
+             79,_,_,78,_,76,74,_, 76,_,_,72,_,_,71,_, 74,_,79,_,78,_,76,_, 78,_,_,_,_,_,_,_]},
+    tekin:{bpm:72,bars:['Am','F','Cc','Gg'],lead:'soft',bass:'arp',pad:true,
+      notes:[_,_,72,_,71,_,69,_, _,_,69,_,72,_,_,_, _,_,76,_,74,_,72,_, 71,_,_,_,_,_,_,_,
+             _,_,72,_,74,_,76,_, _,_,77,_,76,_,72,_, _,_,74,_,72,_,71,_, 69,_,_,_,_,_,_,_]}
+  };
+  let ac=null, master=null, bus=null, noise=null, on=false, timer=null, step=0, nextT=0, mood='fight';
   const hz=m=>440*Math.pow(2,(m-69)/12);
-  function tone(t,m,dur,type,vol){
+  function env(g,t,a,peak,dur){ g.gain.setValueAtTime(.0001,t); g.gain.exponentialRampToValueAtTime(peak,t+a); g.gain.exponentialRampToValueAtTime(.0001,t+dur); }
+  function osc(t,m,dur,type,vol,a=.01,dest=bus,detune=0){
     const o=ac.createOscillator(), g=ac.createGain();
-    o.type=type; o.frequency.value=hz(m);
-    g.gain.setValueAtTime(.0001,t); g.gain.exponentialRampToValueAtTime(vol,t+.012); g.gain.exponentialRampToValueAtTime(.0001,t+dur);
-    o.connect(g); g.connect(out); o.start(t); o.stop(t+dur+.05);
+    o.type=type; o.frequency.value=hz(m); o.detune.value=detune;
+    env(g,t,a,vol,dur); o.connect(g); g.connect(dest); o.start(t); o.stop(t+dur+.05); return o;
   }
-  function bell(t,m,dur){ tone(t,m,dur,'triangle',.06); tone(t,m+12,dur*.6,'sine',.025); }
+  function lp(freq){ const f=ac.createBiquadFilter(); f.type='lowpass'; f.frequency.value=freq; f.connect(bus); return f; }
+  const INST={
+    bell(t,m,d){ osc(t,m,d*3,'triangle',.07); osc(t,m+12,d*1.5,'sine',.02); },
+    pluck(t,m,d){ const f=lp(2400); osc(t,m,d*2.5,'triangle',.07,.003,f); osc(t,m,d,'sawtooth',.014,.003,f); },
+    synth(t,m,d){ const f=lp(1700); osc(t,m,d*1.8,'square',.03,.005,f); osc(t,m,d*1.8,'sawtooth',.022,.005,f,8); },
+    soft(t,m,d){
+      const o=osc(t,m,d*4,'sine',.08,.06), l=ac.createOscillator(), lg=ac.createGain();
+      l.frequency.value=5; lg.gain.value=7; l.connect(lg); lg.connect(o.detune); l.start(t); l.stop(t+d*4+.05);
+      osc(t,m+12,d*2,'sine',.012,.06);
+    }
+  };
+  function bass(t,m,d,vol=.09){ osc(t,m,d,'sine',vol,.01); osc(t,m,d,'triangle',vol*.35,.01); }
+  function pad(t,notes,d){ const f=lp(900); notes.forEach(n=>{ osc(t,n,d,'sawtooth',.011,.35,f,-7); osc(t,n,d,'sawtooth',.011,.35,f,7); }); }
+  function hit(t,type){
+    if(type==='k'){ const o=ac.createOscillator(), g=ac.createGain(); o.frequency.setValueAtTime(130,t); o.frequency.exponentialRampToValueAtTime(45,t+.12); env(g,t,.003,.2,.2); o.connect(g); g.connect(bus); o.start(t); o.stop(t+.22); return; }
+    const s=ac.createBufferSource(), f=ac.createBiquadFilter(), g=ac.createGain(); s.buffer=noise;
+    if(type==='h'){ f.type='highpass'; f.frequency.value=7000; env(g,t,.002,.025,.05); }
+    else { f.type='bandpass'; f.frequency.value=1800; env(g,t,.002,.08,.15); osc(t,55,.08,'triangle',.05,.002); }
+    s.connect(f); f.connect(g); g.connect(bus); s.start(t); s.stop(t+.2);
+  }
   function tick(){
     const S=SONGS[mood], spb=60/S.bpm/2;
     if(nextT<ac.currentTime) nextT=ac.currentTime+.05;
     while(nextT<ac.currentTime+.2){
-      const l=S.lead[step%S.lead.length], b=S.bass[step%S.bass.length];
-      if(l!=null) bell(nextT,l,spb*3);
-      if(b!=null) tone(nextT,b,spb*3.5,'sine',S.bassVol||.07);
+      const i=step%8, [chord,root]=CH[S.bars[Math.floor(step/8)%S.bars.length]];
+      const n=S.notes[step%S.notes.length];
+      if(n!=null) INST[S.lead](nextT,n,spb);
+      if(S.pad&&i===0) pad(nextT,chord,spb*8.2);
+      if(S.bass==='root'&&i===0) bass(nextT,root,spb*7.5);
+      if(S.bass==='walk'&&(i===0||i===4)) bass(nextT,i===0?root:root+7,spb*3.5);
+      if(S.bass==='drive') bass(nextT,root,spb*.9,.07);
+      if(S.bass==='arp'){ const arp=[root,root+7,root+12,chord[1]+12-12,root+12,root+7,root+12,chord[2]]; INST.pluck(nextT,arp[i],spb*1.2); }
+      if(S.drums){ const d=S.drums[i]; if(d!=='.') hit(nextT,d); }
       nextT+=spb; step++;
     }
   }
   function init(){
-    // iPhone: play through the silent switch where Safari allows it
     try{ if(navigator.audioSession) navigator.audioSession.type='playback'; }catch(e){}
     ac=new (window.AudioContext||window.webkitAudioContext)();
-    const master=ac.createGain(); master.gain.value=.8; master.connect(ac.destination);
-    const dly=ac.createDelay(), fb=ac.createGain(), wet=ac.createGain();
-    dly.delayTime.value=.28; fb.gain.value=.28; wet.gain.value=.3;
-    out=ac.createGain(); out.connect(master); out.connect(dly); dly.connect(fb); fb.connect(dly); dly.connect(wet); wet.connect(master);
+    master=ac.createGain(); master.gain.value=1.5; master.connect(ac.destination);
+    bus=ac.createGain(); bus.connect(master);
+    // a small hall: synthetic reverb from decaying noise
+    const len=Math.floor(ac.sampleRate*2.2), ir=ac.createBuffer(2,len,ac.sampleRate);
+    for(let c=0;c<2;c++){ const d=ir.getChannelData(c); for(let i=0;i<len;i++) d[i]=(Math.random()*2-1)*Math.pow(1-i/len,3); }
+    const rev=ac.createConvolver(), wet=ac.createGain(); rev.buffer=ir; wet.gain.value=.3;
+    bus.connect(rev); rev.connect(wet); wet.connect(master);
+    noise=ac.createBuffer(1,ac.sampleRate,ac.sampleRate); const nd=noise.getChannelData(0); for(let i=0;i<nd.length;i++) nd[i]=Math.random()*2-1;
   }
   return {
     get on(){ return on; },
@@ -1270,7 +1304,6 @@ const Music=(()=>{
       try{
         if(!ac) init();
         if(v){
-          // must run inside a tap: resume and push one silent sample so iOS unlocks audio
           ac.resume();
           const b=ac.createBufferSource(); b.buffer=ac.createBuffer(1,1,22050); b.connect(ac.destination); b.start(0);
           if(!on){ on=true; nextT=ac.currentTime+.05; timer=setInterval(tick,50); }
@@ -1279,10 +1312,10 @@ const Music=(()=>{
       return on;
     },
     mood(m){ if(m!==mood){ mood=m; step=0; } },
-    jingle(){ if(!on) return; [72,76,79,84].forEach((m,i)=>bell(ac.currentTime+i*.08,m,.4)); }
+    jingle(){ if(!on) return; [72,76,79,84].forEach((m,i)=>INST.bell(ac.currentTime+i*.08,m,.13)); }
   };
 })();
-const MOOD={'Perde':'fight','Kılıçlar':'fight','Atlayış':'fight','Saç Baş':'fight','Nefes Nefese':'quiet','Sessizlik':'quiet'};
+const MOOD={'Perde':'fight','Kılıçlar':'fight','Atlayış':'fight','Saç Baş':'fight','Nefes Nefese':'quiet','Sessizlik':'quiet','Büyük Ev Ablukada':'bea','Deniz Tekin':'tekin'};
 // music is wanted from the start; browsers only allow sound after the first touch, so that touch starts it
 let wantMusic=true;
 const musicBtn=$('music');
@@ -1618,7 +1651,7 @@ view.addEventListener('pointerup',e=>{
   if(trans) return;
   const rect=view.getBoundingClientRect(), t=(performance.now()-t0)/1000;
   const x=CX0+(e.clientX-rect.left)/rect.width*CW, y=(e.clientY-rect.top)/rect.height*H;
-  const hit=bodies.slice().reverse().find(b=>Math.abs(x-b.x)<14&&y>=b.y0&&y<=b.y1);
+  const hit=scenes[cur].name==='Son'?null:bodies.slice().reverse().find(b=>Math.abs(x-b.x)<14&&y>=b.y0&&y<=b.y1);
   if(hit){
     const him=hit.k===HIM, L=him?['hı?','gıdık!','ne yaptım?','hehe']:['ne?','gıdıklama!','hıh.','of ya','hihi'];
     const F=him?['shy','happy','open','happy']:['angry','angry','pout','angry','happy'], i=Math.floor(Math.random()*L.length);
