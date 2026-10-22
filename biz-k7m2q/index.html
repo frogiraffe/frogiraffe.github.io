@@ -111,6 +111,13 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:10px}
 }
 .music{min-height:40px;font-size:.9rem}
 .music[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.write{display:grid;gap:8px;background:var(--paper);padding:12px 14px;box-shadow:0 2px 0 rgba(60,30,10,.18)}
+.write textarea{width:100%;font-family:var(--hand);font-size:1.4rem;line-height:1.2;color:var(--ink);background:#fffaf0;border:2px solid var(--ink);padding:8px 10px;resize:vertical;min-height:64px}
+.write textarea:focus-visible{outline:3px solid var(--curtain);outline-offset:2px}
+.write-bar{display:flex;gap:10px;flex-wrap:wrap}
+.write-bar .btn{display:inline-flex;align-items:center;text-decoration:none}
+.write-bar a[aria-disabled="true"]{opacity:.4;pointer-events:none}
+.write-hint{margin:0;font-size:1.15rem;color:var(--kraft-deep)}
 .game-sec,.studio{display:grid;gap:10px;padding-top:10px;border-top:2px dashed rgba(60,30,10,.3)}
 .studio h2,.game-sec h2{margin:0;font-family:var(--display);font-size:1.4rem;color:var(--ink)}
 #game{display:block;width:100%;max-width:380px;margin:0 auto;aspect-ratio:192/256;height:auto;image-rendering:pixelated;touch-action:none;border:4px solid var(--kraft-deep);background:#5a3a20}
@@ -158,6 +165,16 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:10px}
   <div class="note">
     <p class="cap"><span class="ghost" id="capGhost"></span><span id="cap" aria-live="polite"></span></p>
     <p class="hint" id="hint" hidden></p>
+  </div>
+
+  <div class="write" id="write" hidden>
+    <label class="label" for="msg">ona yaz</label>
+    <textarea id="msg" maxlength="160" rows="2" placeholder="bir şey yaz, karakterin söylesin"></textarea>
+    <div class="write-bar">
+      <button class="btn" id="sayIt" type="button">söylet</button>
+      <a class="btn" id="waSend" href="https://wa.me/" target="_blank" rel="noopener" aria-disabled="true">WhatsApp'tan gönder</a>
+    </div>
+    <p class="write-hint">WhatsApp açılınca onu seçip gönder.</p>
   </div>
 
   <nav>
@@ -1200,6 +1217,8 @@ const scenes=[
       const HER_L=['seni seviyorum.','iyi ki varsın.','bıyığını da seviyorum.','en sevdiğim insan sensin.','gel buraya.','sana kızınca bile seviyorum.','AUX senin olsun. bugünlük.','seni çok seviyorum.'];
       const HIM_R=['ben de.','bir daha?','duydum ama bir daha?','ben daha çok.','geldim.','biliyorum.','kaydettim bunu.','ben de seni.'];
       if(st.said==null&&t>6.5){ st.said=1; st.lineT=t; for(let i=0;i<8;i++) emitHeart(st,192+(Math.random()-.5)*40,140,t); }
+      const custom=st.custom&&t-st.customT<5?st.custom:null;
+      if(custom){ st.lineT=st.lineT??st.customT; }
       const n=st.said||0, k=st.lineT!=null?t-st.lineT:99;
       const herTalk=k<1.8, himReact=k>.7&&k<2.6;
       const hop=himReact?-Math.abs(Math.sin((k-.7)*9))*8:0;
@@ -1207,8 +1226,15 @@ const scenes=[
       const b=drawPerson(sctx,{cfg:HER,x:214,y:GROUND,dir:-1,face:herTalk||n?'happy':'shy',armF:1.2,armB:1.6});
       if(!n&&t>.4&&t<2.6) say('seni seviyorum.',a.X,a.ht-14,11,'#fff1d6',-.06);
       if(!n&&t>2.8) bubble(sctx,b.X+4,b.ht-6,Math.floor(t*2)%4);
-      if(n&&herTalk) say(HER_L[(n-1)%HER_L.length],clamp(b.X,120,250),b.ht-14,11,'#c9d6ff',.06);
-      if(n&&himReact) say(HIM_R[(n-1)%HIM_R.length],clamp(a.X-14,100,240),a.ht-34,11,'#fff1d6',-.06);
+      if(custom){
+        const words=custom.split(/\s+/), lines=[]; let cur='';
+        for(const w of words){ if((cur+' '+w).trim().length>20){ if(cur) lines.push(cur); cur=w; } else cur=(cur+' '+w).trim(); }
+        if(cur) lines.push(cur);
+        lines.slice(-5).forEach((l,i,arr)=>say(l,clamp(b.X,110,262),b.ht-14-(arr.length-1-i)*13,10,'#c9d6ff',0));
+        if(t-st.customT>1.2) say('kaydettim bunu.',clamp(a.X-14,100,240),a.ht-34-Math.max(0,lines.length-2)*13,11,'#fff1d6',-.06);
+      }
+      else if(n&&herTalk) say(HER_L[(n-1)%HER_L.length],clamp(b.X,120,250),b.ht-14,11,'#c9d6ff',.06);
+      if(n&&himReact&&!custom) say(HIM_R[(n-1)%HIM_R.length],clamp(a.X-14,100,240),a.ht-34,11,'#fff1d6',-.06);
       if(n) say('♥ '+n,192,34,12,'#ff8ab0');
       if(n){ st.nextH=st.nextH??t; if(t>=st.nextH){ emitHeart(st,192+(Math.random()-.5)*20,a.ht-4,t); st.nextH=t+.8; } }
     }
@@ -1572,6 +1598,24 @@ gameCv.addEventListener('pointermove',e=>{ if(G.on) aim(e); });
 addEventListener('keydown',e=>{ if(!G.on) return; if(e.key==='ArrowLeft'){ G.tx=G.x-30; e.preventDefault(); } if(e.key==='ArrowRight'){ G.tx=G.x+30; e.preventDefault(); } });
 $('gameStart').addEventListener('click',gameStart);
 
+// --- her message: said on stage, then handed to WhatsApp (nothing is stored anywhere) ---
+const msg=$('msg'), waSend=$('waSend');
+function sayCustom(){
+  const text=msg.value.trim(); if(!text) return;
+  if(scenes[cur].name!=='Son') return;
+  const t=(performance.now()-t0)/1000;
+  st.custom=text; st.customT=t; st.lineT=t; st.said=Math.max(1,st.said||0);
+  for(let i=0;i<10;i++) emitHeart(st,192+(Math.random()-.5)*50,140,t);
+  st.extra=Math.min(8,st.extra+2); Music.jingle();
+}
+msg.addEventListener('input',()=>{
+  const text=msg.value.trim();
+  waSend.href='https://wa.me/'+(text?'?text='+encodeURIComponent(text):'');
+  waSend.setAttribute('aria-disabled',!text);
+});
+$('sayIt').addEventListener('click',sayCustom);
+waSend.addEventListener('click',sayCustom);
+
 // --- app state ---
 const N=scenes.length;
 const cap=$('cap'), capGhost=$('capGhost'), hint=$('hint'), next=$('next'), prev=$('prev'), pauseBtn=$('pause'), prog=$('prog');
@@ -1596,6 +1640,7 @@ function setScene(i){
   next.textContent=i===N-1?'↺':'▶';
   next.setAttribute('aria-label',i===N-1?'Baştan başlat':'Sonraki sahne');
   next.classList.remove('ready');
+  $('write').hidden=scenes[i].name!=='Son';
 }
 function go(i){
   if(trans) return;
@@ -1608,7 +1653,7 @@ function setPaused(p){ paused=p; pauseBtn.textContent=p?'▶ oynat':'❚❚ dur'
 prev.addEventListener('click',()=>go(cur-1));
 next.addEventListener('click',()=>go(cur+1));
 pauseBtn.addEventListener('click',()=>setPaused(!paused));
-addEventListener('keydown',e=>{ if(e.key==='ArrowRight') go(cur+1); if(e.key==='ArrowLeft') go(cur-1); });
+addEventListener('keydown',e=>{ if(e.target.closest&&e.target.closest('textarea,input')) return; if(e.key==='ArrowRight') go(cur+1); if(e.key==='ArrowLeft') go(cur-1); });
 let down=null;
 view.addEventListener('pointerdown',e=>{ down={x:e.clientX,y:e.clientY}; });
 view.addEventListener('pointerup',e=>{
