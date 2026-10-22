@@ -171,7 +171,7 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:10px}
       <h2 id="gameTitle">Sushido yakala</h2>
       <button class="btn" id="gameStart" type="button">başla</button>
     </div>
-    <p class="walls-hint">Parmağını sürükle, sushileri yakala. Mantıdan uzak dur. Kaçırdıklarını o yiyor.</p>
+    <p class="walls-hint">Parmağını sürükle, sushileri yakala. Mantılar ona kalsın, o zaten peşlerinde koşuyor.</p>
     <canvas id="game" aria-label="Sushido yakala oyunu"></canvas>
   </section>
 
@@ -1199,6 +1199,12 @@ const Music=(()=>{
                   bass:[48,_,_,_,_,_,_,_,45,_,_,_,_,_,_,_,41,_,_,_,_,_,_,_,43,_,_,_,_,_,_,_]},
     happy:{bpm:112,lead:[72,_,76,79,81,_,79,76,77,_,76,74,72,_,_,_,74,_,77,81,79,_,77,76,74,_,72,74,76,_,_,_],
                    bass:[48,_,55,_,53,_,57,_,53,_,55,_,48,_,55,_,50,_,57,_,55,_,59,_,53,_,55,_,48,_,52,_]},
+    // G – Em – C – D, a slow eighth-note waltz of broken chords under a music-box tune
+    romance:{bpm:92,
+      lead:[71,_,_,74,79,_,78,_, 76,_,_,74,71,_,_,_, 72,_,74,76,79,_,76,_, 74,_,_,_,78,_,76,74,
+            71,_,74,79,83,_,81,79, 79,_,76,_,74,_,76,_, 72,_,76,_,79,_,81,_, 78,_,_,76,79,_,_,_],
+      bass:[43,50,55,50,59,50,55,50, 40,47,52,47,55,47,52,47, 36,43,48,43,52,43,48,43, 38,45,50,45,54,45,50,45],
+      bassVol:.045},
     love:{bpm:84,lead:[77,_,_,81,_,_,84,_,_,82,81,_,79,_,_,77,_,_,76,_,_,77,_,_],
                  bass:[53,_,_,60,_,_,58,_,_,60,_,_,50,_,_,57,_,_,48,_,_,55,_,_]}
   };
@@ -1217,7 +1223,7 @@ const Music=(()=>{
     while(nextT<ac.currentTime+.2){
       const l=S.lead[step%S.lead.length], b=S.bass[step%S.bass.length];
       if(l!=null) bell(nextT,l,spb*3);
-      if(b!=null) tone(nextT,b,spb*3.5,'sine',.07);
+      if(b!=null) tone(nextT,b,spb*3.5,'sine',S.bassVol||.07);
       nextT+=spb; step++;
     }
   }
@@ -1250,7 +1256,7 @@ const Music=(()=>{
     jingle(){ if(!on) return; [72,76,79,84].forEach((m,i)=>bell(ac.currentTime+i*.08,m,.4)); }
   };
 })();
-const MOOD={'Perde':'fight','Kılıçlar':'fight','Atlayış':'fight','Saç Baş':'fight','Nefes Nefese':'quiet','Sessizlik':'quiet','Sarılma':'love','Bant':'love'};
+const MOOD={'Perde':'fight','Kılıçlar':'fight','Atlayış':'fight','Saç Baş':'fight','Nefes Nefese':'quiet','Sessizlik':'quiet'};
 // music is wanted from the start; browsers only allow sound after the first touch, so that touch starts it
 let wantMusic=true;
 const musicBtn=$('music');
@@ -1467,9 +1473,11 @@ function gameDraw(t,msg){
   cctx.drawImage(gbg,0,0);
   sctx.clearRect(0,0,W,H); fx.length=0; texts.length=0;
   px(sctx,22,14,148,10,'#151515'); px(sctx,22,8,148,6,'rgba(225,240,245,.6)'); px(sctx,84,9,24,5,'#f08a1c');
-  const eat=G.himEat!=null&&t-G.himEat<.6;
-  const him=drawPerson(sctx,{cfg:HIM,x:178,y:GROUND,dir:-1,face:eat?'happy':'neutral',armF:eat?-.9:1.2,armB:1.5});
-  if(eat) say('hehe',him.X-6,him.ht-12,10,'#fff1d6',-.08);
+  const eat=G.himEat!=null&&t-G.himEat<.6, yum=G.himManti!=null&&t-G.himManti<.7;
+  const him=drawPerson(sctx,{cfg:HIM,x:G.hx??176,y:GROUND,dir:G.hdir??-1,face:eat||yum?'happy':'neutral',armF:G.hrun?-1.2:eat?-.9:1.2,armB:G.hrun?-1.6:1.5,legs:G.hrun?'walk':'stand',phase:t*16});
+  G.hht=him.ht;
+  if(yum) say('mmm mantı',clamp(him.X,40,150),him.ht-12,10,'#fff1d6',-.08);
+  else if(eat) say('hehe',clamp(him.X,30,160),him.ht-12,10,'#fff1d6',-.08);
   const angry=G.angry!=null&&t-G.angry<.8, glad=G.glad!=null&&t-G.glad<.4;
   const h=drawPerson(sctx,{cfg:HER,x:G.x,y:GROUND,dir:G.dir,face:angry?'angry':glad?'happy':'neutral',armF:-1.3,armB:-1.3,legs:G.moving?'walk':'stand',phase:t*14});
   G.ht=h.ht;
@@ -1484,13 +1492,14 @@ function gameDraw(t,msg){
   if(msg) msg.forEach(([text,y,size,col])=>hud(text,96,y,size,col));
 }
 function gameIdle(){
-  busy=true; gameBg(); G.items=[]; G.x=70; G.dir=1; G.moving=false;
+  busy=true; gameBg(); G.items=[]; G.x=70; G.dir=1; G.moving=false; G.hx=150; G.hdir=-1; G.hrun=false;
   gameDraw(0,[['Sushido yakala',96,16,'#fff6e6'],[G.best?'en iyi: '+G.best:'başla\'ya bas',120,10,'#ffe066']]);
   makeBg(scenes[cur].bg); busy=false;
 }
 function gameStart(){
   gameFit(); busy=true; gameBg();
-  Object.assign(G,{on:true,t0:performance.now(),last:performance.now(),dur:30,items:[],score:0,x:70,tx:70,dir:1,nextSpawn:.3,himEat:null,angry:null,glad:null});
+  Object.assign(G,{on:true,t0:performance.now(),last:performance.now(),dur:30,items:[],score:0,x:70,tx:70,dir:1,nextSpawn:.3,himEat:null,himManti:null,angry:null,glad:null,hx:176,hdir:-1,hrun:false,hht:160});
+  Music.mood('happy');
   $('gameStart').hidden=true;
   requestAnimationFrame(gameFrame);
 }
@@ -1501,16 +1510,21 @@ function gameFrame(now){
   if(t>=G.dur) return gameEnd();
   if(t>=G.nextSpawn){
     const manti=Math.random()<Math.min(.35,.14+t*.008);
-    G.items.push({x:18+Math.random()*128,y:-8,vy:55+t*3+Math.random()*30,type:manti?'manti':'sushi'});
+    G.items.push({x:18+Math.random()*152,y:-8,vy:55+t*3+Math.random()*30,type:manti?'manti':'sushi'});
     G.nextSpawn=t+Math.max(.32,.85-t*.018);
   }
-  const d=clamp(G.tx-G.x,-180*dt,180*dt); G.moving=Math.abs(d)>.3; if(G.moving) G.dir=d>0?1:-1; G.x=clamp(G.x+d,16,146);
+  const d=clamp(G.tx-G.x,-180*dt,180*dt); G.moving=Math.abs(d)>.3; if(G.moving) G.dir=d>0?1:-1; G.x=clamp(G.x+d,16,176);
+  // he chases whichever mantı will land first
+  const m=G.items.filter(it=>it.type==='manti'&&!it.done).sort((a,b)=>(GROUND-a.y)/a.vy-(GROUND-b.y)/b.vy)[0];
+  const goal=m?m.x:176, hd=clamp(goal-G.hx,-120*dt,120*dt);
+  G.hrun=Math.abs(hd)>.3; if(G.hrun) G.hdir=hd>0?1:-1; G.hx=clamp(G.hx+hd,16,176);
   for(const it of G.items){
     it.y+=it.vy*dt;
-    if(!it.done&&Math.abs(it.x-G.x)<16&&it.y>G.ht-8&&it.y<G.ht+26){
+    if(!it.done&&it.type==='manti'&&Math.abs(it.x-G.hx)<16&&it.y>G.hht-8&&it.y<G.hht+26){ it.done=true; G.himManti=t; }
+    else if(!it.done&&Math.abs(it.x-G.x)<16&&it.y>G.ht-8&&it.y<G.ht+26){
       it.done=true;
       if(it.type==='sushi'){ G.score++; G.glad=t; } else { G.score=Math.max(0,G.score-1); G.angry=t; }
-    } else if(!it.done&&it.y>GROUND-6){ it.done=true; if(it.type==='sushi') G.himEat=t; }
+    } else if(!it.done&&it.y>GROUND-6){ it.done=true; if(it.type==='sushi'&&Math.abs(it.x-G.hx)<30) G.himEat=t; }
   }
   G.items=G.items.filter(it=>!it.done);
   gameDraw(t);
@@ -1523,9 +1537,10 @@ function gameEnd(){
   gameDraw(G.dur,[['skor: '+G.score,92,18,'#fff6e6'],[best?'yeni rekor!':'en iyi: '+G.best,116,11,'#ffe066']]);
   makeBg(scenes[cur].bg); busy=false;
   const b=$('gameStart'); b.hidden=false; b.textContent='tekrar';
+  Music.mood(MOOD[scenes[cur].name]||'romance');
   Music.jingle();
 }
-const aim=e=>{ const r=gameCv.getBoundingClientRect(); G.tx=clamp((e.clientX-r.left)/r.width*GW,16,146); };
+const aim=e=>{ const r=gameCv.getBoundingClientRect(); G.tx=clamp((e.clientX-r.left)/r.width*GW,16,176); };
 gameCv.addEventListener('pointerdown',e=>{ if(G.on) aim(e); });
 gameCv.addEventListener('pointermove',e=>{ if(G.on) aim(e); });
 addEventListener('keydown',e=>{ if(!G.on) return; if(e.key==='ArrowLeft'){ G.tx=G.x-30; e.preventDefault(); } if(e.key==='ArrowRight'){ G.tx=G.x+30; e.preventDefault(); } });
@@ -1546,7 +1561,7 @@ function typeCaption(txt){
 function setScene(i){
   cur=i; st={parts:[],extra:0}; t0=performance.now();
   makeBg(scenes[i].bg);
-  Music.mood(MOOD[scenes[i].name]||'happy');
+  Music.mood(MOOD[scenes[i].name]||'romance');
   $('sceneNo').textContent=`${i+1} / ${N}`;
   $('sceneName').textContent=scenes[i].name;
   typeCaption(scenes[i].caption);
