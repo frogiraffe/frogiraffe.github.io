@@ -633,7 +633,7 @@ function drawCar(c,dx,by,t,o={}){
   px(c,X(142),Y(152),26,22,glass); px(c,X(172),Y(152),30,22,glass);
   for(let y=152;y<174;y++){ const r=206+Math.round((y-146)*.85)-4; px(c,X(206),Y(y),r-206,1,glass); }
   drawHead(c,HER,X(184),Y(o.herY??155),1,o.herFace||'happy',{hairLen:12});
-  drawHead(c,HIM,X(218),Y(o.himY??155),1,o.himFace||'happy',{});
+  drawHead(c,HIM,X(218+(o.himLean||0)),Y(o.himY??155),o.himDir||1,o.himFace||'happy',{});
   if(o.inside) o.inside(X,Y);
   px(c,X(168),Y(150),4,30,red); px(c,X(202),Y(150),4,30,red);
   if(!o.night){ c.fillStyle='rgba(255,255,255,.25)'; c.fillRect(X(176),Y(154),3,18); c.fillRect(X(214),Y(154),3,18); }
@@ -905,22 +905,34 @@ const scenes=[
       drawLying({cfg:HIM,front:true,face:'happy',armF:-2.3,armB:-2.3},214,198,-Math.PI/2);
       drawLying({cfg:HER,front:true,face:'happy',armF:0,armB:1.3},222,230,-Math.PI/2);
       const since=st.shoot!=null?t-st.shoot:(t%3.2);
+      if(since<.7&&since>.35&&(!st.starHeart||t-st.starHeart>1)){ emitHeart(st,218,176,t,0); st.starHeart=t; }
       if(since<.7){ const k=since/.7, x=lerp(250,120,k), y=lerp(20,70,k);
         fx.push(()=>{ for(let i=0;i<10;i++) px(cctx,x+i*5,y-i*1.9,2,2,`rgba(255,248,220,${1-i/10})`); }); }
     }
   },
   {
-    name:'Uyku', dur:6.5,
-    caption:'Sonra arabada uyuyakaldık.',
+    name:'Uyku', dur:9,
+    caption:'O uyudu. Ben arada bir baktım.',
     bg:{tint:'rgba(30,44,104,.46)',moon:[300,40],stars:true,hills:false,ground:beachGround},
     hint:'▸ dokun',
-    tap(t,st){ (st.z=st.z||[]).push(t); },
+    tap(t,st){ st.check=t; },
     draw(t,st){
-      drawCar(sctx,0,4,t,{night:true,herFace:'sleep',himFace:'sleep',herY:159,
-        inside(X,Y){ pat(sctx,X(208),Y(154),['X.X.X','X...X','.X.X.','..X..'].map(r=>r),{X:'rgba(230,240,250,.7)'},2); }});
+      // every 4.5s (or on tap) he wakes, turns to her, tucks his hoodie over her, pats her hair, goes back to sleep
+      const auto=t>=1.2?t-((t-1.2)%4.5):null, c0=st.check!=null&&(auto==null||st.check>auto)?st.check:auto;
+      const k=c0!=null?t-c0:99, look=k<2.6, patting=k>.8&&k<2.0;
+      if(k>.8) st.tucked=true;
+      const sleepSmile=k>1.0&&k<3.2;
+      drawCar(sctx,0,4,t,{night:true,herFace:sleepSmile?'happy':'sleep',himFace:look?'neutral':'sleep',herY:159,
+        himDir:look?-1:1,himLean:look?-4:0,
+        inside(X,Y){
+          if(st.tucked){ px(sctx,X(172),Y(169),28,5,'#2a2932'); px(sctx,X(185),Y(169),1,5,'#c9ccd4'); px(sctx,X(176),Y(170),3,3,'#d2383a'); }
+          pat(sctx,X(208),Y(154),['X.X.X','X...X','.X.X.','..X..'],{X:'rgba(230,240,250,.6)'},2);
+          if(look){ const hx=patting?X(190):X(lerp(204,192,Math.min(1,k/.8))), hy=patting?Y(157+(Math.floor(t*8)%2)):Y(165); px(sctx,hx,hy,5,4,HIM.skin); }
+        }});
+      if(patting&&(!st.heartAt||t-st.heartAt>1.2)){ emitHeart(st,186,142,t,0); st.heartAt=t; }
+      if(k>1.3&&k<2.3) say('şşş',212,134,9,'#e8eeff',-.08);
       const zs=[0,1,2].map(i=>(t*.55+i/3)%1);
-      zs.forEach((a,i)=>say(i%2?'z':'Z',198+a*30+Math.sin(t*2+i)*4,138-a*60,8+a*8,'#e8eeff'));
-      (st.z||[]).filter(z=>t-z<1.5).forEach(z=>{ const a=(t-z)/1.5; say('Z',220+a*20,130-a*70,14+a*10,'#ffffff'); });
+      zs.forEach((a,i)=>say(i%2?'z':'Z',176-a*24+Math.sin(t*2+i)*4,138-a*60,7+a*7,'#e8eeff'));
     }
   },
   {
@@ -934,23 +946,26 @@ const scenes=[
     draw(t,st){
       pline(sctx,40,98,340,50,'#3b2a1f',1);
       for(let i=0;i<4;i++){ const k=(t*.04+i/4)%1, x=40+k*300, y=98-k*48; px(sctx,x,y,1,8,'#3b2a1f'); px(sctx,x-5,y+8,11,4,'#c8333a'); }
-      const u=t%6;
-      const herX=u<3?lerp(84,262,u/3):262+Math.min(18,(u-3)*24), himX=lerp(62,240,Math.min(1,u/3));
-      const skier=(k,x,hat,face,skiCol)=>{
-        const y=slope(x), p=drawPerson(sctx,{cfg:k,x,y,dir:1,legs:'crouch',armF:.9,armB:2,hat,face});
-        px(sctx,x-14,y-2,32,3,skiCol); px(sctx,x+16,y-4,3,3,skiCol);
-        pline(sctx,p.hand.hx,p.hand.hy,p.hand.hx-12,y+1,'#555b66',1);
+      const u=t%7;
+      const herX=u<3?lerp(84,262,u/3):u<4.2?262+Math.min(18,(u-3)*24):u<5?lerp(280,262,(u-4.2)/.8):262, himX=lerp(62,240,Math.min(1,u/3));
+      const herDir=u>=4.2&&u<7?-1:1;
+      const skier=(k,x,hat,face,skiCol,dir=1,armF=.9)=>{
+        const y=slope(x), p=drawPerson(sctx,{cfg:k,x,y,dir,legs:'crouch',armF,armB:2,hat,face});
+        px(sctx,x-16,y-2,32,3,skiCol); px(sctx,dir===1?x+16:x-19,y-4,3,3,skiCol);
+        pline(sctx,p.hand.hx,p.hand.hy,p.hand.hx-12*dir,y+1,'#555b66',1);
         return p;
       };
       if(u<3) skier(HIM,himX,'#2f6fa5','happy','#c8333a');
+      else if(u>=5.3){ skier(HIM,236,'#2f6fa5','happy','#c8333a',1,.3); if(!st.up||t-st.up>2){ emitHeart(st,248,slope(248)-56,t,0); st.up=t; } }
       else {
         const fallen=u-3;
         drawLying({cfg:HIM,front:true,face:'tired',hat:'#2f6fa5',armF:-2.5,armB:-2.5},244,slope(244)-10,-Math.PI/2);
         px(sctx,226,slope(226)-6,30,3,'#c8333a');
         if(fallen<.6) for(let i=0;i<6;i++) circle(sctx,240+Math.cos(i)*fallen*30,slope(240)-8-Math.sin(i*2)*fallen*16,4,'#ffffff');
-        if(fallen>.4) say('hahaha',herX,slope(herX)-62,11,'#fff1d6',.08);
+        if(fallen>.4&&u<4.2) say('hahaha',herX,slope(herX)-62,11,'#fff1d6',.08);
       }
-      const h=skier(HER,herX,'#d0303a',u<3?'happy':'happy','#2f4a8a');
+      const h=skier(HER,herX,'#d0303a','happy','#2f4a8a',herDir,u>=4.6&&u<5.6?.9:.9);
+      if(u>=4.6&&u<5.3) say('kalk hadi',herX-4,slope(herX)-62,10,'#c9d6ff',-.08);
       (st.balls=(st.balls||[]).filter(b=>t-b<.7)).forEach(b=>{
         const k=(t-b)/.7, tx=u<3?himX:236, x=lerp(h.hand.hx,tx,k), y=lerp(h.hand.hy,slope(tx)-30,k)-Math.sin(k*Math.PI)*24;
         circle(sctx,x,y,3,'#ffffff'); if(k>.85) say('pat!',tx,slope(tx)-46,11,'#ffffff');
@@ -1270,7 +1285,7 @@ function drawFlower(c,hx,hy,a,dir){
 const CAT=['O.....O','OO...OO','OOOOOOO','OKOOOKO','OOOPOOO','.OOOOO.'];
 
 // --- wallpapers: a scene frozen at a good moment, with extra sky on top for the clock ---
-const WALLS=[['Sarılma',4,192],['Sessizlik',7.6,192],['AUX',2.4,190],['Sahil',.35,226],['Uyku',3,188],['Erciyes',1.8,184],['Sivas',2.3,192,288],
+const WALLS=[['Sarılma',4,192],['Sessizlik',7.6,192],['AUX',2.4,190],['Sahil',.35,226],['Uyku',2.4,188],['Erciyes',1.8,184],['Sivas',2.3,192,288],
   ['Büyük Ev Ablukada',.65,192,288],['Kale',2.1,190],['Bilardo',5.2,190],['Sushido',7.2,192,288],['Deniz Tekin',2,192,288],['Kılıçlar',.7,192],['Bant',6,192]];
 function renderWall(idx,T,cx,PW=192){ return renderWallScene(scenes[idx],T,cx,PW,idx); }
 function renderWallScene(s,T,cx,PW=192,idx=0){
