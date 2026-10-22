@@ -1510,13 +1510,13 @@ function gameFrame(now){
   if(t>=G.dur) return gameEnd();
   if(t>=G.nextSpawn){
     const manti=Math.random()<Math.min(.35,.14+t*.008);
-    G.items.push({x:18+Math.random()*152,y:-8,vy:55+t*3+Math.random()*30,type:manti?'manti':'sushi'});
+    G.items.push({x:18+Math.random()*152,y:-8,vy:55+t*3+Math.random()*30,type:manti?'manti':'sushi',his:manti&&Math.random()<.5});
     G.nextSpawn=t+Math.max(.32,.85-t*.018);
   }
   const d=clamp(G.tx-G.x,-180*dt,180*dt); G.moving=Math.abs(d)>.3; if(G.moving) G.dir=d>0?1:-1; G.x=clamp(G.x+d,16,176);
-  // he chases whichever mantı will land first
-  const m=G.items.filter(it=>it.type==='manti'&&!it.done).sort((a,b)=>(GROUND-a.y)/a.vy-(GROUND-b.y)/b.vy)[0];
-  const goal=m?m.x:176, hd=clamp(goal-G.hx,-120*dt,120*dt);
+  // he only goes after about half of them, so some still end up with her
+  const m=G.items.filter(it=>it.his&&!it.done).sort((a,b)=>(GROUND-a.y)/a.vy-(GROUND-b.y)/b.vy)[0];
+  const goal=m?m.x:176, hd=clamp(goal-G.hx,-100*dt,100*dt);
   G.hrun=Math.abs(hd)>.3; if(G.hrun) G.hdir=hd>0?1:-1; G.hx=clamp(G.hx+hd,16,176);
   for(const it of G.items){
     it.y+=it.vy*dt;
