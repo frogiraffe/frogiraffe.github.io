@@ -718,6 +718,7 @@ const scenes=[
   {
     name:'Perde', dur:5.5,
     caption:'Bu aralar biz.',
+    hint:'▸ karakterlere dokun',
     bg:{sun:[300,52,14],clouds:[[48,44],[192,28]]},
     draw(t){
       const b1=Math.floor(t*2.5)%2;
@@ -731,6 +732,7 @@ const scenes=[
   {
     name:'Kılıçlar', dur:6,
     caption:'Kim haklı? İkimiz de eminiz.',
+    hint:'▸ üç kere dokun',
     bg:{tint:'rgba(176,58,46,.13)',clouds:[[36,40],[260,52]]},
     tap(t,st){ st.taps=(st.taps||0)+1; if(st.taps===3) Music.jingle(); },
     draw(t,st){
@@ -769,6 +771,7 @@ const scenes=[
   {
     name:'Saç Baş', dur:6,
     caption:'Burası biraz bulanık.',
+    hint:'▸ buluta dokun',
     bg:{tint:'rgba(196,90,40,.14)',clouds:[[32,36],[290,44]]},
     tap(t,st){ st.cat=t; Music.jingle(); },
     draw(t,st){
@@ -829,7 +832,7 @@ const scenes=[
     name:'Sessizlik', dur:8.5,
     caption:'Kimse bir şey demedi.',
     bg:{tint:'rgba(30,44,104,.38)',moon:[300,46],stars:true,hill:'#8f6a4a'},
-    hint:'▸ dokununca biraz yaklaşıyorlar',
+    hint:'▸ dokun, yaklaşsınlar · ay\'a da dokun',
     tap(t,st){ st.taps=(st.taps||0)+1; },
     draw(t,st){
       const n=Math.min(4,Math.floor(t/1.1)+(st.taps||0));
@@ -862,7 +865,7 @@ const scenes=[
     name:'AUX', dur:8,
     caption:'AUX onda.',
     bg:{clouds:[[40,30],[170,46],[300,24]],hillBase:176,ground:roadGround},
-    hint:'▸ dokun: korna',
+    hint:'▸ 5 kere korna çal',
     tap(t,st){ st.honk=t; st.honks=(st.honks||0)+1; if(st.honks%5===0){ st.zoom=t; Music.jingle(); } },
     under(t){ const off=(t*160)%48; for(let x=-48;x<W+48;x+=48) px(cctx,x-off,210,24,3,'#efe6cf'); },
     draw(t,st){
@@ -892,7 +895,7 @@ const scenes=[
     name:'Sahil', dur:7.5,
     caption:'Deniz. Bir de yıldızlar.',
     bg:{tint:'rgba(30,44,104,.42)',moon:[290,46],stars:true,hills:false,ground:beachGround},
-    hint:'▸ dokun: kayan yıldız',
+    hint:'▸ dokun · ay\'a da dokun',
     tap(t,st){ st.shoot=t; },
     under(t){
       for(let y=118;y<158;y+=8){ const off=(t*12+y*5)%48; for(let x=-48;x<W+48;x+=48) px(cctx,x+off,y,18,2,'rgba(200,220,240,.18)'); }
@@ -914,7 +917,7 @@ const scenes=[
     name:'Uyku', dur:9,
     caption:'O uyudu. Ben arada bir baktım.',
     bg:{tint:'rgba(30,44,104,.46)',moon:[300,40],stars:true,hills:false,ground:beachGround},
-    hint:'▸ dokun',
+    hint:'▸ dokun · ay\'a da dokun',
     tap(t,st){ st.check=t; },
     draw(t,st){
       // every 4.5s (or on tap) he wakes, turns to her, tucks his hoodie over her, pats her hair, goes back to sleep
@@ -975,7 +978,7 @@ const scenes=[
   },
   {
     name:'Sivas', dur:7.5,
-    caption:'Kayserili. Mantı sevmez. Sivas köftesi sever.',
+    caption:'Sivas köftesi.',
     bg:{tint:'rgba(60,40,30,.10)',hills:false,props(c){
       for(let i=0;i<5;i++){ circle(c,70+i*60,46,9,i%2?'#e05a4a':'#e9a43e'); px(c,68+i*60,30,4,8,'#3b2a1f'); }
       px(c,40,36,300,2,'#3b2a1f');
@@ -1158,7 +1161,7 @@ const scenes=[
     name:'Bant', dur:10,
     caption:'Biraz bantlı. Olsun.',
     bg:{tint:'rgba(255,150,140,.10)',sun:[320,48,12],clouds:[[28,52],[108,28],[248,60]]},
-    hint:'▸ dokun',
+    hint:'▸ bol bol dokun',
     tap(t,st){ st.taps=(st.taps||0)+1; if(st.done){ for(let i=0;i<6;i++) emitHeart(st,192+(Math.random()-.5)*60,80,t); st.after=(st.after||0)+1; if(st.after%7===0){ st.party=t; Music.jingle(); for(let i=0;i<16;i++) emitHeart(st,192+(Math.random()-.5)*120,150,t); } } },
     draw(t,st){
       const n=Math.min(3,Math.max(0,Math.floor((t-.8)/1.3))+(st.taps||0));
