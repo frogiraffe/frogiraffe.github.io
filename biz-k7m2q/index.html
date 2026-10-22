@@ -169,7 +169,7 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:10px}
 
   <div class="write" id="write" hidden>
     <label class="label" for="msg">ona yaz</label>
-    <textarea id="msg" maxlength="160" rows="2" placeholder="bir şey yaz, karakterin söylesin"></textarea>
+    <textarea id="msg" maxlength="160" rows="2" placeholder="ona güzel bir şey yaz"></textarea>
     <div class="write-bar">
       <button class="btn" id="sayIt" type="button">söylet</button>
       <a class="btn" id="waSend" href="https://wa.me/" target="_blank" rel="noopener" aria-disabled="true">WhatsApp'tan gönder</a>
@@ -1206,23 +1206,23 @@ const scenes=[
   },
   {
     name:'Son', dur:Infinity,
-    caption:'Son sahne. Sıra sende.',
+    caption:'Son sahne. İltifat sırası sende.',
     bg:{tint:'rgba(255,140,150,.12)',sun:[192,200,22],sunCol:'#ec9a45',clouds:[[40,40],[270,60]]},
-    hint:'▸ dokun, o da söylesin',
+    hint:'▸ dokun, iltifat etsin',
     tap(t,st){
       st.said=(st.said||0)+1; st.lineT=t; Music.jingle();
       for(let i=0;i<8;i++) emitHeart(st,192+(Math.random()-.5)*40,140,t);
     },
     draw(t,st){
-      const HER_L=['seni seviyorum.','iyi ki varsın.','bıyığını da seviyorum.','en sevdiğim insan sensin.','gel buraya.','sana kızınca bile seviyorum.','AUX senin olsun. bugünlük.','seni çok seviyorum.'];
-      const HIM_R=['ben de.','bir daha?','duydum ama bir daha?','ben daha çok.','geldim.','biliyorum.','kaydettim bunu.','ben de seni.'];
+      const HER_L=['çok yakışıklısın.','bıyığın sana çok yakışıyor.','gülüşün çok güzel.','en iyi sarılan sensin.','kokun çok güzel.','dansın efsane.','iyi ki benimsin.','seni seviyorum.'];
+      const HIM_R=['ay.','bir daha söyle?','utandım.','biliyorum ama bir daha?','kaydettim bunu.','çerçeveletcem bunu.','devam et.','ben de seni.'];
       if(st.said==null&&t>6.5){ st.said=1; st.lineT=t; for(let i=0;i<8;i++) emitHeart(st,192+(Math.random()-.5)*40,140,t); }
       const custom=st.custom&&t-st.customT<5?st.custom:null;
       if(custom){ st.lineT=st.lineT??st.customT; }
       const n=st.said||0, k=st.lineT!=null?t-st.lineT:99;
       const herTalk=k<1.8, himReact=k>.7&&k<2.6;
       const hop=himReact?-Math.abs(Math.sin((k-.7)*9))*8:0;
-      const a=drawPerson(sctx,{cfg:HIM,x:170,y:GROUND,lift:hop,dir:1,face:n?'happy':t>.4&&t<2.4?'shy':'neutral',armF:himReact?-1.4:1.2,armB:himReact?-1.4:1.6});
+      const a=drawPerson(sctx,{cfg:HIM,x:170,y:GROUND,lift:hop,dir:1,face:himReact?'shy':n?'happy':t>.4&&t<2.4?'shy':'neutral',blush:n>0,armF:himReact?-1.4:1.2,armB:himReact?-1.4:1.6});
       const b=drawPerson(sctx,{cfg:HER,x:214,y:GROUND,dir:-1,face:herTalk||n?'happy':'shy',armF:1.2,armB:1.6});
       if(!n&&t>.4&&t<2.6) say('seni seviyorum.',a.X,a.ht-14,11,'#fff1d6',-.06);
       if(!n&&t>2.8) bubble(sctx,b.X+4,b.ht-6,Math.floor(t*2)%4);
