@@ -977,8 +977,8 @@ const scenes=[
     }
   },
   {
-    name:'Sivas', dur:7.5,
-    caption:'Sivas köftesi.',
+    name:'Kayseri', dur:7.5,
+    caption:'Kayseri.',
     bg:{tint:'rgba(60,40,30,.10)',hills:false,props(c){
       for(let i=0;i<5;i++){ circle(c,70+i*60,46,9,i%2?'#e05a4a':'#e9a43e'); px(c,68+i*60,30,4,8,'#3b2a1f'); }
       px(c,40,36,300,2,'#3b2a1f');
@@ -1353,7 +1353,7 @@ function drawFlower(c,hx,hy,a,dir){
 const CAT=['O.....O','OO...OO','OOOOOOO','OKOOOKO','OOOPOOO','.OOOOO.'];
 
 // --- wallpapers: a scene frozen at a good moment, with extra sky on top for the clock ---
-const WALLS=[['Sarılma',4,192],['Sessizlik',7.6,192],['AUX',2.4,190],['Sahil',.35,226],['Uyku',2.4,188],['Erciyes',1.8,184],['Sivas',2.3,192,288],
+const WALLS=[['Sarılma',4,192],['Sessizlik',7.6,192],['AUX',2.4,190],['Sahil',.35,226],['Uyku',2.4,188],['Erciyes',1.8,184],['Kayseri',2.3,192,288],
   ['Büyük Ev Ablukada',.65,192,288],['Kale',2.1,190],['Bilardo',5.2,190],['Sushido',7.2,192,288],['Deniz Tekin',2,192,288],['Kılıçlar',.7,192],['Bant',6,192],['Son',7.4,192]];
 function renderWall(idx,T,cx,PW=192){ return renderWallScene(scenes[idx],T,cx,PW,idx); }
 function renderWallScene(s,T,cx,PW=192,idx=0){
