@@ -1198,6 +1198,7 @@ const Music=(()=>{
   function bell(t,m,dur){ tone(t,m,dur,'triangle',.06); tone(t,m+12,dur*.6,'sine',.025); }
   function tick(){
     const S=SONGS[mood], spb=60/S.bpm/2;
+    if(nextT<ac.currentTime) nextT=ac.currentTime+.05;
     while(nextT<ac.currentTime+.2){
       const l=S.lead[step%S.lead.length], b=S.bass[step%S.bass.length];
       if(l!=null) bell(nextT,l,spb*3);
@@ -1206,6 +1207,8 @@ const Music=(()=>{
     }
   }
   function init(){
+    // iPhone: play through the silent switch where Safari allows it
+    try{ if(navigator.audioSession) navigator.audioSession.type='playback'; }catch(e){}
     ac=new (window.AudioContext||window.webkitAudioContext)();
     const master=ac.createGain(); master.gain.value=.8; master.connect(ac.destination);
     const dly=ac.createDelay(), fb=ac.createGain(), wet=ac.createGain();
@@ -1215,12 +1218,16 @@ const Music=(()=>{
   return {
     get on(){ return on; },
     get started(){ return !!ac; },
+    get running(){ return !!ac&&ac.state==='running'; },
     set(v){
       try{
         if(!ac) init();
-        if(v===on) return on;
-        on=v;
-        if(on){ ac.resume(); nextT=ac.currentTime+.05; timer=setInterval(tick,50); } else clearInterval(timer);
+        if(v){
+          // must run inside a tap: resume and push one silent sample so iOS unlocks audio
+          ac.resume();
+          const b=ac.createBufferSource(); b.buffer=ac.createBuffer(1,1,22050); b.connect(ac.destination); b.start(0);
+          if(!on){ on=true; nextT=ac.currentTime+.05; timer=setInterval(tick,50); }
+        } else if(on){ on=false; clearInterval(timer); }
       }catch(e){ on=false; }
       return on;
     },
@@ -1234,12 +1241,15 @@ let wantMusic=true;
 const musicBtn=$('music');
 function showMusic(){ musicBtn.setAttribute('aria-pressed',wantMusic); musicBtn.textContent=wantMusic?'♪ kapat':'♪ müzik'; }
 musicBtn.addEventListener('click',()=>{ wantMusic=!Music.started&&wantMusic?true:!wantMusic; Music.set(wantMusic); showMusic(); });
+// keep trying on every tap until the browser really lets the sound run (iOS only accepts touchend/click)
+const UNLOCK=['touchend','click','pointerup','keydown'];
 const firstTouch=e=>{
   if(e.target===musicBtn) return;
-  if(wantMusic&&!Music.on) Music.set(true);
-  ['pointerdown','touchend','keydown'].forEach(n=>removeEventListener(n,firstTouch,true));
+  if(wantMusic) Music.set(true);
+  if(!wantMusic||Music.running) UNLOCK.forEach(n=>removeEventListener(n,firstTouch,true));
 };
-['pointerdown','touchend','keydown'].forEach(n=>addEventListener(n,firstTouch,true));
+UNLOCK.forEach(n=>addEventListener(n,firstTouch,true));
+document.addEventListener('visibilitychange',()=>{ if(!document.hidden&&wantMusic&&Music.started) Music.set(true); });
 showMusic();
 
 // --- hidden extras that any scene can use ---
